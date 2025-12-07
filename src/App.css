@@ -1837,8 +1837,9 @@ body {
 
 .bonus-hunt-page-content {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 18px;
   max-width: 1400px;
   margin: 0 auto;
   width: 100%;
@@ -2204,6 +2205,18 @@ body {
 
 .delete-hunt-btn:hover {
   background: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 900px) {
+  .bonus-hunt-page-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bonus-hunt-page-summary {
+    width: 100%;
+    max-width: none;
+  }
 }
 
 .copy-bonus-hunt-details-btn {
