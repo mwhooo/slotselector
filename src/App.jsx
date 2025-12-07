@@ -351,7 +351,7 @@ function App() {
                 <button
                   className="bonus-hunt-generate-btn"
                   type="button"
-                  onClick={generateBonusHunt}
+                  onClick={() => setShowBonusHunt(true)}
                 >
                   Create Bonus Hunt
                 </button>
@@ -624,38 +624,37 @@ function App() {
           </div>
         )}
 
-        {showBonusHunt && (
-          <div className="modal-overlay" onClick={() => setShowBonusHunt(false)}>
-            <div className="modal-content bonus-hunt-modal" onClick={(e) => e.stopPropagation()}>
-              <h2>🎁 Create Bonus Hunt</h2>
-              
-              {bonusHuntList.length === 0 ? (
-                <>
-                  <p className="bonus-hunt-description">How many slots would you like to add to your bonus hunt?</p>
-                  <div className="bonus-hunt-input-group">
-                    <input
-                      type="number"
-                      min="1"
-                      max={NUM_SLOTS}
-                      value={bonusHuntCount}
-                      onChange={(e) => setBonusHuntCount(Math.max(1, parseInt(e.target.value) || 1))}
-                      className="bonus-hunt-input"
-                    />
-                    <button className="bonus-hunt-generate-btn" onClick={generateBonusHunt}>
-                      Start Bonus Hunt
-                    </button>
-                  </div>
-                  <p className="bonus-hunt-hint">Enter a number between 1 and {NUM_SLOTS}</p>
-                </>
-              ) : null}
-              
-              <button className="close-bonus-hunt-btn" onClick={() => setShowBonusHunt(false)}>
-                Close
-              </button>
-            </div>
-          </div>
-        )}
       </div>
+      )}
+
+      {showBonusHunt && (
+        <div className="modal-overlay" onClick={() => setShowBonusHunt(false)}>
+          <div className="modal-content bonus-hunt-modal" onClick={(e) => e.stopPropagation()}>
+            <h2>🎁 Create Bonus Hunt</h2>
+            {bonusHuntList.length === 0 ? (
+              <>
+                <p className="bonus-hunt-description">How many slots would you like to add to your bonus hunt?</p>
+                <div className="bonus-hunt-input-group">
+                  <input
+                    type="number"
+                    min="1"
+                    max={NUM_SLOTS}
+                    value={bonusHuntCount}
+                    onChange={(e) => setBonusHuntCount(Math.max(1, parseInt(e.target.value) || 1))}
+                    className="bonus-hunt-input"
+                  />
+                  <button className="bonus-hunt-generate-btn" onClick={generateBonusHunt}>
+                    Start Bonus Hunt
+                  </button>
+                </div>
+                <p className="bonus-hunt-hint">Enter a number between 1 and {NUM_SLOTS}</p>
+              </>
+            ) : null}
+            <button className="close-bonus-hunt-btn" onClick={() => setShowBonusHunt(false)}>
+              Close
+            </button>
+          </div>
+        </div>
       )}
     </div>
   )
