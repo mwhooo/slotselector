@@ -542,7 +542,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: clamp(15px, 3%, 40px);
-  align-items: flex-start;
+  align-items: stretch;
   position: relative;
   z-index: 10;
   flex: 1;
@@ -920,12 +920,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: auto;
+  height: 100%;
+  min-height: 0;
   flex-shrink: 0;
   width: 180px;
   position: relative;
   z-index: 8;
-  align-self: flex-start;
+  align-self: stretch;
 }
 
 .grid-container {
@@ -1294,7 +1295,9 @@ body {
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  height: fit-content;
+  justify-content: space-between;
+  flex: 1;
+  height: 100%;
 }
 
 .spin-reel {
@@ -1310,6 +1313,7 @@ body {
     0 0 40px rgba(240, 147, 251, 0.2);
   border: 3px solid rgba(255, 255, 255, 0.2);
   perspective: 1000px;
+  margin-top: auto;
 }
 
 .spin-reel.spinning {
