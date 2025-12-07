@@ -13,9 +13,19 @@ const availableSlots = Object.entries(slotProvidersData)
     let nameWithoutExt = filename.replace(/\.(jpg|png|gif|webp)$/, '');
     
     // Remove provider prefix if it exists at the start (e.g., "gamomat-" or "1x2gaming-")
-    const providerLower = provider.toLowerCase().replace(/[^a-z0-9]+/g, '');
-    const providerPattern = new RegExp(`^${providerLower}[-_\s]*`, 'i');
-    nameWithoutExt = nameWithoutExt.replace(providerPattern, '');
+    const providerSlug = provider
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .replace(/-+/g, '-');
+
+    if (providerSlug) {
+      const providerPattern = new RegExp(
+        `^${providerSlug.replace(/-/g, '[-_\\s]*')}[-_\\s]*`,
+        'i'
+      );
+      nameWithoutExt = nameWithoutExt.replace(providerPattern, '');
+    }
     
     const displayName = nameWithoutExt
       .replace(/_/g, ' ')
