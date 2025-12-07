@@ -502,19 +502,6 @@ function App() {
                 </div>
               )}
 
-              <button
-                className="copy-bonus-hunt-details-btn"
-                onClick={() => {
-                  const text = bonusHuntList.map((slot, idx) => {
-                    const data = bonusHuntData[idx] || { betSize: '0.00', payout: '0.00' };
-                    return `${idx + 1}. ${slot.name} (${slot.provider}) - Bet: €${data.betSize} | Payout: €${data.payout}`;
-                  }).join('\n');
-                  navigator.clipboard.writeText(text);
-                  alert('Bonus hunt details copied to clipboard!');
-                }}
-              >
-                📋 Copy All Details
-              </button>
             </div>
           </div>
         </div>
