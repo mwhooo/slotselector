@@ -614,12 +614,33 @@ function App() {
 
         {selectedSlot && (
           <div className="modal-overlay" onClick={() => setSelectedSlot(null)}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-              <h2>🎉 Winner! 🎉</h2>
-              <img src={selectedSlot.image} alt={selectedSlot.name} />
-              <p>{selectedSlot.name}</p>
-              <p>Provider: {selectedSlot.provider}</p>
-              <button onClick={() => setSelectedSlot(null)}>Spin Again</button>
+            <div className="modal-content lucky-modal" onClick={(e) => e.stopPropagation()}>
+              <div className="lucky-modal-header">
+                <span className="lucky-badge">✨ Lucky Pick</span>
+                <button className="lucky-close" onClick={() => setSelectedSlot(null)}>✕</button>
+              </div>
+              <div className="lucky-modal-body">
+                <div className="lucky-image-wrap">
+                  <img src={selectedSlot.image} alt={selectedSlot.name} />
+                </div>
+                <div className="lucky-details">
+                  <h3 className="lucky-title">{selectedSlot.name}</h3>
+                  <p className="lucky-provider">{selectedSlot.provider}</p>
+                  <p className="lucky-sub">Add it to your next bonus hunt or spin again.</p>
+                </div>
+              </div>
+              <div className="lucky-actions">
+                <button className="lucky-btn ghost" onClick={() => setSelectedSlot(null)}>Spin Again</button>
+                <button
+                  className="lucky-btn solid"
+                  onClick={() => {
+                    setSelectedSlot(null);
+                    setShowBonusHunt(true);
+                  }}
+                >
+                  ➕ Add to Bonus Hunt
+                </button>
+              </div>
             </div>
           </div>
         )}
