@@ -443,7 +443,7 @@ function App() {
             <div className={`spin-reel ${isSpinning ? 'spinning' : ''}`}>
               <div className="reel-container">
                 {displaySlots.map((slot, idx) => (
-                    <div key={idx} className={`reel-item ${idx === 1 ? 'center' : ''}`}>
+                  <div key={idx} className={`reel-item ${idx === 2 ? 'center' : ''}`}>
                       <img src={slot.image} alt={slot.name} />
                       {slot && (
                         <div className="reel-item-label">
