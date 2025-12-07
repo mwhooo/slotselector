@@ -142,6 +142,9 @@ function App() {
     setSelectedProviders(newProviders);
   };
 
+  const handleSelectAllProviders = () => setSelectedProviders(new Set(providers));
+  const handleClearProviders = () => setSelectedProviders(new Set());
+
   const createParticles = (x, y) => {
     const particleCount = 15;
     for (let i = 0; i < particleCount; i++) {
@@ -308,12 +311,12 @@ function App() {
             Bonus Hunt
           </button>
           <button
-            className="nav-btn"
+            className="nav-bonus-btn"
             onClick={() => {
               setShowBonusHunt(true);
             }}
           >
-            Create Bonus Hunt
+            ➕ Create Bonus Hunt
           </button>
           {activeBonusHunt && (
             <button
@@ -519,7 +522,13 @@ function App() {
             </div>
           
           <div className="provider-filter">
-            <h3>Providers</h3>
+            <div className="provider-header">
+              <h3>Providers</h3>
+              <div className="provider-actions">
+                <button type="button" className="provider-action-btn ghost" onClick={handleClearProviders}>Clear</button>
+                <button type="button" className="provider-action-btn" onClick={handleSelectAllProviders}>Select All</button>
+              </div>
+            </div>
             <div className="provider-list">
               {providers.map(provider => (
                 <label key={provider} className="provider-checkbox">
@@ -574,22 +583,10 @@ function App() {
             </div>
           ))}
         </div>
-        <div className="bonus-hunt-section" ref={bonusHuntRef}>
-          <button className="bonus-hunt-button-stretched" onClick={() => {
-            setShowBonusHunt(true);
-            setBonusHuntList([]);
-          }} disabled={filteredSlots.length === 0}>
-            🎁 Create Bonus Hunt
-          </button>
-        </div>
         </div>
         
         <div className="right-panel">
           <div className="button-container">
-            <button className="spin-button" onClick={spin} disabled={isSpinning || filteredSlots.length === 0}>
-              <span className={`spin-icon ${isSpinning ? 'spinning' : ''}`}>✨</span>
-              <span>Lucky<br/>Pick</span>
-            </button>
           {(displaySlots || isSpinning) && (
             <div className={`spin-reel ${isSpinning ? 'spinning' : ''}`}>
               <div className="reel-container">
@@ -609,6 +606,10 @@ function App() {
               <div className="reel-glow"></div>
             </div>
           )}
+            <button className="spin-button" onClick={spin} disabled={isSpinning || filteredSlots.length === 0}>
+              <span className={`spin-icon ${isSpinning ? 'spinning' : ''}`}>✨</span>
+              <span>Lucky<br/>Pick</span>
+            </button>
           </div>
         </div>
 
@@ -617,7 +618,9 @@ function App() {
             <div className="modal-content lucky-modal" onClick={(e) => e.stopPropagation()}>
               <div className="lucky-modal-header">
                 <span className="lucky-badge">✨ Lucky Pick</span>
-                <button className="lucky-close" onClick={() => setSelectedSlot(null)}>✕</button>
+                <button className="lucky-close" onClick={() => setSelectedSlot(null)}>
+                  Close
+                </button>
               </div>
               <div className="lucky-modal-body">
                 <div className="lucky-image-wrap">
