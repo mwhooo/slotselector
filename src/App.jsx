@@ -69,6 +69,7 @@ function App() {
   const [bonusHuntData, setBonusHuntData] = useState({}); // Track bet size and payout per slot
   const [activeBonusHunt, setActiveBonusHunt] = useState(null); // Active bonus hunt view
   const [bonusHuntHistory, setBonusHuntHistory] = useState([]); // Persisted hunt history
+  const [bonusHuntName, setBonusHuntName] = useState('');
   const [selectedProviders, setSelectedProviders] = useState(new Set(providers));
   const [shuffledSlots, setShuffledSlots] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -101,6 +102,7 @@ function App() {
     if (data.bonusHuntData && typeof data.bonusHuntData === 'object') setBonusHuntData(data.bonusHuntData);
     if (data.activeBonusHunt) setActiveBonusHunt(true);
     if (Array.isArray(data.bonusHuntHistory)) setBonusHuntHistory(data.bonusHuntHistory);
+    if (typeof data.bonusHuntName === 'string') setBonusHuntName(data.bonusHuntName);
   }, []);
 
   // Persist key state slices whenever they change
@@ -114,6 +116,7 @@ function App() {
       bonusHuntData,
       activeBonusHunt,
       bonusHuntHistory,
+      bonusHuntName,
     };
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
   }, [bgTheme, selectedProviders, searchTerm, bonusHuntList, bonusHuntData, activeBonusHunt, bonusHuntHistory]);
@@ -243,6 +246,31 @@ function App() {
       totalPayout,
     };
     setBonusHuntHistory((prev) => [entry, ...prev].slice(0, 50));
+  };
+
+  const saveCurrentBonusHunt = () => {
+    if (!bonusHuntList.length) return;
+    const totalBet = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.betSize) || 0), 0);
+    const totalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.payout) || 0), 0);
+    const entry = {
+      id: Date.now(),
+      name: bonusHuntName?.trim() || 'Untitled Hunt',
+      createdAt: new Date().toISOString(),
+      slots: bonusHuntList,
+      data: bonusHuntData,
+      totalBet,
+      totalPayout,
+    };
+    setBonusHuntHistory((prev) => [entry, ...prev].slice(0, 50));
+  };
+
+  const loadBonusHunt = (entry) => {
+    if (!entry) return;
+    setBonusHuntList(entry.slots || []);
+    setBonusHuntData(entry.data || {});
+    setBonusHuntName(entry.name || '');
+    setActiveBonusHunt(true);
+    setShowBonusHunt(false);
   };
 
   return (
@@ -386,6 +414,49 @@ function App() {
                   })()}</span>
                 </div>
               </div>
+
+              <div className="bonus-hunt-save">
+                <input
+                  type="text"
+                  value={bonusHuntName}
+                  onChange={(e) => setBonusHuntName(e.target.value)}
+                  placeholder="Name this bonus hunt"
+                  className="bonus-hunt-name-input"
+                />
+                <button
+                  className="save-bonus-hunt-btn"
+                  onClick={saveCurrentBonusHunt}
+                  disabled={!bonusHuntList.length}
+                >
+                  💾 Save Hunt
+                </button>
+              </div>
+
+              {bonusHuntHistory.length > 0 && (
+                <div className="saved-hunts">
+                  <div className="saved-hunts-header">
+                    <h4>Saved Hunts</h4>
+                    <span>{bonusHuntHistory.length} saved</span>
+                  </div>
+                  <div className="saved-hunts-list">
+                    {bonusHuntHistory.slice(0, 6).map((entry) => (
+                      <div key={entry.id} className="saved-hunt-card">
+                        <div className="saved-hunt-meta">
+                          <div className="saved-hunt-name">{entry.name}</div>
+                          <div className="saved-hunt-sub">{new Date(entry.createdAt).toLocaleString()}</div>
+                        </div>
+                        <div className="saved-hunt-stats">
+                          <span>{entry.slots?.length || 0} slots</span>
+                          <span>€{(entry.totalBet ?? 0).toFixed ? entry.totalBet.toFixed(2) : Number(entry.totalBet || 0).toFixed(2)}</span>
+                        </div>
+                        <button className="load-hunt-btn" onClick={() => loadBonusHunt(entry)}>
+                          Load
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               <button
                 className="copy-bonus-hunt-details-btn"
