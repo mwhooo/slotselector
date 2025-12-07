@@ -430,7 +430,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
   position: fixed;
-  bottom: 36px;
+  bottom: 180px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% - 40px);
