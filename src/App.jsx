@@ -61,8 +61,7 @@ function App() {
   const [selectedSlot, setSelectedSlot] = useState(null);
   const [isSpinning, setIsSpinning] = useState(false);
   const [displaySlots, setDisplaySlots] = useState(() => fullSlots.slice(0, 5));
-  const [bgTheme, setBgTheme] = useState('ocean');
-  const [theme, setTheme] = useState('purple');
+  const bgTheme = 'galaxy';
   const [showBonusHunt, setShowBonusHunt] = useState(false);
   const [bonusHuntCount, setBonusHuntCount] = useState(5);
   const [bonusHuntList, setBonusHuntList] = useState([]);
@@ -70,6 +69,7 @@ function App() {
   const [activeBonusHunt, setActiveBonusHunt] = useState(null); // Active bonus hunt view
   const [bonusHuntHistory, setBonusHuntHistory] = useState([]); // Persisted hunt history
   const [bonusHuntName, setBonusHuntName] = useState('');
+  const [savedHuntsCollapsed, setSavedHuntsCollapsed] = useState(true);
   const [selectedProviders, setSelectedProviders] = useState(new Set(providers));
   const [shuffledSlots, setShuffledSlots] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -93,7 +93,6 @@ function App() {
     if (!raw) return;
 
     const data = safeParse(raw, {});
-    if (data.bgTheme) setBgTheme(data.bgTheme);
     if (Array.isArray(data.selectedProviders) && data.selectedProviders.length) {
       setSelectedProviders(new Set(data.selectedProviders));
     }
@@ -109,7 +108,6 @@ function App() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const payload = {
-      bgTheme,
       selectedProviders: Array.from(selectedProviders),
       searchTerm,
       bonusHuntList,
@@ -119,7 +117,7 @@ function App() {
       bonusHuntName,
     };
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-  }, [bgTheme, selectedProviders, searchTerm, bonusHuntList, bonusHuntData, activeBonusHunt, bonusHuntHistory]);
+  }, [selectedProviders, searchTerm, bonusHuntList, bonusHuntData, activeBonusHunt, bonusHuntHistory]);
 
   // Filter slots based on selected providers and search term
   const filteredSlots = fullSlots.filter(slot => 
@@ -273,6 +271,10 @@ function App() {
     setShowBonusHunt(false);
   };
 
+  const deleteBonusHunt = (id) => {
+    setBonusHuntHistory((prev) => prev.filter((entry) => entry.id !== id));
+  };
+
   return (
     <div className="app-wrapper" data-bg-theme={bgTheme}>
       <nav className="top-nav">
@@ -293,20 +295,20 @@ function App() {
           </button>
           <button
             className="nav-btn"
-            onClick={() => setShowBonusHunt(true)}
+            onClick={() => {
+              setShowBonusHunt(false);
+              setActiveBonusHunt(true);
+            }}
           >
             Bonus Hunt
           </button>
           <button
             className="nav-btn"
             onClick={() => {
-              if (bonusHuntRef.current) {
-                bonusHuntRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
-              }
               setShowBonusHunt(true);
             }}
           >
-            Create / Load
+            Create Bonus Hunt
           </button>
           {activeBonusHunt && (
             <button
@@ -336,22 +338,40 @@ function App() {
           </div>
 
           <div className="bonus-hunt-page-content">
-            <div className="bonus-hunt-slots-grid">
-              {bonusHuntList.map((slot, idx) => (
-                <div key={idx} className="bonus-hunt-page-item">
-                  <div className="bonus-hunt-page-image-wrapper">
-                    <span className="bonus-hunt-page-number">{idx + 1}</span>
-                    <img src={slot.image} alt={slot.name} className="bonus-hunt-page-image" />
-                  </div>
-                  
-                  <div className="bonus-hunt-page-details">
-                    <h3 className="bonus-hunt-page-slot-name">{slot.name}</h3>
-                    <p className="bonus-hunt-page-provider">{slot.provider}</p>
-                  </div>
-
-                  <div className="bonus-hunt-page-inputs">
-                    <div className="page-input-group">
-                      <label>Bet Size</label>
+            {bonusHuntList.length === 0 ? (
+              <div className="bonus-hunt-empty">
+                <p>No bonus hunt yet. Generate one to get started.</p>
+                <button
+                  className="bonus-hunt-generate-btn"
+                  type="button"
+                  onClick={() => {
+                    setBonusHuntList([]);
+                    setActiveBonusHunt(true);
+                    setShowBonusHunt(true);
+                  }}
+                >
+                  Create Bonus Hunt
+                </button>
+              </div>
+            ) : (
+              <div className="bonus-hunt-list">
+                <div className="bonus-hunt-list-header">
+                  <span className="col col-idx">#</span>
+                  <span className="col col-thumb">Image</span>
+                  <span className="col col-title">Title</span>
+                  <span className="col col-provider">Provider</span>
+                  <span className="col col-bet">Bet</span>
+                  <span className="col col-payout">Payout</span>
+                </div>
+                {bonusHuntList.map((slot, idx) => (
+                  <div key={idx} className="bonus-hunt-row">
+                    <span className="col col-idx">{idx + 1}</span>
+                    <div className="col col-thumb">
+                      <img src={slot.image} alt={slot.name} className="bonus-hunt-thumb" />
+                    </div>
+                    <div className="col col-title">{slot.name}</div>
+                    <div className="col col-provider">{slot.provider}</div>
+                    <div className="col col-bet">
                       <div className="input-wrapper">
                         <span className="currency">€</span>
                         <input
@@ -367,9 +387,7 @@ function App() {
                         />
                       </div>
                     </div>
-
-                    <div className="page-input-group">
-                      <label>Payout</label>
+                    <div className="col col-payout">
                       <div className="input-wrapper">
                         <span className="currency">€</span>
                         <input
@@ -386,9 +404,9 @@ function App() {
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
 
             <div className="bonus-hunt-page-summary">
               <div className="summary-card">
@@ -435,26 +453,43 @@ function App() {
               {bonusHuntHistory.length > 0 && (
                 <div className="saved-hunts">
                   <div className="saved-hunts-header">
-                    <h4>Saved Hunts</h4>
-                    <span>{bonusHuntHistory.length} saved</span>
+                    <div className="saved-hunts-title">
+                      <h4>Saved Hunts</h4>
+                      <span>{bonusHuntHistory.length} saved</span>
+                    </div>
+                    <button
+                      className="toggle-saved-hunts-btn"
+                      onClick={() => setSavedHuntsCollapsed((v) => !v)}
+                    >
+                      {savedHuntsCollapsed ? 'Show' : 'Hide'}
+                    </button>
                   </div>
-                  <div className="saved-hunts-list">
-                    {bonusHuntHistory.slice(0, 6).map((entry) => (
-                      <div key={entry.id} className="saved-hunt-card">
-                        <div className="saved-hunt-meta">
-                          <div className="saved-hunt-name">{entry.name}</div>
-                          <div className="saved-hunt-sub">{new Date(entry.createdAt).toLocaleString()}</div>
+                  {!savedHuntsCollapsed && (
+                    <div className="saved-hunts-list">
+                      {bonusHuntHistory.slice(0, 6).map((entry) => (
+                        <div key={entry.id} className="saved-hunt-card">
+                          <div className="saved-hunt-info">
+                            <div className="saved-hunt-meta">
+                              <div className="saved-hunt-name">{entry.name}</div>
+                              <div className="saved-hunt-sub">{new Date(entry.createdAt).toLocaleString()}</div>
+                            </div>
+                            <div className="saved-hunt-stats">
+                              <span>{entry.slots?.length || 0} slots</span>
+                              <span>€{(entry.totalBet ?? 0).toFixed ? entry.totalBet.toFixed(2) : Number(entry.totalBet || 0).toFixed(2)}</span>
+                            </div>
+                          </div>
+                          <div className="saved-hunt-actions">
+                            <button className="load-hunt-btn" onClick={() => loadBonusHunt(entry)}>
+                              Load
+                            </button>
+                            <button className="delete-hunt-btn" onClick={() => deleteBonusHunt(entry.id)}>
+                              Delete
+                            </button>
+                          </div>
                         </div>
-                        <div className="saved-hunt-stats">
-                          <span>{entry.slots?.length || 0} slots</span>
-                          <span>€{(entry.totalBet ?? 0).toFixed ? entry.totalBet.toFixed(2) : Number(entry.totalBet || 0).toFixed(2)}</span>
-                        </div>
-                        <button className="load-hunt-btn" onClick={() => loadBonusHunt(entry)}>
-                          Load
-                        </button>
-                      </div>
-                    ))}
-                  </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               )}
 
@@ -587,30 +622,6 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-theme-selector">
-          <label>Background Theme:</label>
-          <div className="bg-theme-buttons">
-            <button className={`bg-theme-btn ${bgTheme === 'galaxy' ? 'active' : ''}`} onClick={() => setBgTheme('galaxy')} title="Galaxy" style={{background: 'linear-gradient(135deg, #1a0033, #2d0066)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'aurora' ? 'active' : ''}`} onClick={() => setBgTheme('aurora')} title="Aurora" style={{background: 'linear-gradient(135deg, #0d5f4f, #00ff88)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'ocean' ? 'active' : ''}`} onClick={() => setBgTheme('ocean')} title="Ocean" style={{background: 'linear-gradient(135deg, #001f3f, #0099ff)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'neon' ? 'active' : ''}`} onClick={() => setBgTheme('neon')} title="Neon" style={{background: 'linear-gradient(135deg, #3d0099, #ff00ff)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'fire' ? 'active' : ''}`} onClick={() => setBgTheme('fire')} title="Fire" style={{background: 'linear-gradient(135deg, #ff6600, #ffcc00)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'cosmic' ? 'active' : ''}`} onClick={() => setBgTheme('cosmic')} title="Cosmic" style={{background: 'linear-gradient(135deg, #1a1a2e, #16213e)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'midnight' ? 'active' : ''}`} onClick={() => setBgTheme('midnight')} title="Midnight" style={{background: 'linear-gradient(135deg, #0a0a1a, #1a0a2e)'}}></button>
-            
-            {/* New Theme Buttons */}
-            <button className={`bg-theme-btn ${bgTheme === 'cyberpunk' ? 'active' : ''}`} onClick={() => setBgTheme('cyberpunk')} title="Cyberpunk" style={{background: 'linear-gradient(135deg, #2a1a4e, #3a2a6e)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'lava' ? 'active' : ''}`} onClick={() => setBgTheme('lava')} title="Lava" style={{background: 'linear-gradient(135deg, #ff3300, #ff6600)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'space' ? 'active' : ''}`} onClick={() => setBgTheme('space')} title="Space" style={{background: 'linear-gradient(135deg, #1a0033, #000000)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'volcanic' ? 'active' : ''}`} onClick={() => setBgTheme('volcanic')} title="Volcanic" style={{background: 'linear-gradient(135deg, #5a3a2a, #8a4a3a)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'lights' ? 'active' : ''}`} onClick={() => setBgTheme('lights')} title="Aurora Lights" style={{background: 'linear-gradient(135deg, #1a3a6a, #2a6a9a)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'void' ? 'active' : ''}`} onClick={() => setBgTheme('void')} title="Void" style={{background: 'linear-gradient(135deg, #0a0a15, #050508)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'plasma' ? 'active' : ''}`} onClick={() => setBgTheme('plasma')} title="Plasma" style={{background: 'linear-gradient(135deg, #1a0a2e, #3a2a6e)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'grid' ? 'active' : ''}`} onClick={() => setBgTheme('grid')} title="Neon Grid" style={{background: 'linear-gradient(135deg, #0a0a1a, #00ffff)'}}></button>
-            <button className={`bg-theme-btn ${bgTheme === 'emerald' ? 'active' : ''}`} onClick={() => setBgTheme('emerald')} title="Emerald" style={{background: 'linear-gradient(135deg, #0d3622, #2a8b6a)'}}></button>
-          </div>
-        </div>
-
         {selectedSlot && (
           <div className="modal-overlay" onClick={() => setSelectedSlot(null)}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
@@ -641,7 +652,7 @@ function App() {
                       className="bonus-hunt-input"
                     />
                     <button className="bonus-hunt-generate-btn" onClick={generateBonusHunt}>
-                      Generate Hunt
+                      Start Bonus Hunt
                     </button>
                   </div>
                   <p className="bonus-hunt-hint">Enter a number between 1 and {NUM_SLOTS}</p>
