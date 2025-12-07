@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 
 Capture.PNG
+
+# Python artifacts
+*.py
+python_scripts_backup/
