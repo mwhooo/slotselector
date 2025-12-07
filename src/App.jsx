@@ -286,9 +286,13 @@ function App() {
           <button
             className="nav-btn"
             onClick={() => {
-              if (gridRef.current) {
-                gridRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-              }
+              setActiveBonusHunt(null);
+              setShowBonusHunt(false);
+              setTimeout(() => {
+                if (gridRef.current) {
+                  gridRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }, 0);
             }}
           >
             Slots
