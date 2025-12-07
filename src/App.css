@@ -2074,12 +2074,13 @@ body {
 }
 
 .save-bonus-hunt-btn {
-  padding: 12px 14px;
+  padding: 10px 12px;
   border-radius: 10px;
   border: none;
   background: linear-gradient(135deg, #5efce8, #736efe);
   color: #0a0a14;
   font-weight: 800;
+  font-size: 13px;
   cursor: pointer;
   transition: all 0.2s ease;
   white-space: nowrap;
