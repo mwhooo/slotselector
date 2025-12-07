@@ -1856,6 +1856,15 @@ body {
   width: 100%;
 }
 
+.bonus-hunt-page .bonus-hunt-list {
+  max-height: none;
+  overflow: visible;
+  background: transparent;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
 .bonus-hunt-slots-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
