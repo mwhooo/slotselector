@@ -72,6 +72,8 @@ function App() {
   const [selectedProviders, setSelectedProviders] = useState(new Set(providers));
   const [shuffledSlots, setShuffledSlots] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const gridRef = useRef(null);
+  const bonusHuntRef = useRef(null);
 
   // ---- Persistence helpers ----
   const STORAGE_KEY = 'slotselector-state-v1';
@@ -245,6 +247,49 @@ function App() {
 
   return (
     <div className="app-wrapper" data-bg-theme={bgTheme}>
+      <nav className="top-nav">
+        <div className="nav-left">
+          <span className="brand">SlotSelector</span>
+          <span className="tag">Beta</span>
+        </div>
+        <div className="nav-actions">
+          <button
+            className="nav-btn"
+            onClick={() => {
+              if (gridRef.current) {
+                gridRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }}
+          >
+            Slots
+          </button>
+          <button
+            className="nav-btn"
+            onClick={() => setShowBonusHunt(true)}
+          >
+            Bonus Hunt
+          </button>
+          <button
+            className="nav-btn"
+            onClick={() => {
+              if (bonusHuntRef.current) {
+                bonusHuntRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }
+              setShowBonusHunt(true);
+            }}
+          >
+            Create / Load
+          </button>
+          {activeBonusHunt && (
+            <button
+              className="nav-btn highlight"
+              onClick={() => setActiveBonusHunt(true)}
+            >
+              Active Hunt
+            </button>
+          )}
+        </div>
+      </nav>
       {activeBonusHunt ? (
         // Active Bonus Hunt Page
         <div className="bonus-hunt-page">
@@ -397,7 +442,7 @@ function App() {
           </div>
         </div>
 
-        <div className="center-content">
+        <div className="center-content" ref={gridRef}>
           <div className="search-bar-wrapper">
             <input
               type="text"
@@ -433,7 +478,7 @@ function App() {
             </div>
           ))}
         </div>
-        <div className="bonus-hunt-section">
+        <div className="bonus-hunt-section" ref={bonusHuntRef}>
           <button className="bonus-hunt-button-stretched" onClick={() => {
             setShowBonusHunt(true);
             setBonusHuntList([]);
