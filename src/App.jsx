@@ -97,9 +97,10 @@ function App() {
       setSelectedProviders(new Set(data.selectedProviders));
     }
     if (typeof data.searchTerm === 'string') setSearchTerm(data.searchTerm);
-    if (Array.isArray(data.bonusHuntList)) setBonusHuntList(data.bonusHuntList);
+    const hasStoredList = Array.isArray(data.bonusHuntList) && data.bonusHuntList.length > 0;
+    if (hasStoredList) setBonusHuntList(data.bonusHuntList);
     if (data.bonusHuntData && typeof data.bonusHuntData === 'object') setBonusHuntData(data.bonusHuntData);
-    if (data.activeBonusHunt) setActiveBonusHunt(true);
+    if (data.activeBonusHunt || hasStoredList) setActiveBonusHunt(true);
     if (Array.isArray(data.bonusHuntHistory)) setBonusHuntHistory(data.bonusHuntHistory);
     if (typeof data.bonusHuntName === 'string') setBonusHuntName(data.bonusHuntName);
   }, []);
@@ -117,7 +118,7 @@ function App() {
       bonusHuntName,
     };
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-  }, [selectedProviders, searchTerm, bonusHuntList, bonusHuntData, activeBonusHunt, bonusHuntHistory]);
+  }, [selectedProviders, searchTerm, bonusHuntList, bonusHuntData, activeBonusHunt, bonusHuntHistory, bonusHuntName]);
 
   // Filter slots based on selected providers and search term
   const filteredSlots = fullSlots.filter(slot => 
