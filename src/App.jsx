@@ -50,11 +50,7 @@ function App() {
   
   const [selectedSlot, setSelectedSlot] = useState(null);
   const [isSpinning, setIsSpinning] = useState(false);
-  const [displaySlots, setDisplaySlots] = useState([
-    fullSlots[0],
-    fullSlots[1],
-    fullSlots[2],
-  ]);
+  const [displaySlots, setDisplaySlots] = useState(() => fullSlots.slice(0, 5));
   const [bgTheme, setBgTheme] = useState('ocean');
   const [theme, setTheme] = useState('purple');
   const [showBonusHunt, setShowBonusHunt] = useState(false);
@@ -176,23 +172,18 @@ function App() {
     const totalCycles = spinDuration / cycleInterval;
     
     const spinInterval = setInterval(() => {
-      // Generate 3 random slots to simulate reel spinning from filtered slots
-      const newSlots = [
-        filteredSlots[Math.floor(Math.random() * filteredSlots.length)],
-        filteredSlots[Math.floor(Math.random() * filteredSlots.length)],
-        filteredSlots[Math.floor(Math.random() * filteredSlots.length)],
-      ];
+      // Generate 5 random slots to simulate reel spinning from filtered slots
+      const newSlots = Array.from({ length: 5 }, () => filteredSlots[Math.floor(Math.random() * filteredSlots.length)]);
       setDisplaySlots(newSlots);
       cycles++;
       
       if (cycles >= totalCycles) {
         clearInterval(spinInterval);
         // Final position: winning slot in the middle
-        setDisplaySlots([
-          filteredSlots[Math.floor(Math.random() * filteredSlots.length)],
-          winningSlot,
-          filteredSlots[Math.floor(Math.random() * filteredSlots.length)],
-        ]);
+        setDisplaySlots(Array.from({ length: 5 }, (_, idx) => {
+          if (idx === 2) return winningSlot;
+          return filteredSlots[Math.floor(Math.random() * filteredSlots.length)];
+        }));
         
         // Show modal after a brief pause
         setTimeout(() => {
@@ -452,9 +443,15 @@ function App() {
             <div className={`spin-reel ${isSpinning ? 'spinning' : ''}`}>
               <div className="reel-container">
                 {displaySlots.map((slot, idx) => (
-                  <div key={idx} className={`reel-item ${idx === 1 ? 'center' : ''}`}>
-                    <img src={slot.image} alt="Reel" />
-                  </div>
+                    <div key={idx} className={`reel-item ${idx === 1 ? 'center' : ''}`}>
+                      <img src={slot.image} alt={slot.name} />
+                      {slot && (
+                        <div className="reel-item-label">
+                          <span className="reel-slot-name">{slot.name}</span>
+                          <span className="reel-slot-provider">{slot.provider}</span>
+                        </div>
+                      )}
+                    </div>
                 ))}
               </div>
               <div className="reel-shine"></div>
