@@ -1300,7 +1300,7 @@ body {
 .spin-reel {
   position: relative;
   width: 180px;
-  height: 320px;
+  height: 380px;
   border-radius: 16px;
   overflow: hidden;
   background: linear-gradient(135deg, #1a1a2e, #16213e);
