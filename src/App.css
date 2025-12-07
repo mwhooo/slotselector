@@ -1819,10 +1819,6 @@ body {
   flex-wrap: wrap;
 }
 
-.save-bonus-hunt-btn.header {
-  padding: 12px 16px;
-}
-
 .bonus-hunt-page-header h1 {
   font-size: 32px;
   color: #fff;
