@@ -326,13 +326,6 @@ function App() {
           <div className="bonus-hunt-page-header">
             <h1>🎁 Bonus Hunt</h1>
             <div className="bonus-hunt-header-actions">
-              <button
-                className="save-bonus-hunt-btn header"
-                onClick={saveCurrentBonusHunt}
-                disabled={!bonusHuntList.length}
-              >
-                💾 Save Hunt
-              </button>
               <button 
                 className="close-bonus-hunt-page-btn" 
                 onClick={() => {
