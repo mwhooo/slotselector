@@ -353,11 +353,7 @@ function App() {
                 <button
                   className="bonus-hunt-generate-btn"
                   type="button"
-                  onClick={() => {
-                    setBonusHuntList([]);
-                    setActiveBonusHunt(true);
-                    setShowBonusHunt(true);
-                  }}
+                  onClick={generateBonusHunt}
                 >
                   Create Bonus Hunt
                 </button>
