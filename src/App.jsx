@@ -38,7 +38,7 @@ const availableSlots = Object.entries(slotProvidersData)
     return {
       name: displayName,
       provider,
-      image: `/images/${filename}`
+      image: `${import.meta.env.VITE_IMAGE_BASE_URL || '/images'}/${filename}`
     };
   })
   .filter(slot => {

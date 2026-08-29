@@ -1,0 +1,4 @@
+images.markbakker.work.gd {
+	root * /srv/slotselector-images
+	file_server
+}
