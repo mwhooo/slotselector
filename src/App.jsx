@@ -38,7 +38,7 @@ const availableSlots = Object.entries(slotProvidersData)
     return {
       name: displayName,
       provider,
-      image: `/images/${filename}`
+      image: `${import.meta.env.VITE_IMAGE_BASE_URL || '/images'}/${filename}`
     };
   })
   .filter(slot => {
@@ -74,14 +74,13 @@ function App() {
   const [shuffledSlots, setShuffledSlots] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const gridRef = useRef(null);
-  const bonusHuntRef = useRef(null);
 
   // ---- Persistence helpers ----
   const STORAGE_KEY = 'slotselector-state-v1';
   const safeParse = (value, fallback) => {
     try {
       return JSON.parse(value);
-    } catch (e) {
+    } catch {
       return fallback;
     }
   };
