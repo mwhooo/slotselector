@@ -30,7 +30,7 @@ On the NUC:
 
 1. Point DNS at the NUC: create a CNAME `images.markbakker.work.gd`.
 2. Forward inbound port 443 (and 80 for the ACME HTTP challenge) from the internet to the NUC.
-3. Place the images folder at `/srv/slotselector-images`.
+3. Place the images folder at `/home/mark/srv/slotselector-images` on the NUC (mounted into the container at `/srv/slotselector-images`).
 4. Start Caddy:
 
    ```sh
