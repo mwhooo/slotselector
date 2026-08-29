@@ -74,14 +74,13 @@ function App() {
   const [shuffledSlots, setShuffledSlots] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const gridRef = useRef(null);
-  const bonusHuntRef = useRef(null);
 
   // ---- Persistence helpers ----
   const STORAGE_KEY = 'slotselector-state-v1';
   const safeParse = (value, fallback) => {
     try {
       return JSON.parse(value);
-    } catch (e) {
+    } catch {
       return fallback;
     }
   };
