@@ -1,0 +1,3047 @@
+[
+  {
+    "name": "Alchemaniac",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ALCHEMANIAC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 94
+  },
+  {
+    "name": "3 Piggies of Bank",
+    "imageUrl": "https://www.711.nl/media/2026-09/3-piggies-of-bank-BE5-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Vikings go to Hollywood",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_TO_HOLLYWOOD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "The Quest for Viper Wilds",
+    "imageUrl": "https://www.711.nl/media/2026-08/the-quest-for-viper-wilds-VUu-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Bus Stop Bonanza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BUS_STOP_BONANZA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Blazin' Fruit Pharaoh FlameLink",
+    "imageUrl": "https://www.711.nl/media/2026-07/blazin-fruit-pharaoh-flame-link-VXr-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "3 Wonders Santa on the Beach",
+    "imageUrl": "https://www.711.nl/media/2026-07/3-wonders-santa-on-the-beach-1-6MM-game.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Soccerbet Legends",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SOCCERBET_LEGENDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "CherryPOP Blast",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CHERRYPOP_BLAST/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Lucky Lizard Oasis",
+    "imageUrl": "https://www.711.nl/media/2026-07/lucky-lizard-oasis-5nk-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Goals of Olympus",
+    "imageUrl": "https://www.711.nl/media/2026-07/zi9jsbnaknrkcxjjui4h-Gjg-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 94
+  },
+  {
+    "name": "4TP Railroad Robbery",
+    "imageUrl": "https://www.711.nl/media/2026-07/ucrdauavpxs6wyxiv2xp-ojz-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Lucky Coin Festival",
+    "imageUrl": "https://www.711.nl/media/2026-06/cy8vrkqfeapnjxwwqyw1-t8y-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Giga Zombies GigaBlox",
+    "imageUrl": "https://www.711.nl/media/2026-06/zxiwuaazd0yntewm7vcq-pvF-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Dublin Up Pots O Gold DoubleMax",
+    "imageUrl": "https://www.711.nl/media/2026-06/q4irsjfeklyhnox8ey23-2iz-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.5
+  },
+  {
+    "name": "Hercules Fortune Quest",
+    "imageUrl": "https://www.711.nl/media/2026-06/jvlznftdfgypbu7nr3a9-1-AFG-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Silicon Spinners",
+    "imageUrl": "https://www.711.nl/media/2026-05/dtz2iakbhc07v2pfdgye-Scy-game.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Dealers Choice Poker Edition",
+    "imageUrl": "https://www.711.nl/media/2026-05/ubaeohgibkugsinctqoa-3oa-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Aztec Tower",
+    "imageUrl": "https://www.711.nl/media/2026-05/s8bvr3m1zcmbm8see8ft-PNe-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 90.5
+  },
+  {
+    "name": "Diva Las Vegas",
+    "imageUrl": "https://www.711.nl/media/2026-05/wcskzf6k2kcgqwkgzhyh-2-ELU-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Donkey Coins Hold & Win",
+    "imageUrl": "https://www.711.nl/media/2026-05/eddzhlygnshnapsecjzf-37j-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Troy SuperWays",
+    "imageUrl": "https://www.711.nl/media/2026-05/ts-250x157-1-DHS-game.jpeg",
+    "minBet": 0.4,
+    "maxBet": 6,
+    "rtp": 94
+  },
+  {
+    "name": "Big Game Fishing Rapid Riches",
+    "imageUrl": "https://www.711.nl/media/2026-05/rurhtfouelw5jl0m7kcl-dob-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Gunslinger Glory",
+    "imageUrl": "https://www.711.nl/media/2026-05/gunslinger-vsB-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Banana Twist",
+    "imageUrl": "https://www.711.nl/media/2026-05/hwkqtyukxcma7hrcpayh-OQk-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "4TP Book of AfricRa",
+    "imageUrl": "https://www.711.nl/media/2026-04/xbx3ey1aiul5zhemimjc-ad5-game.webp",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Joker Box Hotfire Hold & Win",
+    "imageUrl": "https://www.711.nl/media/2026-09/joker-box-hotfire-hold-win-25u-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Druids Drop",
+    "imageUrl": "https://www.711.nl/media/2026-04/sychldeqhah8aqfs8bhk-FnI-game.webp",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Gemstone Jam",
+    "imageUrl": "https://www.711.nl/media/2026-04/gemstone-EGL-game.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Piggies Prize Party",
+    "imageUrl": "https://www.711.nl/media/2026-04/party-oQG-game.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Reel the Rum",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_REEL_THE_RUM/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Neopunk Charge Up",
+    "imageUrl": "https://www.711.nl/media/2026-04/n70ydvceetxfoqqvatjf-8XC-game.webp",
+    "minBet": 0.25,
+    "maxBet": 8.75,
+    "rtp": 94
+  },
+  {
+    "name": "The Quest for Excalibucks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THE_QUEST_FOR_EXCALIBUCKS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Leprecats Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LEPRECATS_GOLD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "4 Fantastic Fish Puffer Pots",
+    "imageUrl": "https://www.711.nl/media/2026-03/250x157-3-bMy-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Thors Hammer Time Thunder Zone",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THORS_HAMMER_TIME_THUNDER_ZONE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "ArcanaPop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ARCANAPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Zeus God of Gaming",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ZEUS_GOD_OF_GAMING/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "10000X Gold 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_10000X_GOLD_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 94
+  },
+  {
+    "name": "Pearl Reef Gigablox MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PEARL_REEF_GIGABLOX_MULTIMAX/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 8,
+    "rtp": 94
+  },
+  {
+    "name": "Jack in Jacks Beanstalk Bonanza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JACK_IN_JACKS_BEANSTALK_BONANZA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 94
+  },
+  {
+    "name": "Devils Luck Hotfire Hold & Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DEVILS_LUCK_HOTFIRE_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "3 Wonders New Year Horse",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x157-14-1-1yh-game.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Bank of Blarney TopHit",
+    "imageUrl": "https://www.711.nl/media/2026-02/bank-of-blarney-tophit-9Pw-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Headhunter",
+    "imageUrl": "https://www.711.nl/media/2026-02/headhunter-ZDT-game.webp",
+    "minBet": 0.4,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Island Ices",
+    "imageUrl": "https://www.711.nl/media/2026-01/island-ices-CMT-game.webp",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Covert Chaos",
+    "imageUrl": "https://www.711.nl/media/2026-01/covert-chaos-VoT-game.webp",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Immortals of Giza",
+    "imageUrl": "https://www.711.nl/media/2026-01/immortals-of-giza-Yw1-game.webp",
+    "minBet": 0.25,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Salty Showdown",
+    "imageUrl": "https://www.711.nl/media/2026-01/salty-showdown-UeJ-game.webp",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 94
+  },
+  {
+    "name": "3 Wonders Catch",
+    "imageUrl": "https://www.711.nl/media/2026-01/3-wonders-catch-8zn-game.webp",
+    "minBet": 0.3,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Raptor 2 DoubleMax",
+    "imageUrl": "https://www.711.nl/media/2026-01/raptor-2-VIm-game.webp",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Coins of Cleo",
+    "imageUrl": "https://www.711.nl/media/2026-01/coins-of-cleo-R8y-game.webp",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 94
+  },
+  {
+    "name": "Midas VS Medusa WildEnergy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MIDAS_VS_MEDUSA_WILDENERGY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Candy Crazed Pandas DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CANDY_CRAZED_PANDAS_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 94
+  },
+  {
+    "name": "Joker in the Box Hotfire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JOKER_IN_THE_BOX_HOTFIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "10000 Wonders Big Bang",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_10000_WONDERS_BIG_BANG/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Big Game Fishing Christmas Catch",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BIG_GAME_FISHING_CHRISTMAS_CATCH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Chilli Superstars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CHILLI_SUPERSTARS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "Clash of Claws",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CLASH_OF_CLAWS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "4 Fantastic Vikings Go Ice Fishing",
+    "imageUrl": "https://www.711.nl/media/2025-11/4-fantastic-vikings-go-ice-fishiing-3q0-game.webp",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "What The Fruit",
+    "imageUrl": "https://www.711.nl/media/2025-11/whatthefruit-jWR-game.webp",
+    "minBet": 0.4,
+    "maxBet": 24,
+    "rtp": 94
+  },
+  {
+    "name": "Fire Wilds",
+    "imageUrl": "https://www.711.nl/media/2025-11/fire-wilds-dQo-game.webp",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Piggy Staxx",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PIGGY_STAXX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Fall of Asgard A Viking Saga",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FALL_OF_ASGARD_A_VIKING_SAGA/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Vault Raiders DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VAULT_RAIDERS_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Red Dragon Sails",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RED_DRAGON_SAILS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "3 Wonders Monster Pays",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_3_WONDERS_MONSTER_PAYS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Mow Money MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MOW_MONEY_MULTIMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 94
+  },
+  {
+    "name": "Your Own Island",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_YOUR_OWN_ISLAND/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Devils Delight",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DEVILS_DELIGHT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Pixel Paws",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PIXEL_PAWS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Scara Bucks",
+    "imageUrl": "https://www.711.nl/media/2025-10/250x157-1-3-1um-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Break the Vault",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BREAK_THE_VAULT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94.1
+  },
+  {
+    "name": "4TP GUNS N GOLD",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_4TP_GUNS_N_GOLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Devils Hotfire Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DEVILS_HOTFIRE_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "MexoMax 2 WildEnergy MultiMax",
+    "imageUrl": "https://www.711.nl/media/2025-10/mexomax-2-wildenergy-multimax-IvW-game.webp",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Neon West",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_NEON_WEST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Lady Midas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LADY_MIDAS/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Angry Tiki DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ANGRY_TIKI_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 17.5,
+    "rtp": 94
+  },
+  {
+    "name": "Wild Gangs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILD_GANGS_VSS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "The Cursed Idol of Montezuma Treasure Hunt",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THE_CURSED_IDOL_OF_MONTEZUMA_TREASURE_HUNT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 94
+  },
+  {
+    "name": "Cyber Doom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CYBER_DOOM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 94
+  },
+  {
+    "name": "GoldStorm Ultra",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLDSTORM_ULTRA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Speed Freaks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SPEED_FREAKS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 13,
+    "rtp": 96.3
+  },
+  {
+    "name": "The Good Farmer",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THE_GOOD_FARMER/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 24,
+    "rtp": 94
+  },
+  {
+    "name": "Bob Marlin Goes Splashing WF Rushing Wilds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOB_MARLIN_GOES_SPLASHING_WF_RUSHING_WILDS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Diggin for Diamonds 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DIGGIN_FOR_DIAMONDS_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94.1
+  },
+  {
+    "name": "Frontier Lock & Load",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FRONTIER_LOCK_AND_LOAD/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 16,
+    "rtp": 94.2
+  },
+  {
+    "name": "4 Wolves of Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_4_WOLVES_OF_FORTUNE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96
+  },
+  {
+    "name": "Juicy Pop",
+    "imageUrl": "https://www.711.nl/media/2025-08/juicy-pop-RmS-game.webp",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Hackers Haven",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HACKERS_HAVEN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 32,
+    "rtp": 94
+  },
+  {
+    "name": "Power Pack",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_POWER_PACK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 94
+  },
+  {
+    "name": "FruitPunk",
+    "imageUrl": "https://www.711.nl/media/2025-08/image-21-nr7-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Maximum Fish",
+    "imageUrl": "https://www.711.nl/media/2025-08/max-fish-5DM-game.webp",
+    "minBet": 0.25,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Valley of the Gods",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VALLEY_OF_THE_GODS_10094/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 96.2
+  },
+  {
+    "name": "Golden Fish Tank Party",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLDEN_FISH_TANK_PARTY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Raptor Doublemax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RAPTOR_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96
+  },
+  {
+    "name": "Vikings Go Berzerk",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_BERZERK_10147/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Multifly",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MULTIFLY_10122/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.3
+  },
+  {
+    "name": "Vikings Go Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_WILD_10148/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.3
+  },
+  {
+    "name": "Atlantis Megaways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ATLANTIS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.1
+  },
+  {
+    "name": "Vikings Go To Hell",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_TO_HELL_10101/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.1
+  },
+  {
+    "name": "5 Sevens Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_5_SEVENS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Ultra HOTFIRE",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ULTRA_HOTFIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Bob Marlin Goes Deep",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOB_MARLIN_GOES_DEEP/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.8
+  },
+  {
+    "name": "Vikings Go To Olympus Wild Fight RushingWilds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_TO_OLYMPUS_WILD_FIGHT_RUSHINGWILDS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Buffalo Super Stars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BUFFALO_SUPER_STARS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Reel The Groove",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_REEL_THE_GROOVE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Sweet Wilds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SWEET_WILDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Redbeards Rum Runners DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_REDBEARDS_RUM_RUNNERS_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 94
+  },
+  {
+    "name": "Tiki Runner Clusters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TIKI_RUNNER_CLUSTERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Lock n Load",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LOCK_N_LOAD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Juicy Jelly Thunder Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JUICY_JELLY_THUNDER_WAYS/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 21,
+    "rtp": 94
+  },
+  {
+    "name": "Pharaohs Rage UltraSpinz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PHARAOHS_RAGE_ULTRASPINZ/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 94
+  },
+  {
+    "name": "Roby Dick",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ROBY_DICK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "40 Crown Hotfire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_40_CROWN_HOTFIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Rudis",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RUDIS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "4 FOXX Crew WildEnergy MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_4_FOXX_CREW_WILDENERGY_MULTIMAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 0.2,
+    "rtp": 94
+  },
+  {
+    "name": "Wild Joker Blitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILD_JOKER_BLITZ/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "8K Ultra Gold Ultimate",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_8K_ULTRA_GOLD_ULTIMATE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "big Game Fishing Golden Catch",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BIG_GAME_FISHING_GOLDEN_CATCH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Vikings go to Vegas Wild Fight",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_TO_VEGAS_WILD_FIGHT/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Pillage The Village 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PILLAGE_THE_VILLAGE_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96
+  },
+  {
+    "name": "PopNoir",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_POPNOIR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "5 Crown Hotfire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_5_CROWN_HOTFIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "The Vigilantes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THE_VIGILANTES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "4 Fantastic Fish Amazon Adventure",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_4_FANTASTIC_FISH_AMAZON_ADVENTURE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Captain Jacks Pots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CAPTAIN_JACKS_POTS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 94
+  },
+  {
+    "name": "Fuel the Mule",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FUEL_THE_MULE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Aztec GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_AZTEC_GIGABLOX/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 24,
+    "rtp": 94
+  },
+  {
+    "name": "Dick the Farmer",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DICK_THE_FARMER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Hall of Wealth",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HALL_OF_WEALTH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "20 Times Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_20_TIMES_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Lucky Ryan GigaBlox",
+    "imageUrl": "https://www.711.nl/media/2025-05/250x157-11-GBU-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Golden Triad",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLDEN_TRIAD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Dead Lucky DuoMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DEAD_LUCKY_DUOMAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 94
+  },
+  {
+    "name": "Tiger DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TIGER_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "Gods Gone Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GODS_GONE_WILD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Almighty Thunder UltraHitz GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ALMIGHTY_THUNDER_ULTRAHITZ_GIGABLOX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Gold Is All Mine 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLD_IS_ALL_MINE_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.1
+  },
+  {
+    "name": "Big Game Fishing TopHit",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BIG_GAME_FISHING_TOPHIT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Deadly West",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DEADLY_WEST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94
+  },
+  {
+    "name": "Diamond Delirium",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DIAMOND_DELIRIUM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.1
+  },
+  {
+    "name": "Adventures of Captain Cash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ADVENTURES_OF_CAPTAIN_CASH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Anubis II DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ANUBIS_II_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Shark Bait",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SHARK_BAIT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Street Ninja",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_STREET_NINJA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Alice in Lollyland",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ALICE_IN_LOLLYLAND/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Buffalo Freedom DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BUFFALO_FREEDOM_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12,
+    "rtp": 94
+  },
+  {
+    "name": "7x7 Thor",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_7X7_THOR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "Devil's Kitchen",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DEVILS_KITCHEN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Lucky Apocalypse GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LUCKY_APOCALYPSE_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Burning Riot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BURNING_RIOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 24,
+    "rtp": 94
+  },
+  {
+    "name": "7th Squadron DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_7TH_SQUADRON_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Extreme Hot Gems",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_EXTREME_HOT_GEMS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "24K Gold ShamRock On!",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_24K_GOLD_SHAMROCK_ON/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 30,
+    "rtp": 96.1
+  },
+  {
+    "name": "Paddys Pool Party",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PADDYS_POOL_PARTY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 37.5,
+    "rtp": 94
+  },
+  {
+    "name": "Sugar Bomb 2 MultiBoost",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SUGAR_BOMB_2_MULTIBOOST/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "10000X Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_10000X_GOLD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "King Power",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_KING_POWER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Dog Fighters Their Finest Hour",
+    "imageUrl": "https://www.711.nl/media/2025-02/250x157-57-504-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Ramesses Gold 10K WAYS",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RAMESSES_GOLD_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 2,
+    "rtp": 96.1
+  },
+  {
+    "name": "2 Fast 2 Fruity",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_2_FAST_2_FRUITY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 31.25,
+    "rtp": 94
+  },
+  {
+    "name": "3 Wonders New Year Carnival",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_3_WONDERS_NEW_YEAR_CARNIVAL/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Lollipop Drop MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LOLLIPOP_DROP_MULTIMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Fiesta Explosiva DuoMax",
+    "imageUrl": "https://www.711.nl/media/2024-11/250x157-36-Hpn-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "Mafioso",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MAFIOSO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Trickstar Spins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TRICKSTAR_SPINS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Super Crown 40",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SUPER_CROWN_40/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Spartacus 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SPARTACUS_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Book of Blarney GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOOK_OF_BLARNEY_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "Irish Pots MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_IRISH_POTS_MULTIMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "Thors Hammer Time",
+    "imageUrl": "https://www.711.nl/media/2025-01/thors-hammer-time-9kc-game.webp",
+    "minBet": 0.2,
+    "maxBet": 31.25,
+    "rtp": 94
+  },
+  {
+    "name": "Floridaman",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FLORIDAMAN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94
+  },
+  {
+    "name": "10000 BC 2 DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_10000_BC_2_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "Big Benji's Back Wildways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BIG_BENJIS_BACK_WILDWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Giga Bass GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GIGA_BASS_GIGABLOX/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 24,
+    "rtp": 96
+  },
+  {
+    "name": "Merlin's Beard",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MERLINS_BEARD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Valley of the Dead OnlyWins BoltLock",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VALLEY_OF_THE_DEAD_ONLYWINS_BOLTLOCK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 44,
+    "rtp": 94
+  },
+  {
+    "name": "7x7 Zeus",
+    "imageUrl": "https://www.711.nl/media/2024-11/250x157-33-42U-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Silver’s Gold PowerLinks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SILVERS_GOLD_POWERLINKS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "2 Sweet 4 U",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_2_SWEET_4_U/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "4 Fantastic Vikings Go Fishing",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_4_FANTASTIC_VIKINGS_GO_FISHING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 94
+  },
+  {
+    "name": "3 Gladiators vs Caesar",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_3_GLADIATORS_VS_CAESAR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 500,
+    "rtp": 94
+  },
+  {
+    "name": "Riches of Olympus",
+    "imageUrl": "https://www.711.nl/media/2024-10/250x157-20-K2V-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "Dolphin Hot 1",
+    "imageUrl": "https://www.711.nl/media/2024-10/250x157-19-iuZ-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Barbarossa Revenge",
+    "imageUrl": "https://www.711.nl/media/2024-10/250x157-17-VNN-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 7.5,
+    "rtp": 96.4
+  },
+  {
+    "name": "Mystic Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MYSTIC_MAGIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 35,
+    "rtp": 94
+  },
+  {
+    "name": "Aphrodite Goes Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_APHRODITE_GOES_WILD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 3.75,
+    "rtp": 94
+  },
+  {
+    "name": "Odin Lightning Blitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ODIN_LIGHTNING_BLITZ/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Book Extreme",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOOK_EXTREME/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Chilli Champions UltraHitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CHILLI_CHAMPIONS_ULTRAHITZ/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "24K Gold JailBreak",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_24K_GOLD_JAILBREAK/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 21,
+    "rtp": 96.1
+  },
+  {
+    "name": "Bison Wilds DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BISON_WILDS_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 94
+  },
+  {
+    "name": "Mayan Temple Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MAYAN_TEMPLE_RICHES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "Jellycious DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JELLYCIOUS_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12,
+    "rtp": 94
+  },
+  {
+    "name": "Attack of the Zombees WildEnergy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ATTACK_OF_THE_ZOMBEES_WILDENERGY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Mutagenes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MUTAGENES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.3
+  },
+  {
+    "name": "Dragons vs GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DRAGONS_VS_GIGABLOX/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Lions GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LIONS_GIGABLOX/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 26,
+    "rtp": 96
+  },
+  {
+    "name": "Big Top Terror",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BIG_TOP_TERROR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94
+  },
+  {
+    "name": "777 Volt GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_777_VOLT_GIGABLOX/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Wild Storm Legionnaire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILD_STORM_LEGIONNAIRE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Pulled From The Deep UltraNudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PULLED_FROM_THE_DEEP_ULTRANUDGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 42,
+    "rtp": 94
+  },
+  {
+    "name": "10,000 Wonders MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_10000_WONDERS_MULTIMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 7,
+    "rtp": 96
+  },
+  {
+    "name": "Hells Hogs 2 Squealin Wheels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HELLS_HOGS_2_SQUEALIN_WHEELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Vikings Go To Egypt Wild Fight",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_TO_EGYPT_WILD_FIGHT/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Golden Fish Tank 2 Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLDEN_FISHTANK_2_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96
+  },
+  {
+    "name": "Secret Riches of the Irish",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SECRET_RICHES_OF_THE_IRISH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  },
+  {
+    "name": "Armageddon 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ARMAGEDDON_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "50 Jokers Hotfire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_50_JOKERS_HOTFIRE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Year of Olympia WildEnergy™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_YEAR_OF_OLYMPIA_WILDENERGY/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.9
+  },
+  {
+    "name": "Monkeys Go Bananas MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MONKEYS_GO_BANANAS_MULTIMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94
+  },
+  {
+    "name": "Diamond Miner DuoMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DIAMOND_MINER_DUOMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 75,
+    "rtp": 96
+  },
+  {
+    "name": "Mutant Trawlers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MUTANT_TRAWLERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 45,
+    "rtp": 94
+  },
+  {
+    "name": "Goblins Bargain MultiMax",
+    "imageUrl": "https://www.711.nl/media/2024-04/goblins-bargain-multimax-QKg-game.webp",
+    "minBet": 0.3,
+    "maxBet": 15,
+    "rtp": 94
+  },
+  {
+    "name": "Gold Frontier Jackpots FastPot5",
+    "imageUrl": "https://www.711.nl/media/2024-04/gold-frontier-jackpots-hft-game.webp",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "4K Ultra Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_4K_ULTRA_GOLD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Tumble in the Jungle Wild Fight™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TUMBLE_IN_THE_JUNGLE_WILD_FIGHT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Sugar Bomb MultiBoost",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SUGAR_BOMB_MULTIBOOST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Primal Hunter GigaBlox",
+    "imageUrl": "https://www.711.nl/media/2024-03/primalhunter-1-bTx-game.webp",
+    "minBet": 0.4,
+    "maxBet": 14,
+    "rtp": 96
+  },
+  {
+    "name": "Ragnaravens WildEnergy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RAGNARAVENS_WILDENERGY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Ghost Father",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GHOST_FATHER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 96.2
+  },
+  {
+    "name": "CleoPatrick DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CLEOPATRICK_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "Golden Fish Tank",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLDEN_FISHTANK_10169/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.9
+  },
+  {
+    "name": "CherryPop Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CHERRYPOP_DELUXE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "10 Hot Hotfire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_10_HOT_HOTFIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Cherry Pop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CHERRYPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 3,
+    "rtp": 96
+  },
+  {
+    "name": "Holmes and the Stolen Stones",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HOLMES_AND_THE_STOLEN_STONES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Dr Fortuno",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DR_FORTUNO/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "4 Fantastic Fish in Egypt",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_4_FANTASTIC_FISH_IN_EGYPT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Valley of the Gods 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VALLEY_OF_THE_GODS_2_10114/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96
+  },
+  {
+    "name": "Vikings Go To Valhalla",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_TO_VALHALLA/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "9k Yeti",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_9KYETI/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 97
+  },
+  {
+    "name": "Jokrz Wild Ultranudge GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JOKRZ_WILD_ULTRANUDGE_GIGABLOX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 96
+  },
+  {
+    "name": "Frost Queen Jackpots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FROST_QUEEN_JACKPOTS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96
+  },
+  {
+    "name": "7 Gold Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_7_GOLD_GIGABLOX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 3,
+    "rtp": 96
+  },
+  {
+    "name": "Fast Fruits DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FAST_FRUITS_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 95.5
+  },
+  {
+    "name": "Jackpot Raiders",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JACKPOT_RAIDERS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.3
+  },
+  {
+    "name": "MexoMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MEXOMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96
+  },
+  {
+    "name": "10000 BC DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_10000_BC_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96
+  },
+  {
+    "name": "Nightmares VS GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_NIGHTMARES_VS_GIGABLOX/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Badger Miners",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BADGER_MINERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96
+  },
+  {
+    "name": "Notre-Dame Tales GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_NOTRE_DAME_TALES_GIGABLOX/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 48,
+    "rtp": 96
+  },
+  {
+    "name": "Bucks and Doe 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BUCKS_AND_DOE_10K_WAY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Diamond Symphony Doublemax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DIAMOND_SYMPHONY_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Orca’s Wild Bonanza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ORCAS_WILD_BONANZA/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 20,
+    "rtp": 95.9
+  },
+  {
+    "name": "Ragnawolves WildEnergy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RAGNAWOLVES_WILDENERGY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Fruit Combinator",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FRUIT_COMBINATOR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Jekyllz Wild Ultranudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JEKYLLZ_WILD_ULTRANUDGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Barbarossa Doublemax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BARBAROSSA_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.1
+  },
+  {
+    "name": "Purrfect potions",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PURRFECT_POTIONS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 95.5
+  },
+  {
+    "name": "Nice catch doublemax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_NICE_CATCH_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.1
+  },
+  {
+    "name": "Devour the Weak",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DEVOUR_THE_WEAK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "Shadow Raiders MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SHADOW_RAIDERS_MULTIMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 21,
+    "rtp": 96
+  },
+  {
+    "name": "Gold Fever",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLD_FEVER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "HelioPOPolis",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HELIOPOPOLIS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96
+  },
+  {
+    "name": "Festival 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FESTIVAL_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.2
+  },
+  {
+    "name": "Dragon Blox Gigablox",
+    "imageUrl": "https://www.711.nl/media/2024-02/dragonblox-Pit-game.jpeg",
+    "minBet": 0.5,
+    "maxBet": 37.5,
+    "rtp": 96
+  },
+  {
+    "name": "The Legend of Musashi",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THE_LEGEND_OF_MUSASHI/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Rainbow Power Pots UltraNudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RAINBOW_POWER_POTS_ULTRANUDGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 45,
+    "rtp": 96
+  },
+  {
+    "name": "Christmas Plaza DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CHRISTMAS_PLAZA_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96
+  },
+  {
+    "name": "Fruit Gemz Splitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FRUIT_GEMZ_SPLITZ/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.5
+  },
+  {
+    "name": "Firekick! MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FIREKICK_MULTIMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Zombie aPOPalypse",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ZOMBIE_APOPALYPSE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12.5,
+    "rtp": 96
+  },
+  {
+    "name": "Desperate Dawgs 2 Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DESPERATE_DAWGS_2_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 37.5,
+    "rtp": 95.5
+  },
+  {
+    "name": "Dungeon Tower",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DUNGEON_TOWER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96.1
+  },
+  {
+    "name": "Dragon Lore Gigarise",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DRAGON_LORE_GIGARISE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Florageddon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FLORAGEDDON/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "CritterPop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CRITTERPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96.2
+  },
+  {
+    "name": "Champion of the Underworld",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CHAMPION_OF_THE_UNDERWORLD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Wild Fishin Wild Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILD_FISHIN_WILD_WAYS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 40,
+    "rtp": 95.1
+  },
+  {
+    "name": "Voodoo Hex",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VOODOO_HEX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96
+  },
+  {
+    "name": "Of Sabers and Monsters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_OF_SABRES_AND_MONSTERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Hillbilly Vegas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HILLBILLY_VEGAS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.5
+  },
+  {
+    "name": "RagingPop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RAGINGPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96.1
+  },
+  {
+    "name": "Book of Hotfire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOOK_OF_HOTFIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96.1
+  },
+  {
+    "name": "Return of the Valkyrie Splitz™",
+    "imageUrl": "https://www.711.nl/media/2024-02/return-of-the-valkyrie-splitz-u8d-game.jpeg",
+    "minBet": 0.3,
+    "maxBet": 30,
+    "rtp": 96.5
+  },
+  {
+    "name": "Monsters VS Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MONSTERS_VS_GIGABLOX/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95.61
+  },
+  {
+    "name": "Wild One",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILD_ONE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Professor Clanks Combinator",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PROFESSOR_CLANKS_COMBINATOR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.1
+  },
+  {
+    "name": "Dublin Up DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DUBLIN_UP_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 95.5
+  },
+  {
+    "name": "Buffalo Blox Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BUFFALO_BLOX_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.1
+  },
+  {
+    "name": "Tempered Steel",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TEMPERED_STEEL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "ARRR 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ARRR_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96.1
+  },
+  {
+    "name": "Eye of Persia 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_EYE_OF_PERSIA_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 96
+  },
+  {
+    "name": "Boilin' Pots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOILIN_POTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "4 Fantastic Fish",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_4_FANTASTIC_FISH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Big Benji Bonanza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BIG_BENJI_BONANZA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.5
+  },
+  {
+    "name": "Jokrz Wild UltraNudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JOKRZ_WILD_ULTRANUDGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96
+  },
+  {
+    "name": "Megapearl Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MEGAPEARL_GIGABLOX/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 14,
+    "rtp": 96.1
+  },
+  {
+    "name": "MonkeyPop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MONKEYPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.3
+  },
+  {
+    "name": "WaterBlox Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WATERBLOX_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "Hell's Hogs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HELLS_HOGS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.6
+  },
+  {
+    "name": "Lollipop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LOLLIPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Achilles",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ACHILLES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Wild Duel",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILD_DUEL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.1
+  },
+  {
+    "name": "Tiki Runner 2 Double Max",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TIKI_RUNNER_2_DOUBLE_MAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.5
+  },
+  {
+    "name": "60 Second Heist",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_60_SECOND_HEIST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96
+  },
+  {
+    "name": "Pushy Cats",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PUSHY_CATS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 21,
+    "rtp": 96.1
+  },
+  {
+    "name": "Super Cash Drop Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SUPER_CASH_DROP_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95.5
+  },
+  {
+    "name": "Time Machine",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TIME_MACHINE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.7
+  },
+  {
+    "name": "Dead Man's Fingers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DEAD_MANS_FINGERS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.2
+  },
+  {
+    "name": "Cazino Zeppelin Reloaded",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CAZINO_ZEPPELIN_RELOADED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 2.5,
+    "rtp": 96
+  },
+  {
+    "name": "Towering Pays Excalibur",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TOWERING_PAYS_EXCALIBUR/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 40,
+    "rtp": 95.6
+  },
+  {
+    "name": "Xibalba",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_XIBALBA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.1
+  },
+  {
+    "name": "Money Mariachi Infinity Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MONEY_MARIACHI_INFINITY_REELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.2
+  },
+  {
+    "name": "Jumbo Jellies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JUMBO_JELLIES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95.4
+  },
+  {
+    "name": "Cthulhu",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CTHULHU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95.4
+  },
+  {
+    "name": "Valkyries",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VALKYRIES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Gator Gold Deluxe Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GATOR_GOLD_DELUXE_GIGABLOX_01/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Age of Beasts Infinity Reels™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_AGE_OF_BEASTS_INFINITY_REELS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.6
+  },
+  {
+    "name": "PiggyPop™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PIGGYPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.5
+  },
+  {
+    "name": "Lady Merlin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LADY_MERLIN/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 8,
+    "rtp": 96
+  },
+  {
+    "name": "90k Yeti Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_90K_YETI_GIGABLOX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 2.5,
+    "rtp": 95.5
+  },
+  {
+    "name": "Arthur's Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ARTHURS_FORTUNE_10160/launch/250x157.png",
+    "minBet": 0.08,
+    "maxBet": 20,
+    "rtp": 96.2
+  },
+  {
+    "name": "Blood Moon Wilds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BLOOD_MOON_WILDS_10161/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.2
+  },
+  {
+    "name": "Champions of Rome",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CHAMPIONS_OF_ROME_10158/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.4
+  },
+  {
+    "name": "Atlantean Gigarise",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GIGARISE_ATLANTIS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96
+  },
+  {
+    "name": "Thunderhawk",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THUNDERHAWK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96.5
+  },
+  {
+    "name": "Beasty Blox Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BEASTY_BLOX_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.1
+  },
+  {
+    "name": "Hyper Respins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HYPER_RESPINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.1
+  },
+  {
+    "name": "Giganimals GigaBlox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GIGANIMALS_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96
+  },
+  {
+    "name": "Big Bucks Buffalo Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BIG_BUCKS_BUFFALO_GIGABLOX/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 14,
+    "rtp": 96
+  },
+  {
+    "name": "Pharaohs Gaze DoubleMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PHARAOHS_GAZE_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 17.5,
+    "rtp": 96
+  },
+  {
+    "name": "HipHopPop™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HIPHOPPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.1
+  },
+  {
+    "name": "E Force",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_E_FORCE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Bugs Money",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BUGS_MONEY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 4.5,
+    "rtp": 95.5
+  },
+  {
+    "name": "3 Lucky Leprechauns",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_3_LUCKY_LEPRECHAUNS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "Book of Books",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOOK_OF_BOOKS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.1
+  },
+  {
+    "name": "Winterberries 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WINTERBERRIES_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "Lady Merlin MultiMax",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LADY_MERLIN_MULTIMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 95.7
+  },
+  {
+    "name": "Fury of Hyde Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FURY_OF_HYDE_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Neon Villains DoubleMax™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_NEON_VILLAINS_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12,
+    "rtp": 96
+  },
+  {
+    "name": "Double Lucky Mushrooms DoubleMax™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DOUBLE_LUCKY_MUSHROOMS_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.5
+  },
+  {
+    "name": "Gods VS Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GODS_VS_GIGABLOX/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "3 Lucky Witches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_3_LUCKY_WITCHES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "8 Balls of Fire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_8_BALLS_OF_FIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 31.25,
+    "rtp": 95.5
+  },
+  {
+    "name": "Blackbeard Battle Of The Seas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BLACKBEARD_BATTLE_OF_THE_SEAS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Burning Blox Gigablox™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BURNING_BLOX_GIGABLOX/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Calavera Crush",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CALAVERA_CRUSH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96
+  },
+  {
+    "name": "Candyfinity",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CANDYFINITY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 9,
+    "rtp": 96
+  },
+  {
+    "name": "Enchanted Waters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ENCHANTED_WATERS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 96
+  },
+  {
+    "name": "Fatz’s Diner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FATZS_DINER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "GigaGong GigaBlox™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GIGAGONG_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96
+  },
+  {
+    "name": "Going Wild in Vegas Wild Fight™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOING_WILD_IN_VEGAS_WILD_FIGHT/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 40,
+    "rtp": 96
+  },
+  {
+    "name": "Hercules 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HERCULES_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Lotus Warrior",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LOTUS_WARRIOR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Peter Hunter",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PETER_HUNTER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Starfire Fortunes TopHit",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_STARFIRE_FORTUNES_TOPHIT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Vampire Riches DoubleMax™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VAMPIRE_RICHES_DOUBLEMAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12,
+    "rtp": 96
+  },
+  {
+    "name": "Wild Stack Frenzy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILD_STACK_FRENZY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Roamin Romans UltraNudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ROAMIN_ROMANS_ULTRANUDGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96
+  },
+  {
+    "name": "Shaker Club",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SHAKER_CLUB/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Sahara Nights",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SAHARA_NIGHTS_10157/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.2
+  },
+  {
+    "name": "Syncronite – Splitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SYNCRONITE_SPLITZ_10159/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 3.2,
+    "rtp": 96
+  },
+  {
+    "name": "Hypernova 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HYPERNOVA_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "Vikings go Berzerk Reloaded",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VIKINGS_GO_BERZERK_RELOADED/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Tiki Infinity Reels X Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TIKI_INFINITY_REELS_X_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 24,
+    "rtp": 96.1
+  },
+  {
+    "name": "12 Trojan Mysteries",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_12_TROJAN_MYSTERIES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.5
+  },
+  {
+    "name": "Crystal Falls",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CRYSTAL_FALLS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Golden Gorgon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLDEN_GORGON/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Robin - Nottingham Raiders",
+    "imageUrl": "https://www.711.nl/media/2024-02/robin-nottingham-raiders-8pv-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 2,
+    "rtp": 96.1
+  },
+  {
+    "name": "Tiger Tiger",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TIGER_TIGER/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.2
+  },
+  {
+    "name": "SuperCash Drop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SUPERCASH_DROP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.6
+  },
+  {
+    "name": "PapayaPop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PAPAYAPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "3021 A.D The Bounty Hunter",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_3022_AD_THE_BOUNTY_HUNTER_96/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Wild Joker Stacks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILD_JOKER_STACKS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 48,
+    "rtp": 97.3
+  },
+  {
+    "name": "Carol of the Elves",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CAROL_OF_THE_ELVES_10130/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 96.2
+  },
+  {
+    "name": "Cazino Cosmos",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CAZINO_COSMOS_10142/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Cazino Zeppelin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CAZINO_ZEPPELIN_10168/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.1
+  },
+  {
+    "name": "Dwarf Mine",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DWARF_MINE_10132/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.8
+  },
+  {
+    "name": "Easter Island",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_EASTER_ISLAND_10072/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Gem Rocks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GEM_ROCKS_10133/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.2
+  },
+  {
+    "name": "Hades Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HADES_GIGABLOX_10125/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Hanzo's Dojo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HANZOS_DOJO_10135/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Hyper Burst",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HYPER_BURST_10144/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Pumpkin Smash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PUMPKIN_SMASH_10134/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "Rainbow Ryan",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_RAINBOW_RYAN_10073/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 96.3
+  },
+  {
+    "name": "Reel Desire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_REEL_DESIRE_10138/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Spina Colada",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SPINA_COLADA_10055/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.3
+  },
+  {
+    "name": "Sunny Shores",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SUNNY_SHORES_10131/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.2
+  },
+  {
+    "name": "Winterberries",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WINTERBERRIES_10103/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.7
+  },
+  {
+    "name": "Gargoyle Infinity Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GARGOYLE_INFINITY_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.7
+  },
+  {
+    "name": "Suncatcher Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SUNCATCHER_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96
+  },
+  {
+    "name": "Krazy Klimber",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_KRAZY_KLIMBER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Legion - Hot 1",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LEGION_HOT_1/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 96.3
+  },
+  {
+    "name": "Gator Gold – Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GATOR_GOLD_GIGABLOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 96
+  },
+  {
+    "name": "HippoPop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_HIPPOPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.1
+  },
+  {
+    "name": "Cauldron",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_CAULDRON/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Odin Infinity Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ODIN_INFINITY_REELS/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 12,
+    "rtp": 96.2
+  },
+  {
+    "name": "Robin – Sherwood Marauders",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ROBIN_SHERWOOD_MARAUDERS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.1
+  },
+  {
+    "name": "Thor Infinity Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THOR_INFINITY_REELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "Johnan Legendarian",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JOHNAN_LEGENDARIAN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Easter Island 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_EASTER_ISLAND_2/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Desperate Dawgs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DESPERATE_DAWGS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Buster Hammer Carnival",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BUSTER_HAMMER_CARNIVAL/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 25,
+    "rtp": 96.3
+  },
+  {
+    "name": "El Dorado Infinity Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_EL_DORADO_INFINITY_REELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.5
+  },
+  {
+    "name": "Lucky Neko - Gigablox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LUCKY_NEKO/launch/250x157.png",
+    "minBet": 0.08,
+    "maxBet": 28,
+    "rtp": 96.4
+  },
+  {
+    "name": "TikiPop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TIKIPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 7,
+    "rtp": 96.1
+  },
+  {
+    "name": "Jungle Books",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JUNGLE_BOOKS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Lucha Maniacs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LUCHAMANIACS/launch/250x157.png",
+    "minBet": 0.08,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Ozwin's Jackpots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_OZWINS_JACKPOTS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.8
+  },
+  {
+    "name": "Beauty and the Beast",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BEAUTY_AND_THE_BEAST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 97
+  },
+  {
+    "name": "The Dark Joker Rizes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THE_DARK_JOKER_RIZES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.3
+  },
+  {
+    "name": "Alchymedes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ALCHYMEDES/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 21,
+    "rtp": 96.1
+  },
+  {
+    "name": "Bicicleta",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BICICLETA/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.3
+  },
+  {
+    "name": "Big Blox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BIG_BLOX/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.2
+  },
+  {
+    "name": "Double Dragons",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DOUBLE_DRAGONS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Incinerator",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_INCINERATOR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Legend of The Golden Monkey",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LEGEND_OF_THE_GOLDEN_MONKEY/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Seasons",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_SEASONS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.1
+  },
+  {
+    "name": "Orient Express",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ORIENT_EXPRESS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.2
+  },
+  {
+    "name": "Wolf Hunters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WOLF_HUNTERS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.3
+  },
+  {
+    "name": "Dark Vortex",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_DARK_VORTEX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.5
+  },
+  {
+    "name": "Golden Chip Roulette",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_GOLDEN_CHIP_ROULETTE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 1000,
+    "rtp": 97.3
+  },
+  {
+    "name": "Temple Stacks: Splitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TEMPLE_STACKS_SPLITZ/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.1
+  },
+  {
+    "name": "Brazil Bomba",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BRAZIL_BOMBA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.3
+  },
+  {
+    "name": "Pirates Smugglers Paradise",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PIRATES_SMUGGLERS_PARADISE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.3
+  },
+  {
+    "name": "The Royal Family",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_THE_ROYAL_FAMILY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Neon Rush",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_NEON_RUSH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 7,
+    "rtp": 96.3
+  },
+  {
+    "name": "Tut's Twister",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_TUTS_TWISTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 97.1
+  },
+  {
+    "name": "Football Glory",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_FOOTBALL_GLORY/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Lightning Joker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_LIGHTNING_JOKER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.3
+  },
+  {
+    "name": "Wildpops",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_WILDPOPS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.3
+  },
+  {
+    "name": "Vault of Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_VAULT_OF_FORTUNE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Jackpot Express",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_JACKPOT_EXPRESS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "Moley Moolah",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_MOLEY_MOOLAH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.74
+  },
+  {
+    "name": "BountyPop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOUNTYPOP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.2
+  },
+  {
+    "name": "Pirates 2 Mutiny",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_PIRATES_2_MUTINY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "Ancient Eclipse",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ANCIENT_ECLIPSE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96.6
+  },
+  {
+    "name": "Killroad 66",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_KILLROAD_66/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 90.5
+  },
+  {
+    "name": "Bounty Hunter MultiBoost",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_BOUNTY_HUNTER_MULTIBOOST/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94
+  },
+  {
+    "name": "Golden Donkey Christmas Xpand",
+    "imageUrl": "https://www.711.nl/media/2025-11/golden-donkey-christmas-xpand-MrC-game.webp",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Elemental Forces Embers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/YGG_ELEMENTAL_FORCES_EMBERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94
+  }
+]

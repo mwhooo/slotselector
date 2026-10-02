@@ -1,0 +1,1619 @@
+[
+  {
+    "name": "777 Strike",
+    "imageUrl": "https://www.711.nl/media/2023-03/777strike-Hu1-game.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.8
+  },
+  {
+    "name": "Gonzo's Quest Megaways",
+    "imageUrl": "https://www.711.nl/media/2022-10/gonzo-megaways-eQY-game.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.77
+  },
+  {
+    "name": "Mystery Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MYSTERY_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Piggy Riches Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PIGGY_RICHES_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.71
+  },
+  {
+    "name": "Cash Volt",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CASH_VOLT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.71
+  },
+  {
+    "name": "Diamond Blitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DIAMOND_BLITZ/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.75
+  },
+  {
+    "name": "Dragons Cluster Buster",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGONS_CLUSTER_BUSTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.78
+  },
+  {
+    "name": "Rainbow Jackpots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_RAINBOW_JACKPOTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Nightmare Family Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_NIGHTMARE_FAMILY_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.86
+  },
+  {
+    "name": "Thor's Rage 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_THORS_RAGE_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.11
+  },
+  {
+    "name": "Happy Cappy",
+    "imageUrl": "https://www.711.nl/media/2026-08/happy-cappy-HUZ-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.16
+  },
+  {
+    "name": "Diamond Blitz 3",
+    "imageUrl": "https://www.711.nl/media/2026-07/diamond-blitz-3-JnW-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.04
+  },
+  {
+    "name": "Hit the Jungle",
+    "imageUrl": "https://www.711.nl/media/2026-07/exjkzyw12d5ktuunfbrn-3VE-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.08
+  },
+  {
+    "name": "Dynamite Riches The Mother Lode",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DYNAMITE_RICHES_THE_MOTHER_LODE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 8,
+    "rtp": 96.17
+  },
+  {
+    "name": "World Football Fortunes",
+    "imageUrl": "https://www.711.nl/media/2026-05/hn3fvev9pijhb6m8f7yw-sRy-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.8
+  },
+  {
+    "name": "Jackpot Train",
+    "imageUrl": "https://www.711.nl/media/2026-05/spzkgjpraeigymuwxofe-Vwg-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.16
+  },
+  {
+    "name": "Mystery Reels Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MYSTERY_REELS_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.66
+  },
+  {
+    "name": "10,001 Nights Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_10_001_NIGHTS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.69
+  },
+  {
+    "name": "Lokis Descendants",
+    "imageUrl": "https://www.711.nl/media/2026-05/ur7aseeysnujhgqps9bs-AdB-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.1
+  },
+  {
+    "name": "Bounty Cove",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BOUNTY_COVE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.18
+  },
+  {
+    "name": "Aztec Tribute",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_AZTEC_TRIBUTE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.63
+  },
+  {
+    "name": "Shark Boss",
+    "imageUrl": "https://www.711.nl/media/2026-04/sb-250x157-HiU-game.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.11
+  },
+  {
+    "name": "Archdragon King",
+    "imageUrl": "https://www.711.nl/media/2026-03/arch-8yo-game.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.05
+  },
+  {
+    "name": "Monopoly Money Magnate",
+    "imageUrl": "https://www.711.nl/media/2026-03/rtg-sAh-game.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Monopoly Rent Rush",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MONOPOLY_RENT_RUSH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.07
+  },
+  {
+    "name": "Dragon Boyz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGON_BOYZ/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.11
+  },
+  {
+    "name": "Digging For Wilds",
+    "imageUrl": "https://www.711.nl/media/2026-02/digging-for-widls-Pjs-game.webp",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.04
+  },
+  {
+    "name": "Revolvero",
+    "imageUrl": "https://www.711.nl/media/2026-01/revolvero-NhH-game.webp",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96.14
+  },
+  {
+    "name": "Piggy Riches Begins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PIGGY_RICHES_BEGINS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.17
+  },
+  {
+    "name": "Cash Volt Supercharged",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CASH_VOLT_SUPERCHARGED/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Dragon Duo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGON_DUO/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96.16
+  },
+  {
+    "name": "Bloody Murder",
+    "imageUrl": "https://www.711.nl/media/2025-10/bloody-murder-bnO-game.webp",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 95.76
+  },
+  {
+    "name": "Land of Riches",
+    "imageUrl": "https://www.711.nl/media/2025-09/land-of-riches-odg-game.webp",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.03
+  },
+  {
+    "name": "Play With the Devil Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PLAY_WITH_THE_DEVIL_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.09
+  },
+  {
+    "name": "Thors Rage",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_THORS_RAGE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.68
+  },
+  {
+    "name": "Rise of Cleopatra",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_RISE_OF_CLEOPATRA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.96
+  },
+  {
+    "name": "Big Gains",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BIG_GAINS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 95.67
+  },
+  {
+    "name": "777 Diamond Strike",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_777_DIAMOND_STRIKE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.73
+  },
+  {
+    "name": "Cash Goddess",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CASH_GODDESS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.84
+  },
+  {
+    "name": "Miami Rise",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MIAMI_RISE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.7
+  },
+  {
+    "name": "Zillard King MegaWays",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ZILLARD_KING_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94.71
+  },
+  {
+    "name": "Jackrabbit Jackpots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_JACKRABBIT_JACKPOTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.67
+  },
+  {
+    "name": "Farmtastic",
+    "imageUrl": "https://www.711.nl/media/2025-05/image-6-FbE-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.74
+  },
+  {
+    "name": "Bass Boss Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BASS_BOSS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 80,
+    "rtp": 94.78
+  },
+  {
+    "name": "Gods of Troy Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GODS_OF_TROY_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.75
+  },
+  {
+    "name": "Serpent King",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SERPENT_KING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 95.7
+  },
+  {
+    "name": "Trillionaire Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TRILLIONAIRE_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 95.68
+  },
+  {
+    "name": "Diamonds Up",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DIAMONDS_UP/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.69
+  },
+  {
+    "name": "Trophy Fish",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TROPHY_FISH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 8,
+    "rtp": 95.71
+  },
+  {
+    "name": "Wolf Stacks Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WOLF_STACKS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 95.72
+  },
+  {
+    "name": "7s Luck",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_7S_LUCK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.75
+  },
+  {
+    "name": "Dragons Lock",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGONS_LOCK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.8
+  },
+  {
+    "name": "Cash Explorer",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CASH_EXPLORER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 95.74
+  },
+  {
+    "name": "Wild Hot Chilli Reels 2",
+    "imageUrl": "https://www.711.nl/media/2025-01/250x157-49-bwC-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.71
+  },
+  {
+    "name": "Wings of Ra Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WINGS_OF_RA_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.68
+  },
+  {
+    "name": "Dear Santa",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DEAR_SANTA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.76
+  },
+  {
+    "name": "Gladiator Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GLADIATOR_WAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.72
+  },
+  {
+    "name": "Diamond Doggies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DIAMOND_DOGGIES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.75
+  },
+  {
+    "name": "The Good, The Bad and The Rich",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_THE_GOOD_THE_BAD_AND_THE_RICH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.7
+  },
+  {
+    "name": "Zeus Lightning Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ZEUS_LIGHTNING_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.69
+  },
+  {
+    "name": "Moon Spell",
+    "imageUrl": "https://www.711.nl/media/2024-10/250x157-24-1kY-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.76
+  },
+  {
+    "name": "Los Muertos Locos",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_LOS_MUERTOS_LOCOS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.11
+  },
+  {
+    "name": "Savannah Pride",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SAVANNAH_PRIDE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.75
+  },
+  {
+    "name": "Egypt Clusterbuster",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_EGYPT_CLUSTERBUSTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.71
+  },
+  {
+    "name": "Roman Emperors",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ROMAN_EMPERORS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.76
+  },
+  {
+    "name": "Turtle Paradise",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TURTLE_PARADISE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.68
+  },
+  {
+    "name": "Glow Dig",
+    "imageUrl": "https://www.711.nl/media/2024-08/glowdig-ZRe-game.webp",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Diamond Blitz 2",
+    "imageUrl": "https://www.711.nl/media/2024-08/diamond-blitz-2-piT-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.71
+  },
+  {
+    "name": "Fa Fa Babies 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_FA_FA_BABIES_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.73
+  },
+  {
+    "name": "Buffalo Collector",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BUFFALO_COLLECTOR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.75
+  },
+  {
+    "name": "Emperor of India",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_EMPEROR_OF_INDIA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.72
+  },
+  {
+    "name": "Piggy Riches 2 Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PIGGY_RICHES_2_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.71
+  },
+  {
+    "name": "Purr Power",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PURR_POWER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.68
+  },
+  {
+    "name": "Cannonball Cash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CANNONBALL_CASH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.72
+  },
+  {
+    "name": "Rainbow Jackpots Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_RAINBOW_JACKPOTS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.77
+  },
+  {
+    "name": "Sword Stomp",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SWORD_STOMP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Fruit Flash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_FRUIT_FLASH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.71
+  },
+  {
+    "name": "Vikings Legacy Everyway",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_VIKINGS_LEGACY_EVERYWAY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.77
+  },
+  {
+    "name": "Gold Mine Mistress",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GOLD_MINE_MISTRESS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.74
+  },
+  {
+    "name": "Primate King Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PRIMATE_KING_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 8,
+    "rtp": 95.7
+  },
+  {
+    "name": "Dont Hit Plz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DONT_HIT_PLZ/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.35
+  },
+  {
+    "name": "Midnight Romance",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MIDNIGHT_ROMANCE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.71
+  },
+  {
+    "name": "Fishtastic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_FISHTASTIC/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.65
+  },
+  {
+    "name": "Play with the Devil",
+    "imageUrl": "https://www.711.nl/media/2024-03/play-with-the-devil-5aM-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.71
+  },
+  {
+    "name": "Sakura Masks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SAKURA_MASKS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 95.74
+  },
+  {
+    "name": "The Wild Kiss",
+    "imageUrl": "https://www.711.nl/media/2024-02/thewildkiss-Cq9-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.68
+  },
+  {
+    "name": "777 Super Strike",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_777_SUPER_STRIKE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.72
+  },
+  {
+    "name": "Midnight Thirst",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MIDNIGHT_THIRST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.36
+  },
+  {
+    "name": "Redline Rush",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_REDLINE_RUSH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.8
+  },
+  {
+    "name": "Astros",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ASTROS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 8,
+    "rtp": 95.72
+  },
+  {
+    "name": "Vault Cracker Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_VAULT_CRACKER_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.68
+  },
+  {
+    "name": "Clover Craze",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CLOVER_CRAZE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.25
+  },
+  {
+    "name": "Christmas Morning",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CHRISTMAS_MORNING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Sea Boat Adventure",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SEA_BOAT_ADVENTURE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.76
+  },
+  {
+    "name": "Giga Blast",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GIGA_BLAST/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.73
+  },
+  {
+    "name": "Christmas MULTIHOPS",
+    "imageUrl": "https://www.711.nl/media/2023-12/christmas-multihops-M35-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.28
+  },
+  {
+    "name": "Wanted Wildz Extreme",
+    "imageUrl": "https://www.711.nl/media/2023-11/wanted-wildz-extreme-6NO-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.21
+  },
+  {
+    "name": "Sugarlicious EveryWay",
+    "imageUrl": "https://www.711.nl/media/2023-11/sugarliciouseveryway-9K3-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.69
+  },
+  {
+    "name": "Dragon’s Mirror",
+    "imageUrl": "https://www.711.nl/media/2023-11/websitethumbnaildragonsmirror-zpP-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.8
+  },
+  {
+    "name": "Spooky Carnival",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SPOOKY_CARNIVAL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.68
+  },
+  {
+    "name": "Sirens’ Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SIRENS_RICHES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.73
+  },
+  {
+    "name": "Hansel & Gretel Candyhouse",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_HANSEL_AND_GRETEL_CANDYHOUSE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.73
+  },
+  {
+    "name": "Year-Round Riches Clusterbuster",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_YEAR_ROUND_RICHES_CLUSTERBUSTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.74
+  },
+  {
+    "name": "Easy Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_EASY_GOLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.73
+  },
+  {
+    "name": "Case Closed",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CASE_CLOSED/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.02
+  },
+  {
+    "name": "Judgement Day Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_JUDGEMENT_DAY_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 2,
+    "rtp": 95.71
+  },
+  {
+    "name": "Sugar Monster",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SUGAR_MONSTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.68
+  },
+  {
+    "name": "Bounty Raid 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BOUNTY_RAID_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.68
+  },
+  {
+    "name": "Here Kitty Kitty",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_HERE_KITTY_KITTY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.73
+  },
+  {
+    "name": "Monsters Unchained",
+    "imageUrl": "https://www.711.nl/media/2023-07/monsters-unchained-game-thumbnail-752x500-2023-05-01-3r3-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.69
+  },
+  {
+    "name": "London Tube",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_LONDON_TUBE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.7
+  },
+  {
+    "name": "Magic Tricks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MAGIC_TRICKS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Gems Inferno Megaways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GEMS_INFERNO_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.67
+  },
+  {
+    "name": "Leprechauns Magic Power Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_LEPRECHAUNS_MAGIC_POWER_REELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.05
+  },
+  {
+    "name": "Wanted Wildz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WANTED_WILDZ/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.05
+  },
+  {
+    "name": "Alexander The Great World Conqueror",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ALEXANDER_THE_GREAT_WORLD_CONQUEROR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.75
+  },
+  {
+    "name": "Wolfkin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WOLFKIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.72
+  },
+  {
+    "name": "Knights of avalon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_KNIGHTS_OF_AVALON/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.69
+  },
+  {
+    "name": "Magic Powers Megaways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MAGIC_POWERS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.7
+  },
+  {
+    "name": "Red Hot BBQ",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_RED_HOT_BBQ/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Reel Keeper Power Reels™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_REEL_KEEPER_POWER_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 95.73
+  },
+  {
+    "name": "Sheep Gone Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SHEEP_GONE_WILD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 95.72
+  },
+  {
+    "name": "Wrigley's World",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WRIGLEYS_WORLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.72
+  },
+  {
+    "name": "Transylvania Night of blood",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TRANSYLVANIA_NIGHT_OF_BLOOD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.76
+  },
+  {
+    "name": "Happy Apples",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_HAPPY_APPLES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.7
+  },
+  {
+    "name": "Bugsy's Bar",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BUGSYS_BAR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 8,
+    "rtp": 95.74
+  },
+  {
+    "name": "Buffalo Mania Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BUFFALO_MANIA_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.69
+  },
+  {
+    "name": "Blobsters Clusterbuster",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BLOBSTERS_CLUSTERBUSTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.7
+  },
+  {
+    "name": "Peggy Sweets",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PEGGY_SWEETS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.68
+  },
+  {
+    "name": "Ancient Disco",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ANCIENT_DISCO/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.74
+  },
+  {
+    "name": "Blood Suckers™ Megaways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BLOOD_SUCKERS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 97.66
+  },
+  {
+    "name": "Cake and Ice Cream",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CAKE_AND_ICE_CREAM/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.81
+  },
+  {
+    "name": "Cai Shen 168",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CAI_SHEN_168/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.74
+  },
+  {
+    "name": "Pinatas and Ponies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PINATAS_PONIES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Stolen Treasures",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_STOLEN_TREASURES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.72
+  },
+  {
+    "name": "In The Rabbit Hole",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_IN_THE_RABBIT_HOLE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.76
+  },
+  {
+    "name": "Santa Spins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SANTA_SPINS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.73
+  },
+  {
+    "name": "Good Luck Clusterbuster",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GOOD_LUCK_CLUSTERBUSTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.73
+  },
+  {
+    "name": "Shadow Society",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SHADOW_SOCIETY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.76
+  },
+  {
+    "name": "Tricks and Treats",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TRICKS_AND_TREATS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.73
+  },
+  {
+    "name": "Great Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GREAT_GOLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.66
+  },
+  {
+    "name": "Gonzita's Quest",
+    "imageUrl": "https://www.711.nl/media/2022-10/gonzita-IO5-game.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Rock N Lock",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ROCK_N_LOCK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Bass Boss",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BASS_BOSS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.7
+  },
+  {
+    "name": "Flodder",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_FLODDER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.75
+  },
+  {
+    "name": "Gods Of Troy",
+    "imageUrl": "https://www.711.nl/media/2022-08/gods-of-troy-Pcb-game.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.74
+  },
+  {
+    "name": "Narcos Mexico",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_NARCOS_MEXICO/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.7
+  },
+  {
+    "name": "Zaida's Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ZAIDAS_FORTUNE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.74
+  },
+  {
+    "name": "Majestic Mysteries",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MAJESTIC_MYSTERIES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.73
+  },
+  {
+    "name": "Apache Way",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_APACHE_WAY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.75
+  },
+  {
+    "name": "Bulls Run Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BULLS_RUN_WILD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.75
+  },
+  {
+    "name": "Big Cat Rescue Megaways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BIG_CAT_RESCUE_MW/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.71
+  },
+  {
+    "name": "Risque Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_RISQUE_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.73
+  },
+  {
+    "name": "Dragon's Fire Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGONS_FIRE_MEGA_WAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.72
+  },
+  {
+    "name": "Zillard King",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ZILLARD_KING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Arcade Bomb",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ARCADE_BOMB/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.15
+  },
+  {
+    "name": "Devil's Number",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DEVILS_NUMBER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Dragon's Fire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGONS_FIRE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.07
+  },
+  {
+    "name": "Dragon's Luck",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGONS_LUCK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Dragon's Luck Power Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGONS_LUCK_POWER_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Five Star",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_FIVE_STAR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.2
+  },
+  {
+    "name": "Golden Leprechaun Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GOLDEN_LEPRECHAUN_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.72
+  },
+  {
+    "name": "Jack in a pot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_JACK_IN_A_POT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Jackpot Quest",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_JACKPOT_QUEST/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.3
+  },
+  {
+    "name": "Lucky Wizard",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_LUCKY_WIZARD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Mega Dragon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MEGA_DRAGON/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Mega Pyramid",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MEGA_PYRAMID/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.18
+  },
+  {
+    "name": "Mega Rise",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MEGA_RISE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.08
+  },
+  {
+    "name": "Phoenix Fire Power Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PHOENIX_FIRE_POWER_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.22
+  },
+  {
+    "name": "Pirates' Plenty",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PIRATES_PLENTY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.7
+  },
+  {
+    "name": "Pirates' Plenty Battle for Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PIRATES_PLENTY_BATTLE_FOR_GOLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.72
+  },
+  {
+    "name": "The Greatest Train Robbery",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_THE_GREATEST_TRAIN_ROBBERY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.03
+  },
+  {
+    "name": "Thor's Lightning",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_THORS_LIGHTNING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.08
+  },
+  {
+    "name": "Tiki Fruits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TIKI_FRUITS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Treasure Mine",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TREASURE_MINE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.16
+  },
+  {
+    "name": "Win Escalator",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WIN_ESCALATOR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Da Vinci's Mystery",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DA_VINCIS_MYSTERY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.67
+  },
+  {
+    "name": "Dynamite Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DYNAMITE_RICHES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.7
+  },
+  {
+    "name": "Dice Dice Dice",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DICE_DICE_DICE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.74
+  },
+  {
+    "name": "Wings of Ra",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WINGS_OF_RA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Rainbow Jackpots Power Lines",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_RAINBOW_JACKPOTS_POWER_LINES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.68
+  },
+  {
+    "name": "Vault of Anubis",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_VAULT_OF_ANUBIS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.74
+  },
+  {
+    "name": "The Wild Hatter",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_THE_WILD_HATTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.79
+  },
+  {
+    "name": "Zeus Lightning Power Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_ZEUS_LIGHTNING_POWER_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Bounty Raid",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_BOUNTY_RAID/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.71
+  },
+  {
+    "name": "Reel Keeper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_REEL_KEEPER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.72
+  },
+  {
+    "name": "Crystal Mirror",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CRYSTAL_MIRROR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.77
+  },
+  {
+    "name": "Wild O'Clock",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WILD_OCLOCK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Yucatan's Mystery",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_YUCATANS_MYSTERY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.75
+  },
+  {
+    "name": "Golden Tsar",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GOLDEN_TSAR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.77
+  },
+  {
+    "name": "Clash of the Beasts",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CLASH_OF_THE_BEASTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.74
+  },
+  {
+    "name": "Hoard of Poseidon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_HOARD_OF_POSEIDON/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.72
+  },
+  {
+    "name": "Aurum Codex",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_AURUM_CODEX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.77
+  },
+  {
+    "name": "10,001 Nights",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_10_001_NIGHTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.73
+  },
+  {
+    "name": "Regal Streak",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_REGAL_STREAK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.71
+  },
+  {
+    "name": "War of Gods",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WAR_OF_GODS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Agent Royale",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_AGENT_ROYALE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.77
+  },
+  {
+    "name": "Regal Beasts",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_REGAL_BEASTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.73
+  },
+  {
+    "name": "Vault Cracker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_VAULT_CRACKER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Thor's Vengeance",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_THORS_VENGEANCE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.66
+  },
+  {
+    "name": "Trillionaire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TRILLIONAIRE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.76
+  },
+  {
+    "name": "Dragon's Fire InfiniReels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGONS_FIRE_INFINIREELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.73
+  },
+  {
+    "name": "Dragon's Luck Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRAGONS_LUCK_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.77
+  },
+  {
+    "name": "Cash Ultimate",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CASH_ULTIMATE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.71
+  },
+  {
+    "name": "Pirates Plenty MegaWays",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PIRATES_PLENTY_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.76
+  },
+  {
+    "name": "Primate King",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_PRIMATE_KING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "What the Fox MegaWays",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WHAT_THE_FOX_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.66
+  },
+  {
+    "name": "Reptizillions Power Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_REPTIZILLIONS_POWER_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Wild Hot Chilli Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WILD_HOT_CHILLI_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.75
+  },
+  {
+    "name": "Mystic Staxx",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MYSTIC_STAXX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.74
+  },
+  {
+    "name": "Neon Links",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_NEON_LINKS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.67
+  },
+  {
+    "name": "The Wisecracker Lightning",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_THE_WISECRACKER_LIGHTNING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.75
+  },
+  {
+    "name": "Treasure Mine Power Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_TREASURE_MINE_POWER_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.72
+  },
+  {
+    "name": "NFT Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_NFT_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.66
+  },
+  {
+    "name": "Shah Mat",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_SHAH_MAT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.79
+  },
+  {
+    "name": "Dynamite Riches Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DYNAMITE_RICHES_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.75
+  },
+  {
+    "name": "Age of Akkadia",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_AGE_OF_AKKADIA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.67
+  },
+  {
+    "name": "Mystery Reels Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_MYSTERY_REELS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.18
+  },
+  {
+    "name": "Well of Wilds Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WELL_OF_WILDS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.67
+  },
+  {
+    "name": "Lion's Hoard",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_LIONS_HOARD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.72
+  },
+  {
+    "name": "Hammer Gods",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_HAMMER_GODS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Wild Expedition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_WILD_EXPEDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.67
+  },
+  {
+    "name": "Dracula Awakening",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DRACULA_AWAKENING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.72
+  },
+  {
+    "name": "Get the Gold INFINIREELS",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GET_THE_GOLD_INFINIREELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.72
+  },
+  {
+    "name": "Hustling",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_HUSTLING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Cash or Nothing",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_CASH_OR_NOTHING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Fa Fa Babies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_FA_FA_BABIES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.83
+  },
+  {
+    "name": "Last Chance Saloon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_LAST_CHANCE_SALOON/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.79
+  },
+  {
+    "name": "Genie Nights",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_GENIE_NIGHTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.76
+  },
+  {
+    "name": "Viral Spiral",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_VIRAL_SPIRAL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.69
+  },
+  {
+    "name": "Diamond Royale",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/RTG_DIAMOND_ROYALE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.75
+  }
+]

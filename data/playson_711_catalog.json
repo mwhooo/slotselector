@@ -1,0 +1,716 @@
+[
+  {
+    "name": "Royal Coins 2 Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_ROYAL_COINS_2_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.64
+  },
+  {
+    "name": "Energy Coins: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_ENERGY_COINS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.47
+  },
+  {
+    "name": "Coin Strike: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_COIN_STRIKE_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.66
+  },
+  {
+    "name": "Fire Coins: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_FIRE_COINS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.64
+  },
+  {
+    "name": "Royal Joker Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2023-05/royal-joker-97Y-game.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.62
+  },
+  {
+    "name": "Lion Gems: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_LION_GEMS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.55
+  },
+  {
+    "name": "Pink Joker Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_PINK_JOKER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.87
+  },
+  {
+    "name": "Energy Joker: Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2024-04/energy-joker-tYl-game.webp",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.74
+  },
+  {
+    "name": "Supercharged Clovers: Hold And Win",
+    "imageUrl": "https://www.711.nl/media/2024-07/250x157-11-UaG-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.78
+  },
+  {
+    "name": "Royal Fortunator: Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2023-06/royal-fortunator-XoL-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.64
+  },
+  {
+    "name": "Thunder Coins: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_THUNDER_COINS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Buffalo Power 2: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BUFFALO_POWER_2_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.04
+  },
+  {
+    "name": "Diamonds Power Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_DIAMOND_POWER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.66
+  },
+  {
+    "name": "Joker's Coins: Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2023-03/jokercoins-CN9-game.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.71
+  },
+  {
+    "name": "Pirate Chest: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_PIRATE_CHEST_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Luxor Gold: Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2022-12/luxorgold-nWp-game.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.76
+  },
+  {
+    "name": "Beez Turn Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BEEZ_TURN_WILD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.67
+  },
+  {
+    "name": "4 Supercharged Clovers Super Wheel",
+    "imageUrl": "https://www.711.nl/media/2026-08/4-supercharged-clovers-Rwo-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 94.69
+  },
+  {
+    "name": "4 Supershiny Diamonds Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_4_SUPERSHINY_DIAMONDS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 94.69
+  },
+  {
+    "name": "Clover Smash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_CLOVER_SMASH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 94.7
+  },
+  {
+    "name": "4 Chili Pots Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-07/4-chili-pots-mobile-zTu-game.webp",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 94.7
+  },
+  {
+    "name": "3 Thunder Coins Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-06/iuqihcsu321wuz2rjvyc-4Dn-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 94.66
+  },
+  {
+    "name": "4 Pots Riches Super Wheel",
+    "imageUrl": "https://www.711.nl/media/2026-06/nzy0tbbwhco5hlsevgbq-K46-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.7
+  },
+  {
+    "name": "Pink Clovers XXXL Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_PINK_CLOVERS_XXXL_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 37.5,
+    "rtp": 94.65
+  },
+  {
+    "name": "Sugar Piggy Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_SUGAR_PIGGY_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 95.49
+  },
+  {
+    "name": "Buffalo Power: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BUFFALO_POWER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.04
+  },
+  {
+    "name": "Legend of Cleopatra Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_LEGEND_OF_CLEOPATRA_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 35,
+    "rtp": 95.84
+  },
+  {
+    "name": "3 Supercharged Diamonds Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_3_SUPERCHARGED_DIAMONDS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94.49
+  },
+  {
+    "name": "4 Chili Amigos: Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-04/4chilli-0uv-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 94.7
+  },
+  {
+    "name": "Rhino Coins Hit the Bonus",
+    "imageUrl": "https://www.711.nl/media/2026-04/rhino-coins-sfU-game.webp",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.5
+  },
+  {
+    "name": "4 Scarab Coins Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-03/6pls-EsB-game.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.7
+  },
+  {
+    "name": "Thunder Coins XXL Multicoin",
+    "imageUrl": "https://www.711.nl/media/2026-03/tcx-250x157-rXt-game.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 95.65
+  },
+  {
+    "name": "Clover Strike Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x1574-D8w-game.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.49
+  },
+  {
+    "name": "Sugar Teddy x1000",
+    "imageUrl": "https://www.711.nl/media/2026-02/image-13-XKz-game.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.5
+  },
+  {
+    "name": "4 Supercharged Clovers Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-02/4-supercharged-clovers-hold-and-win-BTy-game.webp",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 95.7
+  },
+  {
+    "name": "Timeless Diamonds Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-02/timeless-diamond-hold-and-win-utr-game.webp",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 95.87
+  },
+  {
+    "name": "Coin Strike XXL Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_COIN_STRIKE_XXL_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 95.6
+  },
+  {
+    "name": "x1000 Golden Penny 2",
+    "imageUrl": "https://www.711.nl/media/2026-01/golden-penny-2-nug-game.webp",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 95.67
+  },
+  {
+    "name": "Vegas Glitz",
+    "imageUrl": "https://www.711.nl/media/2026-01/vegas-glitz-hgN-game.webp",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.6
+  },
+  {
+    "name": "Tornado Power Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_TORNADO_POWER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.65
+  },
+  {
+    "name": "Diamonds Power XXL Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2025-11/diamond-power-xxl-hold-and-win-Gf3-game.webp",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 95.6
+  },
+  {
+    "name": "More Energy Coins: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_MORE_ENERGY_COINS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 27,
+    "rtp": 95.6
+  },
+  {
+    "name": "Paddy Star: Smash and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_PADDY_STAR_SMASH_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.5
+  },
+  {
+    "name": "Crown Strike Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_CROWN_STRIKE_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 95.7
+  },
+  {
+    "name": "Flaming Bells Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2025-10/250x157-5-aki-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.78
+  },
+  {
+    "name": "Golden Penny x1000",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_GOLDEN_PENNY_X1000/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 95.68
+  },
+  {
+    "name": "3 Royal Coins Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_3_ROYAL_COINS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.36
+  },
+  {
+    "name": "Rockin Joker Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2025-08/250x157-15-1-370-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 95.5
+  },
+  {
+    "name": "4 Pots Riches Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_4_POTS_RICHES_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.7
+  },
+  {
+    "name": "Coin Strike 2 Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_COIN_STRIKE_2_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.65
+  },
+  {
+    "name": "Super Pink Joker Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2025-06/superpinkjoker-b8T-game.webp",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.74
+  },
+  {
+    "name": "Lion Gems 3 Pots: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_LION_GEMS_3_POTS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.76
+  },
+  {
+    "name": "Thunder Coins XXL: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_THUNDER_COINS_XXL_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95.6
+  },
+  {
+    "name": "3X Catch",
+    "imageUrl": "https://www.711.nl/media/2025-05/image-11-rnp-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.6
+  },
+  {
+    "name": "King of the Sky Hit the Bonus",
+    "imageUrl": "https://www.711.nl/media/2025-04/king-of-the-sky-1cE-game.webp",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 95.5
+  },
+  {
+    "name": "Royal Express Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_ROYAL_EXPRESS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.62
+  },
+  {
+    "name": "3 Chillies & Joker Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_3_CHILLIES_AND_JOKER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.5
+  },
+  {
+    "name": "Charge the Clovers Hit the Bonus",
+    "imageUrl": "https://www.711.nl/media/2025-02/charge-the-clovers-hit-the-bonus-0y5-game.webp",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 95.69
+  },
+  {
+    "name": "3 Luxor Pots Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_3_LUXOR_POTS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.76
+  },
+  {
+    "name": "25 Cookies Hit the Bonus",
+    "imageUrl": "https://www.711.nl/media/2024-11/250x157-39-e3P-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.7
+  },
+  {
+    "name": "Jingle Coins Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_JINGLE_COINS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95.66
+  },
+  {
+    "name": "Merry Giftmas Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_MERRY_GIFTMAS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.74
+  },
+  {
+    "name": "Lightning Clovers Hit the Bonus",
+    "imageUrl": "https://www.711.nl/media/2024-10/250x157-29-vog-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.49
+  },
+  {
+    "name": "3 Pirate Barrels",
+    "imageUrl": "https://www.711.nl/media/2024-08/3-pirate-barrels-7V2-game.webp",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.76
+  },
+  {
+    "name": "Piggy Power Hit the Bonus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_PIGGY_POWER_HIT_THE_BONUS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.7
+  },
+  {
+    "name": "3 Carts of Gold: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_3_CARTS_OF_GOLD_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.76
+  },
+  {
+    "name": "Arizona Heist: Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2024-03/250x157-2-clP-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.6
+  },
+  {
+    "name": "Clover Charm: Hit the Bonus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_CLOVER_CHARM_HIT_THE_BONUS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.66
+  },
+  {
+    "name": "Sunny Fruits 2: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_SUNNY_FRUITS_2_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.74
+  },
+  {
+    "name": "3 Magic Lamps Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2024-02/3-magic-lamps-hold-and-win-5hT-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.76
+  },
+  {
+    "name": "3 Pots Riches Extra Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2024-02/pots-riches-iCM-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 95.76
+  },
+  {
+    "name": "Power Crown: Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2024-01/power-crown-hold-and-win-7QK-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.75
+  },
+  {
+    "name": "Fire Temple Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2023-11/fire-temple-hold-and-win-Ao0-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.7
+  },
+  {
+    "name": "777 Sizzling Wins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_777_SIZZLING_WINS_5_LINES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.21
+  },
+  {
+    "name": "Crown and Diamonds Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_CROWN_AND_DIAMONDS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.64
+  },
+  {
+    "name": "3 Pots Riches: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_3_POTS_RICHES_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.76
+  },
+  {
+    "name": "Empire Gold: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_EMPIRE_GOLD_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.76
+  },
+  {
+    "name": "Treasures of Fire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_TREASURES_OF_FIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.51
+  },
+  {
+    "name": "Buffalo Power Christmas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BUFFALO_POWER_CHRISTMAS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.04
+  },
+  {
+    "name": "Royal Coins: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_ROYAL_COINS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.64
+  },
+  {
+    "name": "Hot Burning Wins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_HOT_BURNING_WINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Ruby Hit: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_RUBY_HIT_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.55
+  },
+  {
+    "name": "Book of Gold: Multichance",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BOOK_OF_GOLD_MULTICHANCE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 35,
+    "rtp": 95.4
+  },
+  {
+    "name": "Sunny Fruits: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_SUNNY_FRUITS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.05
+  },
+  {
+    "name": "Book of Gold: Classic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BOOK_OF_GOLD_CLASSIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.94
+  },
+  {
+    "name": "Solar Temple",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_SOLAR_TEMPLE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.22
+  },
+  {
+    "name": "Rise of Egypt",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_RISE_OF_EGYPT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.82
+  },
+  {
+    "name": "Solar Queen",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_SOLAR_QUEEN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.78
+  },
+  {
+    "name": "Burning Wins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BURNING_WINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.21
+  },
+  {
+    "name": "Fruits and Jokers 100 lines",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_FRUITS_AND_JOKERS_100_LINES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.46
+  },
+  {
+    "name": "Sevens and Fruits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_SEVENS_AND_FRUITS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.31
+  },
+  {
+    "name": "Fruits and Jokers 20 lines",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_FRUITS_AND_JOKERS_20_LINES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.51
+  },
+  {
+    "name": "Diamond Wins: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_DIAMOND_WINS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.52
+  },
+  {
+    "name": "Solar King",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_SOLAR_KING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.45
+  },
+  {
+    "name": "100 Joker Staxx",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_100_JOKER_STAXX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.48
+  },
+  {
+    "name": "Wolf Power: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_WOLF_POWER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.04
+  },
+  {
+    "name": "Buffalo Power Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BUFFALO_POWER_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.84
+  },
+  {
+    "name": "Burning Wins x2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BURNING_WINS_X2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.98
+  },
+  {
+    "name": "Diamond Fortunator: Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_DIAMOND_FORTUNATOR_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.6
+  },
+  {
+    "name": "Wolf Power Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_WOLF_POWER_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96
+  },
+  {
+    "name": "Burning Fortunator",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BURNING_FORTUNATOR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.16
+  },
+  {
+    "name": "Book del Sol: Multiplier",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PLS_BOOK_DEL_SOL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.76
+  }
+]

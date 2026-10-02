@@ -1,0 +1,2060 @@
+[
+  {
+    "name": "Random Runner™15",
+    "imageUrl": "https://www.711.nl/media/2023-04/randomrunner-bnU-game.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 95
+  },
+  {
+    "name": "Super Random Flashback",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SUPER_RANDOM_FLASHBACK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 95.49
+  },
+  {
+    "name": "Simply Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SIMPLY_WILD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Book of Ra Deluxe",
+    "imageUrl": "https://www.711.nl/media/2023-01/image-H3q-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.02
+  },
+  {
+    "name": "Sizzling Hot™ deluxe",
+    "imageUrl": "https://www.711.nl/media/2023-06/sizzlinghotdeluxe-SLU-game.jpeg",
+    "minBet": 0.01,
+    "maxBet": 50,
+    "rtp": 95.66
+  },
+  {
+    "name": "Cash Connection - Dolphin's Pearl",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_DOLPHINS_PEARL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Top Runner XL",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TOP_RUNNER_XL/launch/250x157.png",
+    "minBet": 0.08,
+    "maxBet": 40,
+    "rtp": 95.49
+  },
+  {
+    "name": "Super TopSpinner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SUPER_TOPSPINNER/launch/250x157.png",
+    "minBet": 0.04,
+    "maxBet": 50,
+    "rtp": 95.49
+  },
+  {
+    "name": "Random Runner Hold&Run",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RANDOM_RUNNER_HOLD_RUN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94.97
+  },
+  {
+    "name": "Diamond Link: Almighty Kraken",
+    "imageUrl": "https://www.711.nl/media/2024-02/diamond-link-almighty-kraken-xsc-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 0.5,
+    "rtp": 95
+  },
+  {
+    "name": "Piggy Prizes Wish Of Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PIGGY_PRIZES_WISH_OF_RICHES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.55
+  },
+  {
+    "name": "Coin Frenzy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_COIN_FRENZY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94.96
+  },
+  {
+    "name": "Random Runner®",
+    "imageUrl": "https://www.711.nl/media/2022-05/random-runner-1-D7h-game.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Random Runner VIP",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RANDOM_RUNNER_VIP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.49
+  },
+  {
+    "name": "Always Hot Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_ALWAYS_HOT_95/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.36
+  },
+  {
+    "name": "Lord of the Ocean Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LORD_OF_THE_OCEAN_MAGIC/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 20,
+    "rtp": 95.1
+  },
+  {
+    "name": "Grand Slam™ Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GRAND_SLAM_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Random Runner VIP+",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RANDOM_RUNNER_VIP_PLUS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Classic Link Club 2000",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLASSIC_LINK_CLUB_2000/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Highway to Bell Stack & Collect",
+    "imageUrl": "https://www.711.nl/media/2026-09/highway-to-bell-stack-collect-BcR-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Brilliant Pots Tumbling Joker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BRILLIANT_POTS_TUMBLING_JOKER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 44,
+    "rtp": 95
+  },
+  {
+    "name": "Candy Monster",
+    "imageUrl": "https://www.711.nl/media/2026-09/candy-monster-glz-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.03
+  },
+  {
+    "name": "Cash Cascade - 40 Wild Fire 6",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CASCADE_40_WILD_FIRE_6_94/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96
+  },
+  {
+    "name": "Flaming Devil",
+    "imageUrl": "https://www.711.nl/media/2026-08/flaming-devil-2-MUr-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "DJ Dog",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DJ_DOG/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Link Mighty Aztec",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_AZTEC/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Luckycapi",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LUCKYCAPI/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Piggy Prizes Wish of Riches 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PIGGY_PRIZES_WISH_OF_RICHES_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.06
+  },
+  {
+    "name": "Cash Connection Golden Sizzling Hot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_GOLDEN_SIZZLING_HOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Money Maker 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MONEY_MAKER_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Brilliant Pots Fortune Flows",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BRILLIANT_POTS_FORTUNE_FLOWS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 44,
+    "rtp": 95
+  },
+  {
+    "name": "Golden Flaming Dragon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GOLDEN_FLAMING_DRAGON/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.98
+  },
+  {
+    "name": "Cash Connection - Charming Lady linked",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_CHARMING_LADY_LINKED_95/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.01
+  },
+  {
+    "name": "Starlight Jackpots Bison Rush",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLIGHT_JACKPOTS_BISON_RUSH_94/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.1
+  },
+  {
+    "name": "Cash Connection - Sizzling Hot Linked",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_SIZZLING_HOT_LINKED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Cash Connection™ - Golden Book Of Ra™ Linked",
+    "imageUrl": "https://www.711.nl/media/2022-10/golden-book-of-ra-iCd-game.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95
+  },
+  {
+    "name": "Book of Ra",
+    "imageUrl": "https://www.711.nl/media/2022-05/book-of-ra-old-icon-MJH-game.jpeg",
+    "minBet": 0.02,
+    "maxBet": 18,
+    "rtp": 95.1
+  },
+  {
+    "name": "Cash Connection Charming Ladys Boom Coins",
+    "imageUrl": "https://www.711.nl/media/2026-05/f1jxm9g8rhmedesfg92s-ckH-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Fortune Runner",
+    "imageUrl": "https://www.711.nl/media/2026-05/fr-250x157-1-e8C-game.jpeg",
+    "minBet": 0.01,
+    "maxBet": 2,
+    "rtp": 97.5
+  },
+  {
+    "name": "Risk 4 Reward",
+    "imageUrl": "https://www.711.nl/media/2026-05/risk4-kZU-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 97.3
+  },
+  {
+    "name": "Piggy Prizes Railroad Rumble",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PIGGY_PRIZES_RAILROAD_RUMBLE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.12
+  },
+  {
+    "name": "Cow Abduction Tapper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_COW_ABDUCTION_TAPPER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Queen of Coins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_QUEEN_OF_COINS/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 8,
+    "rtp": 95
+  },
+  {
+    "name": "Wheeler Dealer",
+    "imageUrl": "https://www.711.nl/media/2026-04/dealer-Ny8-game.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Coin Blast",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_COIN_BLAST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "Rumble Riches Haulin Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RUMBLE_RICHES_HAULIN_GOLD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.15
+  },
+  {
+    "name": "Simply Wild SuperStars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SIMPLY_WILD_SUPERSTARS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Panda Pearls",
+    "imageUrl": "https://www.711.nl/media/2026-03/panda-kTr-game.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Starlight Jackpots Mighty Mayans",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLIGHT_JACKPOTS_MIGHTY_MAYANS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.14
+  },
+  {
+    "name": "Cash Connection Moonlight Safari",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_MOONLIGHT_SAFARI/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Three Bandits Shoot n Spin",
+    "imageUrl": "https://www.711.nl/media/2026-02/three-bandits-shoot-spin-aIi-game.webp",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Firecracker Frenzy Money Toad",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FIRECRACKER_FRENZY_MONEY_TOAD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.16
+  },
+  {
+    "name": "Brilliant Pots 50 Joker Frenzy",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x157-1-1-RqI-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 44,
+    "rtp": 95
+  },
+  {
+    "name": "Brilliant Pots 100 Magnificent Crown",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BRILLIANT_POTS_100_MAGNIFICENT_CROWN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 44,
+    "rtp": 95
+  },
+  {
+    "name": "Multi Coins Pro",
+    "imageUrl": "https://www.711.nl/media/2026-01/multi-coins-pro-3Lx-game.webp",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Gorilla Cash",
+    "imageUrl": "https://www.711.nl/media/2026-01/image-SRR-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.1
+  },
+  {
+    "name": "3 Mystic Lamps",
+    "imageUrl": "https://www.711.nl/media/2026-01/3-mystic-lamps-Jeo-game.webp",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.01
+  },
+  {
+    "name": "Enchanted Pegasus BOOM",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_ENCHANTED_PEGASUS_BOOM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Cash Connection Swiss Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_SWISS_MAGIC_94/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94
+  },
+  {
+    "name": "Piggy Prizes Jingle Jackpots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PIGGY_PRIZES_JINGLE_JACKPOTS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.12
+  },
+  {
+    "name": "Multi Reels Grand Slam",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MULTI_REELS_GRAND_SLAM/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Super Scatter X",
+    "imageUrl": "https://www.711.nl/media/2025-11/supper-scatter-x-wbB-game.webp",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95
+  },
+  {
+    "name": "Lock Breakers Golden Nuts",
+    "imageUrl": "https://www.711.nl/media/2025-11/lock-breakers-golden-nuts-9wa-game.webp",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.55
+  },
+  {
+    "name": "Cash Connection – Solid Sevens",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_SOLID_SEVENS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Lone Star Link: Sizzling Wins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LONE_STAR_LINK_SIZZLING_WINS/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95.05
+  },
+  {
+    "name": "Caichen Triple Blossom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CAICHEN_TRIPLE_BLOSSOM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "A Mummy Full of Wilds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_A_MUMMY_FULL_OF_WILDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.12
+  },
+  {
+    "name": "Creepy Candy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CREEPY_CANDY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.01
+  },
+  {
+    "name": "Silver Lux Sevens Hold em Respin",
+    "imageUrl": "https://www.711.nl/media/2025-10/silver-lux-sevens-holdem-respin-aBZ-game.webp",
+    "minBet": 2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Starlight Jackpots Captains Catch",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLIGHT_JACKPOTS_CAPTAINS_CATCH_94/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94.11
+  },
+  {
+    "name": "Classic Jackpot Hot Shot Ante Bet",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLASSIC_JACKPOT_HOT_SHOT_ANTE_BET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 2.2,
+    "rtp": 96.55
+  },
+  {
+    "name": "Lucky Luchadoras",
+    "imageUrl": "https://www.711.nl/media/2025-09/lucky-luchadoras-HJC-game.webp",
+    "minBet": 0.2,
+    "maxBet": 37.5,
+    "rtp": 95
+  },
+  {
+    "name": "Multi Coins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MULTI_COINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "9 Hearts",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_9_HEARTS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Coin Spinner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_COIN_SPINNER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "Firecracker Frenzy Empress Wealth",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FIRECRACKER_FRENZY_EMPRESS_WEALTH_94/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.16
+  },
+  {
+    "name": "Jokers Bonanza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JOKERS_BONANZA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.17
+  },
+  {
+    "name": "Silver Lux Extra Dice",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SILVER_LUX_EXTRA_DICE/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Piggy Prizes Coins O' Plenty Xtreme Bet",
+    "imageUrl": "https://www.711.nl/media/2025-06/250x157-18-gpZ-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.1
+  },
+  {
+    "name": "Lock Breakers Goblin Bros",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LOCK_BREAKERS_GOBLIN_BROS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.55
+  },
+  {
+    "name": "Trinity Treasures Wukong",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TRINITY_TREASURES_WUKONG/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "711 Simply Hold'Em",
+    "imageUrl": "https://www.711.nl/media/2025-05/711-simply-hold-em-97-1-wjq-game.webp",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 97
+  },
+  {
+    "name": "Ultra Blitz Chilli El Toro",
+    "imageUrl": "https://www.711.nl/media/2025-06/image-14-0nj-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95
+  },
+  {
+    "name": "Starlight Jackpots Odds of the Gods 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLIGHT_JACKPOTS_ODDS_OF_THE_GODS_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.15
+  },
+  {
+    "name": "Diamond Link Mighty Cleopatra",
+    "imageUrl": "https://www.711.nl/media/2025-05/250x157-15-Tb3-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.01
+  },
+  {
+    "name": "Cash Cascade – 100 Charming 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CASCADE_100_CHARMING_7S/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Sushi Fruits",
+    "imageUrl": "https://www.711.nl/media/2025-05/image-3-sb6-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Gang Wars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GANG_WARS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "3 Fortune Wishes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_3_FORTUNE_WISHES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95
+  },
+  {
+    "name": "Joker Winner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JOKER_WINNER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Lucky Lady’s Roulette",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LUCKY_LADYS_ROULETTE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": null
+  },
+  {
+    "name": "Diamond Mystery 100 Charming 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_MYSTERY_100_CHARMING_7S/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Piggy Prizes Wand Of Riches 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PIGGY_PRIZES_WAND_OF_RICHES_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.12
+  },
+  {
+    "name": "Dessert Kingdom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DESSERT_KINGDOM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 37.5,
+    "rtp": 95
+  },
+  {
+    "name": "Pepper Mania Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PEPPER_MANIA_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Link Mighty Viking",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_VIKING/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.01
+  },
+  {
+    "name": "Super Triple Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SUPER_TRIPLE_FORTUNE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.62
+  },
+  {
+    "name": "Little Cluckers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LITTLE_CLUCKERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.07
+  },
+  {
+    "name": "Party Parrots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PARTY_PARROTS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.07
+  },
+  {
+    "name": "Diamond Mystery Fruitful Frenzy Cash Acc",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_MYSTERY_FRUITFUL_FRENZY_CASH_ACC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Lamp of Wonders Tapper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LAMP_OF_WONDERS_TAPPER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Silver Lux Triple Bonus Gems",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SILVER_LUX_TRIPLE_BONUS_GEMS/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Fruit King Super Cash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FRUIT_KING_SUPER_CASH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "Simply Wild 20",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SIMPLY_WILD_20/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Lucky Sword Tapper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LUCKY_SWORD_TAPPER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Mystery 40 Charming 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_MYSTERY_40_CHARMING_7S/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.48
+  },
+  {
+    "name": "Classic Jackpot Random Runner Ante bet",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLASSIC_JACKPOT_RANDOM_RUNNER_ANTE_BET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 8,
+    "rtp": 95.48
+  },
+  {
+    "name": "Classic Jackpot TopSpinner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLASSIC_JACKPOT_TOPSPINNER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 4,
+    "rtp": 88.05
+  },
+  {
+    "name": "Classic Jackpot Simply Wild Ante bet",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLASSIC_JACKPOT_SIMPLY_WILD_ANTE_BET/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 2,
+    "rtp": 87.05
+  },
+  {
+    "name": "Lucky Lady’s Charm Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LUCKY_LADYS_CHARM_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 16,
+    "rtp": 95.12
+  },
+  {
+    "name": "Diamond Link Mighty Santa Boarded Up",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_SANTA_BOARDED_UP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Xmas Bells",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_XMAS_BELLS/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95.08
+  },
+  {
+    "name": "Tiger & Jewel",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TIGER_AND_JEWEL/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 7.5,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Mystery Fortune Streaks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_MYSTERY_FORTUNE_STREAKS/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Runner Unlimited Cascading Wins (Ante Bet)",
+    "imageUrl": "https://www.711.nl/media/2024-11/runner-unlimited-cascading-wins-ante-bet-AgR-game.webp",
+    "minBet": 0.24,
+    "maxBet": 48,
+    "rtp": 95
+  },
+  {
+    "name": "Random Runner 20",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RANDOM_RUNNER_20/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.5
+  },
+  {
+    "name": "Royal Flush Trophy Spins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_ROYAL_FLUSH_TROPHY_SPINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 0,
+    "rtp": 94.52
+  },
+  {
+    "name": "Hit ME Baby!",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_HIT_ME_BABY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Pinata Blast Tapper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PINATA_BLAST_TAPPER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Link Mighty Elephant Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_ELEPHANT_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Calacas Cash",
+    "imageUrl": "https://www.711.nl/media/2024-10/250x157-22-HSH-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.61
+  },
+  {
+    "name": "Cash Connection Golden Voodoo Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_GOLDEN_VOODOO_MAGIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Mystery 81 Boosting Jokers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_MYSTERY_81_BOOSTING_JOKERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Golden Roar Boom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GOLDEN_ROAR_BOOM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Barkin Clusters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BARKIN_CLUSTERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94.99
+  },
+  {
+    "name": "Diamond Mystery – 100 Wild Fire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_MYSTERY_100_WILD_FIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Lone Star Link Eagle Wins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LONE_STAR_LINK_EAGLE_WINS/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Lone Star Link Grizzly Wins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LONE_STAR_LINK_GRIZZLY_WINS/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Shrimp On The Barbie",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SHRIMP_ON_THE_BARBIE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 95
+  },
+  {
+    "name": "Love And Rage Olympus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LOVE_AND_RAGE_OLYMPUS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Candy Splasher",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CANDY_SPLASHER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Random Flashback",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RANDOM_FLASHBACK/launch/250x157.png",
+    "minBet": 0.01,
+    "maxBet": null,
+    "rtp": 95
+  },
+  {
+    "name": "Imperial Crown Cash Cascade",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_IMPERIAL_CROWN_CASH_CASCADE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Random Runner Rad van Geluk",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RANDOM_RUNNER_RAD_VAN_GELUK/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 95
+  },
+  {
+    "name": "The Jungle House Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_THE_JUNGLE_HOUSE_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 95
+  },
+  {
+    "name": "Super Random Runner Hold & Run",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SUPER_RANDOM_RUNNER_HOLD_RUN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96
+  },
+  {
+    "name": "Mustang Dreaming",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MUSTANG_DREAMING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.44
+  },
+  {
+    "name": "Magnificent Merlin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MAGNIFICENT_MERLIN/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95.08
+  },
+  {
+    "name": "Electric Flamingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_ELECTRIC_FLAMINGO/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.07
+  },
+  {
+    "name": "Silver Lux Coin Stacks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SILVER_LUX_COIN_STACKS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Dynamite Fortunes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DYNAMITE_FORTUNES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.59
+  },
+  {
+    "name": "Simply Wild 4ortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SIMPLY_WILD_4ORTUNE/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 1.5,
+    "rtp": 95.82
+  },
+  {
+    "name": "Diamond Link Mighty Stampede",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_STAMPEDE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Silver Lux: Big Win Spinner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SILVER_LUX_BIG_WIN_SPINNER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Link Mighty Dwarves Inc.",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_DWARVES_INC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Silver Lux Coin Run",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SILVER_LUX_COIN_RUN/launch/250x157.png",
+    "minBet": 1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Diamond Mystery™ 40 Imperial Crown deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_MYSTERY_40_IMPERIAL_CROWN_DELUXE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.48
+  },
+  {
+    "name": "Diamond Link: Mighty Sevens Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_SEVENS_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "TopSpinner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TOPSPINNER/launch/250x157.png",
+    "minBet": 0.01,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Empire of Dead",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_EMPIRE_OF_DEAD/launch/250x157.png",
+    "minBet": 0.01,
+    "maxBet": 20,
+    "rtp": 95
+  },
+  {
+    "name": "Stellar Joker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STELLAR_JOKER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Starlight Jackpots Athena Goddess Of War",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLIGHT_JACKPOTS_ATHENA_GODDESS_OF_WAR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.62
+  },
+  {
+    "name": "Sharkys Choices Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SHARKYS_CHOICES_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Mystery Fruitilicious Deluxe",
+    "imageUrl": "https://www.711.nl/media/2024-01/diamond-mystery-fruitilicious-deluxe-e8U-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Piggy Prizes Wand Of Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_PIGGY_PRIZES_WAND_OF_RICHES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.55
+  },
+  {
+    "name": "Crown Spinner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CROWN_SPINNER/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 96
+  },
+  {
+    "name": "Bingo Staxx- Rudolphs Reign",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BINGO_STAXX_RUDOLPHS_REIGN/launch/250x157.png",
+    "minBet": 0.75,
+    "maxBet": 37.5,
+    "rtp": 95.13
+  },
+  {
+    "name": "Random Runner 4Ortune",
+    "imageUrl": "https://www.711.nl/media/2023-11/random-runner-4ortune-5IA-game.jpeg",
+    "minBet": 0.15,
+    "maxBet": 40,
+    "rtp": 96.71
+  },
+  {
+    "name": "A Christmas Full Of Wilds",
+    "imageUrl": "https://www.711.nl/media/2023-11/christmas-full-of-wilds-5c1-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.69
+  },
+  {
+    "name": "Magic Luck Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MAGIC_LUCK_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "5-Line Hold & Spin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_5_LINE_HOLD_AND_SPIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.1
+  },
+  {
+    "name": "Random Runner Twin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RANDOM_RUNNER_TWIN/launch/250x157.png",
+    "minBet": 0.01,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Cash Connection™ – Candelas de Los Muertos™ – Señor Muerte",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_C_C_CANDELAS_DE_LOS_MUERTOS_SENOR_MUERTE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Cash Connection™ - Candelas De Los Muertos™ - Señorita Suerte",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_C_C_CANDELAS_DE_LOS_MUERTOS_SENORITA_SUERTE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Tales: The Emperor New Clothes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_TALES_THE_EMPEROR_NEW_CLOTHES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 4,
+    "rtp": 95.01
+  },
+  {
+    "name": "Super Cherry Lock N Win",
+    "imageUrl": "https://www.711.nl/media/2023-10/super-cherry-locknwin-TQU-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 94.09
+  },
+  {
+    "name": "Diamond Mystery™ - 100 Imperial Crown Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_MYSTERY_100_IMPERIAL_CROWN_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Classic Link – Simply Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLASSIC_LINK_SIMPLY_WILD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Classic Link – Random Runner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLASSIC_LINK_RANDOM_RUNNER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.99
+  },
+  {
+    "name": "Diamond Tales: The Princess And The Pea",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_TALES_THE_PRINCESS_AND_THE_PEA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 4,
+    "rtp": 95.02
+  },
+  {
+    "name": "Big Bankin Bonanza™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BIG_BANKIN_BONANZA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.1
+  },
+  {
+    "name": "Rise Of Tut™ Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RISE_OF_TUT_MAGIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "20 Imperial Crown Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_20_IMPERIAL_CROWN_DELUXE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Juicy riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JUICY_RICHES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.26
+  },
+  {
+    "name": "Sevens Bonus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SEVENS_BONUS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Link: Cops 'n' Robbers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_COPS_N_ROBBERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Bingo Staxx Amazon Fury",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BINGO_STAXX_AMAZON_FURY/launch/250x157.png",
+    "minBet": 0.75,
+    "maxBet": 37.5,
+    "rtp": 95.13
+  },
+  {
+    "name": "Pots of Treasure™: Win Ways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_POTS_OF_TREASURE_WIN_WAYS_ANTE_BET/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 45,
+    "rtp": 96.18
+  },
+  {
+    "name": "Fortune Fishing",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FORTUNE_FISHING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Mega Blaze",
+    "imageUrl": "https://www.711.nl/media/2023-06/megablaze-QAL-game.jpeg",
+    "minBet": 0.05,
+    "maxBet": 25,
+    "rtp": 95.48
+  },
+  {
+    "name": "Cyber Wildz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CYBER_WILDZ/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94.99
+  },
+  {
+    "name": "Coin Runner Classic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_COIN_RUNNER_CLASSIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "10 Imperial Crown™ Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_10_IMPERIAL_CROWN_DELUXE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Egyptian Underworld",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_EGYPTIAN_UNDERWORLD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.5
+  },
+  {
+    "name": "Gems Of Giza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GEMS_OF_GIZA/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 95.15
+  },
+  {
+    "name": "Goddess Of Egypt™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GODDESS_OF_EGYPT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.12
+  },
+  {
+    "name": "Diamond Tales The Little Mermaid",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_TALES_THE_LITTLE_MERMAID/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 4,
+    "rtp": 95.02
+  },
+  {
+    "name": "Simply Wild SuperGame",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SIMPLY_WILD_SUPERGAME/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.5
+  },
+  {
+    "name": "Clash Of Legends Battle Lines",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLASH_OF_LEGENDS_BATTLE_LINES/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 94.45
+  },
+  {
+    "name": "Diamond Link Almighty Wolf",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_ALMIGHTY_WOLF/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.01
+  },
+  {
+    "name": "Running Wild Super",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_RUNNING_WILD_SUPER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "40 Imperial Crown",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_40_IMPERIAL_CROWN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.48
+  },
+  {
+    "name": "Twin Player Pepper Mania",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TWIN_PLAYER_PEPPER_MANIA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Cherry Surprise",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CHERRY_SURPRISE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94.53
+  },
+  {
+    "name": "Charming Lady's Boom™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CHARMING_LADYS_BOOM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Jack in the Box",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JACK_IN_THE_BOX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Forever Hot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FOREVER_HOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Fruity Splasher",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FRUITY_SPLASHER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.25
+  },
+  {
+    "name": "Manic Potions",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MANIC_POTIONS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94.51
+  },
+  {
+    "name": "25 Red Hot 7 Clover Link",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_25_RED_HOT_7_CLOVER_LINK/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 10,
+    "rtp": 94.55
+  },
+  {
+    "name": "Simply Wild™ Twin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SIMPLY_WILD_TWIN/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Wild Runner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_WILD_RUNNER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.5
+  },
+  {
+    "name": "Bingo Staxx™ Thunder Power",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BINGO_STAXX_THUNDER_POWER/launch/250x157.png",
+    "minBet": 0.75,
+    "maxBet": 30,
+    "rtp": 95.13
+  },
+  {
+    "name": "Star Candy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STAR_CANDY/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 20,
+    "rtp": 95.1
+  },
+  {
+    "name": "Diamond Tales The Ugly Duckling",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_TALES_THE_UGLY_DUCKLING/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 4,
+    "rtp": 95.01
+  },
+  {
+    "name": "Lucky Lady’s Charm™ Deluxe 10 Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LUCKY_LADYS_CHARM_DELUXE_10_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 42,
+    "rtp": 94.44
+  },
+  {
+    "name": "50 Red Hot 7 Clover Link",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_50_RED_HOT_7_CLOVER_LINK/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 10,
+    "rtp": 94.55
+  },
+  {
+    "name": "Cash Connection Voodoo Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_VOODOO_MAGIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Club 2000 Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLUB_2000_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Smashing Sevens Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SMASHING_SEVENS_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.12
+  },
+  {
+    "name": "Cops 'n' Robbers™ Drop Shot deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_COPS_N_ROBBERS_DROP_SHOT_DELUXE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.04
+  },
+  {
+    "name": "Chilli El Toro",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CHILLI_EL_TORO/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 7.5,
+    "rtp": 95.12
+  },
+  {
+    "name": "Lord of the Ocean 10 Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LORD_OF_THE_OCEAN_10_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.15
+  },
+  {
+    "name": "Lord of the Ocean™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LORD_OF_THE_OCEAN/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 20,
+    "rtp": 95.1
+  },
+  {
+    "name": "Diamond Link Mighty Sevens",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_SEVENS_LINKED/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Diamond Link: Mighty Santa",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_SANTA/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Jackpot Joker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JACKPOT_JOKER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 97
+  },
+  {
+    "name": "Super 2 Dice™",
+    "imageUrl": "https://www.711.nl/media/2022-08/superdice-aFW-game.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Feelin’ Fruity™: Win Ways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FEELIN_FRUITY_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.07
+  },
+  {
+    "name": "Starliner 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLINER_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 2.5,
+    "rtp": 98.48
+  },
+  {
+    "name": "Welcome Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_WELCOME_FORTUNE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.16
+  },
+  {
+    "name": "Diamond Link™: Mighty Buffalo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_BUFFALO/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 95
+  },
+  {
+    "name": "Stars Inferno™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARS_INFERNO/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Starliner 2 Hi-Roller",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLINER_2_HI_ROLLER/launch/250x157.png",
+    "minBet": 1,
+    "maxBet": 25,
+    "rtp": 98.42
+  },
+  {
+    "name": "Lucky Lady Charm Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LUCKY_LADYS_CHARM_DELUXE/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 20,
+    "rtp": 95.13
+  },
+  {
+    "name": "Roaring Forties™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_ROARING_FORTIES/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 40,
+    "rtp": 95.48
+  },
+  {
+    "name": "Dolphin's Pearl™ deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DOLPHINS_PEARL_DELUXE/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 20,
+    "rtp": 95.13
+  },
+  {
+    "name": "Apollo - God of the Sun",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_APOLLO_GOD_OF_THE_SUN_96/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 100,
+    "rtp": 96.02
+  },
+  {
+    "name": "Book of Ra Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BOOK_OF_RA_MAGIC/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 20,
+    "rtp": 95.03
+  },
+  {
+    "name": "Book of Ra: Temple of Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BOOK_OF_RA_TEMPLE_OF_GOLD/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 20,
+    "rtp": 95.28
+  },
+  {
+    "name": "Lone Star Jackpots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LONE_STAR_JACKPOTS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.14
+  },
+  {
+    "name": "Lucky Lady’s Charm Deluxe 10",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LUCKY_LADYS_CHARM_DELUXE_10/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.02
+  },
+  {
+    "name": "Wish Upon a Star",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_WISH_UPON_A_STAR/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.18
+  },
+  {
+    "name": "Book of Ra Deluxe 10",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BOOK_OF_RA_DELUXE_10_95/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.05
+  },
+  {
+    "name": "Lucky Star Spins 95",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_LUCKY_STAR_SPINS_95/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.18
+  },
+  {
+    "name": "Roaring Wilds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_ROARING_WILDS/launch/250x157.png",
+    "minBet": 0.01,
+    "maxBet": 40,
+    "rtp": 95.48
+  },
+  {
+    "name": "Spooky Spells",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SPOOKY_SPELLS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.18
+  },
+  {
+    "name": "Gold Star Fruits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GOLD_STAR_FRUITS_95/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Big Runner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BIG_RUNNER_95/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Fruitilicious",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FRUITILICIOUS_95/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.38
+  },
+  {
+    "name": "Joker5000Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JOKER5000WILD_96/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 80,
+    "rtp": 96.38
+  },
+  {
+    "name": "Diamond Link™: Oasis Riches linked",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_OASIS_RICHES_LINKED/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.01
+  },
+  {
+    "name": "Captain Venture: Treasures of the Sea",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CAPTAIN_VENTURE_TREASURES_OF_THE_SEA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.07
+  },
+  {
+    "name": "Silver Trails",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SILVER_TRAILS/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 95.15
+  },
+  {
+    "name": "Dolphin's Pearl deluxe 10",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DOLPHINS_PEARL_DELUXE_10/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 20,
+    "rtp": 95.13
+  },
+  {
+    "name": "Fruit King",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FRUIT_KING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95
+  },
+  {
+    "name": "Hot Shot™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_HOT_SHOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 94
+  },
+  {
+    "name": "Power Joker 95",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_POWER_JOKER_95/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "WildSpinner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_WILDSPINNER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 100,
+    "rtp": 95
+  },
+  {
+    "name": "Feelin' Fruity 10",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FEELIN_FRUITY_10/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.02
+  },
+  {
+    "name": "Diamond Link Mighty Emperor",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DIAMOND_LINK_MIGHTY_EMPEROR_LINKED_95/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Twin Spinner Sizzling Hot deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TWIN_SPINNER_SIZZLING_HOT_DELUXE/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 95.09
+  },
+  {
+    "name": "Chili Bomba™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CHILI_BOMBA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.2
+  },
+  {
+    "name": "Star Supreme™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STAR_SUPREME_95/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 20,
+    "rtp": 95.1
+  },
+  {
+    "name": "POWER PRIZES™ – Eternal Mandarin Ducks™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_POWER_PRIZES_ETERNAL_MANDARIN_DUCKS/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "Gemini Twin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GEMINI_TWIN_95/launch/250x157.png",
+    "minBet": 0.01,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Cash Connection – Book of Ra",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_CONNECTION_BOOK_OF_RA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Club 2000",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CLUB_2000/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Mega Slam Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MEGA_SLAM_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 100,
+    "rtp": 95
+  },
+  {
+    "name": "Power Stars 481",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_POWER_STARS_481/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 50,
+    "rtp": 95.07
+  },
+  {
+    "name": "Tidal Riches No Hi Roller",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TIDAL_RICHES_NO_HI_ROLLER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.26
+  },
+  {
+    "name": "Dragon Blitz™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_DRAGON_BLITZ/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.18
+  },
+  {
+    "name": "POWER PRIZES – Royal Crane",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_POWER_PRIZES_ROYAL_CRANE/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "Twin Spinner Book of Ra deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TWIN_SPINNER_BOOK_OF_RA_DELUXE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.1
+  },
+  {
+    "name": "Fruit Fest",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_FRUIT_FEST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Wild Lines: American Eagle™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_WILD_LINES_AMERICAN_EAGLE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "Gold Runner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_GOLD_RUNNER/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 100,
+    "rtp": 95
+  },
+  {
+    "name": "Hold It Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_HOLD_IT_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 100,
+    "rtp": 95
+  },
+  {
+    "name": "Wild Ranger",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_WILD_RANGER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.15
+  },
+  {
+    "name": "Jokers Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JOKERS_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 100,
+    "rtp": 95
+  },
+  {
+    "name": "Simply Wilder",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SIMPLY_WILDER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 100,
+    "rtp": 95
+  },
+  {
+    "name": "7s Gold Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_7S_GOLD_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "40 Ferocious Fruits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_40_FEROCIOUS_FRUITS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.48
+  },
+  {
+    "name": "50 Extreme Hot [linked]",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_50_EXTREME_HOT_LINKED/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 20,
+    "rtp": 95.48
+  },
+  {
+    "name": "9-Line Fortune™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_9_LINE_FORTUNE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95
+  },
+  {
+    "name": "A Fistful Of Wilds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_A_FISTFUL_OF_WILDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 160,
+    "rtp": 95.2
+  },
+  {
+    "name": "Cash 300 Casino",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_CASH_300_CASINO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Joker 2000",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JOKER_2000/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 100,
+    "rtp": 96.38
+  },
+  {
+    "name": "POWER PRIZES™ – Noble Peacock™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_POWER_PRIZES_NOBLE_PEACOCK/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "Smoking Hot 7's",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SMOKING_HOT_7S_LINKED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 95.48
+  },
+  {
+    "name": "Top O' the Money™ Pots of Wealth",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TOP_O_THE_MONEY_POTS_OF_WEALTH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.16
+  },
+  {
+    "name": "Imperial Crown",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_IMPERIAL_CROWN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Twin Spinner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TWIN_SPINNER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 200,
+    "rtp": 95
+  },
+  {
+    "name": "40 Wild Fire 6",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_40_WILD_FIRE_6/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Starliner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLINER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 4,
+    "rtp": 98.31
+  },
+  {
+    "name": "Starliner VIP",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_STARLINER_01/launch/250x157.png",
+    "minBet": 1,
+    "maxBet": 40,
+    "rtp": 98.31
+  },
+  {
+    "name": "40 Supreme Fruits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_40_SUPREME_FRUITS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.48
+  },
+  {
+    "name": "Madly Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MADLY_WILD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 80,
+    "rtp": 96.42
+  },
+  {
+    "name": "Twin Winner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_TWIN_WINNER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 95
+  },
+  {
+    "name": "Book of Ra™ deluxe 10 Win Ways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_BOOK_OF_RA_DELUXE_10_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.15
+  },
+  {
+    "name": "Sizzling Hot deluxe 10 Win Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_SIZZLING_HOT_DELUXE_10_WIN_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 95.12
+  },
+  {
+    "name": "Joker Party™ 6",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_JOKER_PARTY_6_01/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.48
+  },
+  {
+    "name": "Multi Runner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_MULTI_RUNNER/launch/250x157.png",
+    "minBet": 0,
+    "maxBet": 0,
+    "rtp": null
+  },
+  {
+    "name": "Hu Wants Money",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/GTB_HU_WANTS_MONEY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 94.96
+  }
+]

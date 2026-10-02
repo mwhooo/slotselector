@@ -1,0 +1,737 @@
+[
+  {
+    "name": "Mighty Crown Empire of Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MIGHTY_CROWN_EMPIRE_OF_GOLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.19
+  },
+  {
+    "name": "Magic Fruits Cherries",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MAGIC_FRUITS_CHERRIES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.13
+  },
+  {
+    "name": "9 Balls",
+    "imageUrl": "https://www.711.nl/media/2026-06/rnozgi0yuqoemprg4po8-Noh-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.04
+  },
+  {
+    "name": "Ox Coin",
+    "imageUrl": "https://www.711.nl/media/2026-05/zxsgbyqbxg7pcsyj8uve-RmO-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.21
+  },
+  {
+    "name": "Magic Fruits Oranges",
+    "imageUrl": "https://www.711.nl/media/2026-03/4wzd-unZ-game.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.14
+  },
+  {
+    "name": "Fishermans Luck",
+    "imageUrl": "https://www.711.nl/media/2026-03/fishermans-luck-Yhg-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Valentines Coins",
+    "imageUrl": "https://www.711.nl/media/2026-02/valentines-coins-ZFh-game.webp",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.06
+  },
+  {
+    "name": "Mighty Wild Gorilla Love the Jackpot",
+    "imageUrl": "https://www.711.nl/media/2026-02/mighty-wild-gorilla-love-the-jackpot-B8K-game.webp",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "Cash Grotto Love the Jackpot",
+    "imageUrl": "https://www.711.nl/media/2026-02/cash-grotto-love-the-jackpot-LwI-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "16 Coins x5000 Love the Jackpot",
+    "imageUrl": "https://www.711.nl/media/2026-02/16-coins-x5000-love-the-jackpot-pgE-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Bumba Meu Boi Coin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_BUMBA_MEU_BOI_COIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.14
+  },
+  {
+    "name": "Mighty Wild Gorilla",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MIGHTY_WILD_GORILLA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "Santas Gift Frenzy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SANTAS_GIFT_FRENZY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.12
+  },
+  {
+    "name": "Mighty Hot 777",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MIGHTY_HOT_777/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.15
+  },
+  {
+    "name": "Mighty Wild Jaguar Santa's Jackpots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MIGHTY_WILD_JAGUAR_SANTAS_JACKPOTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Mighty Wild Jaguar Halloween Jackpot",
+    "imageUrl": "https://www.711.nl/media/2025-10/mighty-wild-jaguar-halloween-jackpot-qF8-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Mighty Crown Legacy of Mars",
+    "imageUrl": "https://www.711.nl/media/2025-10/mighty-crown-legacy-of-mars-hyl-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.15
+  },
+  {
+    "name": "16 Coins x5000",
+    "imageUrl": "https://www.711.nl/media/2025-10/16-coins-5000x-D3U-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Cash Grotto",
+    "imageUrl": "https://www.711.nl/media/2025-10/cash-grotto-OTR-game.webp",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.13
+  },
+  {
+    "name": "Hot Slot 777 Diamond Crown",
+    "imageUrl": "https://www.711.nl/media/2025-09/250x157-4-dCC-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.15
+  },
+  {
+    "name": "15 Coins Grand Diamond Edition",
+    "imageUrl": "https://www.711.nl/media/2025-09/250x157-81-5Si-game.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.15
+  },
+  {
+    "name": "Bells of Fortune",
+    "imageUrl": "https://www.711.nl/media/2025-09/bells-of-fortune-j5o-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Hot Slot 777 Platinum Crown",
+    "imageUrl": "https://www.711.nl/media/2025-07/250x157-80-NSh-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "36 Coins Grand Gold Edition",
+    "imageUrl": "https://www.711.nl/media/2025-07/36-coins-grand-gold-edition-ePG-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Sizzling Eggs Grand Platinum Edition",
+    "imageUrl": "https://www.711.nl/media/2025-06/250x157-2-2-WLU-game.jpeg",
+    "minBet": 1000,
+    "maxBet": 150000,
+    "rtp": 96.11
+  },
+  {
+    "name": "30 Coins™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_30_COINS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 0.4,
+    "rtp": 96.2
+  },
+  {
+    "name": "30 Coins Grand Gold Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_30_COINS_GRAND_GOLD_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.2
+  },
+  {
+    "name": "Hot Slot: 777 Hold the Jackpot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_777_HOLD_THE_JACKPOT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.14
+  },
+  {
+    "name": "Sizzling Eggs Grand Gold Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SIZZLING_EGGS_GRAND_GOLD_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.16
+  },
+  {
+    "name": "Hot Slot: 777 Gold Crown",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_777_GOLD_CROWN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "16 Coins Grand Platinum Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_16_COINS_GRAND_PLATINUM_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.16
+  },
+  {
+    "name": "25 Coins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_25_COINS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "25 Coins Grand Gold Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_25_COINS_GRAND_GOLD_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "12 Coins Grand Diamond Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_12_COINS_GRAND_DIAMOND_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "20 Coins Grand Gold Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_20_COINS_GRAND_GOLD_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.15
+  },
+  {
+    "name": "15 Coins Grand Platinum Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_15_COINS_GRAND_PLATINUM_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.17
+  },
+  {
+    "name": "Mighty Symbols Diamonds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MIGHTY_SYMBOLS_DIAMONDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.13
+  },
+  {
+    "name": "36 Coins™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_36_COINS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.16
+  },
+  {
+    "name": "12 Bells",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_12_BELLS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.15
+  },
+  {
+    "name": "9 Coins Grand Platinum Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_9_COINS_GRAND_PLATINUM_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.04
+  },
+  {
+    "name": "15 Coins™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_15_COINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.07
+  },
+  {
+    "name": "16 Coins™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_16_COINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.18
+  },
+  {
+    "name": "9 Coins Extremely Light Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_9_COINS_EXTREMELY_LIGHT_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.06
+  },
+  {
+    "name": "Mighty Wild Panther",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MIGHTY_WILD_PANTHER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.15
+  },
+  {
+    "name": "9 Coins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_9_COINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Larry the Leprechaun",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_LARRY_THE_LEPRECHAUN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.47
+  },
+  {
+    "name": "9 Coins 1000 Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_9_COINS_1000_EDITION/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "12 Coins™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_12_COINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.13
+  },
+  {
+    "name": "9 Lions",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_9_LIONS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.59
+  },
+  {
+    "name": "9 Lions™ Hold the Jackpot™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_9_LIONS_HOLD_THE_JACKPOT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.59
+  },
+  {
+    "name": "Magic Spins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MAGIC_SPINS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Hot Slot 777 Coins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_777_COINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.12
+  },
+  {
+    "name": "Sun of Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SUN_OF_FORTUNE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.15
+  },
+  {
+    "name": "Hot Slot 777 Cash Out",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_777_CASH_OUT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.11
+  },
+  {
+    "name": "9 Burning Dragons",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_9_BURNING_DRAGONS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.12
+  },
+  {
+    "name": "Hot Slot 777 Rubies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_777_RUBIES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.16
+  },
+  {
+    "name": "Mystery Kingdom™: Mystery Bells",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MYSTERY_KINGDOM_MYSTERY_BELLS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Burning Sun™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_BURNING_SUN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.12
+  },
+  {
+    "name": "Power of Gods™: Valhalla",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_POWER_OF_GODS_VALHALLA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.23
+  },
+  {
+    "name": "Great Book of Magic Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_GREAT_BOOK_OF_MAGIC_DELUXE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.47
+  },
+  {
+    "name": "Fruit Mania Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_FRUIT_MANIA_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.59
+  },
+  {
+    "name": "Magic Stars 3",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MAGIC_STARS_3/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.5
+  },
+  {
+    "name": "Magic Target Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MAGIC_TARGET_DELUXE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.63
+  },
+  {
+    "name": "Black Hawk Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_BLACK_HAWK_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.47
+  },
+  {
+    "name": "Magic Fruits 4 Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MAGIC_FRUITS_4_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.41
+  },
+  {
+    "name": "BARs&7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_BARSAND7S/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.43
+  },
+  {
+    "name": "Mystery Jack Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MYSTERY_JACK_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.49
+  },
+  {
+    "name": "Hot 777 Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_777_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.47
+  },
+  {
+    "name": "Juicy Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_JUICY_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.49
+  },
+  {
+    "name": "Magic Stars 6",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MAGIC_STARS_6/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.49
+  },
+  {
+    "name": "Magic Fruits Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MAGIC_FRUITS_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Football Mania Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_FOOTBALL_MANIA_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.59
+  },
+  {
+    "name": "Lucky Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_LUCKY_REELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.6
+  },
+  {
+    "name": "Butterfly Lovers™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_BUTTERFLY_LOVERS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.16
+  },
+  {
+    "name": "Neon City",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_NEON_CITY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.25
+  },
+  {
+    "name": "Sonic Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SONIC_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 96.24
+  },
+  {
+    "name": "Black Horse™ Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_BLACK_HORSE_DELUXE/launch/250x157.png",
+    "minBet": 5,
+    "maxBet": 5000,
+    "rtp": 96.23
+  },
+  {
+    "name": "Choco Reels™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_CHOCO_REELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 26,
+    "rtp": 96.22
+  },
+  {
+    "name": "Telly Reels™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_TELLY_REELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.19
+  },
+  {
+    "name": "Reel Joke",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_REEL_JOKE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 26,
+    "rtp": 96.2
+  },
+  {
+    "name": "Gem Splitter",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_GEM_SPLITTER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 27,
+    "rtp": 96.27
+  },
+  {
+    "name": "Unicorn Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_UNICORN_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Clover Lady",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_CLOVER_LADY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.21
+  },
+  {
+    "name": "Wild Jack",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_WILD_JACK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.25
+  },
+  {
+    "name": "Burning Stars 3™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_BURNING_STARS_3/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.12
+  },
+  {
+    "name": "Midnight in Tokyo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MIDNIGHT_IN_TOKYO/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.16
+  },
+  {
+    "name": "Fortune Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_FORTUNE_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.12
+  },
+  {
+    "name": "Jelly Reels™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_JELLY_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.22
+  },
+  {
+    "name": "Sizzling Moon™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SIZZLING_MOON/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Sizzling Eggs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SIZZLING_EGGS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 0.5,
+    "rtp": 96.12
+  },
+  {
+    "name": "Sizzling Kingdom: Bison",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SIZZLING_KINGDOM_BISON/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.12
+  },
+  {
+    "name": "9 Burning Stars™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_9_BURNING_STARS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.14
+  },
+  {
+    "name": "Hot Slot Magic Bombs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_MAGIC_BOMBS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.19
+  },
+  {
+    "name": "Hot Slot Magic Pearls",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_MAGIC_PEARLS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Hot Slot 777 Stars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_777_STARS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Sizzling 777 Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SIZZLING_777_DELUXE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.42
+  },
+  {
+    "name": "Power of Sun: Svarog",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_POWER_OF_SUN_SVAROG/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.15
+  },
+  {
+    "name": "Prosperity Pearls",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_PROSPERITY_PEARLS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.18
+  },
+  {
+    "name": "Sizzling Bells™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_SIZZLING_BELLS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.2
+  },
+  {
+    "name": "Mighty Wild: Jaguar",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_MIGHTY_WILD_JAGUAR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Power of Gods™: Hades Hold the Jackpot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_POWER_OF_GODS_HADES_HOLD_THE_JACKPOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.14
+  },
+  {
+    "name": "Power of Gods™: Medusa",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_POWER_OF_GODS_MEDUSA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.18
+  },
+  {
+    "name": "Hot Slot™: Great Book of Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_GREAT_BOOK_OF_MAGIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5000,
+    "rtp": 96.1
+  },
+  {
+    "name": "Relic Hunters and the Book of Faith",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_RELIC_HUNTERS_AND_THE_BOOK_OF_FAITH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.37
+  },
+  {
+    "name": "Hot Slot™ Mystery Jackpot Joker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/WZD_HOT_SLOT_MYSTERY_JACKPOT_JOKER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.19
+  }
+]

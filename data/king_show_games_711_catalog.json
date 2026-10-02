@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Fishing Bob 1024 Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/BGS_KSG_FISHING_BOB_WAYS_95/launch/250x157.png",
+    "minBet": 0.6,
+    "maxBet": 30,
+    "rtp": 95
+  },
+  {
+    "name": "Fire Chariot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/BGS_KSG_FIRE_CHARIOT_95/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 2,
+    "rtp": 95
+  },
+  {
+    "name": "Cat Peak",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/BGS_KSG_CAT_PEAK_95/launch/250x157.png",
+    "minBet": 0.8,
+    "maxBet": 20,
+    "rtp": 95
+  }
+]

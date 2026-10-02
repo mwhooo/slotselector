@@ -1,0 +1,44 @@
+[
+  {
+    "name": "MineIsland",
+    "imageUrl": "https://www.711.nl/media/2026-02/mineisland-U1A-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 98
+  },
+  {
+    "name": "HelicopterX",
+    "imageUrl": "https://www.711.nl/media/2026-02/helicopterx-Z8F-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 98.9
+  },
+  {
+    "name": "FootballX",
+    "imageUrl": "https://www.711.nl/media/2025-08/footballx-nv1-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 97.9
+  },
+  {
+    "name": "PlinkoX",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SSG_PLINKOX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 97
+  },
+  {
+    "name": "JetX",
+    "imageUrl": "https://www.711.nl/media/2025-10/jetx-ZBS-game.webp",
+    "minBet": 0.1,
+    "maxBet": 200,
+    "rtp": 98.9
+  },
+  {
+    "name": "",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SSG_BALLOON/launch/250x157.png",
+    "minBet": null,
+    "maxBet": null,
+    "rtp": null
+  }
+]

@@ -1,0 +1,13 @@
+[
+  { "name": "Blazing Ares", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_BLA/launch/250x157.png", "minBet": 0.5, "maxBet": 20 },
+  { "name": "Sharks Lock", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_SHL_95/launch/250x157.png", "minBet": 0.66, "maxBet": 16.5 },
+  { "name": "Emperor Mystery", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_EMM_EU/launch/250x157.png", "minBet": 0.3, "maxBet": 18 },
+  { "name": "Frogged Up!", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_FRU_EU/launch/250x157.png", "minBet": 0.3, "maxBet": 18 },
+  { "name": "Blaze And Frost", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_BLF_EU/launch/250x157.png", "minBet": 0.3, "maxBet": 15 },
+  { "name": "Mammoth Kingdom", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_MAK_EU/launch/250x157.png", "minBet": 0.45, "maxBet": 18 },
+  { "name": "Gems of Egypt", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_GOE_EU/launch/250x157.png", "minBet": 0.3, "maxBet": 15 },
+  { "name": "Fortune Filler Imperial Temple", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_FOF/launch/220x157.png", "minBet": 0.88, "maxBet": 17.6 },
+  { "name": "Devil's Lock", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_DEL/launch/250x157.png", "minBet": 0.66, "maxBet": 19.8 },
+  { "name": "Dragons Legacy", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_DRL/launch/250x157.png", "minBet": 0.25, "maxBet": 17.5 },
+  { "name": "Alpha Spirit", "imageUrl": "https://cdn.oryxgaming.com/medialib/BBR_ASP/launch/250x157.png", "minBet": 0.25, "maxBet": 17.5 }
+]

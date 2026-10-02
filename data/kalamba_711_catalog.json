@@ -1,0 +1,765 @@
+[
+  {
+    "name": "Joker Spark 7s Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_SPARK_7S_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.2
+  },
+  {
+    "name": "40 Wild Craze PrizeTower",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_40_WILD_CRAZE_PRIZETOWER/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 50,
+    "rtp": 96.08
+  },
+  {
+    "name": "Chest Chaser Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_CHEST_CHASER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Sultan Express 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_SULTAN_EXPRESS_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 7.5,
+    "rtp": 96.01
+  },
+  {
+    "name": "3 Wacky Piggies Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-07/3-wacky-piggies-hold-and-win-ezX-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 4,
+    "rtp": 96.04
+  },
+  {
+    "name": "Bisonado 2 PrizeMatch",
+    "imageUrl": "https://www.711.nl/media/2026-07/bisonado-2-prizematch-nhc-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.1
+  },
+  {
+    "name": "Potion Max 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_POTION_MAX_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 96.01
+  },
+  {
+    "name": "Bullion Rush 7s Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-07/b9vn5vxaxxd2tjtxhni0-VJs-game.jpeg",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.37
+  },
+  {
+    "name": "3 Pot Odyssey Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-06/p0tfeazyab8ufrsuvftt-ohX-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.04
+  },
+  {
+    "name": "10 Jester Wins PrizeTower",
+    "imageUrl": "https://www.711.nl/media/2026-06/vlndx0fjlyn5zocsxslj-ENc-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.97
+  },
+  {
+    "name": "Bounty Wheel Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-06/om6kvrocy7esrdcoffxf-BY4-game.jpeg",
+    "minBet": 0.05,
+    "maxBet": 5,
+    "rtp": 95.83
+  },
+  {
+    "name": "Jelly Dream Burst",
+    "imageUrl": "https://www.711.nl/media/2026-06/oapqr7urcmve56s0d4xf-n69-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.15
+  },
+  {
+    "name": "40 Shamrock Diamonds PrizeTower",
+    "imageUrl": "https://www.711.nl/media/2026-04/qjn1x7x6hvyum6vjkloe-PfE-game.jpeg",
+    "minBet": 0.4,
+    "maxBet": 40,
+    "rtp": 96.09
+  },
+  {
+    "name": "Sky Defender PrizeTower",
+    "imageUrl": "https://www.711.nl/media/2026-04/sky-MiX-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 95.54
+  },
+  {
+    "name": "Desert Scarabs PrizeTower",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_DESERT_SCARABS_PRIZETOWER/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 40,
+    "rtp": 96.09
+  },
+  {
+    "name": "Sapphire Supreme 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_SAPPHIRE_SUPREME_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Gold Mint 7s Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_GOLD_MINT_7S_DELUXE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 93.19
+  },
+  {
+    "name": "Pyramid Piggies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_PYRAMID_PIGGIES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.05
+  },
+  {
+    "name": "MultiBlitz 7s Max",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_MULTIBLITZ_7S_MAX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.01
+  },
+  {
+    "name": "3 Pot Mystery Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_3_POT_MYSTERY_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 4,
+    "rtp": 96.04
+  },
+  {
+    "name": "Finnegans Treasure 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_FINNEGANS_TREASURE_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.08
+  },
+  {
+    "name": "Coin Fall Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_COIN_FALL_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.37
+  },
+  {
+    "name": "Electro Blast 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_ELECTRO_BLAST_7S/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.99
+  },
+  {
+    "name": "3 Pot Piggies Hold And Win",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x1579-0De-game.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.11
+  },
+  {
+    "name": "Carnival Express 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_CARNIVAL_EXPRESS_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 96.01
+  },
+  {
+    "name": "Blazing Horses Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2026-02/blazing-horses-7s3-game.webp",
+    "minBet": 0.1,
+    "maxBet": 27,
+    "rtp": 96.11
+  },
+  {
+    "name": "WolfWood PrizeTower",
+    "imageUrl": "https://www.711.nl/media/2026-02/wolfwood-prizetower-hC8-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.98
+  },
+  {
+    "name": "Prosperous 8s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_PROSPEROUS_8S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.22
+  },
+  {
+    "name": "Double Jewel Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_DOUBLE_JEWEL_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.11
+  },
+  {
+    "name": "Star Bell 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_STAR_BELL_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Firedream Xmas Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2025-12/firedream-xmas-hold-and-win-wdl-game.webp",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.39
+  },
+  {
+    "name": "Mango Multi 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_MANGO_MULTI_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 48,
+    "rtp": 95.94
+  },
+  {
+    "name": "Ruby Heist Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_RUBY_HEIST_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.22
+  },
+  {
+    "name": "Jingle Express 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JINGLE_EXPRESS_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 96.01
+  },
+  {
+    "name": "Horus Fire PrizeTower",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_HORUS_FIRE_PRIZETOWER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.22
+  },
+  {
+    "name": "Piggy Bank Plunder Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2025-11/piggy-bank-plunder-Wbx-game.webp",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.39
+  },
+  {
+    "name": "Bison Madness PrizeTower",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_BISON_MADNESS_PRIZETOWER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 35,
+    "rtp": 96.15
+  },
+  {
+    "name": "Joker Fright 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_FRIGHT_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Emerald Glory 7s",
+    "imageUrl": "https://www.711.nl/media/2025-10/emerald-glory-7s-Qwp-game.webp",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 96.06
+  },
+  {
+    "name": "Mooncake Dragons Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_MOONCAKE_DRAGONS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.11
+  },
+  {
+    "name": "Ninjaz vs Narcos 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_NINJAZ_VS_NARCOS_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.48
+  },
+  {
+    "name": "Joker Catcher 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_CATCHER_7S/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.99
+  },
+  {
+    "name": "3 Blazing Scarabs Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_3_BLAZING_SCARABS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.05
+  },
+  {
+    "name": "Bisonado PrizeMatch",
+    "imageUrl": "https://www.711.nl/media/2025-09/bisonado-prizematch-46g-game.webp",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.02
+  },
+  {
+    "name": "Dragons Glow Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_DRAGONS_GLOW_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 45,
+    "rtp": 94.41
+  },
+  {
+    "name": "Jewels of Jupiter Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JEWELS_OF_JUPITER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.11
+  },
+  {
+    "name": "MultiBlitz 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_MULTIBLITZ_7S/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.21
+  },
+  {
+    "name": "Clover Supreme Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_CLOVER_SUPREME_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.22
+  },
+  {
+    "name": "SoloReel Blitz",
+    "imageUrl": "https://www.711.nl/media/2025-07/soloreeltm-7gF-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.92
+  },
+  {
+    "name": "Firedream 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_FIREDREAM_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.39
+  },
+  {
+    "name": "Eagle Honor 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_EAGLE_HONOR_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Soccer Storm Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2025-07/250x157-79-rWh-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 18,
+    "rtp": 96.2
+  },
+  {
+    "name": "Chili Max 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_CHILI_MAX_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.01
+  },
+  {
+    "name": "Glow Burst 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_GLOW_BURST_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Dynasty Spark 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_DYNASTY_SPARK_7S/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Aloha Juicy 7s",
+    "imageUrl": "https://www.711.nl/media/2025-06/aloha-juicy-7s-I9u-game.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Aztec Apocalypse PrizeMatch",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_AZTEC_APOCALYPSE_PRIZEMATCH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.02
+  },
+  {
+    "name": "Mango Express 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_MANGO_EXPRESS_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 96.01
+  },
+  {
+    "name": "Caribbean Anne Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_CARIBBEAN_ANNE_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.47
+  },
+  {
+    "name": "Cherry Rush 7s",
+    "imageUrl": "https://www.711.nl/media/2025-05/image-4-QIn-game.jpeg",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Alien Eggstractors",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_ALIEN_EGGSTRACTORS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.96
+  },
+  {
+    "name": "Bunny Hunt 7s",
+    "imageUrl": "https://www.711.nl/media/2025-04/250x157-5-BNV-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Firebolt Max 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_FIREBOLT_MAX_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.38
+  },
+  {
+    "name": "St. Patrick's Aqua Magic Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_ST_PATRICKS_AQUA_MAGIC_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.47
+  },
+  {
+    "name": "Emerald Bisons PrizeMatch",
+    "imageUrl": "https://www.711.nl/media/2025-03/250x157-73-oO2-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.02
+  },
+  {
+    "name": "Finnegan's Treasure 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_FINNEGANS_TREASURE_7S/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Hell Chef Goes Fishing",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_HELL_CHEF_GOES_FISHING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.48
+  },
+  {
+    "name": "Hyper Neko 7s",
+    "imageUrl": "https://www.711.nl/media/2025-02/250x157-66-N8T-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Hearts Bounty Blitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_HEARTS_BOUNTY_BLITZ/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 18,
+    "rtp": 96.15
+  },
+  {
+    "name": "Homeland Fortune 7s Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2025-02/250x157-58-1Bi-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.03
+  },
+  {
+    "name": "Gold Mint 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_GOLD_MINT_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.38
+  },
+  {
+    "name": "Snake Fortune Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_SNAKE_FORTUNE_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.11
+  },
+  {
+    "name": "Festive Xmas 7s",
+    "imageUrl": "https://www.711.nl/media/2024-12/250x157-festive-fIV-game.jpeg",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Jingle 7s Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2024-12/250x157-42-XGv-game.jpeg",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.38
+  },
+  {
+    "name": "Piñata Burst",
+    "imageUrl": "https://www.711.nl/media/2024-11/pinata-burst-J5W-game.webp",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.67
+  },
+  {
+    "name": "Joker Fortune Blitz 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_FORTUNE_BLITZ_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 18,
+    "rtp": 96.15
+  },
+  {
+    "name": "Skull Spirit 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_SKULL_SPIRIT_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0,
+    "maxBet": 0,
+    "rtp": 96.53
+  },
+  {
+    "name": "Phantom Family PrizeMatch",
+    "imageUrl": "https://www.711.nl/media/2024-10/250x157-28-BDS-game.jpeg",
+    "minBet": 0.5,
+    "maxBet": 15,
+    "rtp": 96.48
+  },
+  {
+    "name": "Fishline Loot Hold and Win",
+    "imageUrl": "https://www.711.nl/media/2024-10/250x157-21-HNB-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.47
+  },
+  {
+    "name": "Joker Spark 7s",
+    "imageUrl": "https://www.711.nl/media/2024-10/joker-spark-7s-tQr-game.webp",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Haunted Joker Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_HAUNTED_JOKER_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.44
+  },
+  {
+    "name": "Pharaoh's Dynasty PrizeMatch",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_PHARAOHS_DYNASTY_PRIZEMATCH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.02
+  },
+  {
+    "name": "Moo Snatchers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_MOO_SNATCHERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.53
+  },
+  {
+    "name": "Blazing Spirit Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_BLAZING_SPIRIT_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 20,
+    "rtp": 96.62
+  },
+  {
+    "name": "Cashpot Strike 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_CASHPOT_STRIKE_7S/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Diamond Bounty 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_DIAMOND_BOUNTY_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.51
+  },
+  {
+    "name": "Mammoth Chase",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_MAMMOTH_CHASE/launch/250x157.png",
+    "minBet": 0.6,
+    "maxBet": 27,
+    "rtp": 97.08
+  },
+  {
+    "name": "Miami Sunset 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_MIAMI_SUNSET_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.35
+  },
+  {
+    "name": "Joker Gold 7s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_GOLD_7S/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.44
+  },
+  {
+    "name": "Firebolt Multi 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_FIREBOLT_MULTI_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 95.23
+  },
+  {
+    "name": "Football Blast Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_FOOTBALL_BLAST_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 96.41
+  },
+  {
+    "name": "9 Blazing Cashpots Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_9_BLAZING_CASHPOTS_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 8,
+    "rtp": 96.5
+  },
+  {
+    "name": "Joker Lanterns",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_LANTERNS/launch/250x157.png",
+    "minBet": 0.14,
+    "maxBet": 50,
+    "rtp": 96.48
+  },
+  {
+    "name": "Joker Leprechauns Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_LEPRECHAUNS_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.44
+  },
+  {
+    "name": "Champion Blitz Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_CHAMPION_BLITZ_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 18,
+    "rtp": 96.2
+  },
+  {
+    "name": "Emerald Bounty 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_EMERALD_BOUNTY_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.53
+  },
+  {
+    "name": "Atlantis Thunder",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_ATLANTIS_THUNDER/launch/250x157.png",
+    "minBet": 0.6,
+    "maxBet": 9,
+    "rtp": 97.56
+  },
+  {
+    "name": "Heimdall's Gate",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_HEIMDALLS_GATE/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 30,
+    "rtp": 97.21
+  },
+  {
+    "name": "Heimdall's Gate Cash Quest",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_HEIMDALLS_GATE_CASH_QUEST/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 15,
+    "rtp": 96.48
+  },
+  {
+    "name": "Chilli Flame 7s Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_CHILLI_FLAME_7S_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.53
+  },
+  {
+    "name": "Hell Chef",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_HELL_CHEF/launch/250x157.png",
+    "minBet": 2,
+    "maxBet": 10,
+    "rtp": 96.7
+  },
+  {
+    "name": "Hyper Blitz Hold and Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_HYPER_BLITZ_HOLD_AND_WIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 18,
+    "rtp": 96.2
+  },
+  {
+    "name": "Flaming Scarabs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_FLAMING_SCARABS/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 7.5,
+    "rtp": 96.48
+  },
+  {
+    "name": "Tiger Claws",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_TIGER_CLAWS/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 24,
+    "rtp": 96.47
+  },
+  {
+    "name": "Sky Hunters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_SKY_HUNTERS/launch/250x157.png",
+    "minBet": 0.35,
+    "maxBet": 35,
+    "rtp": 96.63
+  },
+  {
+    "name": "Joker Supreme",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_SUPREME/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 9,
+    "rtp": 96.45
+  },
+  {
+    "name": "Joker Max",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_JOKER_MAX/launch/250x157.png",
+    "minBet": 0.14,
+    "maxBet": 50,
+    "rtp": 96.48
+  },
+  {
+    "name": "Burning Diamonds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_BURNING_DIAMONDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 9,
+    "rtp": 96.45
+  },
+  {
+    "name": "Griffin's Quest",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAL_GRIFFINS_QUEST/launch/250x157.png",
+    "minBet": 0.6,
+    "maxBet": 6,
+    "rtp": 96.5
+  }
+]

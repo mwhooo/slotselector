@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Hot Potato Battleground",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_HOT_POTATO_BATTLEGROUND/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.39
+  },
+  {
+    "name": "Temple of Akhet",
+    "imageUrl": "https://www.711.nl/media/2026-06/ojr9blrberk3xc5qq6lf-zES-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 94.14
+  },
+  {
+    "name": "Hammerblaze",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_HAMMERBLAZE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 44,
+    "rtp": 94.4
+  },
+  {
+    "name": "Alice Time Rift",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_ALICE_TIME_RIFT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94.1
+  },
+  {
+    "name": "Serpentico Smash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_SERPENTICO_SMASH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.18
+  },
+  {
+    "name": "3 Wildos",
+    "imageUrl": "https://www.711.nl/media/2026-04/wildos-LYo-game.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.2
+  },
+  {
+    "name": "Tutan Khaboom",
+    "imageUrl": "https://www.711.nl/media/2026-03/tkb-250x157-ori-game.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.17
+  },
+  {
+    "name": "Second Thunder",
+    "imageUrl": "https://www.711.nl/media/2026-02/second-thunder-P7w-game.webp",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 94.19
+  },
+  {
+    "name": "Pans Arcadia",
+    "imageUrl": "https://www.711.nl/media/2026-01/pans-arcadia-nkX-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "The Wildos 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_THE_WILDOS_2_94/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94.14
+  },
+  {
+    "name": "Midas Golden Touch",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_MIDAS_GOLDEN_TOUCH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Esqueleto Explosivo 3",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_ESQUELETO_EXPLOSIVO_3_94/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 60,
+    "rtp": 94.22
+  },
+  {
+    "name": "Carnival Queen",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_CARNIVAL_QUEEN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.1
+  },
+  {
+    "name": "Crystal Quest: Frostlands",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_CRYSTAL_QUEST_FROSTLANDS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.16
+  },
+  {
+    "name": "Hot Potato",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_HOT_POTATO_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.16
+  },
+  {
+    "name": "Eager Beavers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_EAGER_BEAVERS_94/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94.29
+  },
+  {
+    "name": "Esqueleto Explosivo 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_ESQUELETO_EXPLOSIVO_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Pink Elephants 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_PINK_ELEPHANTS_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.13
+  },
+  {
+    "name": "King of the Party",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_KING_OF_THE_PARTY_94/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.32
+  },
+  {
+    "name": "12 Bolts of Thunder",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_12_BOLTS_OF_THUNDER_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 7.5,
+    "rtp": 96.15
+  },
+  {
+    "name": "Midas Golden Touch Christmas Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_MIDAS_GOLDEN_TOUCH_CHRISTMAS_EDITION_96/launch/250x157.png",
+    "minBet": 0,
+    "maxBet": 20,
+    "rtp": 96.17
+  },
+  {
+    "name": "The Wildos",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_THE_WILDOS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.15
+  },
+  {
+    "name": "Dionysus Golden Feast",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_DIONYSUS_GOLDEN_FEAST_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.16
+  },
+  {
+    "name": "The Gunman of Goldwood",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_THE_GUNMAN_OF_GOLDWOOD_94/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94.31
+  },
+  {
+    "name": "Fruit Warp",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_FRUIT_WARP/launch/250x157.png",
+    "minBet": 0,
+    "maxBet": 20,
+    "rtp": 97
+  },
+  {
+    "name": "Jiggly Cash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_JIGGLY_CASH_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.19
+  },
+  {
+    "name": "Ravens Eye",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_RAVENS_EYE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Toki Time",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_TOKI_TIME/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 97.1
+  },
+  {
+    "name": "The Rift",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_THE_RIFT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.3
+  },
+  {
+    "name": "Frog Grog",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_FROG_GROG/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Flame Busters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_FLAME_BUSTERS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Pink Elephants",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_PINK_ELEPHANTS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "The Falcon Huntress",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_THE_FALCON_HUNTRESS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Bork The Berzerker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_BORK_THE_BERZERKER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 97.3
+  },
+  {
+    "name": "Wild Heist at Peacock Manor",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_WILD_HEIST_AT_PEACOCK_MANOR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Jaguar Temple",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_JAGUAR_TEMPLE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Tiger Rush",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_TIGER_RUSH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.3
+  },
+  {
+    "name": "Rocket Fellas Inc",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_ROCKET_FELLAS_INC/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Dragon Horn",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_DRAGON_HORN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Riders of the Storm",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_RIDERS_OF_THE_STORM/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 7.5,
+    "rtp": 96.14
+  },
+  {
+    "name": "Divine Lotus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_DIVINE_LOTUS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.14
+  },
+  {
+    "name": "Sword of Khans",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_SWORD_OF_KHANS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.36
+  },
+  {
+    "name": "Beat the Beast Krakens Lair",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_BEAT_THE_BEAST_KRAKENS_LAIR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.12
+  },
+  {
+    "name": "Beat the Beast Cerberus Inferno",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_BEAT_THE_BEAST_CERBERUS_INFERNO/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.15
+  },
+  {
+    "name": "Beat the Beast Quetzalcoatl's Trial",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_BEAT_THE_BEAST_QUETZALCOATLS_TRIAL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.16
+  },
+  {
+    "name": "Jin Chan's Pond of Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_JIN_CHANS_POND_OF_RICHES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 94.27
+  },
+  {
+    "name": "Crystal Quest Deep Jungle",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_CRYSTAL_QUEST_DEEP_JUNGLE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.14
+  },
+  {
+    "name": "Beat the Beast Griffin's Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_BEAT_THE_BEAST_GRIFFINS_GOLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.14
+  },
+  {
+    "name": "Crystal Quest: Arcane Tower",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_CRYSTAL_QUEST_ARCANE_TOWER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.17
+  },
+  {
+    "name": "Cosmic Voyager",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_COSMIC_VOYAGER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.14
+  },
+  {
+    "name": "Big Fin Bay",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_BIG_FIN_BAY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.14
+  },
+  {
+    "name": "Baron Bloodmore and the Crimson Castle",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_BARON_BLOODMORE_AND_THE_CRIMSON_CASTLE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.07
+  },
+  {
+    "name": "Pyramyth",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_PYRAMYTH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.17
+  },
+  {
+    "name": "Gods of Rock",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/THUNDER_GODS_OF_ROCK/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.05
+  }
+]

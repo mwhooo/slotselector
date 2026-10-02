@@ -1,0 +1,933 @@
+[
+  {
+    "name": "Fire in the Hole 3",
+    "imageUrl": "https://www.711.nl/media/2025-06/image-13-5FY-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 16,
+    "rtp": 96.05
+  },
+  {
+    "name": "Duck Hunters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DUCK_HUNTERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 16,
+    "rtp": 96.05
+  },
+  {
+    "name": "Gator Hunters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_GATOR_HUNTERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.11
+  },
+  {
+    "name": "Mental 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_MENTAL_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 3.36,
+    "rtp": 96.06
+  },
+  {
+    "name": "Seamen",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_SEAMEN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.06
+  },
+  {
+    "name": "Outsourced 2: Balkan Engineering",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_OUTSOURCED_2_BALKAN_ENGINEERING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 48.6,
+    "rtp": 96.04
+  },
+  {
+    "name": "AFK Airport Security",
+    "imageUrl": "https://www.711.nl/media/2026-07/osyktibsvuc3molfrytk-0Mf-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.07
+  },
+  {
+    "name": "Soaked By Seamen",
+    "imageUrl": "https://www.711.nl/media/2026-06/evfkzipiz6dirydc3l2a-2rW-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.04
+  },
+  {
+    "name": "Tanked 3 First Blood 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TANKED_3_FIRST_BLOOD_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 95.99
+  },
+  {
+    "name": "The Crypt",
+    "imageUrl": "https://www.711.nl/media/2023-09/thecrypt-9H2-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 24,
+    "rtp": 96.05
+  },
+  {
+    "name": "True Grit Redemption 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TRUE_GRIT_REDEMPTION_2_94/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 94.04
+  },
+  {
+    "name": "Tanked",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TANKED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.04
+  },
+  {
+    "name": "Flight Mode",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_FLIGHT_MODE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 46.2,
+    "rtp": 96.07
+  },
+  {
+    "name": "Highway to Hell",
+    "imageUrl": "https://www.711.nl/media/2025-04/image-2025-04-22t13-01-06-305z-gTt-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.03
+  },
+  {
+    "name": "Dead Men Walking",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DEAD_MEN_WALKING/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12,
+    "rtp": 96.2
+  },
+  {
+    "name": "Tombstone Begins",
+    "imageUrl": "https://www.711.nl/media/2026-05/tombstone-dgD-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.02
+  },
+  {
+    "name": "Duck Hunters 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DUCK_HUNTERS_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "San Quentin Manhunt",
+    "imageUrl": "https://www.711.nl/media/2026-04/san-quentin-manhunt-mobile-RQa-game.webp",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.15
+  },
+  {
+    "name": "Punk Rocker 3",
+    "imageUrl": "https://www.711.nl/media/2026-04/punk3-1-gR0-game.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.04
+  },
+  {
+    "name": "Golden Shower",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_GOLDEN_SHOWER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.04
+  },
+  {
+    "name": "Catfish Hunters",
+    "imageUrl": "https://www.711.nl/media/2026-03/catfish-KFm-game.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96.03
+  },
+  {
+    "name": "The Crypt 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_THE_CRYPT_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 16,
+    "rtp": 96.1
+  },
+  {
+    "name": "Supersized",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x157-23-2-JNi-game.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.07
+  },
+  {
+    "name": "Duck Hunters Happy Hour",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DUCK_HUNTERS_HAPPY_HOUR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96.07
+  },
+  {
+    "name": "Das xBoot Zwei",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DAS_XBOOT_ZWEI/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 32,
+    "rtp": 95.94
+  },
+  {
+    "name": "Crazy Ex Girlfriend",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_CRAZY_EXGIRLFRIEND/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.09
+  },
+  {
+    "name": "San Quentin xWays",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x157-1-1-wD6-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 1.6,
+    "rtp": 96.03
+  },
+  {
+    "name": "Deadwood xNudge",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x157-2-1-ixA-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 14,
+    "rtp": 96.03
+  },
+  {
+    "name": "Bizarre",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BIZZARE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.06
+  },
+  {
+    "name": "Bounty Hunters xNudge",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x157-3-1-zzz-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96.07
+  },
+  {
+    "name": "Disorder",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DISORDER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.11
+  },
+  {
+    "name": "Bangkok Hilton",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BANGKOK_HILTON/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96.1
+  },
+  {
+    "name": "Breakout",
+    "imageUrl": "https://www.711.nl/media/2025-10/breakout-W5j-game.webp",
+    "minBet": 0.2,
+    "maxBet": 48,
+    "rtp": 96.07
+  },
+  {
+    "name": "Dead Dead or Deader",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DEAD_DEAD_OR_DEADER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.09
+  },
+  {
+    "name": "Fire in the Hole 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_FIRE_IN_THE_HOLE_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 9,
+    "rtp": 96.07
+  },
+  {
+    "name": "Mental",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_MENTAL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 3.6,
+    "rtp": 96.08
+  },
+  {
+    "name": "Possessed",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_POSSESSED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12.5,
+    "rtp": 96.06
+  },
+  {
+    "name": "Road Rage",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_ROAD_RAGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 96.03
+  },
+  {
+    "name": "Benji Killed in Vegas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BENJI_KILLED_IN_VEGAS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 45,
+    "rtp": 96.04
+  },
+  {
+    "name": "Land of the Free",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_LAND_OF_THE_FREE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.08
+  },
+  {
+    "name": "Misery Mining",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_MISERY_MINING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 3.2,
+    "rtp": 96.09
+  },
+  {
+    "name": "Devils Crossroad",
+    "imageUrl": "https://www.711.nl/media/2024-01/devilscrossroad-hc4-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 16,
+    "rtp": 96.06
+  },
+  {
+    "name": "Kiss My Chainsaw",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_KISS_MY_CHAINSAW/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Karen Maneater",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_KAREN_MANEATER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 26,
+    "rtp": 96
+  },
+  {
+    "name": "Dead Canary",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DEAD_CANARY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5.04,
+    "rtp": 96.02
+  },
+  {
+    "name": "Tombstone RIP",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TOMBSTONE_RIP/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 0.88,
+    "rtp": 96.28
+  },
+  {
+    "name": "Blood & Shadow",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BLOOD_SHADOW/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 32,
+    "rtp": 96.13
+  },
+  {
+    "name": "Ugliest Catch",
+    "imageUrl": "https://www.711.nl/media/2023-10/ugliest-catch-Ooa-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 8.75,
+    "rtp": 96.11
+  },
+  {
+    "name": "Disturbed",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DISTURBED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.1
+  },
+  {
+    "name": "Das xBoot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DAS_XBOOT/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 4.5,
+    "rtp": 96.03
+  },
+  {
+    "name": "Remember Gulag",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_REMEMBER_GULAG/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 9.6,
+    "rtp": 96.52
+  },
+  {
+    "name": "Serial",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_SERIAL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 3.84,
+    "rtp": 96.07
+  },
+  {
+    "name": "Gaelic Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_GAELIC_GOLD/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 25,
+    "rtp": 96.15
+  },
+  {
+    "name": "Fire In The Hole xBomb",
+    "imageUrl": "https://www.711.nl/media/2023-04/fireinthehole-ocP-game.png",
+    "minBet": 0.2,
+    "maxBet": 4,
+    "rtp": 96.06
+  },
+  {
+    "name": "Tsar Wars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TSAR_WARS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Brute Force Alien Onslaught",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BRUTE_FORCE_ALIEN_ONSLAUGHT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 28.2,
+    "rtp": 96.07
+  },
+  {
+    "name": "Pearl Harbor",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_PEARL_HARBOR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 96.21
+  },
+  {
+    "name": "Kill Em All",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_KILL_EM_ALL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.12
+  },
+  {
+    "name": "Blood Diamond",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BLOOD_DIAMOND/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 42,
+    "rtp": 96.14
+  },
+  {
+    "name": "Home of the Brave",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_HOME_OF_THE_BRAVE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Tombstone Slaughter El Gordo’s Revenge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TOMBSTONE_SLAUGHTER_EL_GORDOS_REVENGE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.01
+  },
+  {
+    "name": "xWays Hoarder 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_XWAYS_HOARDER_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 24,
+    "rtp": 96.14
+  },
+  {
+    "name": "Outsourced Payday",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_OUTSOURCED_PAYDAY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Munchies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_MUNCHIES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 44.8,
+    "rtp": 96
+  },
+  {
+    "name": "Blood & Shadow 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BLOOD_AND_SHADOW_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 35,
+    "rtp": 96.09
+  },
+  {
+    "name": "Brute Force",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BRUTE_FORCE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 28.2,
+    "rtp": 96.08
+  },
+  {
+    "name": "San Quentin 2 Death Row",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_SAN_QUENTIN_2_DEATH_ROW/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 45,
+    "rtp": 96.13
+  },
+  {
+    "name": "Apocalypse Super xNudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_APOCALYPSE_SUPER_XNUDGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.03
+  },
+  {
+    "name": "Stockholm Syndrome",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_STOCKHOLM_SYNDROME/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.08
+  },
+  {
+    "name": "Outsourced",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_OUTSOURCED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.08
+  },
+  {
+    "name": "Punk Rocker 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_PUNK_ROCKER_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 16,
+    "rtp": 96.06
+  },
+  {
+    "name": "Beheaded",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BEHEADED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 28,
+    "rtp": 96.04
+  },
+  {
+    "name": "Deadwood R.I.P",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DEADWOOD_RIP/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.09
+  },
+  {
+    "name": "Loner",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_LONER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 35,
+    "rtp": 96.06
+  },
+  {
+    "name": "Kenneth Must Die",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_KENNETH_MUST_DIE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6.12,
+    "rtp": 96.04
+  },
+  {
+    "name": "Tombstone No Mercy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TOMBSTONE_NO_MERCY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "BRICK SNAKE 2000",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BRICK_SNAKE_2000/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10.5,
+    "rtp": 96.03
+  },
+  {
+    "name": "D Day",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_D_DAY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5.2,
+    "rtp": 96.12
+  },
+  {
+    "name": "Jingle Balls",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_JINGLE_BALLS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96.1
+  },
+  {
+    "name": "Nine To Five",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_NINE_TO_FIVE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 26.4,
+    "rtp": 96.1
+  },
+  {
+    "name": "Space Donkey",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_SPACE_DONKEY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 16,
+    "rtp": 96.07
+  },
+  {
+    "name": "DJ Psycho",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DJ_PSYCHO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 26.8,
+    "rtp": 96.05
+  },
+  {
+    "name": "True Kult",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TRUE_KULT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96.06
+  },
+  {
+    "name": "Gluttony",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_GLUTTONY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 96.09
+  },
+  {
+    "name": "Whacked!",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_WHACKED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.07
+  },
+  {
+    "name": "The Cage",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_THE_CAGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.05
+  },
+  {
+    "name": "Little Bighorn",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_LITTLE_BIGHORN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96.06
+  },
+  {
+    "name": "Walk of Shame",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_WALK_OF_SHAME/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 24,
+    "rtp": 96.04
+  },
+  {
+    "name": "Rock Bottom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_ROCK_BOTTOM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 15,
+    "rtp": 96.04
+  },
+  {
+    "name": "Book Of Shadows",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BOOK_OF_SHADOWS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 16,
+    "rtp": 96.01
+  },
+  {
+    "name": "The Border",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_THE_BORDER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 7.5,
+    "rtp": 96.2
+  },
+  {
+    "name": "xWays Hoarder xSplit",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_XWAYS_HOARDER_XSPLIT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 18,
+    "rtp": 96.14
+  },
+  {
+    "name": "Punk Toilet",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_PUNK_TOILET/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 96.06
+  },
+  {
+    "name": "Buffalo Hunter",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BUFFALO_HUNTER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 18,
+    "rtp": 96.01
+  },
+  {
+    "name": "Evil Goblins xBomb",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_EVIL_GOBLINS_XBOMB/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 6,
+    "rtp": 96.14
+  },
+  {
+    "name": "Folsom Prison",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_FOLSOM_PRISON/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 3.84,
+    "rtp": 96.07
+  },
+  {
+    "name": "East Coast vs West Coast",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_EAST_COAST_VS_WEST_COAST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.04
+  },
+  {
+    "name": "The Rave",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_THE_RAVE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 7.2,
+    "rtp": 96.24
+  },
+  {
+    "name": "Tombstone",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TOMBSTONE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.18
+  },
+  {
+    "name": "Warrior Graveyard xNudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_WARRIOR_GRAVEYARD_XNUDGE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 96.16
+  },
+  {
+    "name": "Thor Hammer Time",
+    "imageUrl": "https://www.711.nl/media/2026-02/250x157-1-2-2m9-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.03
+  },
+  {
+    "name": "Road Kill",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_ROAD_KILL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 18,
+    "rtp": 96.05
+  },
+  {
+    "name": "Punk Rocker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_PUNK_ROCKER/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 16,
+    "rtp": 96.01
+  },
+  {
+    "name": "Coins Of Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_COINS_OF_FORTUNE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.48
+  },
+  {
+    "name": "Casino Win Spin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_CASINO_WIN_SPIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.74
+  },
+  {
+    "name": "Dungeon Quest",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DUNGEON_QUEST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.27
+  },
+  {
+    "name": "Fruits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_FRUITS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.23
+  },
+  {
+    "name": "Hot Nudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_HOT_NUDGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.29
+  },
+  {
+    "name": "Ice Ice Yeti",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_ICE_ICE_YETI/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.16
+  },
+  {
+    "name": "Owls",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_OWLS/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 45,
+    "rtp": 96.22
+  },
+  {
+    "name": "Starstruck",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_STARSTRUCK/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 50,
+    "rtp": 96.19
+  },
+  {
+    "name": "Tesla Jolt",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TESLA_JOLT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.61
+  },
+  {
+    "name": "Wixx",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_WIXX/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.61
+  },
+  {
+    "name": "Mayan Magic Wildfire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_MAYAN_MAGIC_WILDFIRE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.04
+  },
+  {
+    "name": "Pixies VS Pirates",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_PIXIES_VS_PIRATES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.91
+  },
+  {
+    "name": "Tractor Beam",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TRACTOR_BEAM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.01
+  },
+  {
+    "name": "Manhattan Goes Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_MANHATTAN_GOES_WILD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.16
+  },
+  {
+    "name": "Tomb Of Nefertiti",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TOMB_OF_NEFERTITI/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.19
+  },
+  {
+    "name": "Dragon Tribe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_DRAGON_TRIBE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.07
+  },
+  {
+    "name": "Poison Eve",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_POISON_EVE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.08
+  },
+  {
+    "name": "Barbarian Fury",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BARBARIAN_FURY/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 96.06
+  },
+  {
+    "name": "Harlequin Carnival",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_HARLEQUIN_CARNIVAL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.14
+  },
+  {
+    "name": "Milky Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_MILKY_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.14
+  },
+  {
+    "name": "Bonus Bunnies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BONUS_BUNNIES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 32,
+    "rtp": 96.14
+  },
+  {
+    "name": "Golden Genie & the Walking Wilds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_GOLDEN_GENIE_AND_THE_WALKING_WILDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 24,
+    "rtp": 96.03
+  },
+  {
+    "name": "Immortal Fruits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_IMMORTAL_FRUITS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.06
+  },
+  {
+    "name": "Bushido Ways xNudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_BUSHIDO_WAYS_XNUDGE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.01
+  },
+  {
+    "name": "Infectious 5 xWays",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_INFECTIOUS_5_XWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 4,
+    "rtp": 96.02
+  },
+  {
+    "name": "Legion X",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_LEGION_X/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.04
+  },
+  {
+    "name": "El Paso Gunfight xNudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_EL_PASO_GUNFIGHT_XNUDGE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 5,
+    "rtp": 96.05
+  },
+  {
+    "name": "Monkeys Gold xPays",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_MONKEYS_GOLD_XPAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 18,
+    "rtp": 96.02
+  },
+  {
+    "name": "Tomb of Akhenaten",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TOMB_OF_AKHENATEN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.06
+  },
+  {
+    "name": "True Grit Redemption",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NLC_TRUE_GRIT_REDEMPTION/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.11
+  }
+]

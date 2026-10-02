@@ -1,0 +1,6 @@
+[
+  { "name": "3 Wonders Luck of Stallion", "imageUrl": "https://cdn.oryxgaming.com/medialib/BOO_WLS/launch/250x157.png", "minBet": 0.25, "maxBet": 20 },
+  { "name": "Spectral Bounty", "imageUrl": "https://cdn.oryxgaming.com/medialib/BOO_SPB/launch/250x157.png", "minBet": 0.25, "maxBet": 15 },
+  { "name": "Going Wild In Hawaii", "imageUrl": "https://cdn.oryxgaming.com/medialib/BOO_GWH/launch/250x157.png", "minBet": 0.4, "maxBet": 20 },
+  { "name": "3 Wonders Underworld Kingdom", "imageUrl": "https://cdn.oryxgaming.com/medialib/BOO_TKB_EU/launch/250x157.png", "minBet": 0.5, "maxBet": 20 }
+]

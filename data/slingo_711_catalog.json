@@ -1,0 +1,562 @@
+[
+  {
+    "name": "Slingo Sweet Bonanza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_SWEET_BONANZA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.45
+  },
+  {
+    "name": "Bouncy Bonnie",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_BOUNCY_BONNIE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94.07
+  },
+  {
+    "name": "Cash Vortex",
+    "imageUrl": "https://www.711.nl/media/2026-08/cash-vortex-VxX-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94.08
+  },
+  {
+    "name": "Slingo Pawn Shop",
+    "imageUrl": "https://www.711.nl/media/2026-07/slingo-pawn-shop-qTf-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 95.38
+  },
+  {
+    "name": "SLINGO 49s",
+    "imageUrl": "https://www.711.nl/media/2026-07/slingo-49s-vTd-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94.57
+  },
+  {
+    "name": "Slingo The Godfather",
+    "imageUrl": "https://www.711.nl/media/2026-06/soe8vfrushvvzxp6baj9-ddY-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94.9
+  },
+  {
+    "name": "Hop It Slingo Express",
+    "imageUrl": "https://www.711.nl/media/2026-06/fgqohnyab0s4daknpifi-TUC-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 94.04
+  },
+  {
+    "name": "Chilli Libre",
+    "imageUrl": "https://www.711.nl/media/2026-06/n0vwhzpfrwknvhsvqzja-1-DLy-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 94.22
+  },
+  {
+    "name": "Slingoooal Shootout",
+    "imageUrl": "https://www.711.nl/media/2026-05/at2l6j4obsdm49igbs3p-OCx-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.08
+  },
+  {
+    "name": "Slingo Starburst",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_STARBURST/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.66
+  },
+  {
+    "name": "Slingo Day2Dab",
+    "imageUrl": "https://www.711.nl/media/2026-04/slingo-1-XtF-game.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 94.84
+  },
+  {
+    "name": "Slingo XXXtreme Express",
+    "imageUrl": "https://www.711.nl/media/2026-03/slingo-knZ-game.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.11
+  },
+  {
+    "name": "Blackjack Bonus Bet",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_BLACKJACK_BONUS_BET/launch/250x157.png",
+    "minBet": 1,
+    "maxBet": 100,
+    "rtp": 99.62
+  },
+  {
+    "name": "Rise of Aztec Lock n Slingo",
+    "imageUrl": "https://www.711.nl/media/2026-02/rise-of-aztec-lock-slingo-FD7-game.webp",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.07
+  },
+  {
+    "name": "Slingo Loteria Don Clemente",
+    "imageUrl": "https://www.711.nl/media/2026-02/slingo-loteria-VBt-game.webp",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.57
+  },
+  {
+    "name": "FruttiBoost AutoSlingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_FRUTTIBOOST_AUTOSLINGO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.71
+  },
+  {
+    "name": "Slingo Christmas Re3ls",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CHRISTMAS_RE3LS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.34
+  },
+  {
+    "name": "Slingo Mine Frenzy",
+    "imageUrl": "https://www.711.nl/media/2025-11/slingo-mine-frenzy-vi0-game.webp",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.17
+  },
+  {
+    "name": "Big Bucks Canyon 10K Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_BIG_BUCKS_CANYON_10K_WAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.02
+  },
+  {
+    "name": "Slingo Slinguini",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_SLINGUINI/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.48
+  },
+  {
+    "name": "Sweet Sweet Slingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SWEET_SWEET_SLINGO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.38
+  },
+  {
+    "name": "Slingo Thunder Of The Gods",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_THUNDER_OF_THE_GODS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.4
+  },
+  {
+    "name": "5 Flaming Dollars",
+    "imageUrl": "https://www.711.nl/media/2025-08/5-flaming-dollars-8xT-game.webp",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94
+  },
+  {
+    "name": "Slingo Cash Eruption",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CASH_ERUPTION/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.79
+  },
+  {
+    "name": "Nefertiti Hot 1",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_NEFERTITI_HOT_1/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.24
+  },
+  {
+    "name": "Slingo Candy Machine Bl4st",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CANDY_MACHINE_BL4ST/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.48
+  },
+  {
+    "name": "Fishing Bob Slingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_FISHING_BOB_SLINGO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.54
+  },
+  {
+    "name": "Slingo Big Spin Booster",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_BIG_SPIN_BOOSTER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.46
+  },
+  {
+    "name": "Slingo Honey Crew",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_HONEY_CREW/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.17
+  },
+  {
+    "name": "Slingo Lucky McGold",
+    "imageUrl": "https://www.711.nl/media/2025-02/250x157-63-W54-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.34
+  },
+  {
+    "name": "Slingo Genie Gemstones",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_GENIE_GEMSTONES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.44
+  },
+  {
+    "name": "Slingo Cosmic Clusters",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_COSMIC_CLUSTERS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.15
+  },
+  {
+    "name": "Slingo Santa King",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_SANTA_KING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.21
+  },
+  {
+    "name": "Slingo Pop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_POP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.62
+  },
+  {
+    "name": "Slingo Fowl Play",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_FOWL_PLAY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.26
+  },
+  {
+    "name": "Slingo Journey to Asgard",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_JOURNEY_TO_ASGARD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.6
+  },
+  {
+    "name": "Slingo Press Your Luck",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_PRESS_YOUR_LUCK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.14
+  },
+  {
+    "name": "Slingo River Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_RIVER_REELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 95.34
+  },
+  {
+    "name": "Slingooooal Championship",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGOOOOAL_CHAMPIONSHIP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.48
+  },
+  {
+    "name": "Slingo Day Of The Dab",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_DAY_OF_THE_DAB/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.73
+  },
+  {
+    "name": "Slingo Gold Cash Freespins",
+    "imageUrl": "https://www.711.nl/media/2024-05/slingo-gold-cash-6XF-game.webp",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.19
+  },
+  {
+    "name": "Slingo Capital Gains",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CAPITAL_GAINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.68
+  },
+  {
+    "name": "Slingo Constitution Hill",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CONSTITUTION_HILL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.29
+  },
+  {
+    "name": "Slingo China Shores",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CHINA_SHORES/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 5,
+    "rtp": 94
+  },
+  {
+    "name": "Slingo Hot Roll",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_HOT_ROLL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 94.58
+  },
+  {
+    "name": "Slingo Bells",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_BELLS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Slingo Elf Blitz",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_ELF_BLITZ/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.35
+  },
+  {
+    "name": "Wolf Snowstorm",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_WOLF_SNOWSTORM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.74
+  },
+  {
+    "name": "Slingo Tetris",
+    "imageUrl": "https://www.711.nl/media/2023-10/slingo-tetris-EYX-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.07
+  },
+  {
+    "name": "Slingo Space Invaders",
+    "imageUrl": "https://www.711.nl/media/2023-09/slingospaceinvaders-9Qp-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.02
+  },
+  {
+    "name": "Slingo Carnival",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CARNIVAL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.6
+  },
+  {
+    "name": "Slingo Piggy Bank",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_PIGGY_BANK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.45
+  },
+  {
+    "name": "Slingo Money Train",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_MONEY_TRAIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.42
+  },
+  {
+    "name": "Slingo Lucky Joker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_LUCKY_JOKER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.27
+  },
+  {
+    "name": "Slingo Pirate's Treasure",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_PIRATES_TREASURE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.17
+  },
+  {
+    "name": "Slingo Cleopatra",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CLEOPATRA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 94.01
+  },
+  {
+    "name": "Slingo Lucky Larry's Lobstermania",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_LUCKY_LARRYS_LOBSTERMANIA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.38
+  },
+  {
+    "name": "Red Hot Slingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_RED_HOT_SLINGO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.33
+  },
+  {
+    "name": "Slingo X scream",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_X_SCREAM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Rakin Bacon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_RAKIN_BACON/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.69
+  },
+  {
+    "name": "Slingo Fire and Ice",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_FIRE_AND_ICE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.04
+  },
+  {
+    "name": "Slingoooal",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGOOOAL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.48
+  },
+  {
+    "name": "Slingo DaVinci Diamonds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_DAVINCI_DIAMONDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.59
+  },
+  {
+    "name": "Slingone Fishin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGONE_FISHIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.24
+  },
+  {
+    "name": "Reel King Slingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_REEL_KING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Slingo Centurion",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_CENTURION/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Slingo Racing",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_RACING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.34
+  },
+  {
+    "name": "Big Wheel Slingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_BIG_WHEEL_SLINGO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.58
+  },
+  {
+    "name": "Slingo Berserk",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_BERSERK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.51
+  },
+  {
+    "name": "Book of Slingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_BOOK_OF_SLINGO_01/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.5
+  },
+  {
+    "name": "Slingo Super Spin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_SUPER_SPIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.71
+  },
+  {
+    "name": "Advance Slingo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_ADVANCE_SLINGO/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Slingo XXXtreme",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_XXXTREME/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Slingo Fortunes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_FORTUNES/launch/250x157.png",
+    "minBet": 1,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Slingo Extreme",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_EXTREME/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95
+  },
+  {
+    "name": "Blackjack Xchange",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_BLACKJACK_XCHANGE/launch/250x157.png",
+    "minBet": 1,
+    "maxBet": 5,
+    "rtp": 99.68
+  },
+  {
+    "name": "Inca Trail",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_INCA_TRAIL/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 96.47
+  },
+  {
+    "name": "Stampede",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_STAMPEDE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.4
+  },
+  {
+    "name": "Slingo Stinkin Rich",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_STINKIN_RICH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.72
+  },
+  {
+    "name": "Slingo Shark Week",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/SLG_SLINGO_SHARK_WEEK_01/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.32
+  }
+]

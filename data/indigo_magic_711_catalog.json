@@ -1,0 +1,408 @@
+[
+  {
+    "name": "Jaguar's Wheel",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_JAW_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 18,
+    "rtp": 95.5
+  },
+  {
+    "name": "20 Hot Diamond Desire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_HDD_20_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.48
+  },
+  {
+    "name": "Candy Treasure 3 Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CTR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.49
+  },
+  {
+    "name": "Cross it!",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CRS_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.5
+  },
+  {
+    "name": "Wild Hour League",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_WHL/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 12,
+    "rtp": 96.47
+  },
+  {
+    "name": "Raging Rabbits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_RAR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12.5,
+    "rtp": 96.22
+  },
+  {
+    "name": "5 Hot Diamond Desire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_HDD_5_EU/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 96.64
+  },
+  {
+    "name": "Juicy Explosion",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_JUE_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.25
+  },
+  {
+    "name": "Fortune Babies Harmony",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_FBH_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.53
+  },
+  {
+    "name": "Golden Gal's 3 Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_GGR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.11
+  },
+  {
+    "name": "Karens Merry Meltdown",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_KMM_EU/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 20,
+    "rtp": 96.04
+  },
+  {
+    "name": "Bad Bass Cash Haul",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_BCH/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.59
+  },
+  {
+    "name": "Truckers vs Aliens",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_TVA_EU/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 17.5,
+    "rtp": 95.43
+  },
+  {
+    "name": "Diamond Desire Flame",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_DDF_EU/launch/250x157.png",
+    "minBet": 0.01,
+    "maxBet": 20,
+    "rtp": 95.96
+  },
+  {
+    "name": "Mega Mystery Mine",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_MMM_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.95
+  },
+  {
+    "name": "Side Strike",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_SST_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.04
+  },
+  {
+    "name": "Mighty Mountain",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_MMO_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.53
+  },
+  {
+    "name": "Candy Treasures",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CAT_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.25
+  },
+  {
+    "name": "40 Hot Diamond Desire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_HDD_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.01
+  },
+  {
+    "name": "Bad Bass Cash Towers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_BCT_EU/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 97.57
+  },
+  {
+    "name": "Paddy's Pooches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_PAP_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.19
+  },
+  {
+    "name": "Candy Treasures Cash Towers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CCT_EU/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 97.57
+  },
+  {
+    "name": "Fortune Babies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_FOB_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.47
+  },
+  {
+    "name": "Creepy Christmas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CRC_EU/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 20,
+    "rtp": 96.04
+  },
+  {
+    "name": "Carts of Cash Xmas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CAX_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.83
+  },
+  {
+    "name": "Plushie Peril",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_PLP_EU/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95.5
+  },
+  {
+    "name": "Sevens & Jok3rs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_JOS_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 24,
+    "rtp": 96.1
+  },
+  {
+    "name": "Golden Gal's",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_GGA_EU/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 24,
+    "rtp": 96.04
+  },
+  {
+    "name": "Diamond Desire Deluxe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_DDD_EU/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 12,
+    "rtp": 96.47
+  },
+  {
+    "name": "Almighty Hera",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_ALH_EU/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 25,
+    "rtp": 96.01
+  },
+  {
+    "name": "Duck King",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_DUK_EU/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95.5
+  },
+  {
+    "name": "Amulets Of Horus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_AOH_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.51
+  },
+  {
+    "name": "Book of Buffalo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_BOB_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 26,
+    "rtp": 96.01
+  },
+  {
+    "name": "Super Sake",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_SPS_EU/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 30,
+    "rtp": 96.25
+  },
+  {
+    "name": "Crazy Diamonds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CRD_EU/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 15,
+    "rtp": 96.29
+  },
+  {
+    "name": "Charming Hearts",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CHH_EU/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 40,
+    "rtp": 96.04
+  },
+  {
+    "name": "Bad Bass",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_BBA_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.93
+  },
+  {
+    "name": "Mighty Marlin Super Reel",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_MIMSR_EU/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95.5
+  },
+  {
+    "name": "Sevens & Suns",
+    "imageUrl": "https://www.711.nl/media/2023-12/gamename-teaser-250x157-3LF-game.png",
+    "minBet": 0.2,
+    "maxBet": 24,
+    "rtp": 96
+  },
+  {
+    "name": "Treat Yo' Elf",
+    "imageUrl": "https://www.711.nl/media/2023-11/250x157-2-EhW-game.jpeg",
+    "minBet": 0.05,
+    "maxBet": 20,
+    "rtp": 95.69
+  },
+  {
+    "name": "7 Fates",
+    "imageUrl": "https://www.711.nl/media/2023-10/7-fates-Ct7-game.jpeg",
+    "minBet": 0.4,
+    "maxBet": 20,
+    "rtp": 95.9
+  },
+  {
+    "name": "Alpha Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_ALG_EU/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 20,
+    "rtp": 95.8
+  },
+  {
+    "name": "Mighty Marlin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_MIM_EU/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Book of Blackeye's Bounty",
+    "imageUrl": "https://www.711.nl/media/2023-08/book-of-blackeyes-bounty-jnY-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.04
+  },
+  {
+    "name": "Carts of Cash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_CAC_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.93
+  },
+  {
+    "name": "Bankers & Cash",
+    "imageUrl": "https://www.711.nl/media/2023-06/bankers-cash-4s8-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.51
+  },
+  {
+    "name": "Big Roar",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_BIR_EU/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.69
+  },
+  {
+    "name": "Phoenix Fury",
+    "imageUrl": "https://www.711.nl/media/2023-04/phoenix-fury-vYd-game.png",
+    "minBet": 0.3,
+    "maxBet": 9,
+    "rtp": 95.5
+  },
+  {
+    "name": "Diamond Desire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_DID_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.98
+  },
+  {
+    "name": "Golden Avalanche",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_GOA_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.8
+  },
+  {
+    "name": "Down The Chimney",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_DOC_EU/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.5
+  },
+  {
+    "name": "Mystical Forest",
+    "imageUrl": "https://www.711.nl/media/2022-09/mystical-forest-u6B-game.png",
+    "minBet": 0.3,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Fruit Lines",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/ORYX_FRL/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Sea of Plenty",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/ORYX_SOP_EU/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Kings & Jewels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/ORYX_KIJ/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Super Sevens",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/ORYX_SUS/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 15,
+    "rtp": 96
+  },
+  {
+    "name": "Hard Cash",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/ORYX_HAC/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.01
+  },
+  {
+    "name": "INM Bad Bass 3 Reels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/INM_BBR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.48
+  }
+]

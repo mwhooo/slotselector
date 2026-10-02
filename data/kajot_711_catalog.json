@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Festival Fruits",
+    "imageUrl": "https://www.711.nl/media/2025-06/image-15-3xR-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.92
+  },
+  {
+    "name": "Joker Area Street",
+    "imageUrl": "https://www.711.nl/media/2025-06/image-5-3LR-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Vikings 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_VIKINGS_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 94.77
+  },
+  {
+    "name": "Simply Hot XL 160",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_XL_160/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.94
+  },
+  {
+    "name": "Multi Vegas 81 Exclusive",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_MULTI_VEGAS_81_EXCLUSIVE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95
+  },
+  {
+    "name": "Simply Hot XL 80",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_XL_80/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.5
+  },
+  {
+    "name": "Gem Stone Street",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_GEM_STONE_STREET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Festival Fruit",
+    "imageUrl": "https://www.711.nl/media/2024-08/festival-fruit-tFV-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.29
+  },
+  {
+    "name": "Dynamite 27 Street",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_DYNAMITE_27_STREET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Simply Hot 40 Plus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_40_PLUS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.25
+  },
+  {
+    "name": "Circus Circus 81",
+    "imageUrl": "https://www.711.nl/media/2024-07/circus-circus-81-tn3-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.78
+  },
+  {
+    "name": "Simply Hot 20 Plus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_20_PLUS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.25
+  },
+  {
+    "name": "Simply Hot 10 Plus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_10_PLUS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.25
+  },
+  {
+    "name": "Simply Hot 4 Plus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_4_PLUS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.25
+  },
+  {
+    "name": "Book Of Moon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_BOOK_OF_MOON/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.66
+  },
+  {
+    "name": "Triple Stars Street",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_TRIPLE_STARS_STREET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Hot Fruits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_HOT_FRUITS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Hot Hot 10",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_HOT_HOT_10/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Hot Lines 34 Street",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_HOTLINES_34_STREET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Hot Hot 20",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_HOT_HOT_20/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Simply Hot XL 50",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_XL_50/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Super lines 2 Street",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SUPER_LINES_2_STREET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Demon Master Street",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_DEMON_MASTER_STREET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Simply Hot XL 100",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_XL_100/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Hot Hot 40",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_HOT_HOT_40/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Siren’s Calling",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIRENS_CALLING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96
+  },
+  {
+    "name": "Hot Hot 4",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_HOT_HOT_4/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Crazy Fruits Street",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_CRAZY_FRUITS_STREET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Chica Bonita",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_CHICA_BONITA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.82
+  },
+  {
+    "name": "Cheeser and Jasper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_CHEESER_AND_JASPER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.98
+  },
+  {
+    "name": "Super Joker 40",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SUPER_JOKER_40/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.11
+  },
+  {
+    "name": "Multi Vegas 81",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_MULTI_VEGAS_81/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.78
+  },
+  {
+    "name": "Joker Boom Plus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_JOKER_BOOM_PLUS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.92
+  },
+  {
+    "name": "Simply The Best 81",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_THE_BEST_81/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.99
+  },
+  {
+    "name": "Joker 27",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_JOKER_27/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.01
+  },
+  {
+    "name": "Vikings",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_VIKINGS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.01
+  },
+  {
+    "name": "Simply Hot 40",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_40/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Vegas 27 Street",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_VEGAS_27_STREET/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Simply Hot 20",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_20/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Simply Hot 10",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_10/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Simply Hot 4",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_SIMPLY_HOT_4/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Football on Fire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_FOOTBALL_ON_FIRE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96
+  },
+  {
+    "name": "Happy Diamonds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_HAPPY_DIAMONDS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96
+  },
+  {
+    "name": "Retro Wheels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_RETRO_WHEELS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.01
+  },
+  {
+    "name": "Joker 81",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_JOKER_81/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.01
+  },
+  {
+    "name": "Joker Strong",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_JOKER_STRONG/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Ring of Fire XL",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_RING_OF_FIRE_XL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 45,
+    "rtp": 96
+  },
+  {
+    "name": "Turbo 27",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_TURBO_27/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Joker 27 Plus",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_JOKER_27_PLUS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Joker Boom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_JOKER_BOOM/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.67
+  },
+  {
+    "name": "Alchemy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_ALCHEMY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.98
+  },
+  {
+    "name": "Multi Diamonds 81",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_MULTI_DIAMONDS_81/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.94
+  },
+  {
+    "name": "Ultimate Crystals",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_ULTIMATE_CRYSTALS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.05
+  },
+  {
+    "name": "Tutti Frutti",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/KAJ_TUTTI_FRUTTI/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.82
+  }
+]

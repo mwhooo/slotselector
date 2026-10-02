@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Wild Snow Spin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_WILD_SNOW_SPIN_NL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 95.36
+  },
+  {
+    "name": "Golden Ocean Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_GOLDEN_OCEAN_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.25
+  },
+  {
+    "name": "777 Hot Megaways",
+    "imageUrl": "https://www.711.nl/media/2024-10/image-2024-10-29t07-53-13-745z-J2q-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.47
+  },
+  {
+    "name": "Olie Fortuin",
+    "imageUrl": "https://www.711.nl/media/2024-08/olie-fortuin-oCZ-game.webp",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 95
+  },
+  {
+    "name": "Alchemy Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_ALCHEMY_RICHES/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 95.1
+  },
+  {
+    "name": "Neem Het Geld Megaways",
+    "imageUrl": "https://www.711.nl/media/2024-06/image-2024-06-27t13-39-05-370z-x6N-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.12
+  },
+  {
+    "name": "Sterren Draai",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_STERREN_DRAAI/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 95.76
+  },
+  {
+    "name": "Bobbi Eden Kapitein Nemo",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_BOBBI_EDEN_KAPITEIN_NEMO/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 95.25
+  },
+  {
+    "name": "De Explosieve Bandiet",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_DE_EXPLOSIEVE_BANDIET/launch/250x157.png",
+    "minBet": null,
+    "maxBet": null,
+    "rtp": 95
+  },
+  {
+    "name": "Ayla de Zwart Het Wilde Western Mania",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_AYLA_DE_ZWART_HET_WILDE_WESTERN_MANIA_MGW/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.76
+  },
+  {
+    "name": "Milou Tamara Goudmijn Mania Megaway",
+    "imageUrl": "https://www.711.nl/media/2024-01/milou-tamara-goudmijn-mania-megaways-KL2-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 95.82
+  },
+  {
+    "name": "Jessica Weaver Koningin van de Zeeen",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_JESSICA_WEAVER_KONINGIN_VAN_DE_ZEEEN/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 95.05
+  },
+  {
+    "name": "Aylin Hayret Koningin van Het Ijs",
+    "imageUrl": "https://www.711.nl/media/2023-12/aylin-hayret-koningin-van-het-ijs-96l-game.jpeg",
+    "minBet": 0.3,
+    "maxBet": 6,
+    "rtp": 95.24
+  },
+  {
+    "name": "Sylvia Geersen Golden Throne",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_SYLVIA_GEERSEN_GOLDEN_THRONE/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 48,
+    "rtp": 95.24
+  },
+  {
+    "name": "God Of Seas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_GOD_OF_SEAS_01/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.01
+  },
+  {
+    "name": "Amarna Miller Cleopatra",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_AMARNA_MILLER_CLEOPATRA_01/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.04
+  },
+  {
+    "name": "Paulo Futre The Last Gladiator",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_PAULO_FUTRE_THE_LAST_GLADIATOR_01/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Viking's Conquest",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_VIKINGS_CONQUEST_01/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 95.4
+  },
+  {
+    "name": "Lucky Wave",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_SURF_LUCKY_WAVE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.05
+  },
+  {
+    "name": "DJ in Session",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_DJ_IN_SESSION_01/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.77
+  },
+  {
+    "name": "Samantha Fox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_SAMANTHA_FOX_02/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 95.08
+  },
+  {
+    "name": "Fonsi Nieto Deluxe Racing Life",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/MGA_FONSI_NIETO_DELUXE_RACING_LIFE_01/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 94.99
+  }
+]

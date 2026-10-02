@@ -3,6 +3,183 @@ import './App.css'
 
 // Import slot provider mapping
 import slotProvidersData from '../data/slot_providers.json'
+import slotBetLimitsData from '../data/1x2gaming_711_bet_limits.json'
+import threeOaksBetLimitsData from '../data/3oaks_711_bet_limits.json'
+import amusnetCatalogData from '../data/amusnet_711_catalog.json'
+import atomicSlotLabCatalogData from '../data/atomic_slot_lab_711_catalog.json'
+import bfGamesCatalogData from '../data/bf_games_711_catalog.json'
+import bgamingCatalogData from '../data/bgaming_711_catalog.json'
+import bluberiCatalogData from '../data/bluberi_711_catalog.json'
+import boomingGamesCatalogData from '../data/booming_games_711_catalog.json'
+import boomerangCatalogData from '../data/boomerang_711_catalog.json'
+import egtDigitalCatalogData from '../data/egt_digital_711_catalog.json'
+import elkStudiosCatalogData from '../data/elk_studios_711_catalog.json'
+import endorphinaCatalogData from '../data/endorphina_711_catalog.json'
+import gamomatCatalogData from '../data/gamomat_711_catalog.json'
+import gamesGlobalCatalogData from '../data/games_global_711_catalog.json'
+import greentubeCatalogData from '../data/greentube_711_catalog.json'
+import hacksawCatalogData from '../data/hacksaw_711_catalog.json'
+import indigoMagicCatalogData from '../data/indigo_magic_711_catalog.json'
+import inspiredCatalogData from '../data/inspired_711_catalog.json'
+import kajotGamesCatalogData from '../data/kajot_711_catalog.json'
+import kalambaCatalogData from '../data/kalamba_711_catalog.json'
+import kingShowGamesCatalogData from '../data/king_show_games_711_catalog.json'
+import mgaGamesCatalogData from '../data/mga_games_711_catalog.json'
+import merkurCatalogData from '../data/merkur_gaming_711_catalog.json'
+import netentCatalogData from '../data/netent_711_catalog.json'
+import noLimitCityCatalogData from '../data/nolimit_city_711_catalog.json'
+import oryxGamingCatalogData from '../data/oryx_gaming_711_catalog.json'
+import playngoCatalogData from '../data/playngo_711_catalog.json'
+import playsonCatalogData from '../data/playson_711_catalog.json'
+import pushGamingCatalogData from '../data/push_gaming_711_catalog.json'
+import pragmaticPlayCatalogData from '../data/pragmatic_play_711_catalog.json'
+import redRakeGamingCatalogData from '../data/red_rake_gaming_711_catalog.json'
+import redTigerCatalogData from '../data/red_tiger_711_catalog.json'
+import relaxGamingCatalogData from '../data/relax_gaming_711_catalog.json'
+import rubyplayCatalogData from '../data/rubyplay_711_catalog.json'
+import silverBulletCatalogData from '../data/silver_bullet_711_catalog.json'
+import slingoCatalogData from '../data/slingo_711_catalog.json'
+import smartsoftGamingCatalogData from '../data/smartsoft_gaming_711_catalog.json'
+import spinomenalCatalogData from '../data/spinomenal_711_catalog.json'
+import stakelogicCatalogData from '../data/stakelogic_711_catalog.json'
+import swinttCatalogData from '../data/swintt_711_catalog.json'
+import synotCatalogData from '../data/synot_711_catalog.json'
+import tadaGamingCatalogData from '../data/tada_gaming_711_catalog.json'
+import thunderkickCatalogData from '../data/thunderkick_711_catalog.json'
+import wazdanCatalogData from '../data/wazdan_711_catalog.json'
+import yggdrasilCatalogData from '../data/yggdrasil_711_catalog.json'
+import slotRtpData from '../data/slot_rtp.json'
+
+const normalizeSlotName = (name) => name
+  .toLowerCase()
+  .replace(/&/g, 'and')
+  .replace(/[^a-z0-9]+/g, '-')
+  .replace(/^-+|-+$/g, '')
+
+const slotBetLimitsByName = new Map(
+  [
+    ...Object.entries(slotBetLimitsData),
+    ...Object.entries(threeOaksBetLimitsData),
+    ...amusnetCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...atomicSlotLabCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...bfGamesCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...bgamingCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...bluberiCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...boomingGamesCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...boomerangCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...egtDigitalCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...elkStudiosCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...endorphinaCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...gamomatCatalogData.map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...gamesGlobalCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...greentubeCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...hacksawCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...indigoMagicCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...inspiredCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...kajotGamesCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...kalambaCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...kingShowGamesCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...merkurCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...mgaGamesCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...netentCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...noLimitCityCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...oryxGamingCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...playngoCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...playsonCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...pushGamingCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...pragmaticPlayCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...redRakeGamingCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...redTigerCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...relaxGamingCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...rubyplayCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...silverBulletCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...slingoCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...smartsoftGamingCatalogData
+      .filter(({ name, minBet, maxBet }) => name && (Number.isFinite(minBet) || Number.isFinite(maxBet)))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...spinomenalCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...stakelogicCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...swinttCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...synotCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...tadaGamingCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...thunderkickCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...wazdanCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+    ...yggdrasilCatalogData
+      .filter(({ minBet, maxBet }) => Number.isFinite(minBet) || Number.isFinite(maxBet))
+      .map(({ name, minBet, maxBet }) => [name, [minBet, maxBet]]),
+  ].map(([name, [minBet, maxBet]]) => [
+    normalizeSlotName(name),
+    { minBet, maxBet },
+  ])
+)
+const slotRtpByProviderAndName = new Map(
+  Object.entries(slotRtpData).flatMap(([provider, slots]) =>
+    Object.entries(slots).map(([name, rtp]) => [
+      `${provider}:${normalizeSlotName(name)}`,
+      rtp,
+    ])
+  )
+)
 
 // Convert slot providers object to array, filtering to only include slots with images
 // Image files should exist at public/images/{name} - filenames already include extensions
@@ -10,7 +187,7 @@ const availableSlots = Object.entries(slotProvidersData)
   .map(([filename, provider]) => {
     // filename already includes the extension (e.g., "gamomat-40-finest-xxl.png")
     // Extract the display name by removing the extension and converting from kebab-case
-    let nameWithoutExt = filename.replace(/\.(jpg|png|gif|webp)$/, '');
+    let nameWithoutExt = filename.replace(/\.(jpe?g|png|gif|webp)$/i, '');
     
     // Remove provider prefix if it exists at the start (e.g., "gamomat-" or "1x2gaming-")
     const providerSlug = provider
@@ -35,10 +212,15 @@ const availableSlots = Object.entries(slotProvidersData)
       .trim()
       .replace(/\s+/g, ' ');
     
+    const betLimits = slotBetLimitsByName.get(normalizeSlotName(displayName));
+    const rtp = slotRtpByProviderAndName.get(`${provider}:${normalizeSlotName(displayName)}`);
+
     return {
       name: displayName,
       provider,
-      image: `/images/${filename}`
+      image: `/images/${filename}`,
+      ...(betLimits || {}),
+      ...(rtp != null ? { rtp } : {}),
     };
   })
   .filter(slot => {
@@ -50,6 +232,86 @@ const availableSlots = Object.entries(slotProvidersData)
 // Note: To show only slots with available images, we rely on the image loading in the browser
 // Slots without images will show a broken image icon
 const NUM_SLOTS = availableSlots.length;
+const availableSlotByImage = new Map(availableSlots.map(slot => [slot.image, slot]));
+const getSlotRtp = (slot) => slot.rtp ?? availableSlotByImage.get(slot.image)?.rtp;
+
+const getSlotBetLimits = (slot) => {
+  const availableSlot = availableSlotByImage.get(slot.image);
+  return {
+    minBet: slot.minBet ?? availableSlot?.minBet ?? 0.10,
+    maxBet: slot.maxBet ?? availableSlot?.maxBet ?? Number.POSITIVE_INFINITY,
+  };
+};
+
+const formatStakeValue = (amount) => {
+  if (!Number.isFinite(amount)) return '\u2014';
+  const minimumFractionDigits = Number.isInteger(amount) ? 0 : amount < 1 ? 2 : 1;
+  return amount.toLocaleString('en-US', { minimumFractionDigits, maximumFractionDigits: 2 });
+};
+
+const formatRtpValue = (rtp) => Number.isFinite(rtp)
+  ? `${rtp.toLocaleString('en-US', { maximumFractionDigits: 2 })}%`
+  : '\u2014';
+
+function LuckyPickReel({ initialSlots, slots, winningSlot, spinId, isSpinning, onFinish }) {
+  const [displaySlots, setDisplaySlots] = useState(initialSlots);
+  const slotsRef = useRef(slots);
+  const winningSlotRef = useRef(winningSlot);
+  const onFinishRef = useRef(onFinish);
+
+  useEffect(() => {
+    slotsRef.current = slots;
+    winningSlotRef.current = winningSlot;
+    onFinishRef.current = onFinish;
+  }, [slots, winningSlot, onFinish]);
+
+  useEffect(() => {
+    if (!isSpinning) return undefined;
+
+    const spinInterval = window.setInterval(() => {
+      const availableSlots = slotsRef.current;
+      if (!availableSlots.length) return;
+      setDisplaySlots(Array.from({ length: 5 }, () =>
+        availableSlots[Math.floor(Math.random() * availableSlots.length)]
+      ));
+    }, 100);
+
+    const spinTimeout = window.setTimeout(() => {
+      const availableSlots = slotsRef.current;
+      const winner = winningSlotRef.current;
+      if (winner) {
+        setDisplaySlots(Array.from({ length: 5 }, (_, index) => {
+          if (index === 2 || !availableSlots.length) return winner;
+          return availableSlots[Math.floor(Math.random() * availableSlots.length)];
+        }));
+      }
+      onFinishRef.current(winner);
+    }, 1000);
+
+    return () => {
+      window.clearInterval(spinInterval);
+      window.clearTimeout(spinTimeout);
+    };
+  }, [isSpinning, spinId]);
+
+  return (
+    <div className={`spin-reel ${isSpinning ? 'spinning' : ''}`}>
+      <div className="reel-container">
+        {displaySlots.map((slot, index) => (
+          <div key={index} className={`reel-item ${index === 2 ? 'center' : ''}`}>
+            <img src={slot.image} alt={slot.name} />
+            <div className="reel-item-label">
+              <span className="reel-slot-name">{slot.name}</span>
+              <span className="reel-slot-provider">{slot.provider}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="reel-shine"></div>
+      <div className="reel-glow"></div>
+    </div>
+  );
+}
 
 function App() {
   // Generate slots using the available images
@@ -60,7 +322,8 @@ function App() {
   
   const [selectedSlot, setSelectedSlot] = useState(null);
   const [isSpinning, setIsSpinning] = useState(false);
-  const [displaySlots, setDisplaySlots] = useState(() => fullSlots.slice(0, 5));
+  const [spinWinner, setSpinWinner] = useState(null);
+  const [spinId, setSpinId] = useState(0);
   const bgTheme = 'galaxy';
   const [showBonusHunt, setShowBonusHunt] = useState(false);
   const [bonusHuntCount, setBonusHuntCount] = useState(5);
@@ -138,10 +401,23 @@ function App() {
     return !query || `${slot.name} ${slot.provider}`.toLowerCase().includes(query);
   });
 
+  const calculateSlotSpent = (data) => {
+    if (!data) return '';
+    if (!Object.prototype.hasOwnProperty.call(data, 'stoppingBalance')) return data.spent ?? '';
+
+    const startingBalance = Number.parseFloat(data.startingBalance);
+    const stoppingBalance = Number.parseFloat(data.stoppingBalance);
+    if (!Number.isFinite(startingBalance) || !Number.isFinite(stoppingBalance)) return '';
+    return (startingBalance - stoppingBalance).toFixed(2);
+  };
+  const formatCurrency = (amount) => `${amount < 0 ? '-€' : '€'}${Math.abs(amount).toFixed(2)}`;
   const bonusHuntSlotRecords = bonusHuntList.map((slot, index) => ({ slot, index }));
   const activeBonusHuntSlots = bonusHuntSlotRecords.filter(({ index }) => !bonusHuntData[index]?.endedWithoutBonus);
   const endedBonusHuntSlots = bonusHuntSlotRecords.filter(({ index }) => bonusHuntData[index]?.endedWithoutBonus);
-  const totalSpent = Object.values(bonusHuntData).reduce((sum, data) => sum + (Number.parseFloat(data?.spent) || 0), 0);
+  const totalSpent = Object.values(bonusHuntData).reduce((sum, data) => {
+    const amount = Number.parseFloat(calculateSlotSpent(data));
+    return sum + (Number.isFinite(amount) ? amount : 0);
+  }, 0);
   const totalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (Number.parseFloat(data?.payout) || 0), 0);
 
   // Shuffle slots only when providers or search term change, not during spinning
@@ -199,34 +475,8 @@ function App() {
     // Random selection from filtered slots
     const randomIndex = Math.floor(Math.random() * filteredSlots.length);
     const winningSlot = filteredSlots[randomIndex];
-    
-    // Spin animation - reel spinning effect
-    const spinDuration = 2500; // 2.5 seconds
-    const cycleInterval = 100; // Change display every 100ms
-    let cycles = 0;
-    const totalCycles = spinDuration / cycleInterval;
-    
-    const spinInterval = setInterval(() => {
-      // Generate 5 random slots to simulate reel spinning from filtered slots
-      const newSlots = Array.from({ length: 5 }, () => filteredSlots[Math.floor(Math.random() * filteredSlots.length)]);
-      setDisplaySlots(newSlots);
-      cycles++;
-      
-      if (cycles >= totalCycles) {
-        clearInterval(spinInterval);
-        // Final position: winning slot in the middle
-        setDisplaySlots(Array.from({ length: 5 }, (_, idx) => {
-          if (idx === 2) return winningSlot;
-          return filteredSlots[Math.floor(Math.random() * filteredSlots.length)];
-        }));
-        
-        // Show modal after a brief pause
-        setTimeout(() => {
-          setSelectedSlot(winningSlot);
-          setIsSpinning(false);
-        }, 300);
-      }
-    }, cycleInterval);
+    setSpinWinner(winningSlot);
+    setSpinId((current) => current + 1);
   };
 
   const stopBonusHuntPickerSpin = () => {
@@ -246,10 +496,11 @@ function App() {
     const nextSlots = shouldAppend ? [...bonusHuntList, ...slots] : slots;
     const nextData = shouldAppend ? { ...bonusHuntData } : {};
     slots.forEach((slot, index) => {
+      const { minBet } = getSlotBetLimits(slot);
       nextData[startIndex + index] = {
         startingBalance: '',
-        betSize: '0.10',
-        spent: '',
+        stoppingBalance: '',
+        betSize: minBet.toFixed(2),
         payout: '0.00',
         endedWithoutBonus: false,
       };
@@ -365,14 +616,14 @@ function App() {
   };
 
   const endSlotWithoutBonus = (index) => {
-    const spentAmount = Number.parseFloat(bonusHuntData[index]?.spent);
-    if (!Number.isFinite(spentAmount)) return;
+    const startingBalance = Number.parseFloat(bonusHuntData[index]?.startingBalance);
+    const stoppingBalance = Number.parseFloat(bonusHuntData[index]?.stoppingBalance);
+    if (!Number.isFinite(startingBalance) || !Number.isFinite(stoppingBalance)) return;
 
     setBonusHuntData((current) => ({
       ...current,
       [index]: {
         ...current[index],
-        spent: Math.max(0, spentAmount).toFixed(2),
         endedWithoutBonus: true,
       },
     }));
@@ -386,24 +637,25 @@ function App() {
   };
 
   const stepBetSize = (index, cents) => {
+    const { minBet, maxBet } = getSlotBetLimits(bonusHuntList[index] ?? {});
     const currentAmount = Number.parseFloat(bonusHuntData[index]?.betSize);
-    const currentCents = Number.isFinite(currentAmount) ? Math.round(currentAmount * 100) : 10;
-    const nextCents = Math.max(10, currentCents + cents);
-    updateBetSize(index, (nextCents / 100).toFixed(2));
+    const amount = Number.isFinite(currentAmount) ? currentAmount : minBet;
+    const nextAmount = Math.min(maxBet, Math.max(minBet, amount + cents / 100));
+    updateBetSize(index, nextAmount.toFixed(2));
   };
 
   const normalizeBetSize = (index) => {
+    const { minBet, maxBet } = getSlotBetLimits(bonusHuntList[index] ?? {});
     const currentAmount = Number.parseFloat(bonusHuntData[index]?.betSize);
     const normalizedValue = Number.isFinite(currentAmount)
-      ? Math.max(0.10, currentAmount).toFixed(2)
-      : '0.10';
+      ? Math.min(maxBet, Math.max(minBet, currentAmount)).toFixed(2)
+      : minBet.toFixed(2);
     updateBetSize(index, normalizedValue);
   };
 
   const saveCurrentBonusHunt = () => {
     if (!bonusHuntList.length) return;
     const totalBet = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.betSize) || 0), 0);
-    const savedTotalSpent = Object.values(bonusHuntData).reduce((sum, data) => sum + (Number.parseFloat(data?.spent) || 0), 0);
     const savedTotalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.payout) || 0), 0);
     const entry = {
       id: Date.now(),
@@ -412,7 +664,7 @@ function App() {
       slots: bonusHuntList,
       data: bonusHuntData,
       totalBet,
-      totalSpent: savedTotalSpent,
+      totalSpent,
       totalPayout: savedTotalPayout,
     };
     setBonusHuntHistory((prev) => [entry, ...prev].slice(0, 50));
@@ -526,18 +778,26 @@ function App() {
                       <span className="col col-title">Title</span>
                       <span className="col col-provider">Provider</span>
                       <span className="col col-start-balance">Starting Balance</span>
+                      <span className="col col-stop-balance">Stopping Balance</span>
                       <span className="col col-bet">Bet Size</span>
                       <span className="col col-spent">Spent</span>
                       <span className="col col-payout">Payout</span>
                       <span className="col col-actions">Status</span>
                     </div>
-                    {activeBonusHuntSlots.map(({ slot, index }) => (
+                    {activeBonusHuntSlots.map(({ slot, index }) => {
+                      const { minBet, maxBet } = getSlotBetLimits(slot);
+                      const rtp = getSlotRtp(slot);
+                      return (
                       <div key={index} className="bonus-hunt-row">
                         <span className="col col-idx">{index + 1}</span>
                         <div className="col col-thumb">
                           <img src={slot.image} alt={slot.name} className="bonus-hunt-thumb" />
                         </div>
                         <div className="col col-title">{slot.name}</div>
+                                                <div className="col col-title">
+                                                  {slot.name}
+                                                  {rtp != null && <span className="slot-rtp">RTP {rtp}%</span>}
+                                                </div>
                         <div className="col col-provider">{slot.provider}</div>
                         <div className="col col-start-balance">
                           <span className="field-label">Starting Balance</span>
@@ -554,6 +814,21 @@ function App() {
                             />
                           </div>
                         </div>
+                        <div className="col col-stop-balance">
+                          <span className="field-label">Stopping Balance</span>
+                          <div className="input-wrapper">
+                            <span className="currency">€</span>
+                            <input
+                              type="text"
+                              inputMode="decimal"
+                              value={bonusHuntData[index]?.stoppingBalance ?? ''}
+                              onChange={(event) => updateSlotMoney(index, 'stoppingBalance', event.target.value)}
+                              onBlur={() => normalizeSlotMoney(index, 'stoppingBalance')}
+                              aria-label={`Stopping balance for ${slot.name}`}
+                              className="page-input-field"
+                            />
+                          </div>
+                        </div>
                         <div className="col col-bet">
                           <span className="field-label">Bet Size</span>
                           <div className="input-wrapper">
@@ -561,7 +836,7 @@ function App() {
                             <input
                               type="text"
                               inputMode="decimal"
-                              value={bonusHuntData[index]?.betSize ?? '0.10'}
+                              value={bonusHuntData[index]?.betSize ?? minBet.toFixed(2)}
                               onChange={(event) => updateBetSize(index, event.target.value)}
                               onBlur={() => normalizeBetSize(index)}
                               aria-label={`Bet size for ${slot.name}`}
@@ -572,6 +847,7 @@ function App() {
                                 type="button"
                                 className="bet-step-button"
                                 onClick={() => stepBetSize(index, 10)}
+                                disabled={(Number.parseFloat(bonusHuntData[index]?.betSize) || minBet) >= maxBet}
                                 aria-label={`Increase bet for ${slot.name} by €0.10`}
                                 title="Increase by €0.10"
                               >+</button>
@@ -579,7 +855,7 @@ function App() {
                                 type="button"
                                 className="bet-step-button"
                                 onClick={() => stepBetSize(index, -10)}
-                                disabled={(Number.parseFloat(bonusHuntData[index]?.betSize) || 0.10) <= 0.10}
+                                disabled={(Number.parseFloat(bonusHuntData[index]?.betSize) || minBet) <= minBet}
                                 aria-label={`Decrease bet for ${slot.name} by €0.10`}
                                 title="Decrease by €0.10"
                               >−</button>
@@ -592,12 +868,10 @@ function App() {
                             <span className="currency">€</span>
                             <input
                               type="text"
-                              inputMode="decimal"
-                              value={bonusHuntData[index]?.spent ?? ''}
-                              onChange={(event) => updateSlotMoney(index, 'spent', event.target.value)}
-                              onBlur={() => normalizeSlotMoney(index, 'spent')}
-                              aria-label={`Amount spent on ${slot.name}`}
-                              className="page-input-field"
+                              value={calculateSlotSpent(bonusHuntData[index])}
+                              readOnly
+                              aria-label={`Calculated spend for ${slot.name}`}
+                              className="page-input-field computed-money-input"
                             />
                           </div>
                         </div>
@@ -624,13 +898,17 @@ function App() {
                             type="button"
                             className="slot-no-bonus-btn"
                             onClick={() => endSlotWithoutBonus(index)}
-                            disabled={!Number.isFinite(Number.parseFloat(bonusHuntData[index]?.spent))}
+                            disabled={
+                              !Number.isFinite(Number.parseFloat(bonusHuntData[index]?.startingBalance)) ||
+                              !Number.isFinite(Number.parseFloat(bonusHuntData[index]?.stoppingBalance))
+                            }
                           >
                             No Bonus - Remove
                           </button>
                         </div>
                       </div>
-                    ))}
+                      );
+                    })}
                   </>
                 ) : (
                   <p className="bonus-hunt-no-active">No active slots. Add a slot or restore one from the ended list.</p>
@@ -653,11 +931,27 @@ function App() {
                         </div>
                         <div className="bonus-hunt-ended-value">
                           <span>Starting Balance</span>
-                          <strong>{bonusHuntData[index]?.startingBalance ? `€${Number.parseFloat(bonusHuntData[index].startingBalance).toFixed(2)}` : 'Not recorded'}</strong>
+                          <strong>
+                            {Number.isFinite(Number.parseFloat(bonusHuntData[index]?.startingBalance))
+                              ? formatCurrency(Number.parseFloat(bonusHuntData[index].startingBalance))
+                              : 'Not recorded'}
+                          </strong>
+                        </div>
+                        <div className="bonus-hunt-ended-value">
+                          <span>Stopping Balance</span>
+                          <strong>
+                            {Number.isFinite(Number.parseFloat(bonusHuntData[index]?.stoppingBalance))
+                              ? formatCurrency(Number.parseFloat(bonusHuntData[index].stoppingBalance))
+                              : 'Not recorded'}
+                          </strong>
                         </div>
                         <div className="bonus-hunt-ended-value">
                           <span>Spent</span>
-                          <strong>€{Number.parseFloat(bonusHuntData[index]?.spent || 0).toFixed(2)}</strong>
+                          <strong>
+                            {Number.isFinite(Number.parseFloat(calculateSlotSpent(bonusHuntData[index])))
+                              ? formatCurrency(Number.parseFloat(calculateSlotSpent(bonusHuntData[index])))
+                              : 'Not recorded'}
+                          </strong>
                         </div>
                         <button type="button" className="slot-restore-btn" onClick={() => restoreSlotToHunt(index)}>
                           Restore
@@ -681,7 +975,7 @@ function App() {
                 </div>
                 <div className="summary-item">
                   <span className="summary-label">Total Spent</span>
-                  <span className="summary-value">€{totalSpent.toFixed(2)}</span>
+                  <span className="summary-value">{formatCurrency(totalSpent)}</span>
                 </div>
                 <div className="summary-item">
                   <span className="summary-label">Total Payout</span>
@@ -829,6 +1123,13 @@ function App() {
               <div className="grid-item-label">
                 <span className="slot-name">{slot.name}</span>
                 <span className="slot-provider">{slot.provider}</span>
+                <div className="slot-metadata">
+                  <div className="slot-stakes">
+                    <span>Min {Number.isFinite(slot.minBet) ? `\u20ac${formatStakeValue(slot.minBet)}` : '\u2014'}</span>
+                    <span>Max {Number.isFinite(slot.maxBet) ? `\u20ac${formatStakeValue(slot.maxBet)}` : '\u2014'}</span>
+                  </div>
+                  <span>RTP {formatRtpValue(slot.rtp)}</span>
+                </div>
               </div>
             </div>
           ))}
@@ -837,25 +1138,17 @@ function App() {
         
         <div className="right-panel">
           <div className="button-container">
-          {(displaySlots || isSpinning) && (
-            <div className={`spin-reel ${isSpinning ? 'spinning' : ''}`}>
-              <div className="reel-container">
-                {displaySlots.map((slot, idx) => (
-                  <div key={idx} className={`reel-item ${idx === 2 ? 'center' : ''}`}>
-                      <img src={slot.image} alt={slot.name} />
-                      {slot && (
-                        <div className="reel-item-label">
-                          <span className="reel-slot-name">{slot.name}</span>
-                          <span className="reel-slot-provider">{slot.provider}</span>
-                        </div>
-                      )}
-                    </div>
-                ))}
-              </div>
-              <div className="reel-shine"></div>
-              <div className="reel-glow"></div>
-            </div>
-          )}
+            <LuckyPickReel
+              initialSlots={fullSlots.slice(0, 5)}
+              slots={filteredSlots}
+              winningSlot={spinWinner}
+              spinId={spinId}
+              isSpinning={isSpinning}
+              onFinish={(winner) => {
+                setSelectedSlot(winner);
+                setIsSpinning(false);
+              }}
+            />
             <button className="spin-button" onClick={spin} disabled={isSpinning || filteredSlots.length === 0}>
               <span className={`spin-icon ${isSpinning ? 'spinning' : ''}`}>✨</span>
               <span>Lucky<br/>Pick</span>
@@ -879,6 +1172,9 @@ function App() {
                 <div className="lucky-details">
                   <h3 className="lucky-title">{selectedSlot.name}</h3>
                   <p className="lucky-provider">{selectedSlot.provider}</p>
+                  {getSlotRtp(selectedSlot) != null && (
+                    <p className="lucky-rtp">RTP {getSlotRtp(selectedSlot)}%</p>
+                  )}
                   <p className="lucky-sub">Add it to your next bonus hunt or spin again.</p>
                 </div>
               </div>

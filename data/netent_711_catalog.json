@@ -1,0 +1,1276 @@
+[
+  {
+    "name": "Starburst™",
+    "imageUrl": "https://www.711.nl/media/2023-05/starburst-pG4-game.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.09
+  },
+  {
+    "name": "Gonzo's Quest™",
+    "imageUrl": "https://www.711.nl/media/2023-06/gonzo-quest-VOO-game.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95.97
+  },
+  {
+    "name": "Twin Spin Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_TWIN_SPIN_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.04
+  },
+  {
+    "name": "Reel Rush™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_REEL_RUSH/launch/250x157.png",
+    "minBet": 0.5,
+    "maxBet": 50,
+    "rtp": 96.96
+  },
+  {
+    "name": "Finn and the Swirly Spin™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FINN_AND_THE_SWIRLY_SPIN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.62
+  },
+  {
+    "name": "Jumanji®",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JUMANJI/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.33
+  },
+  {
+    "name": "Fruit Shop™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FRUIT_SHOP/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 30,
+    "rtp": 96.71
+  },
+  {
+    "name": "Jack and the Beanstalk™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JACK_AND_THE_BEANSTALK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.28
+  },
+  {
+    "name": "Piggy Riches™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_PIGGY_RICHES/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 45,
+    "rtp": 96.38
+  },
+  {
+    "name": "Flowers™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FLOWERS/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 15,
+    "rtp": 96.32
+  },
+  {
+    "name": "Secrets of Atlantis™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SECRETS_OF_ATLANTIS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 97.07
+  },
+  {
+    "name": "Dead or Alive 2",
+    "imageUrl": "https://www.711.nl/media/2023-01/thumbnial-BY9-game.png",
+    "minBet": 0.09,
+    "maxBet": 9,
+    "rtp": 96.8
+  },
+  {
+    "name": "Judgemental",
+    "imageUrl": "https://www.711.nl/media/2026-08/judgemental-1-UFf-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 16,
+    "rtp": 96.2
+  },
+  {
+    "name": "Fruit Shop Grand Re Opening",
+    "imageUrl": "https://www.711.nl/media/2026-07/inmzunxqfain4et9lbnc-voV-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.37
+  },
+  {
+    "name": "In and Out",
+    "imageUrl": "https://www.711.nl/media/2026-06/umwiuqhqz1xtgduobxib-2-j2M-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.08
+  },
+  {
+    "name": "Starburst XXXtreme",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_STARBURST_XXXTREME/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.26
+  },
+  {
+    "name": "Twin Spin™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_TWIN_SPIN/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.56
+  },
+  {
+    "name": "Space Wars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SPACE_WARS/launch/250x157.png",
+    "minBet": 0.4,
+    "maxBet": 40,
+    "rtp": 96.75
+  },
+  {
+    "name": "Whats Up Witches!",
+    "imageUrl": "https://www.711.nl/media/2026-05/lt5z7jh5nekfydqto7up-HYX-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 96.03,
+    "rtp": 96.03
+  },
+  {
+    "name": "European Roulette",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_EUROPEAN_ROULETTE/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 1,
+    "rtp": 97.3
+  },
+  {
+    "name": "Fruit Shop Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FRUIT_SHOP_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.06
+  },
+  {
+    "name": "Steam Tower",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_STEAM_TOWER/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 45,
+    "rtp": 97.04
+  },
+  {
+    "name": "Divine Fortune Gold",
+    "imageUrl": "https://www.711.nl/media/2026-05/divine-1-dMQ-game.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.73
+  },
+  {
+    "name": "Aftermath",
+    "imageUrl": "https://www.711.nl/media/2026-09/aftermath-QWs-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.05
+  },
+  {
+    "name": "Dead or Alive 3 Wanted",
+    "imageUrl": "https://www.711.nl/media/2026-03/250x157-19-mz4-game.png",
+    "minBet": 0.1,
+    "maxBet": 6,
+    "rtp": 96.03
+  },
+  {
+    "name": "Godbreaker",
+    "imageUrl": "https://www.711.nl/media/2026-03/godbreaker-i46-game.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.16
+  },
+  {
+    "name": "Rabid Randy Gone Fishing",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_RABID_RANDY_GONE_FISHING_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.03
+  },
+  {
+    "name": "Flock Me",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FLOCK_ME_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 28,
+    "rtp": 96
+  },
+  {
+    "name": "Rabid Randy Dark Trails",
+    "imageUrl": "https://www.711.nl/media/2025-10/rabit-randy-dark-trails-4Q1-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Dead West",
+    "imageUrl": "https://www.711.nl/media/2025-10/dead-west-npa-game.webp",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.03
+  },
+  {
+    "name": "Gonzos Quest 2",
+    "imageUrl": "https://www.711.nl/media/2025-09/gonzos-quest-2-AbR-game.webp",
+    "minBet": 0.3,
+    "maxBet": 15,
+    "rtp": 96.06
+  },
+  {
+    "name": "Piggy Riches 3 Hog Heaven",
+    "imageUrl": "https://www.711.nl/media/2025-08/piggy-riches-3-hog-heaven-E1v-game.webp",
+    "minBet": 0.2,
+    "maxBet": 24,
+    "rtp": 96.06
+  },
+  {
+    "name": "Jack Hammer 4 Chasing the Dragon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JACK_HAMMER_4_CHASING_THE_DRAGON_96_NBB/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 24,
+    "rtp": 96.01
+  },
+  {
+    "name": "Reel Rush XXXtreme",
+    "imageUrl": "https://www.711.nl/media/2025-06/250x157-16-WbB-game.jpeg",
+    "minBet": 0.3,
+    "maxBet": 30,
+    "rtp": 96.06
+  },
+  {
+    "name": "Divine Fortune Black",
+    "imageUrl": "https://www.711.nl/media/2025-05/image-10-kd7-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96.08
+  },
+  {
+    "name": "Golden Egg Invaders",
+    "imageUrl": "https://www.711.nl/media/2025-04/250x157-1-cOV-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Finn and the Dragon Tales",
+    "imageUrl": "https://www.711.nl/media/2025-04/250x157-76-DFy-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.04
+  },
+  {
+    "name": "Wild Mining XXXtreme",
+    "imageUrl": "https://www.711.nl/media/2025-02/250x157-65-XZY-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 10,
+    "rtp": 96.02
+  },
+  {
+    "name": "Dazzle Me Christmas",
+    "imageUrl": "https://www.711.nl/media/2024-12/250x157-dazzle-EoN-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Mummy Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_MUMMY_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96.2
+  },
+  {
+    "name": "Ms Robin Hood",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_MS_ROBIN_HOOD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96.19
+  },
+  {
+    "name": "Rabid Randy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_RABID_RANDY_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12,
+    "rtp": 96.06
+  },
+  {
+    "name": "Twister",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_TWISTER_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.04
+  },
+  {
+    "name": "Dragons Playground",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DRAGONS_PLAYGROUND/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.18
+  },
+  {
+    "name": "Cornelius Milk Hunter Megaways",
+    "imageUrl": "https://www.711.nl/media/2024-09/cornelius-milk-hunter-Q7f-game.webp",
+    "minBet": null,
+    "maxBet": null,
+    "rtp": null
+  },
+  {
+    "name": "Mermaids",
+    "imageUrl": "https://www.711.nl/media/2024-09/mermaids-UYR-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Casino Night",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CASINO_NIGHT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.08
+  },
+  {
+    "name": "Ticket To Wild",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_TICKET_TO_WILD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.16
+  },
+  {
+    "name": "Space Wars Megaways XXXtreme",
+    "imageUrl": "https://www.711.nl/media/2024-08/space-wars-megaways-yCe-game.webp",
+    "minBet": 0.4,
+    "maxBet": 16,
+    "rtp": 96.14
+  },
+  {
+    "name": "Babylon Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BABYLON_RICHES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.13
+  },
+  {
+    "name": "Royal Nuts",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_ROYAL_NUTS_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.05
+  },
+  {
+    "name": "Gladiator Clash",
+    "imageUrl": "https://www.711.nl/media/2024-06/gladiator-cash-g2D-game.webp",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Big Money Wheel",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BIG_MONEY_WHEEL_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.07
+  },
+  {
+    "name": "Lock and Pop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_LOCK_AND_POP_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.09
+  },
+  {
+    "name": "Jungle Spirit Megaways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JUNGLE_SPIRIT_MEGAWAYS_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 36,
+    "rtp": 96.2
+  },
+  {
+    "name": "Pandora's Treasure™",
+    "imageUrl": "https://www.711.nl/media/2024-05/pandoras-treasure-Sw4-game.webp",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.09
+  },
+  {
+    "name": "Golden Realms",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_GOLDEN_REALMS_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Leprechaun Joy",
+    "imageUrl": "https://www.711.nl/media/2024-04/leprechaun-joy-SW9-game.webp",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.19
+  },
+  {
+    "name": "Golden Wheels of Egypt",
+    "imageUrl": "https://www.711.nl/media/2024-04/golden-wheels-of-egypt-9Y8-game.webp",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Rainforest Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_RAINFOREST_GOLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.07
+  },
+  {
+    "name": "Cursed Treasure",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CURSED_TREASURE_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 95.99
+  },
+  {
+    "name": "Magic Lab",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_MAGIC_LAB/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.06
+  },
+  {
+    "name": "Jack Hammer 3",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JACK_HAMMER_3_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.08
+  },
+  {
+    "name": "Good Old 7’s",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_GOOD_OLD_7S/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Rage",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_RAGE_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.07
+  },
+  {
+    "name": "Buckshot Wilds",
+    "imageUrl": "https://www.711.nl/media/2024-01/buckshot-wilds-yeh-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.04
+  },
+  {
+    "name": "Pirates Party",
+    "imageUrl": "https://www.711.nl/media/2024-01/pirates-party-uem-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Jelly Belly Megaways",
+    "imageUrl": "https://www.711.nl/media/2024-01/jelly-belly-megaways-5Bp-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.08
+  },
+  {
+    "name": "Gem Crush",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_GEM_CRUSH/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Jingle Bells Bonanza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JINGLE_BELLS_BONANZA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.12
+  },
+  {
+    "name": "Elk Hunter",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_ELK_HUNTER_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Finn and The Candy Spin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FINN_AND_THE_CANDY_SPIN_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.62
+  },
+  {
+    "name": "Lights, Camera, Cash!",
+    "imageUrl": "https://www.711.nl/media/2023-11/lightscameracash-RqL-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.09
+  },
+  {
+    "name": "Don’t Eat the Candy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DONT_EAT_THE_CANDY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Druid's Magic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DRUIDS_MAGIC/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "The Wish Master™ Megaways™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_THE_WISH_MASTER_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.07
+  },
+  {
+    "name": "Thrill to Grill",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_THRILL_TO_GRILL_96_NOBB/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Big Bang Boom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BIG_BANG_BOOM_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.07
+  },
+  {
+    "name": "101 Candies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_101_CANDIES_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.08
+  },
+  {
+    "name": "Beach Invaders",
+    "imageUrl": "https://www.711.nl/media/2023-08/beach-invaders-oss-thumbnail-1920x1080-2023-05-01-RuK-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.09
+  },
+  {
+    "name": "Fruit Shop Frenzy",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FRUIT_SHOP_FRENZY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.04
+  },
+  {
+    "name": "Crab Trap",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CRAB_TRAP_96_NO_BONUS_BUY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.07
+  },
+  {
+    "name": "Wild Turkey Megaways",
+    "imageUrl": "https://www.711.nl/media/2023-07/wildturkeymegaways-NWe-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.02
+  },
+  {
+    "name": "Twin Spin XXXTreme",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_TWIN_SPIN_XXXTREME_96_NFB/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 96.06
+  },
+  {
+    "name": "Taco Fury™ XXXtreme",
+    "imageUrl": "https://www.711.nl/media/2023-05/taco-fury-xxxtreme-6dd-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Buster’s Bones",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BUSTERS_BONES_96_NFB/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.07
+  },
+  {
+    "name": "Wonders of Christmas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WONDERS_OF_CHRISTMAS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.06
+  },
+  {
+    "name": "Let It Burn",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_LET_IT_BURN_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Milkshake XXXtreme",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_MILKSHAKE_XXXTREME_96_NFB/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.04
+  },
+  {
+    "name": "Dead or Alive",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DEAD_OR_ALIVE/launch/250x157.png",
+    "minBet": 0.09,
+    "maxBet": 18,
+    "rtp": 96.82
+  },
+  {
+    "name": "Cupcakes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CUPCAKES/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Superstars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SUPERSTARS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.08
+  },
+  {
+    "name": "Cornelius",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CORNELIUS_NFB/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.04
+  },
+  {
+    "name": "Butterfly Staxx",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BUTTERFLY_STAXX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.8
+  },
+  {
+    "name": "Bee Hive Bonanza",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BEE_HIVE_BONANZA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.09
+  },
+  {
+    "name": "Blackjack Classic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BLACKJACK_CLASSIC/launch/250x157.png",
+    "minBet": 1,
+    "maxBet": 1,
+    "rtp": null
+  },
+  {
+    "name": "Secrets of Christmas™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SECRETS_OF_CHRISTMAS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.72
+  },
+  {
+    "name": "Space Wars 2 Powerpoints",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SPACE_WARS_2_POWERPOINTS_NFB/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.05
+  },
+  {
+    "name": "Funk Master",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FUNK_MASTER_01/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.04
+  },
+  {
+    "name": "Narcos™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_NARCOS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.23
+  },
+  {
+    "name": "Divine Fortune Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DIVINE_FORTUNE_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.59
+  },
+  {
+    "name": "Lost Relics",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_LOST_RELICS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.3
+  },
+  {
+    "name": "Roulette Advanced",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_ROULETTE_ADVANCED/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 1,
+    "rtp": 97.3
+  },
+  {
+    "name": "Aloha! Christmas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_ALOHA_CHRISTMAS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Asgardian Stones",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_ASGARDIAN_STONES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.31
+  },
+  {
+    "name": "Butterfly Staxx 2™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BUTTERFLY_STAXX_2/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.35
+  },
+  {
+    "name": "Cash Noire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CASH_NOIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Codex of Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CODEX_OF_FORTUNE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 98
+  },
+  {
+    "name": "Dark King Forbidden Riches",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DARK_KING_FORBIDDEN_RICHES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Dazzle Me",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DAZZLE_ME/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.91
+  },
+  {
+    "name": "Disco Danny",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DISCO_DANNY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.04
+  },
+  {
+    "name": "Double Stacks",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DOUBLE_STACKS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Dracula",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DRACULA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 40,
+    "rtp": 96.58
+  },
+  {
+    "name": "Drive: Multiplier Mayhem",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DRIVE_MULTIPLIER_MAYHEM/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 45,
+    "rtp": 96.7
+  },
+  {
+    "name": "Elements: The Awakening™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_ELEMENTS_THE_AWAKENING/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.02
+  },
+  {
+    "name": "Fairytale Legends: Hansel and Gretel™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FAIRYTALE_LEGENDS_HANSEL_AND_GRETEL/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.71
+  },
+  {
+    "name": "Fairytale Legends: Red Riding Hood",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FAIRYTALE_LEGENDS_RED_RIDING_HOOD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.33
+  },
+  {
+    "name": "Finn’s Golden Tavern",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FINNS_GOLDEN_TAVERN/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.1
+  },
+  {
+    "name": "Fruit Shop Christmas Edition",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FRUIT_SHOP_CHRISTMAS_EDITION/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 45,
+    "rtp": 96.71
+  },
+  {
+    "name": "Fruit Spin™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FRUIT_SPIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.84
+  },
+  {
+    "name": "Gods of Gold: Infinireels",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_GODS_OF_GOLD_INFINIREELS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.21
+  },
+  {
+    "name": "Gorilla Kingdom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_GORILLA_KINGDOM/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 200,
+    "rtp": 96.03
+  },
+  {
+    "name": "Grand Spinn™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_GRAND_SPINN/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 25,
+    "rtp": 96.19
+  },
+  {
+    "name": "Hotline™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_HOTLINE/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 15,
+    "rtp": 97.04
+  },
+  {
+    "name": "Hotline 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_HOTLINE_2/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 96.05
+  },
+  {
+    "name": "Irish Pot Luck",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_IRISH_POT_LUCK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.06
+  },
+  {
+    "name": "Jack Hammer™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JACK_HAMMER/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.96
+  },
+  {
+    "name": "Jackpot 6000",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JACKPOT_6000/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 95
+  },
+  {
+    "name": "Jimi Hendrix™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JIMI_HENDRIX_ONLINE_SLOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.9
+  },
+  {
+    "name": "Jingle Spin",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JINGLE_SPIN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.48
+  },
+  {
+    "name": "Joker Pro™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JOKER_PRO/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.8
+  },
+  {
+    "name": "Jungle Spirit: Call of the Wild™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_JUNGLE_SPIRIT_CALL_OF_THE_WILD/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.47
+  },
+  {
+    "name": "King of Slots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_KING_OF_SLOTS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.96
+  },
+  {
+    "name": "Koi Princess",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_KOI_PRINCESS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.23
+  },
+  {
+    "name": "Lights™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_LIGHTS/launch/250x157.png",
+    "minBet": 0.09,
+    "maxBet": 45,
+    "rtp": 96.1
+  },
+  {
+    "name": "Motörhead Video Slot™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_MOTORHEAD_VIDEO_SLOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 200,
+    "rtp": 96.98
+  },
+  {
+    "name": "Mythic Maiden™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_MYTHIC_MAIDEN/launch/250x157.png",
+    "minBet": 0.3,
+    "maxBet": 45,
+    "rtp": 96.58
+  },
+  {
+    "name": "Neon Staxx",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_NEON_STAXX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.9
+  },
+  {
+    "name": "Ocean's Treasure",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_OCEANS_TREASURE/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 45,
+    "rtp": 95.99
+  },
+  {
+    "name": "Pyramid Quest for Immortality",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_PYRAMID_QUEST_FOR_IMMORTALITY/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.48
+  },
+  {
+    "name": "Rage of the Seas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_RAGE_OF_THE_SEAS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.04
+  },
+  {
+    "name": "Reef Raider",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_REEF_RAIDER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.1
+  },
+  {
+    "name": "Riches of Midgard Land and Expand",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_RICHES_OF_MIDGARD_LAND_AND_EXPAND/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.03
+  },
+  {
+    "name": "Rise of Maya",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_RISE_OF_MAYA/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.42
+  },
+  {
+    "name": "Scruffy Duck™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SCRUFFY_DUCK/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.38
+  },
+  {
+    "name": "Secret Of The Stones™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SECRET_OF_THE_STONES/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 96.81
+  },
+  {
+    "name": "Spiñata Grande™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SPINATA_GRANDE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.84
+  },
+  {
+    "name": "Street Fighter II: The World Warrior Slot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_STREET_FIGHTER_II_THE_WORLD_WARRIOR_SLOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "The Invisible Man",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_THE_INVISIBLE_MAN/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 100,
+    "rtp": 96.3
+  },
+  {
+    "name": "Trollpot 5000",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_TROLLPOT_5000/launch/250x157.png",
+    "minBet": 0.02,
+    "maxBet": 20,
+    "rtp": 96.19
+  },
+  {
+    "name": "Turn Your Fortune",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_TURN_YOUR_FORTUNE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Victorious™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_VICTORIOUS/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 25,
+    "rtp": 96.95
+  },
+  {
+    "name": "Vikings™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_VIKINGS_VIDEO_SLOT/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.05
+  },
+  {
+    "name": "Warlords: Crystals of Power",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WARLORDS_CRYSTALS_OF_POWER/launch/250x157.png",
+    "minBet": 0.15,
+    "maxBet": 45,
+    "rtp": 96.89
+  },
+  {
+    "name": "Wild Bazaar",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WILD_BAZAAR/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.15
+  },
+  {
+    "name": "Wild Water™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WILD_WATER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.4
+  },
+  {
+    "name": "Wild Worlds",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WILD_WORLDS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.47
+  },
+  {
+    "name": "Willy’s Hot Chillies",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WILLYS_HOT_CHILLIES/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "Wolf Cub",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WOLF_CUB/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.34
+  },
+  {
+    "name": "The Legend of Shangri-La: Cluster Pays™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_THE_LEGEND_OF_SHANGRI_LA_CLUSTER_PAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.59
+  },
+  {
+    "name": "Wild Wild West: The Great Train Heist™",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WILD_WILD_WEST_THE_GREAT_TRAIN_HEIST/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.74
+  },
+  {
+    "name": "Dazzle Me Megaways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_DAZZLE_ME_MEGAWAYS/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.1
+  },
+  {
+    "name": "Ozzy Osbourne Video Slot",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_OZZY_OSBOURNE_VIDEO_SLOTS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.3
+  },
+  {
+    "name": "Parthenon: Quest for Immortality",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_PARTHENON_QUEST_FOR_IMMORTALITY/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.03
+  },
+  {
+    "name": "Rome: The Golden Age",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_ROME_THE_GOLDEN_AGE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.06
+  },
+  {
+    "name": "Gonzo's Gold",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_GONZOS_GOLD/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 200,
+    "rtp": 96.11
+  },
+  {
+    "name": "Casino Hold'em",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CASINO_HOLDEM/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 100,
+    "rtp": null
+  },
+  {
+    "name": "American Roulette",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_AMERICAN_ROULETTE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 1,
+    "rtp": null
+  },
+  {
+    "name": "Baccarat",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BACCARAT/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 500,
+    "rtp": null
+  },
+  {
+    "name": "Blood Suckers II",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_BLOOD_SUCKERS_II/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.94
+  },
+  {
+    "name": "Cash-o-Matic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_CASH_O_MATIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.33
+  },
+  {
+    "name": "EggOMatic",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_EGGOMATIC/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.5
+  },
+  {
+    "name": "Fairytale Legends: Mirror Mirror",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FAIRYTALE_LEGENDS_MIRROR_MIRROR/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.48
+  },
+  {
+    "name": "Football: Champions Cup",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FOOTBALL_CHAMPIONS_CUP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.82
+  },
+  {
+    "name": "French Roulette",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_FRENCH_ROULETTE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 1,
+    "rtp": 97.3
+  },
+  {
+    "name": "Golden Grimoire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_GOLDEN_GRIMOIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.44
+  },
+  {
+    "name": "Halloween Jack",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_HALLOWEEN_JACK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 96.28
+  },
+  {
+    "name": "Reel Rush 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_REEL_RUSH_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 20,
+    "rtp": 95.53
+  },
+  {
+    "name": "Reel Steal",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_REEL_STEAL/launch/250x157.png",
+    "minBet": 0.09,
+    "maxBet": 45,
+    "rtp": 95.87
+  },
+  {
+    "name": "Spinsane",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_SPINSANE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.26
+  },
+  {
+    "name": "The Wolf's Bane",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_THE_WOLFS_BANE/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.74
+  },
+  {
+    "name": "Wilderland",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/NETEE_WILDERLAND/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.16
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Leprechauns Gold Streak",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_LEPRECHAUNS_GOLD_STREAK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.06
+  },
+  {
+    "name": "Big Boss",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_BIG_BOSS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 95.99
+  },
+  {
+    "name": "Lucky Jaguar 500",
+    "imageUrl": "https://www.711.nl/media/2026-08/lucky-jaguar-500-pgS-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.26
+  },
+  {
+    "name": "Jokers Fortune Win X",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_JOKERS_FORTUNE_WINX/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.13
+  },
+  {
+    "name": "Gold Mine Express",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_GOLD_MINE_EXPRESS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.24
+  },
+  {
+    "name": "Joker Coins Expanded",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_JOKER_COINS_EXPANDED/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.2
+  },
+  {
+    "name": "Fortune Gems",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_FORTUNE_GEMS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 30,
+    "rtp": 96.29
+  },
+  {
+    "name": "Coin of Lightning",
+    "imageUrl": "https://www.711.nl/media/2026-06/zeciquiqctnegkrjlu7u-jgn-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.15
+  },
+  {
+    "name": "Golden Empire",
+    "imageUrl": "https://www.711.nl/media/2026-06/uy3r8aobfpxxkhisrv96-l3L-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 5,
+    "rtp": 95.9
+  },
+  {
+    "name": "Devil Fire 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_DEVIL_FIRE_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.41
+  },
+  {
+    "name": "Devil Fire Twins",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_DEVIL_FIRE_TWINS/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.18
+  },
+  {
+    "name": "Dice & Drop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_DICE_AND_DROP/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.26
+  },
+  {
+    "name": "Devil Fire",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_DEVIL_FIRE/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.26
+  },
+  {
+    "name": "Jokers Fortune",
+    "imageUrl": "https://www.711.nl/media/2026-06/jglajaws624m5ycshk8e-Fw0-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 25,
+    "rtp": 96.2
+  },
+  {
+    "name": "Fortune Hook Boom",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_FORTUNE_HOOK_BOOM/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.1
+  },
+  {
+    "name": "Money Coming 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_MONEY_COMING_2/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.17
+  },
+  {
+    "name": "Fortune Gems 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_FORTUNE_GEMS_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.33
+  },
+  {
+    "name": "Crown of Fortune",
+    "imageUrl": "https://www.711.nl/media/2026-06/or-552x380-gameid621-zh-cn-5Le-game.jpeg",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96
+  },
+  {
+    "name": "3 Coin Treasures 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_3_COIN_TREASURES_2/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.18
+  },
+  {
+    "name": "3 Coin Golden Peacock",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_3_COIN_GOLDEN_PEACOCK/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.29
+  },
+  {
+    "name": "Jackpot Joker",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/TD_JACKPOT_JOKER/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 8,
+    "rtp": 96.2
+  }
+]

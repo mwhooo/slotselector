@@ -171,7 +171,7 @@ body {
 .bonus-hunt-list-header,
 .bonus-hunt-row {
   display: grid;
-  grid-template-columns: 40px 82px minmax(110px, 1.2fr) minmax(90px, 0.8fr) 125px 125px 115px 115px 136px;
+  grid-template-columns: 40px 82px minmax(110px, 1.2fr) minmax(90px, 0.8fr) 125px 125px 125px 115px 115px 136px;
   align-items: center;
   gap: 8px;
 }
@@ -204,6 +204,12 @@ body {
   min-width: 0;
 }
 
+.bonus-hunt-row .col-bet {
+  align-items: stretch;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .bonus-hunt-list-header .col {
   color: #c6ccdc;
 }
@@ -225,6 +231,15 @@ body {
 .col-title {
   font-weight: 700;
   color: #f1f3ff;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.slot-rtp {
+  color: #a8b0c3;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .col-provider {
@@ -235,12 +250,18 @@ body {
 .col-bet .input-wrapper,
 .col-payout .input-wrapper,
 .col-start-balance .input-wrapper,
+.col-stop-balance .input-wrapper,
 .col-spent .input-wrapper {
   width: 100%;
 }
 
 .bonus-hunt-row input.page-input-field {
   width: 100%;
+}
+
+.bonus-hunt-row input.computed-money-input {
+  color: #c4cada;
+  cursor: default;
 }
 
 .field-label {
@@ -305,7 +326,7 @@ body {
 
 .bonus-hunt-ended-row {
   display: grid;
-  grid-template-columns: minmax(180px, 1fr) minmax(120px, 0.7fr) minmax(100px, 0.6fr) 100px;
+  grid-template-columns: minmax(180px, 1fr) minmax(120px, 0.7fr) minmax(120px, 0.7fr) minmax(100px, 0.6fr) 100px;
   align-items: center;
   gap: 12px;
   padding: 10px 12px;
@@ -364,6 +385,7 @@ body {
       "idx thumb title"
       "idx thumb provider"
       "idx start start"
+      "idx stop stop"
       "idx bet bet"
       "idx spent spent"
       "idx payout payout"
@@ -376,12 +398,14 @@ body {
   .col-title { grid-area: title; }
   .col-provider { grid-area: provider; font-size: 13px; }
   .col-start-balance { grid-area: start; }
+  .col-stop-balance { grid-area: stop; }
   .col-bet { grid-area: bet; }
   .col-spent { grid-area: spent; }
   .col-payout { grid-area: payout; }
   .col-actions { grid-area: actions; }
 
   .col-start-balance,
+  .col-stop-balance,
   .col-bet,
   .col-spent,
   .col-payout {
@@ -400,6 +424,7 @@ body {
   .col-bet .input-wrapper,
   .col-payout .input-wrapper,
   .col-start-balance .input-wrapper,
+  .col-stop-balance .input-wrapper,
   .col-spent .input-wrapper {
     min-width: 0;
   }
@@ -1313,6 +1338,24 @@ body {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
 }
 
+.slot-metadata {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 2px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 1.15;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.slot-stakes {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+
 .grid-item::before {
   content: '';
   position: absolute;
@@ -1891,6 +1934,12 @@ body {
   cursor: pointer;
   transition: all 0.2s ease;
   box-shadow: 0 10px 26px rgba(115, 110, 254, 0.35);
+}
+
+.lucky-rtp {
+  margin: 0;
+  color: #c2ac82;
+  font-weight: 700;
 }
 
 .lucky-actions {

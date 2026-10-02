@@ -1,0 +1,625 @@
+[
+  {
+    "name": "Neon Cash City",
+    "imageUrl": "https://www.711.nl/media/2026-08/neon-cash-city-1-h87-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.35
+  },
+  {
+    "name": "3 Liberty Eagles",
+    "imageUrl": "https://www.711.nl/media/2026-08/3-liberty-eagles-1-ptZ-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.23
+  },
+  {
+    "name": "Viva Lock Vegas",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_VIVA_LOCK_VEGAS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96.35
+  },
+  {
+    "name": "Jiggys Pot O Gold",
+    "imageUrl": "https://www.711.nl/media/2026-07/qaikrufb3nujy4nwcnmu-zk6-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96.28
+  },
+  {
+    "name": "Razor Shark",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RAZOR_SHARK_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 2.5,
+    "rtp": 96.7
+  },
+  {
+    "name": "Big Bamboo",
+    "imageUrl": "https://www.711.nl/media/2023-06/bigbamboo-oKZ-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.52
+  },
+  {
+    "name": "Razor Returns",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RAZOR_RETURNS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 2.75,
+    "rtp": 96.55
+  },
+  {
+    "name": "Wild Swarm",
+    "imageUrl": "https://www.711.nl/media/2023-05/wildswarm-hKz-game.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 97.03
+  },
+  {
+    "name": "Retro Tapes",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RETRO_TAPES_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.47
+  },
+  {
+    "name": "Jammin Jars 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_JAMMIN_JARS_2_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.4
+  },
+  {
+    "name": "Vegas Vault",
+    "imageUrl": "https://www.711.nl/media/2026-05/fkvgevxt7fthkcok6jje-cfA-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.36
+  },
+  {
+    "name": "Dinopolis",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DINOPOLIS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.4
+  },
+  {
+    "name": "Fish 'n' Nudge",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_FISH_N_NUDGE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 24,
+    "rtp": 96.41
+  },
+  {
+    "name": "Dino P.D.",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DINO_PD_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.38
+  },
+  {
+    "name": "Rat King",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RAT_KING_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.34
+  },
+  {
+    "name": "Razor Shark Jackpots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RAZOR_SHARK_JACKPOTS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96.38
+  },
+  {
+    "name": "Fat Rabbit",
+    "imageUrl": "https://www.711.nl/media/2023-05/fatrabbit-I9A-game.png",
+    "minBet": 0.5,
+    "maxBet": 40,
+    "rtp": 96.45
+  },
+  {
+    "name": "Giga Jar",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_GIGA_JAR_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.47
+  },
+  {
+    "name": "Fat Banker",
+    "imageUrl": "https://www.711.nl/media/2023-05/fatbanker-bNK-game.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.43
+  },
+  {
+    "name": "Diamonds 4 The Win",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DIAMONDS_4_THE_WIN_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.38
+  },
+  {
+    "name": "Retroverse",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RETROVERSE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.24
+  },
+  {
+    "name": "Big Bamboo 2",
+    "imageUrl": "https://www.711.nl/media/2026-03/bb-250x157-On8-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 3,
+    "rtp": 96.07
+  },
+  {
+    "name": "Wild Swarm 3 Chocolate Eggs",
+    "imageUrl": "https://www.711.nl/media/2026-03/jmp-250x157-WDX-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.48
+  },
+  {
+    "name": "Red Hot Multipliers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RED_HOT_MULTIPLIERS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.22
+  },
+  {
+    "name": "The Great Banker",
+    "imageUrl": "https://www.711.nl/media/2026-01/250x157-4-SZj-game.jpeg",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.31
+  },
+  {
+    "name": "Bait n Bank",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_BAIT_N_BANK_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.37
+  },
+  {
+    "name": "Diamond Supernova 5",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DIAMOND_SUPERNOVA_5_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.34
+  },
+  {
+    "name": "Diamond Supernova 20",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DIAMOND_SUPERNOVA_20_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.33
+  },
+  {
+    "name": "Diamond Supernova 40",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DIAMOND_SUPERNOVA_40_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.32
+  },
+  {
+    "name": "Diamond Supernova 100",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DIAMOND_SUPERNOVA_100_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.33
+  },
+  {
+    "name": "10 Santa's Reindeers",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_10_SANTAS_REINDEERS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.26
+  },
+  {
+    "name": "Santa Hopper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_SANTA_HOPPER_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.35
+  },
+  {
+    "name": "Sea of Spirits",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_SEA_OF_SPIRITS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.36
+  },
+  {
+    "name": "Santa's Vault",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_SANTAS_VAULT_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 30,
+    "rtp": 96.37
+  },
+  {
+    "name": "Tricky Treats",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_TRICKY_TREATS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.32
+  },
+  {
+    "name": "Happy Bamboo",
+    "imageUrl": "https://www.711.nl/media/2025-10/happy-bamboo-Ye0-game.webp",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.31
+  },
+  {
+    "name": "Tarot Treasures",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_TAROT_TREASURES_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.39
+  },
+  {
+    "name": "Masked Mayhem",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_MASKED_MAYHEM_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.29
+  },
+  {
+    "name": "Bamboo Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_BAMBOO_WAYS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.3
+  },
+  {
+    "name": "10 Cash Bisons",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_10_CASH_BISONS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.29
+  },
+  {
+    "name": "Triple Rampage",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_TRIPLE_RAMPAGE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.23
+  },
+  {
+    "name": "Wild Swarm Triple Hive",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_WILD_SWARM_TRIPLE_HIVE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.48
+  },
+  {
+    "name": "Fire Pig Push Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_FIRE_PIG_PUSH_WAYS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.37
+  },
+  {
+    "name": "Power Paws",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_POWER_PAWS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 35,
+    "rtp": 96.39
+  },
+  {
+    "name": "Fish 'n' Nudge Big Catch",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_FISH_N_NUDGE_BIG_CATCH_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.44
+  },
+  {
+    "name": "Henry The Ape",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_HENRY_THE_APE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 8,
+    "rtp": 96.32
+  },
+  {
+    "name": "Regal Knights",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_REGAL_KNIGHTS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 0.15,
+    "rtp": 96.22
+  },
+  {
+    "name": "Fang City",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_FANG_CITY_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.45
+  },
+  {
+    "name": "Olympus Unleashed",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_OLYMPUS_UNLEASHED_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.32
+  },
+  {
+    "name": "3 Magic Pots",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_3_MAGIC_POTS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.26
+  },
+  {
+    "name": "10 Pharaohs",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_10_PHARAOHS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.26
+  },
+  {
+    "name": "Candy Blast",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_CANDY_BLAST_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.29
+  },
+  {
+    "name": "Big Bite Push Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_BIG_BITE_PUSH_WAYS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 40,
+    "rtp": 96.27
+  },
+  {
+    "name": "Power Vault",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_POWER_VAULT_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.41
+  },
+  {
+    "name": "Mad Blast",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_MAD_BLAST_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.34
+  },
+  {
+    "name": "Dragon Hopper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DRAGON_HOPPER_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.33
+  },
+  {
+    "name": "Mystery of the Nile",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_MYSTERY_OF_THE_NILE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.36
+  },
+  {
+    "name": "10 Flaming Bisons",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_10_FLAMING_BISONS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.26
+  },
+  {
+    "name": "Jaguar Drop",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_JAGUAR_DROP_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.33
+  },
+  {
+    "name": "Cats of Olympuss",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_CATS_OF_OLYMPUSS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 15,
+    "rtp": 96.31
+  },
+  {
+    "name": "Big Bam-Book",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_BIG_BAM_BOOK_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.31
+  },
+  {
+    "name": "Razor Ways",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RAZOR_WAYS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.36
+  },
+  {
+    "name": "The Grand Show",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_THE_GRAND_SHOW_96/launch/250x157.png",
+    "minBet": 0.05,
+    "maxBet": 25,
+    "rtp": 96.25
+  },
+  {
+    "name": "Big Bite",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_BIG_BITE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 18,
+    "rtp": 96.4
+  },
+  {
+    "name": "Retro Sweets",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_RETRO_SWEETS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.49
+  },
+  {
+    "name": "DJ Cat",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DJ_CAT_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 25,
+    "rtp": 96.32
+  },
+  {
+    "name": "Samurai's Katana",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_SAMURAIS_KATANA_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.32
+  },
+  {
+    "name": "Wild Swarm 2",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_WILD_SWARM_2_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.67
+  },
+  {
+    "name": "Shamrock Saints",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_SHAMROCK_SAINTS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.66
+  },
+  {
+    "name": "Hearts Highway",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_HEARTS_HIGHWAY_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 20,
+    "rtp": 96.43
+  },
+  {
+    "name": "DJ Fox",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DJ_FOX_96/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 20,
+    "rtp": 96.42
+  },
+  {
+    "name": "Boss Bear",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_BOSS_BEAR_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12,
+    "rtp": 96.53
+  },
+  {
+    "name": "Goat Getter",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_GOAT_GETTER_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 24,
+    "rtp": 96.4
+  },
+  {
+    "name": "Crystal Catcher",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_CRYSTAL_CATCHER_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.4
+  },
+  {
+    "name": "10 Swords",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_10_SWORDS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.45
+  },
+  {
+    "name": "Jammin Jars",
+    "imageUrl": "https://www.711.nl/media/2023-05/jamminjars-zFn-game.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96.83
+  },
+  {
+    "name": "Tiki Tumble",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_TIKI_TUMBLE_96/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 12,
+    "rtp": 96.49
+  },
+  {
+    "name": "Mad Cars",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_MAD_CARS_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.39
+  },
+  {
+    "name": "Mystery Museum",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_MYSTERY_MUSEUM_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 12.5,
+    "rtp": 96.58
+  },
+  {
+    "name": "Bison Battle",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_BISON_BATTLE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.4
+  },
+  {
+    "name": "Deadly 5",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_DEADLY_5_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 50,
+    "rtp": 96.39
+  },
+  {
+    "name": "Fat Drac",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_FAT_DRAC_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.57
+  },
+  {
+    "name": "Fat Santa",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_FAT_SANTA_96/launch/250x157.png",
+    "minBet": 0.25,
+    "maxBet": 50,
+    "rtp": 96.45
+  },
+  {
+    "name": "Fire Hopper",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_FIRE_HOPPER_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 5,
+    "rtp": 96.3
+  },
+  {
+    "name": "Generous Jack",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_GENEROUS_JACK_96/launch/250x157.png",
+    "minBet": 0.01,
+    "maxBet": 20,
+    "rtp": 96.23
+  },
+  {
+    "name": "Mystery Mission To The Moon",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_MYSTERY_MISSION_TO_THE_MOON/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 24,
+    "rtp": 96.25
+  },
+  {
+    "name": "The Shadow Order",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_THE_SHADOW_ORDER/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 10,
+    "rtp": 96.98
+  },
+  {
+    "name": "Blaze of Ra",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_BLAZE_OF_RA/launch/250x157.png",
+    "minBet": 0.2,
+    "maxBet": 50,
+    "rtp": 96.4
+  },
+  {
+    "name": "Joker Troupe",
+    "imageUrl": "https://cdn.oryxgaming.com/medialib/PUSH_JOKER_TROUPE_96/launch/250x157.png",
+    "minBet": 0.1,
+    "maxBet": 7.5,
+    "rtp": 96.68
+  }
+]
