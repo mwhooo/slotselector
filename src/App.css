@@ -11,7 +11,7 @@ body {
 }
 
 #root {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -171,9 +171,9 @@ body {
 .bonus-hunt-list-header,
 .bonus-hunt-row {
   display: grid;
-  grid-template-columns: 40px 120px 1.4fr 1fr 140px 140px;
+  grid-template-columns: 40px 82px minmax(110px, 1.2fr) minmax(90px, 0.8fr) 125px 125px 115px 115px 136px;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }
 
 .bonus-hunt-list-header {
@@ -233,12 +233,120 @@ body {
 }
 
 .col-bet .input-wrapper,
-.col-payout .input-wrapper {
+.col-payout .input-wrapper,
+.col-start-balance .input-wrapper,
+.col-spent .input-wrapper {
   width: 100%;
 }
 
 .bonus-hunt-row input.page-input-field {
   width: 100%;
+}
+
+.field-label {
+  display: none;
+}
+
+.slot-no-bonus-btn,
+.slot-restore-btn {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  padding: 8px 9px;
+  background: rgba(255, 255, 255, 0.07);
+  color: #f1f3ff;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.slot-no-bonus-btn:hover,
+.slot-restore-btn:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.slot-no-bonus-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.bonus-hunt-no-active {
+  margin: 4px 0;
+  color: #b8bed0;
+}
+
+.bonus-hunt-ended {
+  margin-top: 10px;
+  border-top: 1px solid #343845;
+  padding-top: 14px;
+}
+
+.bonus-hunt-ended-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.bonus-hunt-ended-header h3 {
+  margin: 0;
+  color: #e9ecf2;
+  font-size: 16px;
+}
+
+.bonus-hunt-ended-header > span,
+.bonus-hunt-ended-slot > div > span,
+.bonus-hunt-ended-value > span {
+  color: #a8b0c3;
+  font-size: 12px;
+}
+
+.bonus-hunt-ended-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) minmax(120px, 0.7fr) minmax(100px, 0.6fr) 100px;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid #343845;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.16);
+}
+
+.bonus-hunt-ended-slot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.bonus-hunt-ended-slot img {
+  width: 48px;
+  height: 36px;
+  flex: 0 0 auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.bonus-hunt-ended-slot > div,
+.bonus-hunt-ended-value {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.bonus-hunt-ended-slot strong {
+  overflow: hidden;
+  color: #e9ecf2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bonus-hunt-ended-value strong {
+  color: #e9ecf2;
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
@@ -251,12 +359,15 @@ body {
   }
 
   .bonus-hunt-row {
-    grid-template-columns: 40px 90px 1fr;
+    grid-template-columns: 36px 72px minmax(0, 1fr);
     grid-template-areas:
       "idx thumb title"
       "idx thumb provider"
-      "idx thumb bet"
-      "idx thumb payout";
+      "idx start start"
+      "idx bet bet"
+      "idx spent spent"
+      "idx payout payout"
+      "idx actions actions";
     gap: 8px 10px;
   }
 
@@ -264,12 +375,46 @@ body {
   .col-thumb { grid-area: thumb; }
   .col-title { grid-area: title; }
   .col-provider { grid-area: provider; font-size: 13px; }
+  .col-start-balance { grid-area: start; }
   .col-bet { grid-area: bet; }
+  .col-spent { grid-area: spent; }
   .col-payout { grid-area: payout; }
+  .col-actions { grid-area: actions; }
+
+  .col-start-balance,
+  .col-bet,
+  .col-spent,
+  .col-payout {
+    align-items: stretch !important;
+    flex-direction: column;
+    gap: 4px !important;
+  }
+
+  .field-label {
+    display: block;
+    color: #a8b0c3;
+    font-size: 11px;
+    font-weight: 600;
+  }
 
   .col-bet .input-wrapper,
-  .col-payout .input-wrapper {
+  .col-payout .input-wrapper,
+  .col-start-balance .input-wrapper,
+  .col-spent .input-wrapper {
     min-width: 0;
+  }
+
+  .bonus-hunt-ended-row {
+    grid-template-columns: minmax(0, 1fr) minmax(90px, auto);
+    gap: 10px;
+  }
+
+  .bonus-hunt-ended-slot {
+    grid-column: 1 / -1;
+  }
+
+  .bonus-hunt-ended-row .slot-restore-btn {
+    grid-column: 1 / -1;
   }
 }
 /* Aurora Borealis Theme */
@@ -1850,7 +1995,260 @@ body {
 
 /* Bonus Hunt Modal Styles */
 .bonus-hunt-modal {
-  max-width: 500px !important;
+  max-width: 720px !important;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.bonus-hunt-mode-switch {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.bonus-hunt-modal .bonus-hunt-mode-button {
+  margin: 0;
+  padding: 10px 14px;
+  border: 1px solid #cbd6d1;
+  border-radius: 6px;
+  background: #eef3f0;
+  color: #243b32;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bonus-hunt-modal .bonus-hunt-mode-button.active {
+  background: #16856d;
+  border-color: #49d5aa;
+  color: #fff;
+}
+
+.bonus-hunt-slot-search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #18211f;
+  font-size: 15px;
+}
+
+.bonus-hunt-slot-picker {
+  display: grid;
+  gap: 6px;
+  max-height: 340px;
+  overflow-y: auto;
+  margin: 12px 0 0;
+  padding: 2px 4px 2px 0;
+}
+
+.bonus-hunt-slot-option {
+  display: grid;
+  grid-template-columns: 18px 88px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  min-height: 88px;
+  padding: 8px 10px;
+  border: 1px solid #d7e0dc;
+  border-radius: 6px;
+  background: #f5f7f6;
+  color: #23322c;
+  cursor: pointer;
+}
+
+.bonus-hunt-slot-option.selected {
+  border-color: #16856d;
+  background: #e5f4ee;
+}
+
+.bonus-hunt-slot-option input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: #16856d;
+}
+
+.bonus-hunt-modal .bonus-hunt-slot-option img {
+  width: 88px;
+  height: 88px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #e6ece9;
+}
+
+.bonus-hunt-slot-option span {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  text-align: left;
+}
+
+.bonus-hunt-slot-option strong,
+.bonus-hunt-slot-option small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bonus-hunt-slot-option small {
+  color: #596862;
+}
+
+.bonus-hunt-no-results {
+  margin: 18px 0;
+  color: #53625c;
+  text-align: center;
+  opacity: 0.75;
+}
+
+.bonus-hunt-modal button.bonus-hunt-manual-submit {
+  width: 100%;
+  margin: 6px 0 0;
+  padding: 12px 16px;
+  border-radius: 6px;
+  background: #16856d;
+}
+
+.bonus-hunt-modal button.bonus-hunt-manual-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  transform: none;
+  box-shadow: none;
+}
+
+.bonus-hunt-lucky-content {
+  display: grid;
+  gap: 12px;
+}
+
+.bonus-hunt-lucky-preview {
+  display: flex;
+  min-height: 148px;
+  align-items: center;
+  gap: 18px;
+  padding: 16px;
+  border: 1px solid #d7e0dc;
+  border-radius: 8px;
+  background: #f5f7f6;
+  color: #23322c;
+  text-align: left;
+}
+
+.bonus-hunt-modal .bonus-hunt-lucky-preview img {
+  width: 128px;
+  height: 128px;
+  flex: 0 0 128px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #e6ece9;
+}
+
+.bonus-hunt-lucky-preview div {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.bonus-hunt-lucky-preview strong {
+  overflow-wrap: anywhere;
+  font-size: 19px;
+}
+
+.bonus-hunt-lucky-preview small,
+.bonus-hunt-lucky-preview > span {
+  color: #596862;
+}
+
+.bonus-hunt-lucky-preview.spinning img {
+  animation: bonus-hunt-picker-spin 0.18s ease-in-out infinite alternate;
+}
+
+@keyframes bonus-hunt-picker-spin {
+  from { transform: translateY(-3px); }
+  to { transform: translateY(3px); }
+}
+
+.bonus-hunt-lucky-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.bonus-hunt-modal button.bonus-hunt-lucky-spin,
+.bonus-hunt-modal button.bonus-hunt-lucky-add {
+  min-height: 48px;
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.bonus-hunt-modal button.bonus-hunt-lucky-spin {
+  border: 1px solid #cbd6d1;
+  background: #eef3f0;
+  color: #243b32;
+}
+
+.bonus-hunt-modal button.bonus-hunt-lucky-add {
+  background: #16856d;
+}
+
+.bonus-hunt-modal button.bonus-hunt-lucky-spin:disabled,
+.bonus-hunt-modal button.bonus-hunt-lucky-add:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+  transform: none;
+  box-shadow: none;
+}
+
+.bonus-hunt-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bonus-hunt-page-add-btn {
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 6px;
+  background: #16856d;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  .bonus-hunt-mode-switch {
+    grid-template-columns: 1fr;
+  }
+
+  .bonus-hunt-slot-option {
+    grid-template-columns: 18px 72px minmax(0, 1fr);
+  }
+
+  .bonus-hunt-modal .bonus-hunt-slot-option img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .bonus-hunt-lucky-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .bonus-hunt-modal .bonus-hunt-lucky-preview img {
+    width: 96px;
+    height: 96px;
+    flex-basis: 96px;
+  }
 }
 
 .bonus-hunt-description {
@@ -2178,6 +2576,42 @@ body {
   font-size: 14px;
   font-weight: 600;
   transition: all 0.2s ease;
+}
+
+.page-input-field.bet-size-input {
+  padding-right: 34px;
+}
+
+.bet-stepper {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bet-step-button {
+  width: 20px;
+  height: 18px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #dbe2ff;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.bet-step-button:hover:not(:disabled) {
+  color: #5efce8;
+}
+
+.bet-step-button:disabled {
+  color: #697087;
+  cursor: not-allowed;
 }
 
 .page-input-field:focus {

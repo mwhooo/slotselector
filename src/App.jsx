@@ -70,11 +70,18 @@ function App() {
   const [bonusHuntHistory, setBonusHuntHistory] = useState([]); // Persisted hunt history
   const [bonusHuntName, setBonusHuntName] = useState('');
   const [savedHuntsCollapsed, setSavedHuntsCollapsed] = useState(true);
+  const [bonusHuntMode, setBonusHuntMode] = useState('random');
+  const [bonusHuntSearch, setBonusHuntSearch] = useState('');
+  const [manualSelectedSlots, setManualSelectedSlots] = useState([]);
+  const [addingToCurrentHunt, setAddingToCurrentHunt] = useState(false);
+  const [bonusHuntLuckySlot, setBonusHuntLuckySlot] = useState(null);
+  const [isBonusHuntLuckySpinning, setIsBonusHuntLuckySpinning] = useState(false);
   const [selectedProviders, setSelectedProviders] = useState(new Set(providers));
   const [shuffledSlots, setShuffledSlots] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const gridRef = useRef(null);
   const bonusHuntRef = useRef(null);
+  const bonusHuntSpinRef = useRef(null);
 
   // ---- Persistence helpers ----
   const STORAGE_KEY = 'slotselector-state-v1';
@@ -125,6 +132,17 @@ function App() {
     selectedProviders.has(slot.provider) && 
     slot.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  const bonusHuntPickerSlots = fullSlots.filter(slot => {
+    const query = bonusHuntSearch.trim().toLowerCase();
+    return !query || `${slot.name} ${slot.provider}`.toLowerCase().includes(query);
+  });
+
+  const bonusHuntSlotRecords = bonusHuntList.map((slot, index) => ({ slot, index }));
+  const activeBonusHuntSlots = bonusHuntSlotRecords.filter(({ index }) => !bonusHuntData[index]?.endedWithoutBonus);
+  const endedBonusHuntSlots = bonusHuntSlotRecords.filter(({ index }) => bonusHuntData[index]?.endedWithoutBonus);
+  const totalSpent = Object.values(bonusHuntData).reduce((sum, data) => sum + (Number.parseFloat(data?.spent) || 0), 0);
+  const totalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (Number.parseFloat(data?.payout) || 0), 0);
 
   // Shuffle slots only when providers or search term change, not during spinning
   useEffect(() => {
@@ -211,49 +229,182 @@ function App() {
     }, cycleInterval);
   };
 
+  const stopBonusHuntPickerSpin = () => {
+    if (bonusHuntSpinRef.current !== null) {
+      window.clearInterval(bonusHuntSpinRef.current);
+      bonusHuntSpinRef.current = null;
+    }
+    setIsBonusHuntLuckySpinning(false);
+  };
+
+  const startBonusHunt = (slots, appendToCurrent = false) => {
+    if (!slots.length) return;
+    stopBonusHuntPickerSpin();
+
+    const shouldAppend = appendToCurrent && bonusHuntList.length > 0;
+    const startIndex = shouldAppend ? bonusHuntList.length : 0;
+    const nextSlots = shouldAppend ? [...bonusHuntList, ...slots] : slots;
+    const nextData = shouldAppend ? { ...bonusHuntData } : {};
+    slots.forEach((slot, index) => {
+      nextData[startIndex + index] = {
+        startingBalance: '',
+        betSize: '0.10',
+        spent: '',
+        payout: '0.00',
+        endedWithoutBonus: false,
+      };
+    });
+
+    setBonusHuntList(nextSlots);
+    setBonusHuntData(nextData);
+    setActiveBonusHunt(true);
+    setShowBonusHunt(false);
+    setAddingToCurrentHunt(false);
+
+    if (!shouldAppend) {
+      const totalBet = Object.values(nextData).reduce((sum, data) => sum + (parseFloat(data.betSize) || 0), 0);
+      const entry = {
+        id: Date.now(),
+        name: bonusHuntName?.trim() || 'Untitled Hunt',
+        createdAt: new Date().toISOString(),
+        slots: nextSlots,
+        data: nextData,
+        totalBet,
+        totalSpent: 0,
+        totalPayout: 0,
+      };
+      setBonusHuntHistory((prev) => [entry, ...prev].slice(0, 50));
+    }
+  };
+
   const generateBonusHunt = () => {
     const count = Math.min(Math.max(bonusHuntCount, 1), filteredSlots.length);
     const selected = [];
-    const usedIndices = new Set();
-    
-    while (selected.length < count) {
-      const randomIndex = Math.floor(Math.random() * filteredSlots.length);
-      if (!usedIndices.has(randomIndex)) {
-        usedIndices.add(randomIndex);
-        selected.push(filteredSlots[randomIndex]);
-      }
-    }
-    
-    setBonusHuntList(selected);
-    
-    // Initialize bonusHuntData with default values
-    const newData = {};
-    selected.forEach((slot, idx) => {
-      newData[idx] = { betSize: '1.00', payout: '0.00' };
-    });
-    setBonusHuntData(newData);
-    
-    // Switch to active bonus hunt view
-    setActiveBonusHunt(true);
-    setShowBonusHunt(false);
+    const available = [...filteredSlots];
 
-    // Append to history (most recent first, cap at 50 entries)
-    const totalBet = Object.values(newData).reduce((sum, data) => sum + (parseFloat(data.betSize) || 0), 0);
-    const totalPayout = Object.values(newData).reduce((sum, data) => sum + (parseFloat(data.payout) || 0), 0);
-    const entry = {
-      id: Date.now(),
-      createdAt: new Date().toISOString(),
-      slots: selected.map((slot) => ({ name: slot.name, provider: slot.provider })),
-      totalBet,
-      totalPayout,
-    };
-    setBonusHuntHistory((prev) => [entry, ...prev].slice(0, 50));
+    while (selected.length < count) {
+      const randomIndex = Math.floor(Math.random() * available.length);
+      selected.push(available.splice(randomIndex, 1)[0]);
+    }
+
+    startBonusHunt(selected, addingToCurrentHunt);
+  };
+
+  const openBonusHuntCreator = (appendToCurrent = false, mode = 'random') => {
+    stopBonusHuntPickerSpin();
+    setBonusHuntMode(mode);
+    setBonusHuntSearch('');
+    setManualSelectedSlots([]);
+    setBonusHuntLuckySlot(null);
+    setAddingToCurrentHunt(appendToCurrent);
+    setShowBonusHunt(true);
+  };
+
+  const closeBonusHuntCreator = () => {
+    stopBonusHuntPickerSpin();
+    setShowBonusHunt(false);
+  };
+
+  const addManualSelection = () => {
+    startBonusHunt(manualSelectedSlots, addingToCurrentHunt);
+    setManualSelectedSlots([]);
+  };
+
+  const toggleManualSlot = (slot) => {
+    setManualSelectedSlots((current) =>
+      current.some((selected) => selected.image === slot.image)
+        ? current.filter((selected) => selected.image !== slot.image)
+        : [...current, slot]
+    );
+  };
+
+  const spinBonusHuntPicker = () => {
+    if (isBonusHuntLuckySpinning || !filteredSlots.length) return;
+
+    let cycles = 0;
+    setIsBonusHuntLuckySpinning(true);
+    bonusHuntSpinRef.current = window.setInterval(() => {
+      const randomIndex = Math.floor(Math.random() * filteredSlots.length);
+      setBonusHuntLuckySlot(filteredSlots[randomIndex]);
+      cycles += 1;
+      if (cycles >= 24) stopBonusHuntPickerSpin();
+    }, 100);
+  };
+
+  const addLuckyPickerSelection = () => {
+    if (!bonusHuntLuckySlot || isBonusHuntLuckySpinning) return;
+    startBonusHunt([bonusHuntLuckySlot], addingToCurrentHunt);
+    setBonusHuntLuckySlot(null);
+  };
+
+  const addLuckyPickToBonusHunt = () => {
+    if (!selectedSlot) return;
+    startBonusHunt([selectedSlot], bonusHuntList.length > 0);
+    setSelectedSlot(null);
+  };
+
+  const updateBetSize = (index, value) => {
+    setBonusHuntData((current) => ({
+      ...current,
+      [index]: { ...current[index], betSize: value },
+    }));
+  };
+
+  const updateSlotMoney = (index, field, value) => {
+    setBonusHuntData((current) => ({
+      ...current,
+      [index]: { ...current[index], [field]: value },
+    }));
+  };
+
+  const normalizeSlotMoney = (index, field) => {
+    const value = bonusHuntData[index]?.[field] ?? '';
+    if (!value.trim()) return;
+    const amount = Number.parseFloat(value);
+    updateSlotMoney(index, field, Number.isFinite(amount) ? Math.max(0, amount).toFixed(2) : '');
+  };
+
+  const endSlotWithoutBonus = (index) => {
+    const spentAmount = Number.parseFloat(bonusHuntData[index]?.spent);
+    if (!Number.isFinite(spentAmount)) return;
+
+    setBonusHuntData((current) => ({
+      ...current,
+      [index]: {
+        ...current[index],
+        spent: Math.max(0, spentAmount).toFixed(2),
+        endedWithoutBonus: true,
+      },
+    }));
+  };
+
+  const restoreSlotToHunt = (index) => {
+    setBonusHuntData((current) => ({
+      ...current,
+      [index]: { ...current[index], endedWithoutBonus: false },
+    }));
+  };
+
+  const stepBetSize = (index, cents) => {
+    const currentAmount = Number.parseFloat(bonusHuntData[index]?.betSize);
+    const currentCents = Number.isFinite(currentAmount) ? Math.round(currentAmount * 100) : 10;
+    const nextCents = Math.max(10, currentCents + cents);
+    updateBetSize(index, (nextCents / 100).toFixed(2));
+  };
+
+  const normalizeBetSize = (index) => {
+    const currentAmount = Number.parseFloat(bonusHuntData[index]?.betSize);
+    const normalizedValue = Number.isFinite(currentAmount)
+      ? Math.max(0.10, currentAmount).toFixed(2)
+      : '0.10';
+    updateBetSize(index, normalizedValue);
   };
 
   const saveCurrentBonusHunt = () => {
     if (!bonusHuntList.length) return;
     const totalBet = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.betSize) || 0), 0);
-    const totalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.payout) || 0), 0);
+    const savedTotalSpent = Object.values(bonusHuntData).reduce((sum, data) => sum + (Number.parseFloat(data?.spent) || 0), 0);
+    const savedTotalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.payout) || 0), 0);
     const entry = {
       id: Date.now(),
       name: bonusHuntName?.trim() || 'Untitled Hunt',
@@ -261,7 +412,8 @@ function App() {
       slots: bonusHuntList,
       data: bonusHuntData,
       totalBet,
-      totalPayout,
+      totalSpent: savedTotalSpent,
+      totalPayout: savedTotalPayout,
     };
     setBonusHuntHistory((prev) => [entry, ...prev].slice(0, 50));
   };
@@ -312,9 +464,7 @@ function App() {
           </button>
           <button
             className="nav-bonus-btn"
-            onClick={() => {
-              setShowBonusHunt(true);
-            }}
+            onClick={() => openBonusHuntCreator()}
           >
             ➕ Create Bonus Hunt
           </button>
@@ -334,6 +484,13 @@ function App() {
           <div className="bonus-hunt-page-header">
             <h1>🎁 Bonus Hunt</h1>
             <div className="bonus-hunt-header-actions">
+              <button
+                className="bonus-hunt-page-add-btn"
+                type="button"
+                onClick={() => openBonusHuntCreator(true, 'manual')}
+              >
+                + Add Slots
+              </button>
               <button 
                 className="close-bonus-hunt-page-btn" 
                 onClick={() => {
@@ -354,63 +511,161 @@ function App() {
                 <button
                   className="bonus-hunt-generate-btn"
                   type="button"
-                  onClick={() => setShowBonusHunt(true)}
+                  onClick={() => openBonusHuntCreator()}
                 >
                   Create Bonus Hunt
                 </button>
               </div>
             ) : (
               <div className="bonus-hunt-list">
-                <div className="bonus-hunt-list-header">
-                  <span className="col col-idx">#</span>
-                  <span className="col col-thumb">Image</span>
-                  <span className="col col-title">Title</span>
-                  <span className="col col-provider">Provider</span>
-                  <span className="col col-bet">Bet</span>
-                  <span className="col col-payout">Payout</span>
-                </div>
-                {bonusHuntList.map((slot, idx) => (
-                  <div key={idx} className="bonus-hunt-row">
-                    <span className="col col-idx">{idx + 1}</span>
-                    <div className="col col-thumb">
-                      <img src={slot.image} alt={slot.name} className="bonus-hunt-thumb" />
+                {activeBonusHuntSlots.length > 0 ? (
+                  <>
+                    <div className="bonus-hunt-list-header">
+                      <span className="col col-idx">#</span>
+                      <span className="col col-thumb">Image</span>
+                      <span className="col col-title">Title</span>
+                      <span className="col col-provider">Provider</span>
+                      <span className="col col-start-balance">Starting Balance</span>
+                      <span className="col col-bet">Bet Size</span>
+                      <span className="col col-spent">Spent</span>
+                      <span className="col col-payout">Payout</span>
+                      <span className="col col-actions">Status</span>
                     </div>
-                    <div className="col col-title">{slot.name}</div>
-                    <div className="col col-provider">{slot.provider}</div>
-                    <div className="col col-bet">
-                      <div className="input-wrapper">
-                        <span className="currency">€</span>
-                        <input
-                          type="number"
-                          step="0.01"
-                          min="0"
-                          value={bonusHuntData[idx]?.betSize || '0.00'}
-                          onChange={(e) => setBonusHuntData({
-                            ...bonusHuntData,
-                            [idx]: { ...bonusHuntData[idx], betSize: e.target.value }
-                          })}
-                          className="page-input-field"
-                        />
+                    {activeBonusHuntSlots.map(({ slot, index }) => (
+                      <div key={index} className="bonus-hunt-row">
+                        <span className="col col-idx">{index + 1}</span>
+                        <div className="col col-thumb">
+                          <img src={slot.image} alt={slot.name} className="bonus-hunt-thumb" />
+                        </div>
+                        <div className="col col-title">{slot.name}</div>
+                        <div className="col col-provider">{slot.provider}</div>
+                        <div className="col col-start-balance">
+                          <span className="field-label">Starting Balance</span>
+                          <div className="input-wrapper">
+                            <span className="currency">€</span>
+                            <input
+                              type="text"
+                              inputMode="decimal"
+                              value={bonusHuntData[index]?.startingBalance ?? ''}
+                              onChange={(event) => updateSlotMoney(index, 'startingBalance', event.target.value)}
+                              onBlur={() => normalizeSlotMoney(index, 'startingBalance')}
+                              aria-label={`Starting balance for ${slot.name}`}
+                              className="page-input-field"
+                            />
+                          </div>
+                        </div>
+                        <div className="col col-bet">
+                          <span className="field-label">Bet Size</span>
+                          <div className="input-wrapper">
+                            <span className="currency">€</span>
+                            <input
+                              type="text"
+                              inputMode="decimal"
+                              value={bonusHuntData[index]?.betSize ?? '0.10'}
+                              onChange={(event) => updateBetSize(index, event.target.value)}
+                              onBlur={() => normalizeBetSize(index)}
+                              aria-label={`Bet size for ${slot.name}`}
+                              className="page-input-field bet-size-input"
+                            />
+                            <div className="bet-stepper">
+                              <button
+                                type="button"
+                                className="bet-step-button"
+                                onClick={() => stepBetSize(index, 10)}
+                                aria-label={`Increase bet for ${slot.name} by €0.10`}
+                                title="Increase by €0.10"
+                              >+</button>
+                              <button
+                                type="button"
+                                className="bet-step-button"
+                                onClick={() => stepBetSize(index, -10)}
+                                disabled={(Number.parseFloat(bonusHuntData[index]?.betSize) || 0.10) <= 0.10}
+                                aria-label={`Decrease bet for ${slot.name} by €0.10`}
+                                title="Decrease by €0.10"
+                              >−</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col col-spent">
+                          <span className="field-label">Spent</span>
+                          <div className="input-wrapper">
+                            <span className="currency">€</span>
+                            <input
+                              type="text"
+                              inputMode="decimal"
+                              value={bonusHuntData[index]?.spent ?? ''}
+                              onChange={(event) => updateSlotMoney(index, 'spent', event.target.value)}
+                              onBlur={() => normalizeSlotMoney(index, 'spent')}
+                              aria-label={`Amount spent on ${slot.name}`}
+                              className="page-input-field"
+                            />
+                          </div>
+                        </div>
+                        <div className="col col-payout">
+                          <span className="field-label">Payout</span>
+                          <div className="input-wrapper">
+                            <span className="currency">€</span>
+                            <input
+                              type="number"
+                              step="0.01"
+                              min="0"
+                              value={bonusHuntData[index]?.payout || '0.00'}
+                              onChange={(event) => setBonusHuntData({
+                                ...bonusHuntData,
+                                [index]: { ...bonusHuntData[index], payout: event.target.value }
+                              })}
+                              aria-label={`Payout for ${slot.name}`}
+                              className="page-input-field"
+                            />
+                          </div>
+                        </div>
+                        <div className="col col-actions">
+                          <button
+                            type="button"
+                            className="slot-no-bonus-btn"
+                            onClick={() => endSlotWithoutBonus(index)}
+                            disabled={!Number.isFinite(Number.parseFloat(bonusHuntData[index]?.spent))}
+                          >
+                            No Bonus - Remove
+                          </button>
+                        </div>
                       </div>
+                    ))}
+                  </>
+                ) : (
+                  <p className="bonus-hunt-no-active">No active slots. Add a slot or restore one from the ended list.</p>
+                )}
+
+                {endedBonusHuntSlots.length > 0 && (
+                  <section className="bonus-hunt-ended">
+                    <div className="bonus-hunt-ended-header">
+                      <h3>Ended Without Bonus</h3>
+                      <span>{endedBonusHuntSlots.length} session{endedBonusHuntSlots.length === 1 ? '' : 's'}</span>
                     </div>
-                    <div className="col col-payout">
-                      <div className="input-wrapper">
-                        <span className="currency">€</span>
-                        <input
-                          type="number"
-                          step="0.01"
-                          min="0"
-                          value={bonusHuntData[idx]?.payout || '0.00'}
-                          onChange={(e) => setBonusHuntData({
-                            ...bonusHuntData,
-                            [idx]: { ...bonusHuntData[idx], payout: e.target.value }
-                          })}
-                          className="page-input-field"
-                        />
+                    {endedBonusHuntSlots.map(({ slot, index }) => (
+                      <div key={index} className="bonus-hunt-ended-row">
+                        <div className="bonus-hunt-ended-slot">
+                          <img src={slot.image} alt={slot.name} />
+                          <div>
+                            <strong>{slot.name}</strong>
+                            <span>{slot.provider}</span>
+                          </div>
+                        </div>
+                        <div className="bonus-hunt-ended-value">
+                          <span>Starting Balance</span>
+                          <strong>{bonusHuntData[index]?.startingBalance ? `€${Number.parseFloat(bonusHuntData[index].startingBalance).toFixed(2)}` : 'Not recorded'}</strong>
+                        </div>
+                        <div className="bonus-hunt-ended-value">
+                          <span>Spent</span>
+                          <strong>€{Number.parseFloat(bonusHuntData[index]?.spent || 0).toFixed(2)}</strong>
+                        </div>
+                        <button type="button" className="slot-restore-btn" onClick={() => restoreSlotToHunt(index)}>
+                          Restore
+                        </button>
                       </div>
-                    </div>
-                  </div>
-                ))}
+                    ))}
+                  </section>
+                )}
               </div>
             )}
 
@@ -421,21 +676,16 @@ function App() {
                   <span className="summary-value">{bonusHuntList.length}</span>
                 </div>
                 <div className="summary-item">
-                  <span className="summary-label">Total Bet</span>
-                  <span className="summary-value">€{Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data.betSize) || 0), 0).toFixed(2)}</span>
+                  <span className="summary-label">Active Slots</span>
+                  <span className="summary-value">{activeBonusHuntSlots.length}</span>
+                </div>
+                <div className="summary-item">
+                  <span className="summary-label">Total Spent</span>
+                  <span className="summary-value">€{totalSpent.toFixed(2)}</span>
                 </div>
                 <div className="summary-item">
                   <span className="summary-label">Total Payout</span>
-                  <span className="summary-value">€{Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data.payout) || 0), 0).toFixed(2)}</span>
-                </div>
-                <div className="summary-item highlight">
-                  <span className="summary-label">Net Result</span>
-                  <span className="summary-value">{(() => {
-                    const totalBet = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data.betSize) || 0), 0);
-                    const totalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data.payout) || 0), 0);
-                    const net = totalPayout - totalBet;
-                    return `€${net.toFixed(2)}`;
-                  })()}</span>
+                  <span className="summary-value">€{totalPayout.toFixed(2)}</span>
                 </div>
               </div>
 
@@ -481,7 +731,7 @@ function App() {
                             </div>
                             <div className="saved-hunt-stats">
                               <span>{entry.slots?.length || 0} slots</span>
-                              <span>€{(entry.totalBet ?? 0).toFixed ? entry.totalBet.toFixed(2) : Number(entry.totalBet || 0).toFixed(2)}</span>
+                              <span>Spent €{Number(entry.totalSpent ?? entry.totalBet ?? 0).toFixed(2)}</span>
                             </div>
                           </div>
                           <div className="saved-hunt-actions">
@@ -639,10 +889,7 @@ function App() {
                 }}>Spin Again</button>
                 <button
                   className="lucky-btn solid"
-                  onClick={() => {
-                    setSelectedSlot(null);
-                    setShowBonusHunt(true);
-                  }}
+                  onClick={addLuckyPickToBonusHunt}
                 >
                   ➕ Add to Bonus Hunt
                 </button>
@@ -655,29 +902,147 @@ function App() {
       )}
 
       {showBonusHunt && (
-        <div className="modal-overlay" onClick={() => setShowBonusHunt(false)}>
+        <div className="modal-overlay" onClick={closeBonusHuntCreator}>
           <div className="modal-content bonus-hunt-modal" onClick={(e) => e.stopPropagation()}>
-            <h2>🎁 Create Bonus Hunt</h2>
-            {bonusHuntList.length === 0 ? (
+            <h2>{addingToCurrentHunt ? 'Add Slots to Bonus Hunt' : 'Create Bonus Hunt'}</h2>
+            <div className="bonus-hunt-mode-switch" role="group" aria-label="Slot selection mode">
+              <button
+                type="button"
+                className={`bonus-hunt-mode-button ${bonusHuntMode === 'manual' ? 'active' : ''}`}
+                aria-pressed={bonusHuntMode === 'manual'}
+                onClick={() => {
+                  stopBonusHuntPickerSpin();
+                  setBonusHuntMode('manual');
+                }}
+              >
+                Choose Slots
+              </button>
+              <button
+                type="button"
+                className={`bonus-hunt-mode-button ${bonusHuntMode === 'random' ? 'active' : ''}`}
+                aria-pressed={bonusHuntMode === 'random'}
+                onClick={() => {
+                  stopBonusHuntPickerSpin();
+                  setBonusHuntMode('random');
+                }}
+              >
+                Random Slots
+              </button>
+              <button
+                type="button"
+                className={`bonus-hunt-mode-button ${bonusHuntMode === 'lucky' ? 'active' : ''}`}
+                aria-pressed={bonusHuntMode === 'lucky'}
+                onClick={() => {
+                  stopBonusHuntPickerSpin();
+                  setBonusHuntMode('lucky');
+                }}
+              >
+                Lucky Pick
+              </button>
+            </div>
+            {bonusHuntMode === 'random' ? (
               <>
-                <p className="bonus-hunt-description">How many slots would you like to add to your bonus hunt?</p>
+                <p className="bonus-hunt-description">
+                  {addingToCurrentHunt ? 'How many random slots should be added?' : 'How many random slots should the hunt include?'}
+                </p>
                 <div className="bonus-hunt-input-group">
                   <input
                     type="number"
                     min="1"
-                    max={NUM_SLOTS}
+                    max={filteredSlots.length}
                     value={bonusHuntCount}
                     onChange={(e) => setBonusHuntCount(Math.max(1, parseInt(e.target.value) || 1))}
                     className="bonus-hunt-input"
                   />
-                  <button className="bonus-hunt-generate-btn" onClick={generateBonusHunt}>
-                    Start Bonus Hunt
+                  <button className="bonus-hunt-generate-btn" onClick={generateBonusHunt} disabled={!filteredSlots.length}>
+                    {addingToCurrentHunt ? 'Add Random Slots' : 'Start Random Hunt'}
                   </button>
                 </div>
-                <p className="bonus-hunt-hint">Enter a number between 1 and {NUM_SLOTS}</p>
+                <p className="bonus-hunt-hint">Choose from {filteredSlots.length} slots matching your provider filters and search.</p>
               </>
-            ) : null}
-            <button className="close-bonus-hunt-btn" onClick={() => setShowBonusHunt(false)}>
+            ) : bonusHuntMode === 'manual' ? (
+              <>
+                <input
+                  type="search"
+                  className="bonus-hunt-slot-search"
+                  placeholder="Search slots or providers..."
+                  aria-label="Search slots or providers"
+                  value={bonusHuntSearch}
+                  onChange={(event) => setBonusHuntSearch(event.target.value)}
+                />
+                <div className="bonus-hunt-slot-picker">
+                  {bonusHuntPickerSlots.slice(0, 100).map((slot) => {
+                    const isSelected = manualSelectedSlots.some((selected) => selected.image === slot.image);
+                    return (
+                      <label key={slot.image} className={`bonus-hunt-slot-option ${isSelected ? 'selected' : ''}`}>
+                        <input
+                          type="checkbox"
+                          checked={isSelected}
+                          onChange={() => toggleManualSlot(slot)}
+                        />
+                        <img src={slot.image} alt="" loading="lazy" />
+                        <span>
+                          <strong>{slot.name}</strong>
+                          <small>{slot.provider}</small>
+                        </span>
+                      </label>
+                    );
+                  })}
+                  {bonusHuntPickerSlots.length === 0 && <p className="bonus-hunt-no-results">No slots match that search.</p>}
+                </div>
+                <p className="bonus-hunt-hint">
+                  {manualSelectedSlots.length} selected
+                  {bonusHuntPickerSlots.length > 100 ? ' · Showing the first 100 matches; narrow your search to find more.' : ''}
+                </p>
+                <button
+                  className="bonus-hunt-manual-submit"
+                  type="button"
+                  onClick={addManualSelection}
+                  disabled={!manualSelectedSlots.length}
+                >
+                  {addingToCurrentHunt ? 'Add' : 'Start'} Hunt with {manualSelectedSlots.length} {manualSelectedSlots.length === 1 ? 'Slot' : 'Slots'}
+                </button>
+              </>
+            ) : (
+              <div className="bonus-hunt-lucky-content">
+                <p className="bonus-hunt-description">
+                  Spin until you find a slot you want to add to this hunt.
+                </p>
+                <div className={`bonus-hunt-lucky-preview ${isBonusHuntLuckySpinning ? 'spinning' : ''}`}>
+                  {bonusHuntLuckySlot ? (
+                    <>
+                      <img src={bonusHuntLuckySlot.image} alt={bonusHuntLuckySlot.name} />
+                      <div>
+                        <strong>{bonusHuntLuckySlot.name}</strong>
+                        <small>{bonusHuntLuckySlot.provider}</small>
+                      </div>
+                    </>
+                  ) : (
+                    <span>Your pick will appear here</span>
+                  )}
+                </div>
+                <div className="bonus-hunt-lucky-actions">
+                  <button
+                    className="bonus-hunt-lucky-spin"
+                    type="button"
+                    onClick={spinBonusHuntPicker}
+                    disabled={isBonusHuntLuckySpinning || !filteredSlots.length}
+                  >
+                    {isBonusHuntLuckySpinning ? 'Spinning...' : 'Spin Lucky Pick'}
+                  </button>
+                  <button
+                    className="bonus-hunt-lucky-add"
+                    type="button"
+                    onClick={addLuckyPickerSelection}
+                    disabled={!bonusHuntLuckySlot || isBonusHuntLuckySpinning}
+                  >
+                    {addingToCurrentHunt ? 'Add to Hunt' : 'Start Hunt with This Slot'}
+                  </button>
+                </div>
+                <p className="bonus-hunt-hint">Uses the slots currently visible under your provider filters and search.</p>
+              </div>
+            )}
+            <button className="close-bonus-hunt-btn" onClick={closeBonusHuntCreator}>
               Close
             </button>
           </div>
