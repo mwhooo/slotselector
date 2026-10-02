@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 import './App.css'
 
 // Import slot provider mapping
-import slotProvidersData from '../slot_providers.json'
+import slotProvidersData from '../data/slot_providers.json'
 
 // Convert slot providers object to array, filtering to only include slots with images
 // Image files should exist at public/images/{name} - filenames already include extensions
@@ -633,7 +633,10 @@ function App() {
                 </div>
               </div>
               <div className="lucky-actions">
-                <button className="lucky-btn ghost" onClick={() => setSelectedSlot(null)}>Spin Again</button>
+                <button className="lucky-btn ghost" onClick={() => {
+                  setSelectedSlot(null);
+                  setTimeout(() => spin(), 50);
+                }}>Spin Again</button>
                 <button
                   className="lucky-btn solid"
                   onClick={() => {
