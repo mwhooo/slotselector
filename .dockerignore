@@ -1,0 +1,16 @@
+.git
+.vscode
+node_modules
+dist
+dist-ssr
+.venv
+venv
+__pycache__
+*.pyc
+*.log
+*.local
+.env*
+python_scripts
+temp_images
+images_backup
+public/images_backup

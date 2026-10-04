@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
+import { useVirtualizer } from '@tanstack/react-virtual'
 import './App.css'
 
 // Import slot provider mapping
@@ -301,6 +302,9 @@ function BonusHuntThumbnail({ slot }) {
   );
 }
 
+const REEL_SLOT_COUNT = 7;
+const REEL_CENTER_INDEX = Math.floor(REEL_SLOT_COUNT / 2);
+
 function LuckyPickReel({ initialSlots, slots, winningSlot, spinId, isSpinning, onFinish }) {
   const [displaySlots, setDisplaySlots] = useState(initialSlots);
   const slotsRef = useRef(slots);
@@ -319,7 +323,7 @@ function LuckyPickReel({ initialSlots, slots, winningSlot, spinId, isSpinning, o
     const spinInterval = window.setInterval(() => {
       const availableSlots = slotsRef.current;
       if (!availableSlots.length) return;
-      setDisplaySlots(Array.from({ length: 5 }, () =>
+      setDisplaySlots(Array.from({ length: REEL_SLOT_COUNT }, () =>
         availableSlots[Math.floor(Math.random() * availableSlots.length)]
       ));
     }, 100);
@@ -328,8 +332,8 @@ function LuckyPickReel({ initialSlots, slots, winningSlot, spinId, isSpinning, o
       const availableSlots = slotsRef.current;
       const winner = winningSlotRef.current;
       if (winner) {
-        setDisplaySlots(Array.from({ length: 5 }, (_, index) => {
-          if (index === 2 || !availableSlots.length) return winner;
+        setDisplaySlots(Array.from({ length: REEL_SLOT_COUNT }, (_, index) => {
+          if (index === REEL_CENTER_INDEX || !availableSlots.length) return winner;
           return availableSlots[Math.floor(Math.random() * availableSlots.length)];
         }));
       }
@@ -343,10 +347,13 @@ function LuckyPickReel({ initialSlots, slots, winningSlot, spinId, isSpinning, o
   }, [isSpinning, spinId]);
 
   return (
-    <div className={`spin-reel ${isSpinning ? 'spinning' : ''}`}>
+    <div
+      className={`spin-reel ${isSpinning ? 'spinning' : ''}`}
+      style={{ '--reel-slot-count': REEL_SLOT_COUNT }}
+    >
       <div className="reel-container">
         {displaySlots.map((slot, index) => (
-          <div key={index} className={`reel-item ${index === 2 ? 'center' : ''}`}>
+          <div key={index} className={`reel-item ${index === REEL_CENTER_INDEX ? 'center' : ''}`}>
             <img src={slot.image} alt={slot.name} />
             <div className="reel-item-label">
               <span className="reel-slot-name">{slot.name}</span>
@@ -373,6 +380,7 @@ function App() {
   const [spinWinner, setSpinWinner] = useState(null);
   const [spinId, setSpinId] = useState(0);
   const bgTheme = 'galaxy';
+  const [showHelp, setShowHelp] = useState(false);
   const [showBonusHunt, setShowBonusHunt] = useState(false);
   const [bonusHuntCount, setBonusHuntCount] = useState(5);
   const [bonusHuntList, setBonusHuntList] = useState([]);
@@ -397,10 +405,60 @@ function App() {
   const [maxMinBet, setMaxMinBet] = useState(null);
   const [minRtp, setMinRtp] = useState(null);
   const gridRef = useRef(null);
+  const slotsGridRef = useRef(null);
+  const [gridLayout, setGridLayout] = useState({ columns: 1, rowSize: 100, columnGap: 10 });
   const providerFilterRef = useRef(null);
   const providerToggleRef = useRef(null);
   const bonusHuntRef = useRef(null);
   const bonusHuntSpinRef = useRef(null);
+
+  useEffect(() => {
+    const grid = slotsGridRef.current;
+    if (!grid) return;
+
+    const updateGridLayout = () => {
+      const style = getComputedStyle(grid);
+      const columnWidths = style.gridTemplateColumns.split(' ').map(parseFloat);
+      const columns = columnWidths.length;
+      const columnGap = parseFloat(style.columnGap) || 0;
+      const rowGap = parseFloat(style.rowGap) || 0;
+      const rowSize = (columnWidths[0] * 9) / 16 + rowGap;
+
+      setGridLayout((current) => (
+        current.columns === columns &&
+        current.columnGap === columnGap &&
+        Math.abs(current.rowSize - rowSize) < 0.5
+          ? current
+          : { columns, rowSize, columnGap }
+      ));
+    };
+
+    updateGridLayout();
+    const observer = new ResizeObserver(updateGridLayout);
+    observer.observe(grid);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!showHelp) return undefined;
+
+    const closeOnEscape = (event) => {
+      if (event.key === 'Escape') setShowHelp(false);
+    };
+
+    window.addEventListener('keydown', closeOnEscape);
+    return () => window.removeEventListener('keydown', closeOnEscape);
+  }, [showHelp]);
+
+  const showDemoSlot = !isSpinning;
+  const gridItemCount = shuffledSlots.length + Number(showDemoSlot);
+  const gridRowCount = Math.ceil(gridItemCount / gridLayout.columns);
+  const gridVirtualizer = useVirtualizer({
+    count: gridRowCount,
+    getScrollElement: () => slotsGridRef.current,
+    estimateSize: () => gridLayout.rowSize,
+    overscan: 3,
+  });
 
   useEffect(() => {
     let cancelled = false;
@@ -872,6 +930,9 @@ function App() {
           >
             Bonus Hunt
           </button>
+          <button className="nav-btn" type="button" onClick={() => setShowHelp(true)}>
+            Help
+          </button>
           <button
             className="nav-bonus-btn"
             onClick={() => openBonusHuntCreator()}
@@ -1059,7 +1120,7 @@ function App() {
                             className="slot-no-bonus-btn"
                             onClick={() => endSlotWithoutBonus(index)}
                           >
-                            No Bonus - Remove
+                            Remove
                           </button>
                         </div>
                       </div>
@@ -1163,6 +1224,9 @@ function App() {
                   {bonusHuntSaveMessage.text}
                 </p>
               )}
+              <p className="bonus-hunt-storage-notice" role="note">
+                Your hunts are saved in this browser on this device. They are not synced to an account, and clearing this site's data can remove them.
+              </p>
 
               {bonusHuntHistory.length > 0 && (
                 <div className="saved-hunts">
@@ -1349,56 +1413,82 @@ function App() {
               </button>
             )}
           </div>
-          <div className="grid-container">
-          {!isSpinning && (
-            <div className="grid-item demo-item">
-              <div className="demo-content">
-                <div className="demo-text">🎰</div>
-              </div>
-            </div>
-          )}
-          {shuffledSlots.map((slot, index) => {
-            const [casinoLink] = getSlotCasinoLinks(slot, slot711LinksByProviderAndName);
-            return (
-              <div key={index} className="grid-item" data-provider={slot.provider}>
-                {casinoLink ? (
-                  <>
-                    <a
-                      className="grid-slot-play-link"
-                      href={casinoLink.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`Play ${slot.name} on ${casinoLink.casino}`}
-                      title={`Play on ${casinoLink.casino}`}
-                    >
-                      <img src={slot.image} alt={slot.name} />
-                    </a>
-                    <span className="grid-slot-play-hint" aria-hidden="true">Play on {casinoLink.casino}</span>
-                  </>
-                ) : (
-                  <img src={slot.image} alt={slot.name} />
-                )}
-                <div className="grid-item-label">
-                  <span className="slot-name">{slot.name}</span>
-                  <span className="slot-provider">{slot.provider}</span>
-                  <div className="slot-metadata">
-                    <div className="slot-stakes">
-                      <span>Min {Number.isFinite(slot.minBet) ? `\u20ac${formatStakeValue(slot.minBet)}` : '\u2014'}</span>
-                      <span>Max {Number.isFinite(slot.maxBet) ? `\u20ac${formatStakeValue(slot.maxBet)}` : '\u2014'}</span>
-                    </div>
-                    <span>RTP {formatRtpValue(slot.rtp)}</span>
+          <div className="grid-container" ref={slotsGridRef}>
+            <div className="virtual-grid-spacer" style={{ height: gridVirtualizer.getTotalSize() }}>
+              {gridVirtualizer.getVirtualItems().map((virtualRow) => {
+                const firstItemIndex = virtualRow.index * gridLayout.columns;
+                const rowItemCount = Math.min(gridLayout.columns, gridItemCount - firstItemIndex);
+
+                return (
+                  <div
+                    key={virtualRow.key}
+                    className="virtual-grid-row"
+                    style={{
+                      transform: `translateY(${virtualRow.start}px)`,
+                      gridTemplateColumns: `repeat(${gridLayout.columns}, minmax(0, 1fr))`,
+                      columnGap: `${gridLayout.columnGap}px`,
+                    }}
+                  >
+                    {Array.from({ length: rowItemCount }, (_, columnIndex) => {
+                      const itemIndex = firstItemIndex + columnIndex;
+                      if (showDemoSlot && itemIndex === 0) {
+                        return (
+                          <div key="demo" className="grid-item demo-item">
+                            <div className="demo-content">
+                              <div className="demo-text">🎰</div>
+                            </div>
+                          </div>
+                        );
+                      }
+
+                      const slotIndex = itemIndex - Number(showDemoSlot);
+                      const slot = shuffledSlots[slotIndex];
+                      const [casinoLink] = getSlotCasinoLinks(slot, slot711LinksByProviderAndName);
+
+                      return (
+                        <div key={`${slot.provider}-${slot.name}-${slotIndex}`} className="grid-item" data-provider={slot.provider}>
+                          {casinoLink ? (
+                            <>
+                              <a
+                                className="grid-slot-play-link"
+                                href={casinoLink.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`Play ${slot.name} on ${casinoLink.casino}`}
+                                title={`Play on ${casinoLink.casino}`}
+                              >
+                                <img src={slot.image} alt={slot.name} loading="lazy" decoding="async" fetchPriority="low" />
+                              </a>
+                              <span className="grid-slot-play-hint" aria-hidden="true">Play on {casinoLink.casino}</span>
+                            </>
+                          ) : (
+                            <img src={slot.image} alt={slot.name} loading="lazy" decoding="async" fetchPriority="low" />
+                          )}
+                          <div className="grid-item-label">
+                            <span className="slot-name">{slot.name}</span>
+                            <span className="slot-provider">{slot.provider}</span>
+                            <div className="slot-metadata">
+                              <div className="slot-stakes">
+                                <span>Min {Number.isFinite(slot.minBet) ? `\u20ac${formatStakeValue(slot.minBet)}` : '\u2014'}</span>
+                                <span>Max {Number.isFinite(slot.maxBet) ? `\u20ac${formatStakeValue(slot.maxBet)}` : '\u2014'}</span>
+                              </div>
+                              <span>RTP {formatRtpValue(slot.rtp)}</span>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
         
         <div className="right-panel">
           <div className="button-container">
             <LuckyPickReel
-              initialSlots={fullSlots.slice(0, 5)}
+              initialSlots={fullSlots.slice(0, REEL_SLOT_COUNT)}
               slots={filteredSlots}
               winningSlot={spinWinner}
               spinId={spinId}
@@ -1462,6 +1552,63 @@ function App() {
         )}
 
       </div>
+      )}
+
+      {showHelp && (
+        <div className="modal-overlay help-overlay" onClick={() => setShowHelp(false)}>
+          <section
+            className="modal-content help-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="help-title"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <header className="help-modal-header">
+              <div>
+                <span className="help-eyebrow">Quick guide</span>
+                <h2 id="help-title">Using SlotSelector</h2>
+              </div>
+              <button type="button" className="help-close-btn" autoFocus onClick={() => setShowHelp(false)}>
+                Close
+              </button>
+            </header>
+
+            <div className="help-guide-grid">
+              <section>
+                <h3>Find a slot</h3>
+                <ul>
+                  <li>Search by game title. Choose providers from the provider menu.</li>
+                  <li>Set the highest allowed minimum bet and the lowest RTP with the sliders.</li>
+                  <li>The Showing count and slot grid update to match your filters.</li>
+                </ul>
+              </section>
+              <section>
+                <h3>Play or pick</h3>
+                <ul>
+                  <li>Cards marked “Play on 711” open that game at 711 in a new tab; not every game has a verified link.</li>
+                  <li>Lucky Pick draws from the slots matching your current filters. Spin Again draws another pick.</li>
+                  <li>Use Add to Bonus Hunt on a pick to add it to a hunt.</li>
+                </ul>
+              </section>
+              <section>
+                <h3>Create a Bonus Hunt</h3>
+                <ul>
+                  <li>Choose Slots to search and select games, Random Slots to draw a chosen number, or Lucky Pick to spin for one game.</li>
+                  <li>All three modes use your current provider and slot filters.</li>
+                  <li>Use Add Slots on an active hunt to add more games.</li>
+                </ul>
+              </section>
+              <section>
+                <h3>Track and save</h3>
+                <ul>
+                  <li>Enter starting and stopping balances, bet sizes, and payouts for each game. Spent and hunt totals update from your entries.</li>
+                  <li>Name a hunt and choose Save Hunt. Load or delete saved hunts from the Saved Hunts list.</li>
+                  <li>Your filters and hunt data are stored in this browser and are not shared across devices.</li>
+                </ul>
+              </section>
+            </div>
+          </section>
+        </div>
       )}
 
       {showBonusHunt && (
