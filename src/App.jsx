@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import './App.css'
+import { supabase } from './lib/supabase'
 
 // Import slot provider mapping
 import slotProvidersData from '../data/slot_providers.json'
@@ -61,6 +62,76 @@ const normalizeSlotName = (name) => name
 const getSlotCasinoLinks = (slot, linksByProviderAndName) => {
   const links = linksByProviderAndName.get(`${slot.provider}:${normalizeSlotName(slot.name)}`)
   return Object.entries(links ?? {}).map(([casino, url]) => ({ casino, url }))
+}
+
+const APP_STATE_KEY = 'slotselector-state-v1'
+
+const createDefaultAppState = (providers) => ({
+  selectedProviders: [...providers],
+  searchTerm: '',
+  maxMinBet: null,
+  minRtp: null,
+  bonusHuntList: [],
+  bonusHuntData: {},
+  activeBonusHunt: null,
+  bonusHuntHistory: [],
+  bonusHuntName: '',
+})
+
+const getStateStorageKey = (userId) => userId
+  ? `${APP_STATE_KEY}:user:${userId}`
+  : APP_STATE_KEY
+
+const parseStoredState = (raw, fallback = null) => {
+  try {
+    return raw ? JSON.parse(raw) : fallback
+  } catch {
+    return fallback
+  }
+}
+
+const stateTimestamp = (state) => Date.parse(state?.updatedAt ?? '') || 0
+
+const mergeAccountState = (userState, guestState, cloudState, defaultState) => {
+  const baseState = userState && stateTimestamp(userState) > stateTimestamp(cloudState)
+    ? userState
+    : cloudState || userState || guestState || defaultState
+  const historyById = new Map()
+
+  const historyStates = [cloudState, guestState, userState]
+    .filter(Boolean)
+    .sort((left, right) => stateTimestamp(left) - stateTimestamp(right))
+
+  historyStates.forEach((state) => {
+    (Array.isArray(state.bonusHuntHistory) ? state.bonusHuntHistory : []).forEach((entry) => {
+      const id = `${entry.id ?? ''}:${entry.createdAt ?? ''}:${entry.name ?? ''}`
+      historyById.set(id, entry)
+    })
+  })
+
+  return {
+    ...baseState,
+    bonusHuntHistory: [...historyById.values()]
+      .sort((left, right) => Date.parse(right.createdAt ?? '') - Date.parse(left.createdAt ?? ''))
+      .slice(0, 50),
+  }
+}
+
+const restoreAppState = (data, providers, setters) => {
+  const state = data ?? {}
+  const slots = Array.isArray(state.bonusHuntList) ? state.bonusHuntList : []
+
+  setters.setSelectedProviders(new Set(
+    Array.isArray(state.selectedProviders) ? state.selectedProviders : providers,
+  ))
+  setters.setSearchTerm(typeof state.searchTerm === 'string' ? state.searchTerm : '')
+  setters.setMaxMinBet(state.maxMinBet === null || Number.isFinite(state.maxMinBet) ? state.maxMinBet : null)
+  setters.setMinRtp(state.minRtp === null || Number.isFinite(state.minRtp) ? state.minRtp : null)
+  setters.setBonusHuntList(slots)
+  setters.setBonusHuntData(ensureBonusHuntBetSizes(slots, state.bonusHuntData))
+  setters.setActiveBonusHunt(state.activeBonusHunt || slots.length ? true : null)
+  setters.setBonusHuntHistory(Array.isArray(state.bonusHuntHistory) ? state.bonusHuntHistory : [])
+  setters.setBonusHuntName(typeof state.bonusHuntName === 'string' ? state.bonusHuntName : '')
 }
 
 const slotBetLimitsByName = new Map(
@@ -387,6 +458,14 @@ function App() {
   const [bonusHuntData, setBonusHuntData] = useState({}); // Track bet size and payout per slot
   const [activeBonusHunt, setActiveBonusHunt] = useState(null); // Active bonus hunt view
   const [bonusHuntHistory, setBonusHuntHistory] = useState([]); // Persisted hunt history
+  const [authUser, setAuthUser] = useState(null);
+  const [authReady, setAuthReady] = useState(!supabase);
+  const [authBusy, setAuthBusy] = useState(false);
+  const [authMessage, setAuthMessage] = useState('');
+  const [cloudSyncStatus, setCloudSyncStatus] = useState('guest');
+  const [loadedStorageKey, setLoadedStorageKey] = useState(null);
+  const [cloudStateLoadedFor, setCloudStateLoadedFor] = useState(null);
+  const [persistedPayload, setPersistedPayload] = useState(null);
   const [bonusHuntName, setBonusHuntName] = useState('');
   const [bonusHuntSaveMessage, setBonusHuntSaveMessage] = useState(null);
   const [bonusHuntAddMessage, setBonusHuntAddMessage] = useState('');
@@ -411,6 +490,8 @@ function App() {
   const providerToggleRef = useRef(null);
   const bonusHuntRef = useRef(null);
   const bonusHuntSpinRef = useRef(null);
+  const providersRef = useRef(providers);
+  const activeAccountIdRef = useRef(null);
 
   useEffect(() => {
     const grid = slotsGridRef.current;
@@ -474,44 +555,135 @@ function App() {
     };
   }, []);
 
-  // ---- Persistence helpers ----
-  const STORAGE_KEY = 'slotselector-state-v1';
-  const safeParse = (value, fallback) => {
-    try {
-      return JSON.parse(value);
-    } catch (e) {
-      return fallback;
-    }
-  };
-
-  // Load persisted state once on mount
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return;
+    if (!supabase) return undefined;
 
-    const data = safeParse(raw, {});
-    if (Array.isArray(data.selectedProviders) && data.selectedProviders.length) {
-      setSelectedProviders(new Set(data.selectedProviders));
-    }
-    if (typeof data.searchTerm === 'string') setSearchTerm(data.searchTerm);
-    if (Number.isFinite(data.maxMinBet)) setMaxMinBet(data.maxMinBet);
-    if (Number.isFinite(data.minRtp)) setMinRtp(data.minRtp);
-    const hasStoredList = Array.isArray(data.bonusHuntList) && data.bonusHuntList.length > 0;
-    if (hasStoredList) {
-      setBonusHuntList(data.bonusHuntList);
-      setBonusHuntData(ensureBonusHuntBetSizes(data.bonusHuntList, data.bonusHuntData));
-    } else if (data.bonusHuntData && typeof data.bonusHuntData === 'object') {
-      setBonusHuntData(data.bonusHuntData);
-    }
-    if (data.activeBonusHunt || hasStoredList) setActiveBonusHunt(true);
-    if (Array.isArray(data.bonusHuntHistory)) setBonusHuntHistory(data.bonusHuntHistory);
-    if (typeof data.bonusHuntName === 'string') setBonusHuntName(data.bonusHuntName);
+    let active = true;
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (!active) return;
+      setAuthUser(session?.user ?? null);
+      setAuthReady(true);
+      setAuthMessage('');
+    });
+
+    supabase.auth.getSession().then(({ data, error }) => {
+      if (!active) return;
+      if (error) setAuthMessage('Could not check your Google sign-in session.');
+      setAuthUser(data?.session?.user ?? null);
+      setAuthReady(true);
+    });
+
+    return () => {
+      active = false;
+      subscription.unsubscribe();
+    };
   }, []);
 
-  // Persist key state slices whenever they change
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (!authReady) return;
+    const userId = authUser?.id ?? null;
+    const previousUserId = activeAccountIdRef.current;
+
+    if (previousUserId && previousUserId !== userId) {
+      const guestState = parseStoredState(
+        window.localStorage.getItem(APP_STATE_KEY),
+        createDefaultAppState(providersRef.current),
+      );
+      restoreAppState(guestState, providersRef.current, {
+        setSelectedProviders,
+        setSearchTerm,
+        setMaxMinBet,
+        setMinRtp,
+        setBonusHuntList,
+        setBonusHuntData,
+        setActiveBonusHunt,
+        setBonusHuntHistory,
+        setBonusHuntName,
+      });
+      setCloudSyncStatus('guest');
+    }
+    if (previousUserId !== userId) setCloudStateLoadedFor(null);
+    activeAccountIdRef.current = userId;
+  }, [authReady, authUser?.id]);
+
+  useEffect(() => {
+    if (!authReady) return;
+    const storageKey = getStateStorageKey(authUser?.id);
+    const data = parseStoredState(
+      window.localStorage.getItem(storageKey),
+      createDefaultAppState(providersRef.current),
+    );
+    restoreAppState(data, providersRef.current, {
+      setSelectedProviders,
+      setSearchTerm,
+      setMaxMinBet,
+      setMinRtp,
+      setBonusHuntList,
+      setBonusHuntData,
+      setActiveBonusHunt,
+      setBonusHuntHistory,
+      setBonusHuntName,
+    });
+    setLoadedStorageKey(storageKey);
+    setCloudSyncStatus(authUser?.id ? 'loading' : 'guest');
+  }, [authReady, authUser?.id]);
+
+  useEffect(() => {
+    const userId = authUser?.id;
+    if (!supabase || !userId || loadedStorageKey !== getStateStorageKey(userId)) return undefined;
+    if (cloudStateLoadedFor === userId) return undefined;
+
+    let cancelled = false;
+    const loadAccountState = async () => {
+      setCloudSyncStatus('loading');
+      const { data, error } = await supabase
+        .from('slotselector_user_state')
+        .select('state, updated_at')
+        .eq('user_id', userId)
+        .maybeSingle();
+
+      if (cancelled) return;
+      if (error) {
+        setCloudSyncStatus('error');
+        return;
+      }
+
+      const userState = parseStoredState(window.localStorage.getItem(getStateStorageKey(userId)));
+      const guestState = parseStoredState(window.localStorage.getItem(APP_STATE_KEY));
+      const cloudState = data?.state
+        ? { ...data.state, updatedAt: data.state.updatedAt ?? data.updated_at }
+        : null;
+      const mergedState = mergeAccountState(
+        userState,
+        guestState,
+        cloudState,
+        createDefaultAppState(providersRef.current),
+      );
+
+      restoreAppState(mergedState, providersRef.current, {
+        setSelectedProviders,
+        setSearchTerm,
+        setMaxMinBet,
+        setMinRtp,
+        setBonusHuntList,
+        setBonusHuntData,
+        setActiveBonusHunt,
+        setBonusHuntHistory,
+        setBonusHuntName,
+      });
+      setCloudStateLoadedFor(userId);
+      setCloudSyncStatus(data ? 'synced' : 'saving');
+    };
+
+    loadAccountState();
+    return () => {
+      cancelled = true;
+    };
+  }, [authUser?.id, loadedStorageKey, cloudStateLoadedFor]);
+
+  useEffect(() => {
+    if (!authReady || loadedStorageKey !== getStateStorageKey(authUser?.id)) return;
+    if (authUser?.id && cloudStateLoadedFor !== authUser.id) return;
     const payload = {
       selectedProviders: Array.from(selectedProviders),
       searchTerm,
@@ -522,9 +694,47 @@ function App() {
       activeBonusHunt,
       bonusHuntHistory,
       bonusHuntName,
+      updatedAt: new Date().toISOString(),
     };
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-  }, [selectedProviders, searchTerm, maxMinBet, minRtp, bonusHuntList, bonusHuntData, activeBonusHunt, bonusHuntHistory, bonusHuntName]);
+    window.localStorage.setItem(loadedStorageKey, JSON.stringify(payload));
+    setPersistedPayload(payload);
+  }, [
+    authReady,
+    authUser?.id,
+    cloudStateLoadedFor,
+    loadedStorageKey,
+    selectedProviders,
+    searchTerm,
+    maxMinBet,
+    minRtp,
+    bonusHuntList,
+    bonusHuntData,
+    activeBonusHunt,
+    bonusHuntHistory,
+    bonusHuntName,
+  ]);
+
+  useEffect(() => {
+    const userId = authUser?.id;
+    if (!supabase || !userId || cloudStateLoadedFor !== userId || !persistedPayload) return undefined;
+
+    let cancelled = false;
+    const timeout = window.setTimeout(async () => {
+      setCloudSyncStatus('saving');
+      const { error } = await supabase.from('slotselector_user_state').upsert({
+        user_id: userId,
+        state: persistedPayload,
+        updated_at: persistedPayload.updatedAt,
+      }, { onConflict: 'user_id' });
+
+      if (!cancelled) setCloudSyncStatus(error ? 'error' : 'synced');
+    }, 500);
+
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timeout);
+    };
+  }, [authUser?.id, cloudStateLoadedFor, persistedPayload]);
 
   const minimumBetOptions = [...new Set(fullSlots
     .map((slot) => slot.minBet)
@@ -853,6 +1063,28 @@ function App() {
     updateBetSize(index, normalizedValue);
   };
 
+  const handleGoogleSignIn = async () => {
+    if (!supabase) return;
+    setAuthBusy(true);
+    setAuthMessage('');
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: 'google',
+      options: { redirectTo: window.location.origin },
+    });
+    if (error) {
+      setAuthMessage('Google sign-in could not be started. Please try again.');
+      setAuthBusy(false);
+    }
+  };
+
+  const handleSignOut = async () => {
+    if (!supabase) return;
+    setAuthBusy(true);
+    const { error } = await supabase.auth.signOut();
+    setAuthMessage(error ? 'Could not sign out. Please try again.' : '');
+    setAuthBusy(false);
+  };
+
   const saveCurrentBonusHunt = () => {
     if (!bonusHuntList.length) return;
     const name = bonusHuntName?.trim() || 'Untitled Hunt';
@@ -939,6 +1171,28 @@ function App() {
           >
             ➕ Create Bonus Hunt
           </button>
+          {supabase && (
+            <div className="account-controls">
+              {!authReady ? (
+                <span className="account-status">Checking account...</span>
+              ) : authUser ? (
+                <>
+                  <span className="account-email" title={authUser.email}>{authUser.email || 'Signed in'}</span>
+                  <span className={`account-status ${cloudSyncStatus}`} role="status">
+                    {cloudSyncStatus === 'error' ? 'Cloud sync paused' : cloudSyncStatus === 'synced' ? 'Synced' : 'Syncing...'}
+                  </span>
+                  <button className="account-button" type="button" onClick={handleSignOut} disabled={authBusy}>
+                    Sign out
+                  </button>
+                </>
+              ) : (
+                <button className="account-button google-signin-button" type="button" onClick={handleGoogleSignIn} disabled={authBusy}>
+                  {authBusy ? 'Opening Google...' : 'Sign in with Google'}
+                </button>
+              )}
+              {authMessage && <span className="account-error" role="alert">{authMessage}</span>}
+            </div>
+          )}
           {activeBonusHunt && (
             <button
               className="nav-btn highlight"
@@ -1225,7 +1479,11 @@ function App() {
                 </p>
               )}
               <p className="bonus-hunt-storage-notice" role="note">
-                Your hunts are saved in this browser on this device. They are not synced to an account, and clearing this site's data can remove them.
+                {authUser
+                  ? cloudSyncStatus === 'error'
+                    ? 'Cloud sync is unavailable. Existing browser data is still saved, but changes may not sync until you reconnect.'
+                    : 'Your signed-in hunts sync to your account, with a local copy kept in this browser.'
+                  : 'Guest hunts are saved in this browser on this device. They are not synced to an account, and clearing this site’s data can remove them.'}
               </p>
 
               {bonusHuntHistory.length > 0 && (

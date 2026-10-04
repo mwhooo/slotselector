@@ -11,6 +11,7 @@
     "download-images": "node download-images.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
     "@tanstack/react-virtual": "^3.14.13",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

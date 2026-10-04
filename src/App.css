@@ -115,6 +115,54 @@ body {
   box-shadow: 0 12px 32px rgba(115, 110, 254, 0.45);
 }
 
+.account-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.account-email,
+.account-status {
+  max-width: 190px;
+  overflow: hidden;
+  color: #d9dce5;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.account-status.synced {
+  color: #8fe0bd;
+}
+
+.account-status.error,
+.account-error {
+  color: #ffb4a8;
+  font-size: 12px;
+}
+
+.account-button {
+  padding: 9px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.account-button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.google-signin-button {
+  border-color: rgba(255, 255, 255, 0.3);
+  background: #fff;
+  color: #202124;
+}
+
 @media (max-width: 768px) {
   .top-nav {
     position: sticky;
@@ -130,6 +178,10 @@ body {
 
   .nav-actions {
     width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .account-controls {
     flex-wrap: wrap;
   }
 }
