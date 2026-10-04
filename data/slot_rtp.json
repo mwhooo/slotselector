@@ -173,7 +173,10 @@
     "Hot Joker Fruit 20": 95.04,
     "Prospector Wilds Hold and Win": 96.11,
     "Money Minecarts": 95.28,
-    "Plucky Hens Cluck Yeah": 95.15
+    "Plucky Hens Cluck Yeah": 95.15,
+    "Roulette Classic": 0,
+    "3d European Roulette": 0,
+    "3d Blackjack": 0
   },
   "3 Oaks": {
     "DJ Tiger x1000": 95.74,
@@ -387,7 +390,15 @@
     "Caramel Hot": 96.77,
     "Book of Waka Waka": 97.23,
     "Triple Fortune Festival": 97.33,
-    "Cashybara Golf Edition": 98
+    "Cashybara Golf Edition": 98,
+    "European Roulette": 97.3,
+    "Virtual Monaco Roulette": 0,
+    "Dynamic Roulette 120x": 0,
+    "Vegas Roulette 500x": 0,
+    "Dynamic European Roulette": 0,
+    "Onyx Roulette": 0,
+    "Virtual Space Roulette": 0,
+    "Virtual Vegas Roulette": 0
   },
   "Atomic Slot Lab": {
     "Fairy Dust": 95.5,
@@ -1065,7 +1076,8 @@
     "In Jazz": 96.06,
     "Football Superstar": 96.11,
     "2016 Gladiators": 96.08,
-    "Jetsetter": 96.1
+    "Jetsetter": 96.1,
+    "Gladiators": 95.94
   },
   "Gamomat": {
     "Maaax Diamonds Flaming Link": 96.11,
@@ -2136,7 +2148,36 @@
     "Multi Hand Blackjack Ten Side Bets": 99.66,
     "Amazing Link Zeus Boost": 94.25,
     "Cannon Crash Quest™ FlyX™": 97.2,
-    "Area Link™ Bank Baron V94": 94
+    "Area Link™ Bank Baron V94": 94,
+    "Cards Of Venus Aces And Faces": 0,
+    "Tens Or Better Power Poker": 0,
+    "Bonus Deuces Wild Power Poker": 0,
+    "Double Double Bonus Power Poker": 0,
+    "Double Joker Power Poker": 0,
+    "Volcano Roulette": 0,
+    "Cards Of Athena Double Double Bonus": 0,
+    "Classic Blackjack Poker Side Bets": 0,
+    "Beef Up The Bonus": 0,
+    "Classic Blackjack Side Bet Suite": 0,
+    "9 Masks Of Fire Roulette": 0,
+    "Rugby Fever Roulette": 0,
+    "Ultra Warp Roulette": 0,
+    "Vault Run Roulette": 0,
+    "Classic Blackjack With Perfect 11": 0,
+    "Hockey Fever Roulette": 0,
+    "Ultimate Blackjack With Rachael": 0,
+    "Classic Blackjack With Sweetheart 16": 0,
+    "Ultimate Blackjack With Olivia": 0,
+    "Multi Hand Classic Blackjack": 0,
+    "Vinnie Jones Stories Roulette": 0,
+    "Classic Blackjack With Noble Diamonds": 0,
+    "High Streak Blackjack": 0,
+    "Vinnie Jones Blackjack": 0,
+    "Premier Blackjack With Lucky Lucky": 0,
+    "Bonus Poker Power Poker": 0,
+    "Jacks Or Better Power Poker": 0,
+    "Joker Poker Power Poker": 0,
+    "Bass Cash Christmas X Up": 0
   },
   "Greentube": {
     "Random Runner™15": 95,
@@ -2430,7 +2471,8 @@
     "Book of Ra™ deluxe 10 Win Ways™": 95.15,
     "Sizzling Hot deluxe 10 Win Ways": 95.12,
     "Joker Party™ 6": 95.48,
-    "Hu Wants Money": 94.96
+    "Hu Wants Money": 94.96,
+    "Multi Runner": 0
   },
   "Hacksaw Gaming": {
     "Le Digger": 96.26,
@@ -2750,7 +2792,9 @@
     "Skull Fiesta": 96.29,
     "Trevor Hunter": 96.32,
     "The Library Overdue": 96.28,
-    "Arizona James and the Lost Relic™": 96.4
+    "Arizona James and the Lost Relic™": 96.4,
+    "Densho": 0,
+    "Space Mutants": 0
   },
   "Indigo Magic": {
     "Jaguar's Wheel": 95.5,
@@ -2908,7 +2952,8 @@
     "Big Scary Fortune": 94.83,
     "Gold Cherry": 95,
     "Book of Halloween": 96.21,
-    "Big Christmas Present": 95
+    "Big Christmas Present": 95,
+    "Big Fishing Fortune": 0
   },
   "Kajot Games": {
     "Festival Fruits": 96.92,
@@ -3169,7 +3214,9 @@
     "Mysteries of Karnak": 96.09,
     "Tropical Heat": 96.4,
     "Velvet Lounge": 96,
-    "Eggstra Wilds": 96
+    "Eggstra Wilds": 96,
+    "Egyptian Moon": 0,
+    "Power Moon": 0
   },
   "MGA Games": {
     "Wild Snow Spin": 95.36,
@@ -3372,7 +3419,12 @@
     "Reel Steal": 95.87,
     "Spinsane": 96.26,
     "The Wolf's Bane": 96.74,
-    "Wilderland": 96.16
+    "Wilderland": 96.16,
+    "Cornelius Milk Hunter Megaways": 95.88,
+    "Casino Hold Em": 97.84,
+    "Baccarat": 98.94,
+    "Blackjack Classic": 0,
+    "American Roulette": 0
   },
   "NoLimit City": {
     "Fire in the Hole 3": 96.05,
@@ -3973,7 +4025,8 @@
     "Rise of Gods: Reckoning": 96.2,
     "Puebla Parade": 96.2,
     "Animal Madness": 96.2,
-    "Idol of Fortune": 96.2
+    "Idol of Fortune": 96.2,
+    "Single Deck Blackjack Mh": 0
   },
   "Playson": {
     "Royal Coins 2 Hold and Win": 95.64,
@@ -4657,7 +4710,8 @@
     "Drill That Gold": 96.49,
     "Clover Gold": 96.54,
     "North Guardians": 96.38,
-    "Heroic Spins": 96
+    "Heroic Spins": 96,
+    "Amazing Baccarat": 0
   },
   "Push Gaming": {
     "Neon Cash City": 96.35,
@@ -4865,7 +4919,10 @@
     "Mystic Lady": 95.2,
     "Mega Rich": 95.4,
     "Lucky Adam": 95.3,
-    "Million 88": 95.3
+    "Million 88": 95.3,
+    "Joker Poker": 0,
+    "Bonus Poker": 0,
+    "Lobster Splash": 0
   },
   "Red Tiger": {
     "777 Strike": 95.8,
@@ -5220,7 +5277,8 @@
     "Horror Hotel": 96.18,
     "Wild Hike": 96.09,
     "Wild Chapo 2": 96.1,
-    "Snake Arena 2": 96.1
+    "Snake Arena 2": 96.1,
+    "Roulette Nouveau": 0
   },
   "RubyPlay": {
     "Diamond Explosion 7s SE": 96.82,
@@ -6323,7 +6381,8 @@
     "Fruits Go Multiply": 96.01,
     "Respin Joker 81": 96.01,
     "Rock and Roll Rooster": 96.1,
-    "243 Famous Multifruits": 96.95
+    "243 Famous Multifruits": 96.95,
+    "Aladdin And The Magic Carpet": 0
   },
   "TaDa Gaming": {
     "Leprechauns Gold Streak": 96.06,
@@ -6947,5 +7006,70 @@
     "Bounty Hunter MultiBoost": 94,
     "Golden Donkey Christmas Xpand": 94,
     "Elemental Forces Embers": 94
+  },
+  "Blueprint Gaming": {
+    "Return Of Kong Megaways": 96.03,
+    "Rick And Morty Megaways": 96.55,
+    "Rise Of Atlantis Legacy": 95,
+    "Rise Of Atlantis": 96.03,
+    "Safari Gold Megaways": 95.5,
+    "Sweet Success Megaways": 96.06,
+    "Ted Megaways": 96.03,
+    "Ted": 95.8,
+    "The Flintstones": 95,
+    "The Goonies Hey You Guys": 95,
+    "The Goonies Jackpot King": 94.05,
+    "The Goonies Megaways": 95,
+    "The Goonies Return": 95.5,
+    "The Goonies": 96,
+    "Vikings Unleashed Megaways": 96.5,
+    "Wild Spirit": 96,
+    "Wish Upon A Jackpot": 95.26,
+    "Wolf Legend Megaways": 96.21
+  },
+  "Inspired Gaming": {
+    "Anubis Gold": 94.9,
+    "Big Bonus": 95.68,
+    "Big Christmas Present": 95,
+    "Big Piggy Bonus": 95,
+    "Big Scary Fortune": 94.83,
+    "Big Spin Bonus": 95,
+    "Big Wheel Bonus": 95,
+    "Bonus Fruits": 95,
+    "Book Of Halloween": 96.21,
+    "Call Of The Wild": 94.53,
+    "Chilli Prize Pots": 94.98,
+    "Double Cash Spinner": 94.03,
+    "Follow The Honey": 95,
+    "Fruit Collector": 97,
+    "Fruit Mix": 94.84,
+    "Gimme Gold Megaways": 95.5,
+    "Go Fish": 95.01,
+    "Gold Cash Big Spins": 95,
+    "Gold Cherry": 95,
+    "Golden Winner": 94.5,
+    "Grizzly": 94.97,
+    "Hot Joker 4 Ways": 95,
+    "Merry Christmas Megaways": 95.5,
+    "Reel King Megaways": 96.23,
+    "Reel Linking": 95,
+    "Respin 7s": 94.8,
+    "Santa Linking": 95,
+    "Scarab Fortunes Win And Spin": 94.02,
+    "Scarab Gold": 94.9,
+    "Secret 7s": 94.01,
+    "Space Invaders": 95,
+    "Stacked Fire 7s Big Spins": 94.5,
+    "Stacked Fire 7s": 95,
+    "Super Hot Fruits Megaways": 94,
+    "Totem Thunder": 95.01,
+    "Wild Winner": 94.5,
+    "Big Fishing Fortune": 0
+  },
+  "Peter & Sons": {
+    "Bad Santa": 96.04
+  },
+  "Playtech": {
+    "Fruit Mania": 96.12
   }
 }

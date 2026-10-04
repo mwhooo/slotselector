@@ -19,7 +19,7 @@ body {
   min-height: 100vh;
   width: 100%;
   position: relative;
-  overflow-x: hidden;
+  overflow-x: clip;
   background-attachment: fixed;
 }
 
@@ -171,7 +171,7 @@ body {
 .bonus-hunt-list-header,
 .bonus-hunt-row {
   display: grid;
-  grid-template-columns: 40px 82px minmax(110px, 1.2fr) minmax(90px, 0.8fr) 125px 125px 125px 115px 115px 136px;
+  grid-template-columns: 40px minmax(240px, 1.6fr) 125px 125px 125px 115px 115px 136px;
   align-items: center;
   gap: 8px;
 }
@@ -219,32 +219,73 @@ body {
   font-weight: 700;
 }
 
-.col-thumb img.bonus-hunt-thumb {
+.col-game .bonus-hunt-thumb {
+  display: grid;
+  place-items: center;
   width: 96px;
   height: 54px;
+  flex: 0 0 96px;
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid #2f3240;
   background: #11121a;
 }
 
-.col-title {
-  font-weight: 700;
-  color: #f1f3ff;
+.col-game .bonus-hunt-thumb-fallback {
+  color: #bfe8dc;
+  background: #263d3a;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.slot-game-info {
+  display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  min-width: 0;
   gap: 2px;
+}
+
+.slot-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .slot-rtp {
   color: #a8b0c3;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
-.col-provider {
+.slot-provider {
   color: #a8b0c3;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.slot-casino-link {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  padding: 3px 7px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: #79d9b8;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.slot-casino-link:hover {
+  background: rgba(121, 217, 184, 0.12);
+}
+
+.bonus-hunt-lucky-preview .slot-casino-link {
+  color: #16735f;
 }
 
 .col-bet .input-wrapper,
@@ -380,23 +421,20 @@ body {
   }
 
   .bonus-hunt-row {
-    grid-template-columns: 36px 72px minmax(0, 1fr);
+    grid-template-columns: 36px minmax(0, 1fr);
     grid-template-areas:
-      "idx thumb title"
-      "idx thumb provider"
-      "idx start start"
-      "idx stop stop"
-      "idx bet bet"
-      "idx spent spent"
-      "idx payout payout"
-      "idx actions actions";
+      "idx game"
+      "start start"
+      "stop stop"
+      "bet bet"
+      "spent spent"
+      "payout payout"
+      "actions actions";
     gap: 8px 10px;
   }
 
   .col-idx { grid-area: idx; }
-  .col-thumb { grid-area: thumb; }
-  .col-title { grid-area: title; }
-  .col-provider { grid-area: provider; font-size: 13px; }
+  .col-game { grid-area: game; }
   .col-start-balance { grid-area: start; }
   .col-stop-balance { grid-area: stop; }
   .col-bet { grid-area: bet; }
@@ -1169,8 +1207,8 @@ body {
   padding: 12px;
   min-width: unset;
   width: 100%;
-  max-height: 70vh;
-  overflow-y: auto;
+  position: relative;
+  overflow: visible;
   flex-shrink: 1;
 }
 
@@ -1191,11 +1229,167 @@ body {
   margin-bottom: 10px;
 }
 
+.provider-selector {
+  position: relative;
+  width: 100%;
+  z-index: 12;
+}
+
+.provider-dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 38px;
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  background: rgba(8, 15, 34, 0.48);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.provider-dropdown-toggle:hover,
+.provider-dropdown-toggle:focus-visible {
+  border-color: rgba(143, 255, 233, 0.65);
+  outline: none;
+}
+
+.provider-dropdown-selection {
+  margin-left: auto;
+  color: #8fffe9;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.provider-dropdown-chevron {
+  width: 7px;
+  height: 7px;
+  flex-shrink: 0;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 0.16s ease;
+}
+
+.provider-dropdown-toggle[aria-expanded="true"] .provider-dropdown-chevron {
+  transform: rotate(225deg) translate(-2px, -1px);
+}
+
+.provider-selector-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  max-height: min(45vh, 340px);
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(20, 25, 49, 0.98);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(14px);
+}
+
+.provider-selector-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.provider-selector-menu-header span:last-child {
+  color: #8fffe9;
+}
+
+.provider-selector-actions {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding-bottom: 5px;
+}
+
+.provider-selector-actions button {
+  padding: 2px 0;
+  border: 0;
+  background: transparent;
+  color: #8fffe9;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.provider-selector-actions button:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .provider-actions {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
   width: 100%;
+}
+
+.min-bet-filter,
+.min-rtp-filter {
+  display: grid;
+  gap: 6px;
+  margin: 12px 0;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: rgba(8, 15, 34, 0.28);
+}
+
+.min-bet-filter-heading,
+.min-bet-filter-scale,
+.min-rtp-filter-heading,
+.min-rtp-filter-scale {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.min-bet-filter-heading label,
+.min-rtp-filter-heading label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.min-bet-filter-heading output,
+.min-rtp-filter-heading output {
+  color: #8fffe9;
+  font-size: 12px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.min-bet-filter input[type="range"],
+.min-rtp-filter input[type="range"] {
+  width: 100%;
+  margin: 2px 0;
+  accent-color: #5efce8;
+  cursor: pointer;
+}
+
+.min-bet-filter-scale,
+.min-rtp-filter-scale {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 10px;
 }
 
 .provider-action-btn {
@@ -1227,7 +1421,9 @@ body {
 .provider-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 2px;
+  min-height: 0;
+  overflow-y: auto;
 }
 
 .provider-checkbox {
@@ -1239,17 +1435,24 @@ body {
   font-size: clamp(11px, 1vw, 13px);
   transition: all 0.2s ease;
   user-select: none;
+  padding: 4px 5px;
+  border-radius: 4px;
 }
 
 .provider-checkbox:hover {
   color: white;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .provider-checkbox input[type="checkbox"] {
   width: 16px;
   height: 16px;
   cursor: pointer;
-  accent-color: #f093fb;
+  accent-color: #5efce8;
+}
+
+.provider-selector-menu .provider-list {
+  max-height: 240px;
 }
 
 .provider-count {
@@ -1310,11 +1513,13 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 2;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.3), transparent);
   padding: 10px 8px 6px;
   display: flex;
   flex-direction: column;
   gap: 2px;
+  pointer-events: none;
 }
 
 .slot-name {
@@ -1425,6 +1630,53 @@ body {
   object-fit: cover;
   object-position: center;
   padding: 0;
+}
+
+.grid-slot-play-link {
+  position: absolute;
+  inset: 0;
+  display: block;
+  z-index: 1;
+  color: #fff;
+}
+
+.grid-slot-play-link img {
+  transition: filter 0.2s ease;
+}
+
+.grid-slot-play-link:hover img,
+.grid-slot-play-link:focus-visible img {
+  filter: brightness(0.68);
+}
+
+.grid-slot-play-hint {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 3;
+  transform: translateY(-4px);
+  padding: 5px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 5px;
+  background: rgba(12, 20, 26, 0.9);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  white-space: nowrap;
+}
+
+.grid-item:hover .grid-slot-play-hint,
+.grid-item:focus-within .grid-slot-play-hint {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.grid-slot-play-link:focus-visible {
+  outline: 2px solid #79d9b8;
+  outline-offset: -3px;
 }
 
 .demo-item {
@@ -1936,10 +2188,15 @@ body {
   box-shadow: 0 10px 26px rgba(115, 110, 254, 0.35);
 }
 
-.lucky-rtp {
+.lucky-rtp,
+.lucky-min-bet {
   margin: 0;
   color: #c2ac82;
   font-weight: 700;
+}
+
+.lucky-details .slot-casino-link {
+  color: #79d9b8;
 }
 
 .lucky-actions {
@@ -2200,7 +2457,7 @@ body {
   background: #e6ece9;
 }
 
-.bonus-hunt-lucky-preview div {
+.bonus-hunt-lucky-preview > div {
   display: grid;
   gap: 6px;
   min-width: 0;
@@ -2214,6 +2471,18 @@ body {
 .bonus-hunt-lucky-preview small,
 .bonus-hunt-lucky-preview > span {
   color: #596862;
+}
+
+.bonus-hunt-lucky-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.bonus-hunt-lucky-stats span {
+  color: #596862;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .bonus-hunt-lucky-preview.spinning img {
@@ -2435,7 +2704,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 30px 20px;
-  overflow-y: auto;
 }
 
 .bonus-hunt-page-header {
@@ -2675,11 +2943,17 @@ body {
 }
 
 .bonus-hunt-page-summary {
+  position: sticky;
+  top: 82px;
+  align-self: flex-start;
   display: flex;
   flex-direction: column;
   gap: 16px;
   flex: 0 0 340px;
   max-width: 360px;
+  max-height: calc(100vh - 98px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 20px;
   background: rgba(102, 126, 234, 0.08);
   border: 1px solid rgba(102, 126, 234, 0.25);
@@ -2767,6 +3041,21 @@ body {
 .save-bonus-hunt-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.bonus-hunt-save-message {
+  width: 100%;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.bonus-hunt-save-message.error {
+  color: #ffb4a8;
+}
+
+.bonus-hunt-save-message.success {
+  color: #8fe0bd;
 }
 
 .saved-hunts {
@@ -2904,8 +3193,11 @@ body {
   }
 
   .bonus-hunt-page-summary {
+    position: static;
     width: 100%;
     max-width: none;
+    max-height: none;
+    overflow: visible;
   }
 }
 

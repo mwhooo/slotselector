@@ -53,8 +53,14 @@ import slotRtpData from '../data/slot_rtp.json'
 const normalizeSlotName = (name) => name
   .toLowerCase()
   .replace(/&/g, 'and')
+  .replace(/tm$/, '')
   .replace(/[^a-z0-9]+/g, '-')
   .replace(/^-+|-+$/g, '')
+
+const getSlotCasinoLinks = (slot, linksByProviderAndName) => {
+  const links = linksByProviderAndName.get(`${slot.provider}:${normalizeSlotName(slot.name)}`)
+  return Object.entries(links ?? {}).map(([casino, url]) => ({ casino, url }))
+}
 
 const slotBetLimitsByName = new Map(
   [
@@ -197,11 +203,14 @@ const availableSlots = Object.entries(slotProvidersData)
       .replace(/-+/g, '-');
 
     if (providerSlug) {
-      const providerPattern = new RegExp(
-        `^${providerSlug.replace(/-/g, '[-_\\s]*')}[-_\\s]*`,
-        'i'
-      );
-      nameWithoutExt = nameWithoutExt.replace(providerPattern, '');
+      const providerPatterns = [...new Set([
+        providerSlug.replace(/-/g, '[-_\\s]*'),
+        providerSlug.replace(/-/g, ''),
+        providerSlug.split('-')[0],
+      ])].sort((left, right) => right.length - left.length);
+      for (const pattern of providerPatterns) {
+        nameWithoutExt = nameWithoutExt.replace(new RegExp(`^${pattern}[-_\\s]*`, 'i'), '');
+      }
     }
     
     const displayName = nameWithoutExt
@@ -243,6 +252,17 @@ const getSlotBetLimits = (slot) => {
   };
 };
 
+const ensureBonusHuntBetSizes = (slots, data = {}) => Object.fromEntries(
+  slots.map((slot, index) => {
+    const current = data[index] ?? {};
+    const betSize = Number.parseFloat(current.betSize);
+    const normalizedBetSize = Number.isFinite(betSize) && betSize > 0
+      ? betSize.toFixed(2)
+      : getSlotBetLimits(slot).minBet.toFixed(2);
+    return [index, { ...current, betSize: normalizedBetSize }];
+  })
+);
+
 const formatStakeValue = (amount) => {
   if (!Number.isFinite(amount)) return '\u2014';
   const minimumFractionDigits = Number.isInteger(amount) ? 0 : amount < 1 ? 2 : 1;
@@ -252,6 +272,34 @@ const formatStakeValue = (amount) => {
 const formatRtpValue = (rtp) => Number.isFinite(rtp)
   ? `${rtp.toLocaleString('en-US', { maximumFractionDigits: 2 })}%`
   : '\u2014';
+
+function BonusHuntThumbnail({ slot }) {
+  const [imageFailed, setImageFailed] = useState(false);
+  const initials = slot.name
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((word) => word[0])
+    .join('')
+    .toUpperCase();
+
+  if (imageFailed || !slot.image) {
+    return (
+      <div className="bonus-hunt-thumb-fallback" role="img" aria-label={`${slot.name} thumbnail unavailable`}>
+        {initials}
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={slot.image}
+      alt={slot.name}
+      className="bonus-hunt-thumb"
+      onError={() => setImageFailed(true)}
+    />
+  );
+}
 
 function LuckyPickReel({ initialSlots, slots, winningSlot, spinId, isSpinning, onFinish }) {
   const [displaySlots, setDisplaySlots] = useState(initialSlots);
@@ -332,6 +380,9 @@ function App() {
   const [activeBonusHunt, setActiveBonusHunt] = useState(null); // Active bonus hunt view
   const [bonusHuntHistory, setBonusHuntHistory] = useState([]); // Persisted hunt history
   const [bonusHuntName, setBonusHuntName] = useState('');
+  const [bonusHuntSaveMessage, setBonusHuntSaveMessage] = useState(null);
+  const [bonusHuntAddMessage, setBonusHuntAddMessage] = useState('');
+  const [slot711LinksByProviderAndName, setSlot711LinksByProviderAndName] = useState(() => new Map());
   const [savedHuntsCollapsed, setSavedHuntsCollapsed] = useState(true);
   const [bonusHuntMode, setBonusHuntMode] = useState('random');
   const [bonusHuntSearch, setBonusHuntSearch] = useState('');
@@ -340,11 +391,30 @@ function App() {
   const [bonusHuntLuckySlot, setBonusHuntLuckySlot] = useState(null);
   const [isBonusHuntLuckySpinning, setIsBonusHuntLuckySpinning] = useState(false);
   const [selectedProviders, setSelectedProviders] = useState(new Set(providers));
+  const [providerDropdownOpen, setProviderDropdownOpen] = useState(false);
   const [shuffledSlots, setShuffledSlots] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [maxMinBet, setMaxMinBet] = useState(null);
+  const [minRtp, setMinRtp] = useState(null);
   const gridRef = useRef(null);
+  const providerFilterRef = useRef(null);
+  const providerToggleRef = useRef(null);
   const bonusHuntRef = useRef(null);
   const bonusHuntSpinRef = useRef(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch(`${import.meta.env.BASE_URL}slot_711_links.json`)
+      .then((response) => response.ok ? response.json() : {})
+      .then((links) => {
+        if (!cancelled) setSlot711LinksByProviderAndName(new Map(Object.entries(links)));
+      })
+      .catch(() => {});
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   // ---- Persistence helpers ----
   const STORAGE_KEY = 'slotselector-state-v1';
@@ -367,9 +437,15 @@ function App() {
       setSelectedProviders(new Set(data.selectedProviders));
     }
     if (typeof data.searchTerm === 'string') setSearchTerm(data.searchTerm);
+    if (Number.isFinite(data.maxMinBet)) setMaxMinBet(data.maxMinBet);
+    if (Number.isFinite(data.minRtp)) setMinRtp(data.minRtp);
     const hasStoredList = Array.isArray(data.bonusHuntList) && data.bonusHuntList.length > 0;
-    if (hasStoredList) setBonusHuntList(data.bonusHuntList);
-    if (data.bonusHuntData && typeof data.bonusHuntData === 'object') setBonusHuntData(data.bonusHuntData);
+    if (hasStoredList) {
+      setBonusHuntList(data.bonusHuntList);
+      setBonusHuntData(ensureBonusHuntBetSizes(data.bonusHuntList, data.bonusHuntData));
+    } else if (data.bonusHuntData && typeof data.bonusHuntData === 'object') {
+      setBonusHuntData(data.bonusHuntData);
+    }
     if (data.activeBonusHunt || hasStoredList) setActiveBonusHunt(true);
     if (Array.isArray(data.bonusHuntHistory)) setBonusHuntHistory(data.bonusHuntHistory);
     if (typeof data.bonusHuntName === 'string') setBonusHuntName(data.bonusHuntName);
@@ -381,6 +457,8 @@ function App() {
     const payload = {
       selectedProviders: Array.from(selectedProviders),
       searchTerm,
+      maxMinBet,
+      minRtp,
       bonusHuntList,
       bonusHuntData,
       activeBonusHunt,
@@ -388,15 +466,33 @@ function App() {
       bonusHuntName,
     };
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
-  }, [selectedProviders, searchTerm, bonusHuntList, bonusHuntData, activeBonusHunt, bonusHuntHistory, bonusHuntName]);
+  }, [selectedProviders, searchTerm, maxMinBet, minRtp, bonusHuntList, bonusHuntData, activeBonusHunt, bonusHuntHistory, bonusHuntName]);
 
-  // Filter slots based on selected providers and search term
+  const minimumBetOptions = [...new Set(fullSlots
+    .map((slot) => slot.minBet)
+    .filter(Number.isFinite))]
+    .sort((left, right) => left - right);
+  const allMinimumBetsIndex = minimumBetOptions.length;
+  const selectedMinimumBetIndex = maxMinBet === null
+    ? allMinimumBetsIndex
+    : Math.max(0, minimumBetOptions.findIndex((amount) => amount >= maxMinBet));
+  const minimumRtpOptions = [...new Set(fullSlots
+    .map((slot) => slot.rtp)
+    .filter(Number.isFinite))]
+    .sort((left, right) => left - right);
+  const selectedMinimumRtpIndex = minRtp === null
+    ? 0
+    : Math.min(minimumRtpOptions.length, Math.max(1, minimumRtpOptions.findIndex((value) => value >= minRtp) + 1));
+
+  // Filter slots based on selected providers, search term, stake, and RTP.
   const filteredSlots = fullSlots.filter(slot => 
     selectedProviders.has(slot.provider) && 
-    slot.name.toLowerCase().includes(searchTerm.toLowerCase())
+    slot.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+    (maxMinBet === null || (Number.isFinite(slot.minBet) && slot.minBet <= maxMinBet)) &&
+    (minRtp === null || (Number.isFinite(slot.rtp) && slot.rtp >= minRtp))
   );
 
-  const bonusHuntPickerSlots = fullSlots.filter(slot => {
+  const bonusHuntPickerSlots = filteredSlots.filter(slot => {
     const query = bonusHuntSearch.trim().toLowerCase();
     return !query || `${slot.name} ${slot.provider}`.toLowerCase().includes(query);
   });
@@ -420,11 +516,32 @@ function App() {
   }, 0);
   const totalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (Number.parseFloat(data?.payout) || 0), 0);
 
-  // Shuffle slots only when providers or search term change, not during spinning
+  // Shuffle slots only when filters change, not during spinning
   useEffect(() => {
     const newShuffledSlots = [...filteredSlots].sort(() => Math.random() - 0.5);
     setShuffledSlots(newShuffledSlots);
-  }, [selectedProviders, searchTerm]);
+  }, [selectedProviders, searchTerm, maxMinBet, minRtp]);
+
+  useEffect(() => {
+    if (!providerDropdownOpen) return undefined;
+
+    const handlePointerDown = (event) => {
+      if (!providerFilterRef.current?.contains(event.target)) setProviderDropdownOpen(false);
+    };
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        setProviderDropdownOpen(false);
+        providerToggleRef.current?.focus();
+      }
+    };
+
+    document.addEventListener('pointerdown', handlePointerDown);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('pointerdown', handlePointerDown);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [providerDropdownOpen]);
 
   const handleProviderToggle = (provider) => {
     const newProviders = new Set(selectedProviders);
@@ -492,10 +609,29 @@ function App() {
     stopBonusHuntPickerSpin();
 
     const shouldAppend = appendToCurrent && bonusHuntList.length > 0;
+    const slotKey = (slot) => slot.image || `${slot.provider}:${slot.name}`;
+    const seenSlots = new Set((shouldAppend ? bonusHuntList : []).map(slotKey));
+    const uniqueSlots = slots.filter((slot) => {
+      const key = slotKey(slot);
+      if (seenSlots.has(key)) return false;
+      seenSlots.add(key);
+      return true;
+    });
+    const duplicatesSkipped = slots.length - uniqueSlots.length;
+
+    if (!uniqueSlots.length) {
+      if (shouldAppend) {
+        setBonusHuntAddMessage(duplicatesSkipped === 1
+          ? 'That slot is already in the hunt.'
+          : 'Those slots are already in the hunt.');
+      }
+      return;
+    }
+
     const startIndex = shouldAppend ? bonusHuntList.length : 0;
-    const nextSlots = shouldAppend ? [...bonusHuntList, ...slots] : slots;
+    const nextSlots = shouldAppend ? [...bonusHuntList, ...uniqueSlots] : uniqueSlots;
     const nextData = shouldAppend ? { ...bonusHuntData } : {};
-    slots.forEach((slot, index) => {
+    uniqueSlots.forEach((slot, index) => {
       const { minBet } = getSlotBetLimits(slot);
       nextData[startIndex + index] = {
         startingBalance: '',
@@ -509,8 +645,17 @@ function App() {
     setBonusHuntList(nextSlots);
     setBonusHuntData(nextData);
     setActiveBonusHunt(true);
-    setShowBonusHunt(false);
-    setAddingToCurrentHunt(false);
+    if (shouldAppend) {
+      const addedMessage = `${uniqueSlots.length} ${uniqueSlots.length === 1 ? 'slot' : 'slots'} added to the hunt.`;
+      const skippedMessage = duplicatesSkipped
+        ? ` ${duplicatesSkipped} already in the hunt and skipped.`
+        : '';
+      setBonusHuntAddMessage(`${addedMessage}${skippedMessage}`);
+    } else {
+      setShowBonusHunt(false);
+      setAddingToCurrentHunt(false);
+      setBonusHuntAddMessage('');
+    }
 
     if (!shouldAppend) {
       const totalBet = Object.values(nextData).reduce((sum, data) => sum + (parseFloat(data.betSize) || 0), 0);
@@ -547,6 +692,7 @@ function App() {
     setBonusHuntSearch('');
     setManualSelectedSlots([]);
     setBonusHuntLuckySlot(null);
+    setBonusHuntAddMessage('');
     setAddingToCurrentHunt(appendToCurrent);
     setShowBonusHunt(true);
   };
@@ -616,10 +762,6 @@ function App() {
   };
 
   const endSlotWithoutBonus = (index) => {
-    const startingBalance = Number.parseFloat(bonusHuntData[index]?.startingBalance);
-    const stoppingBalance = Number.parseFloat(bonusHuntData[index]?.stoppingBalance);
-    if (!Number.isFinite(startingBalance) || !Number.isFinite(stoppingBalance)) return;
-
     setBonusHuntData((current) => ({
       ...current,
       [index]: {
@@ -655,11 +797,24 @@ function App() {
 
   const saveCurrentBonusHunt = () => {
     if (!bonusHuntList.length) return;
+    const name = bonusHuntName?.trim() || 'Untitled Hunt';
+    const normalizedName = name.toLowerCase();
+    const alreadySaved = bonusHuntHistory.some((entry) =>
+      entry.name?.trim().toLowerCase() === normalizedName
+    );
+    if (alreadySaved) {
+      setBonusHuntSaveMessage({
+        type: 'error',
+        text: `A saved hunt named "${name}" already exists.`,
+      });
+      return;
+    }
+
     const totalBet = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.betSize) || 0), 0);
     const savedTotalPayout = Object.values(bonusHuntData).reduce((sum, data) => sum + (parseFloat(data?.payout) || 0), 0);
     const entry = {
       id: Date.now(),
-      name: bonusHuntName?.trim() || 'Untitled Hunt',
+      name,
       createdAt: new Date().toISOString(),
       slots: bonusHuntList,
       data: bonusHuntData,
@@ -668,13 +823,16 @@ function App() {
       totalPayout: savedTotalPayout,
     };
     setBonusHuntHistory((prev) => [entry, ...prev].slice(0, 50));
+    setBonusHuntSaveMessage({ type: 'success', text: `Saved "${name}".` });
   };
 
   const loadBonusHunt = (entry) => {
     if (!entry) return;
-    setBonusHuntList(entry.slots || []);
-    setBonusHuntData(entry.data || {});
+    const slots = entry.slots || [];
+    setBonusHuntList(slots);
+    setBonusHuntData(ensureBonusHuntBetSizes(slots, entry.data));
     setBonusHuntName(entry.name || '');
+    setBonusHuntSaveMessage(null);
     setActiveBonusHunt(true);
     setShowBonusHunt(false);
   };
@@ -774,9 +932,7 @@ function App() {
                   <>
                     <div className="bonus-hunt-list-header">
                       <span className="col col-idx">#</span>
-                      <span className="col col-thumb">Image</span>
-                      <span className="col col-title">Title</span>
-                      <span className="col col-provider">Provider</span>
+                      <span className="col col-game">Game</span>
                       <span className="col col-start-balance">Starting Balance</span>
                       <span className="col col-stop-balance">Stopping Balance</span>
                       <span className="col col-bet">Bet Size</span>
@@ -790,15 +946,19 @@ function App() {
                       return (
                       <div key={index} className="bonus-hunt-row">
                         <span className="col col-idx">{index + 1}</span>
-                        <div className="col col-thumb">
-                          <img src={slot.image} alt={slot.name} className="bonus-hunt-thumb" />
+                        <div className="col col-game">
+                          <BonusHuntThumbnail slot={slot} />
+                          <div className="slot-game-info">
+                            <span className="slot-title">{slot.name}</span>
+                            <span className="slot-provider">{slot.provider}</span>
+                            {rtp != null && <span className="slot-rtp">RTP {rtp}%</span>}
+                            {getSlotCasinoLinks(slot, slot711LinksByProviderAndName).map(({ casino, url }) => (
+                              <a key={casino} className="slot-casino-link" href={url} target="_blank" rel="noopener noreferrer">
+                                Open on {casino}
+                              </a>
+                            ))}
+                          </div>
                         </div>
-                        <div className="col col-title">{slot.name}</div>
-                                                <div className="col col-title">
-                                                  {slot.name}
-                                                  {rtp != null && <span className="slot-rtp">RTP {rtp}%</span>}
-                                                </div>
-                        <div className="col col-provider">{slot.provider}</div>
                         <div className="col col-start-balance">
                           <span className="field-label">Starting Balance</span>
                           <div className="input-wrapper">
@@ -898,10 +1058,6 @@ function App() {
                             type="button"
                             className="slot-no-bonus-btn"
                             onClick={() => endSlotWithoutBonus(index)}
-                            disabled={
-                              !Number.isFinite(Number.parseFloat(bonusHuntData[index]?.startingBalance)) ||
-                              !Number.isFinite(Number.parseFloat(bonusHuntData[index]?.stoppingBalance))
-                            }
                           >
                             No Bonus - Remove
                           </button>
@@ -987,7 +1143,10 @@ function App() {
                 <input
                   type="text"
                   value={bonusHuntName}
-                  onChange={(e) => setBonusHuntName(e.target.value)}
+                  onChange={(e) => {
+                    setBonusHuntName(e.target.value);
+                    setBonusHuntSaveMessage(null);
+                  }}
                   placeholder="Name this bonus hunt"
                   className="bonus-hunt-name-input"
                 />
@@ -999,6 +1158,11 @@ function App() {
                   💾 Save Hunt
                 </button>
               </div>
+              {bonusHuntSaveMessage && (
+                <p className={`bonus-hunt-save-message ${bonusHuntSaveMessage.type}`} role="status">
+                  {bonusHuntSaveMessage.text}
+                </p>
+              )}
 
               {bonusHuntHistory.length > 0 && (
                 <div className="saved-hunts">
@@ -1068,25 +1232,101 @@ function App() {
           <div className="provider-filter">
             <div className="provider-header">
               <h3>Providers</h3>
-              <div className="provider-actions">
-                <button type="button" className="provider-action-btn ghost" onClick={handleClearProviders}>Clear</button>
-                <button type="button" className="provider-action-btn" onClick={handleSelectAllProviders}>Select All</button>
+            </div>
+            <div className="min-bet-filter">
+              <div className="min-bet-filter-heading">
+                <label htmlFor="max-min-bet">Maximum minimum bet</label>
+                <output htmlFor="max-min-bet">
+                  {maxMinBet === null ? 'All' : `\u20ac${formatStakeValue(maxMinBet)}`}
+                </output>
+              </div>
+              <input
+                id="max-min-bet"
+                type="range"
+                min="0"
+                max={allMinimumBetsIndex}
+                step="1"
+                value={selectedMinimumBetIndex}
+                aria-label="Maximum minimum bet"
+                aria-valuetext={maxMinBet === null ? 'All minimum bets' : `\u20ac${formatStakeValue(maxMinBet)} maximum minimum bet`}
+                onChange={(event) => {
+                  const index = Number(event.target.value);
+                  setMaxMinBet(index === allMinimumBetsIndex ? null : minimumBetOptions[index]);
+                }}
+              />
+              <div className="min-bet-filter-scale">
+                <span>{'\u20ac'}{formatStakeValue(minimumBetOptions[0] ?? 0)}</span>
+                <span>All</span>
               </div>
             </div>
-            <div className="provider-list">
-              {providers.map(provider => (
-                <label key={provider} className="provider-checkbox">
-                  <input
-                    type="checkbox"
-                    checked={selectedProviders.has(provider)}
-                    onChange={() => handleProviderToggle(provider)}
-                  />
-                  <span>{provider}</span>
-                  <span className="provider-count">
-                    ({fullSlots.filter(s => s.provider === provider).length})
-                  </span>
-                </label>
-              ))}
+            <div className="min-rtp-filter">
+              <div className="min-rtp-filter-heading">
+                <label htmlFor="min-rtp">Minimum RTP</label>
+                <output htmlFor="min-rtp">
+                  {minRtp === null ? 'All' : formatRtpValue(minRtp)}
+                </output>
+              </div>
+              <input
+                id="min-rtp"
+                type="range"
+                min="0"
+                max={minimumRtpOptions.length}
+                step="1"
+                value={selectedMinimumRtpIndex}
+                aria-label="Minimum RTP"
+                aria-valuetext={minRtp === null ? 'All RTP values' : `${formatRtpValue(minRtp)} minimum RTP`}
+                onChange={(event) => {
+                  const index = Number(event.target.value);
+                  setMinRtp(index === 0 ? null : minimumRtpOptions[index - 1]);
+                }}
+              />
+              <div className="min-rtp-filter-scale">
+                <span>All</span>
+                <span>{formatRtpValue(minimumRtpOptions.at(-1) ?? 0)}</span>
+              </div>
+            </div>
+            <div className="provider-selector" ref={providerFilterRef}>
+              <button
+                ref={providerToggleRef}
+                type="button"
+                className="provider-dropdown-toggle"
+                aria-expanded={providerDropdownOpen}
+                aria-controls="provider-selector-menu"
+                onClick={() => setProviderDropdownOpen((open) => !open)}
+              >
+                <span>Game providers</span>
+                <span className="provider-dropdown-selection">
+                  {selectedProviders.size === providers.length ? 'All selected' : `${selectedProviders.size} selected`}
+                </span>
+                <span className="provider-dropdown-chevron" aria-hidden="true" />
+              </button>
+              {providerDropdownOpen && (
+                <div id="provider-selector-menu" className="provider-selector-menu" role="group" aria-label="Filter by provider">
+                  <div className="provider-selector-menu-header">
+                    <span>Filter by provider</span>
+                    <span>{selectedProviders.size}/{providers.length}</span>
+                  </div>
+                  <div className="provider-selector-actions">
+                    <button type="button" onClick={handleSelectAllProviders}>Select All</button>
+                    <button type="button" onClick={handleClearProviders}>Clear</button>
+                  </div>
+                  <div className="provider-list">
+                    {providers.map(provider => (
+                      <label key={provider} className="provider-checkbox">
+                        <input
+                          type="checkbox"
+                          checked={selectedProviders.has(provider)}
+                          onChange={() => handleProviderToggle(provider)}
+                        />
+                        <span>{provider}</span>
+                        <span className="provider-count">
+                          ({fullSlots.filter(s => s.provider === provider).length})
+                        </span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -1117,22 +1357,41 @@ function App() {
               </div>
             </div>
           )}
-          {shuffledSlots.map((slot, index) => (
-            <div key={index} className="grid-item" data-provider={slot.provider}>
-              <img src={slot.image} alt={slot.name} />
-              <div className="grid-item-label">
-                <span className="slot-name">{slot.name}</span>
-                <span className="slot-provider">{slot.provider}</span>
-                <div className="slot-metadata">
-                  <div className="slot-stakes">
-                    <span>Min {Number.isFinite(slot.minBet) ? `\u20ac${formatStakeValue(slot.minBet)}` : '\u2014'}</span>
-                    <span>Max {Number.isFinite(slot.maxBet) ? `\u20ac${formatStakeValue(slot.maxBet)}` : '\u2014'}</span>
+          {shuffledSlots.map((slot, index) => {
+            const [casinoLink] = getSlotCasinoLinks(slot, slot711LinksByProviderAndName);
+            return (
+              <div key={index} className="grid-item" data-provider={slot.provider}>
+                {casinoLink ? (
+                  <>
+                    <a
+                      className="grid-slot-play-link"
+                      href={casinoLink.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Play ${slot.name} on ${casinoLink.casino}`}
+                      title={`Play on ${casinoLink.casino}`}
+                    >
+                      <img src={slot.image} alt={slot.name} />
+                    </a>
+                    <span className="grid-slot-play-hint" aria-hidden="true">Play on {casinoLink.casino}</span>
+                  </>
+                ) : (
+                  <img src={slot.image} alt={slot.name} />
+                )}
+                <div className="grid-item-label">
+                  <span className="slot-name">{slot.name}</span>
+                  <span className="slot-provider">{slot.provider}</span>
+                  <div className="slot-metadata">
+                    <div className="slot-stakes">
+                      <span>Min {Number.isFinite(slot.minBet) ? `\u20ac${formatStakeValue(slot.minBet)}` : '\u2014'}</span>
+                      <span>Max {Number.isFinite(slot.maxBet) ? `\u20ac${formatStakeValue(slot.maxBet)}` : '\u2014'}</span>
+                    </div>
+                    <span>RTP {formatRtpValue(slot.rtp)}</span>
                   </div>
-                  <span>RTP {formatRtpValue(slot.rtp)}</span>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
         </div>
         
@@ -1172,9 +1431,17 @@ function App() {
                 <div className="lucky-details">
                   <h3 className="lucky-title">{selectedSlot.name}</h3>
                   <p className="lucky-provider">{selectedSlot.provider}</p>
+                  <p className="lucky-min-bet">
+                    Min bet {Number.isFinite(selectedSlot.minBet) ? `\u20ac${formatStakeValue(selectedSlot.minBet)}` : '\u2014'}
+                  </p>
                   {getSlotRtp(selectedSlot) != null && (
                     <p className="lucky-rtp">RTP {getSlotRtp(selectedSlot)}%</p>
                   )}
+                  {getSlotCasinoLinks(selectedSlot, slot711LinksByProviderAndName).map(({ casino, url }) => (
+                    <a key={casino} className="slot-casino-link" href={url} target="_blank" rel="noopener noreferrer">
+                      Open on {casino}
+                    </a>
+                  ))}
                   <p className="lucky-sub">Add it to your next bonus hunt or spin again.</p>
                 </div>
               </div>
@@ -1201,6 +1468,7 @@ function App() {
         <div className="modal-overlay" onClick={closeBonusHuntCreator}>
           <div className="modal-content bonus-hunt-modal" onClick={(e) => e.stopPropagation()}>
             <h2>{addingToCurrentHunt ? 'Add Slots to Bonus Hunt' : 'Create Bonus Hunt'}</h2>
+            {bonusHuntAddMessage && <p className="bonus-hunt-hint" role="status">{bonusHuntAddMessage}</p>}
             <div className="bonus-hunt-mode-switch" role="group" aria-label="Slot selection mode">
               <button
                 type="button"
@@ -1284,7 +1552,7 @@ function App() {
                       </label>
                     );
                   })}
-                  {bonusHuntPickerSlots.length === 0 && <p className="bonus-hunt-no-results">No slots match that search.</p>}
+                  {bonusHuntPickerSlots.length === 0 && <p className="bonus-hunt-no-results">No filtered slots match that search.</p>}
                 </div>
                 <p className="bonus-hunt-hint">
                   {manualSelectedSlots.length} selected
@@ -1296,7 +1564,9 @@ function App() {
                   onClick={addManualSelection}
                   disabled={!manualSelectedSlots.length}
                 >
-                  {addingToCurrentHunt ? 'Add' : 'Start'} Hunt with {manualSelectedSlots.length} {manualSelectedSlots.length === 1 ? 'Slot' : 'Slots'}
+                  {manualSelectedSlots.length
+                    ? `${addingToCurrentHunt ? 'Add' : 'Start'} Hunt with ${manualSelectedSlots.length} ${manualSelectedSlots.length === 1 ? 'Slot' : 'Slots'}`
+                    : addingToCurrentHunt ? 'Select slots to add' : 'Select slots to start hunt'}
                 </button>
               </>
             ) : (
@@ -1311,6 +1581,17 @@ function App() {
                       <div>
                         <strong>{bonusHuntLuckySlot.name}</strong>
                         <small>{bonusHuntLuckySlot.provider}</small>
+                        <div className="bonus-hunt-lucky-stats">
+                          <span>Bet size {'\u20ac'}{formatStakeValue(getSlotBetLimits(bonusHuntLuckySlot).minBet)}</span>
+                          {getSlotRtp(bonusHuntLuckySlot) != null && (
+                            <span>RTP {getSlotRtp(bonusHuntLuckySlot)}%</span>
+                          )}
+                        </div>
+                        {getSlotCasinoLinks(bonusHuntLuckySlot, slot711LinksByProviderAndName).map(({ casino, url }) => (
+                          <a key={casino} className="slot-casino-link" href={url} target="_blank" rel="noopener noreferrer">
+                            Open on {casino}
+                          </a>
+                        ))}
                       </div>
                     </>
                   ) : (
